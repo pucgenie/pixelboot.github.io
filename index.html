@@ -173,6 +173,19 @@
                     </ul>
                     <br />
 
+                    <p><b>Rom installation failed on "error 7" in recovery, what can i do?</b></p>
+                    <p>Best will be to post a recovery.log. There's an option inside your recovery to create one.</p>
+                    <p>You can get the log to your PC using adb:</p>
+                    <p>$ adb pull /path/to/log/log.name</p>
+                    <br />
+                    <p>If this is not possible for your: tell the whole message you get! There are different "error 7" messages out!</p>
+                    <ul>
+                        <li>it could be you used a recovery for a different device (p3100, p3110, p5100 and p5110 have a own recovery!)
+                        <li>it could be you flashed a file/rom not made for your device
+                        <li>it could be your recovery is to old (official CWM is to old, a lot of user still use it)
+                    </ul>
+                    <br />
+
                     <p><b>How to enable root access?</b></p>
                     <p>Custom Roms like CyanogenMod and SlimRoms are pre-rooted by default, you only need to enable it.</p>
                     <ul>
@@ -220,6 +233,7 @@
                       <br />(grand root access)
                       <br />$ insmod /system/lib/modules/sec_dock_keyboard.ko
                     </ul>
+                    <br />
                 </div>
             </div>
         </div>
