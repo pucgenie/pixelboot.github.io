@@ -48,6 +48,7 @@
               <li><a href="#Omni" data-toggle="tab">OmniRom</a></li>
               <li><a href="#Slim" data-toggle="tab">SlimRoms</a></li>
               <li><a href="#Rec" data-toggle="tab">Recoveries</a></li>
+              <li><a href="#FAQ" data-toggle="tab">FAQ</a></li>
             </ul>
 
             <div id="navTabsContent" class="tab-content">
@@ -148,6 +149,45 @@
 
                     <h2>CWM (ClockworkMod Recovery)</h2>
                     <p>CWM is discontinued, you should use TWRP instead. Old CWM links will be added here for history reasons sometimes later</p>
+                </div>
+
+
+                <div class="tab-pane" id="FAQ">
+                    <h2>FAQ</h2>
+                    <p><b>How to flash a Rom properly?</b></p>
+                    <ul>
+                      <li>backup all important files (e.g. contacts) and store them on your MicroSD-Card or on your PC/Laptop</li>
+                      <li>copy the rom and gapps you like to install to your MicroSD-Card (make sure Gapps match the Android version of the Rom!)</li>
+                      <li>boot into your custom recovery</li>
+                      <li>make a backup of your current running rom and store it on your MicroSD-Card or on your PC/Laptop (some of the following are named slight different depending on the recovery you use)</li>
+                      <ul>
+                        <li>wipe cache</li>
+                        <li>wipe dalvic cache</li>
+                        <li>wipe/format system</li>
+                        <li>wipe/format data</li>
+                        <li>reboot your recovery once!</li>
+                        <li>flash rom</li>
+                        <li>flash gapps</li>
+                        <li>reboot and give your device some time to do it's first boot!</li>
+                      </ul>
+                    </ul>
+
+                    <p><b>Samsung Hardware-Keyboard-Dock isn't working, what can i do?</b></p>
+                      <ul>
+                        <li>Our sec_keyboard driver does not properly unregister the input device when no dock is detected, 
+                            which makes the system believe that a physical keyboard is present at all times, which prevents
+                            the software keyboard from being shown.
+                            Some user own a Keyboard-Dock and meight miss the ability to use the dock if it gets disabled completely.
+                            It's build as module to give the user the ability to add a simple init.d script to start the module at boot
+                            or run the following line using Terminal emulator:
+                        <ul>
+                          <li>
+                              Make sure you have enabled root in developer-options for "Apps and ADB"!
+                          <br />$ su
+                          <br />(grand root access)
+                          <br />$ insmod /system/lib/modules/sec_dock_keyboard.ko
+                        </ul>
+                      </ul>
                 </div>
 
             </div>
