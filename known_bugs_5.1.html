@@ -39,12 +39,12 @@
               <li><a href="index.html">About</a></li>
               <li><a href="news.html">News</a></li>
               <li><a href="recoveries.html">Recoveries</a></li>
-              <li class="dropdown active">
+              <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ROMs <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="roms-aosp.html">AOSP</a></li>
                   <li><a href="roms-cm.html">CyanogenMod</a></li>
-                  <li class="active"><a href="roms-omni.html">OmniRom</a></li>
+                  <li><a href="roms-omni.html">OmniRom</a></li>
                   <li><a href="roms-slim.html">SlimRoms</a></li>
                 </ul>
               </li>
@@ -52,7 +52,7 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Known bugs <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="known_bugs_5.1.html">Android 5.1</a></li>
+                  <li class="active"><a href="known_bugs_5.1.html">Android 5.1</a></li>
                   <li><a href="known_bugs_6.0.html">Android 6.0</a></li>
                 </ul>
               </li>
@@ -63,18 +63,38 @@
       </nav>
       <!-- Main body -->
       <div class="jumbotron">
-        <h2>OmniRom 4.4</h2>
+        <h2>Known bugs</h2>
         <ul>
-          <li><a href="https://www.androidfilehost.com/?w=files&flid=51211&sort_by=date&sort_dir=DESC">Omni 4.4 espresso (P3110, P3113, P5110, P5113)</a></li>
-          <li><a href="https://www.androidfilehost.com/?w=files&flid=51213&sort_by=date&sort_dir=DESC">Omni 4.4 espresso3g (P3100 & P5100)</a></li>
+          <p>Here is some work in progress: i'd like to make have the known bugs splittet in different parts (rom specific bugs and android version specific bugs) later.</p>
+          <br />
+          <p><b>General Android 5.1 bugs</b></p>
+          <ul>
+            <p>Audio stuttering on some games:</p>
+              <ul>
+                <li>To fix it you will have to use a root explorer and delete system/etc/permissions/android.hardware.audio.low_latency.xml (well, this isn't a proper fix but a good workaround until
+                  it is fixed properly</li>
+              </ul>
+          </ul>
+          <br />
+
+          <p><b>CyanogenMod 12.1</b></p>
+          <ul>
+            <p>Chromecast not working</p>
+              <ul>
+                <li>There is no fix for it at the moment, something CyanogenMod merged broke it (works fine on Omni 5.1 and AOSP 5.1)</li>
+              </ul>
+          </ul>
+          <br />
+
+          <p><b>SlimLP</b></p>
+          <ul>
+            <p>Chromecast not working</p>
+              <ul>
+                <li>There is no fix for it at the moment, something SlimRoms merged broke it (works fine on Omni 5.1 and AOSP 5.1)</li>
+              </ul>
+          </ul>
+          <br />
         </ul>
-        <p>Device specific Galaxy Tab 2 builds (discontinued): <a href="https://www.androidfilehost.com/?w=files&flid=26033&sort_by=date&sort_dir=DESC">GT-P3100</a>, <a href="https://www.androidfilehost.com/?w=files&flid=26034&sort_by=date&sort_dir=DESC">GT-P3110</a>, <a href="https://www.androidfilehost.com/?w=files&flid=26036&sort_by=date&sort_dir=DESC">GT-P5100</a>, <a href="https://www.androidfilehost.com/?w=files&flid=26037&sort_by=date&sort_dir=DESC">GT-P5110</a></p>
-        <h2>OmniRom 5.1</h2>
-        <ul>
-          <li><a href="https://www.androidfilehost.com/?w=files&flid=52655&sort_by=date&sort_dir=DESC">Omni 4.4 espressowifi (P3110, P3113, P5110, P5113)</a></li>
-          <li><a href="https://www.androidfilehost.com/?w=files&flid=52656&sort_by=date&sort_dir=DESC">Omni 4.4 espresso3g (P3100 & P5100)</a></li>
-        </ul>
-        <p>Device specific Galaxy Tab 2 builds (discontinued): <a href="https://www.androidfilehost.com/?w=files&flid=27611&sort_by=date&sort_dir=DESC">GT-P3100</a>, <a href="https://www.androidfilehost.com/?w=files&flid=27612&sort_by=date&sort_dir=DESC">GT-P3110</a>, <a href="https://www.androidfilehost.com/?w=files&flid=27613&sort_by=date&sort_dir=DESC">GT-P5100</a>, <a href="https://www.androidfilehost.com/?w=files&flid=27620&sort_by=date&sort_dir=DESC">GT-P5110</a></p>
       </div>
     </div>
   </body>

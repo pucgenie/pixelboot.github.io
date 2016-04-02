@@ -49,7 +49,13 @@
                 </ul>
               </li>
               <li><a href="faq.html">FAQ</a></li>
-              <li class="active"><a href="known_bugs.html">Known bugs</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Known bugs <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="known_bugs_5.1.html">Android 5.1</a></li>
+                  <li class="active"><a href="known_bugs_6.0.html">Android 6.0</a></li>
+                </ul>
+              </li>
               <li><a href="donations.html">Donations</a></li>
             </ul>
           </div>
@@ -61,16 +67,6 @@
         <ul>
           <p>Here is some work in progress: i'd like to make have the known bugs splittet in different parts (rom specific bugs and android version specific bugs) later.</p>
           <br />
-          <p><b>General Android 5.1 bugs</b></p>
-          <ul>
-            <p>Audio stuttering on some games:</p>
-              <ul>
-                <li>To fix it you will have to use a root explorer and delete system/etc/permissions/android.hardware.audio.low_latency.xml (well, this isn't a proper fix but a good workaround until
-                  it is fixed properly</li>
-              </ul>
-          </ul>
-          <br />
-
           <p><b>General Android 6.0 bugs</b></p>
           <ul>
             <p>Audio stuttering on some games:</p>
@@ -81,29 +77,11 @@
           </ul>
           <br />
 
-          <p><b>CyanogenMod 12.1</b></p>
-          <ul>
-            <p>Chromecast not working</p>
-              <ul>
-                <li>There is no fix for it at the moment, something CyanogenMod merged broke it (works fine on Omni 5.1 and AOSP 5.1)</li>
-              </ul>
-          </ul>
-          <br />
-
           <p><b>CyanogenMod 13.0</b></p>
           <ul>
             <p>Chromecast not working</p>
               <ul>
                 <li>There is no fix for it at the moment, something CyanogenMod merged broke it (works fine on Omni 5.1 and AOSP 5.1)</li>
-              </ul>
-          </ul>
-          <br />
-
-          <p><b>SlimLP</b></p>
-          <ul>
-            <p>Chromecast not working</p>
-              <ul>
-                <li>There is no fix for it at the moment, something SlimRoms merged broke it (works fine on Omni 5.1 and AOSP 5.1)</li>
               </ul>
           </ul>
           <br />
