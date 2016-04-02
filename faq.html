@@ -119,25 +119,25 @@
         <p><b>How do i get proper logs?</b></p>
         <p>Well, there are some apps out (e.g. Syslog App) which can help getting usefull logs, but i prefer using adb to get those logs:
         <ul>
-          <li>Logcat:</li>
-          <p>$ adb shell logcat > logcat.txt</p>
-          <p>(abort/stop logging pressing "Ctrl+C" on your keyboard)</p>
+          <li>Logcat:
+          <br />$ adb shell logcat > logcat.txt
+          <br />(abort/stop logging pressing "Ctrl+C" on your keyboard)</li>
           <br />
-          <li>
-            Radio Logcat:
-            <p>$ adb logcat -b radio -v time -d > logcat_radio.log</p>
-            <br />
-          <li>Dmesg:</li>
-          <p>$ adb shell dmesg > dmesg.txt</p>
+          <li>Radio Logcat:
+          <br />$ adb logcat -b radio -v time -d > logcat_radio.log</li>
           <br />
-          <li>last_kmsg:</li>
-          <p>$ adb shell su -c "cat /proc/last_kmsg" > last_kmsg.txt</p>
+          <li>Dmesg:
+          <br />$ adb shell dmesg > dmesg.txt</li>
           <br />
-          <li>audit.log:</li>
-          <p>(make sure root is enabled!)</p>
-          <p>$ adb root</p>
-          <p>$ adb pull /data/misc/audit/audit.log</p>
+          <li>last_kmsg:
+          <br />$ adb shell su -c "cat /proc/last_kmsg" > last_kmsg.txt</li>
+          <br />
+          <li>audit.log:
+          <br />(make sure root is enabled!)
+          <br />$ adb root
+          <br />$ adb pull /data/misc/audit/audit.log</li>
         </ul>
+        <br />
         <p><b>Samsung Hardware-Keyboard-Dock isn't working, what can i do?</b></p>
         <p>Our sec_keyboard driver does not properly unregister the input device when no dock is detected, 
           which makes the system believe that a physical keyboard is present at all times, which prevents
