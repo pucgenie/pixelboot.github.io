@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Custom Rom Development for Samsung Galaxy Tab 2 Family</title>
+    <title>Custom Rom Development by Android-Andi @ XDA</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
       integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -32,29 +32,45 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Samsung Galaxy Tab 2 Projects</a>
+            <a class="navbar-brand" href="#">Custom Rom Development</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li><a href="index.html">About</a></li>
               <li><a href="news.html">News</a></li>
-              <li><a href="recoveries.html">Recoveries</a></li>
-              <li class="dropdown active">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recoveries<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="recoveries_tab2.html">Recoveries for Samsung Galaxy Tab2</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="recoveries_golden.html">Recoveries for Samsung Galaxy S3 mini</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ROMs <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li class="active"><a href="roms-aosp.html">AOSP</a></li>
-                  <li><a href="roms-cm.html">CyanogenMod</a></li>
-                  <li><a href="roms-omni.html">OmniRom</a></li>
-                  <li><a href="roms-slim.html">SlimRoms</a></li>
+                  <li class="dropdown-header">Samsung Galaxy Tab2</li>
+                  <li><a href="roms_tab2_aosp.html">AOSP</a></li>
+                  <li><a href="roms_tab2_cm.html">CyanogenMod</a></li>
+                  <li><a href="roms_tab2_omni.html">OmniRom</a></li>
+                  <li><a href="roms_tab2_slim.html">SlimRoms</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Samsung Galaxy S3 mini</li>
+                  <li><a href="roms_golden_slim.html">SlimRoms</a></li>
                 </ul>
               </li>
               <li><a href="faq.html">FAQ</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Known bugs <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="known_bugs_4.4.html">Android 4.4</a></li>
-                  <li><a href="known_bugs_5.1.html">Android 5.1</a></li>
-                  <li><a href="known_bugs_6.0.html">Android 6.0</a></li>
+                  <li class="dropdown-header">Samsung Galaxy Tab2</li>
+                  <li><a href="known_bugs_tab2_4.4.html">Android 4.4</a></li>
+                  <li><a href="known_bugs_tab2_5.1.html">Android 5.1</a></li>
+                  <li class="active"><a href="known_bugs_tab2_6.0.html">Android 6.0</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Samsung Galaxy S3 mini</li>
+                  <li><a href="known_bugs_golden_4.4.html">Android 4.4</a></li>
+                  <li><a href="known_bugs_golden_5.1.html">Android 5.1</a></li>
                 </ul>
               </li>
               <li><a href="donations.html">Donations</a></li>
@@ -64,13 +80,27 @@
       </nav>
       <!-- Main body -->
       <div class="jumbotron">
-        <h2>AOSP for Samsung Galaxy Tab 2</h2>
+        <h2>Known bugs</h2>
+        <p>WIP - Needs update - feel free to help.</p>
+        <br />
+        <p><b>General Android 6.0 bugs</b></p>
         <ul>
-          <li><a href="https://www.androidfilehost.com/?w=files&flid=28207&sort_by=date&sort_dir=DESC">ASOP 5.1.1 GT-P3100</a></li>
-          <li><a href="https://www.androidfilehost.com/?w=files&flid=28208&sort_by=date&sort_dir=DESC">ASOP 5.1.1 GT-P3110</a></li>
-          <li><a href="https://www.androidfilehost.com/?w=files&flid=31919&sort_by=date&sort_dir=DESC">ASOP 5.1.1 GT-P5100</a></li>
-          <li><a href="https://www.androidfilehost.com/?w=files&flid=31920&sort_by=date&sort_dir=DESC">ASOP 5.1.1 GT-P5110</a></li>
+          <p>Audio stuttering on some games:</p>
+            <ul>
+              <li>To fix it you will have to use a root explorer and delete system/etc/permissions/android.hardware.audio.low_latency.xml (well, this isn't a proper fix but a good workaround until
+                it is fixed properly</li>
+            </ul>
         </ul>
+        <br />
+
+        <p><b>CyanogenMod 13.0</b></p>
+        <ul>
+          <p>Chromecast not working</p>
+            <ul>
+              <li>There is no fix for it at the moment, something CyanogenMod merged broke it (works fine on Omni 5.1 and AOSP 5.1)</li>
+            </ul>
+        </ul>
+        <br />
       </div>
     </div>
   </body>
