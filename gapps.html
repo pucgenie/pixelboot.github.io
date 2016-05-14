@@ -36,7 +36,7 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="index.html">About</a></li>
+              <li><a href="index.html">About</a></li>
               <li><a href="news.html">News</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recoveries<span class="caret"></span></a>
@@ -59,7 +59,7 @@
                   <li><a href="roms_golden_slim.html">SlimRoms</a></li>
                   <li role="separator" class="divider"></li>
                   <li class="dropdown-header">GApps</li>
-                  <li><a href="gapps.html">GApps (information and links)</a></li>
+                  <li class="active"><a href="gapps.html">GApps (information and links)</a></li>
                 </ul>
               </li>
               <li><a href="faq.html">FAQ</a></li>
@@ -83,17 +83,24 @@
       </nav>
       <!-- Main body -->
       <div class="jumbotron">
-        <p>To make it easy for everyone of us i added a "News" tab to this page. You'll get all important information about latest changes there.
-           This page is still WIP, more to come later. If you find a bug on this page, feel free to help fixing it :), you can <a href="https://github.com/andi34/andi34.github.io">find the source here</a>.</p>
-        <br />
-        <p>
-          <button class="btn btn-xs btn-danger" type="button">Special notes:</button>
-          <font color="#FF0000">
-        </p>
-        <p>I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed.</p>
-        <p>Please do some research if you have any concerns about features included in this Roms & Recoveries before flashing it!</p>
-        <p>YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.</p>
-          </font>
+        <h2>Gapps</h2>
+        <p>Please make sure using the right GApps for your Android Version!</p>
+        <p>There's different sources of GApps you can use, some examples for you:</p>
+        <ul>
+          <li><a href="http://forum.xda-developers.com/android/software/app-minimal-gapps-gapps-lp-20150107-1-t2997368">GApps by Deltadroid</a></li>
+          <li><a href="http://opengapps.org">Open GApps Project</a>
+          <br /><a href="http://forum.xda-developers.com/android/software/pa-gapps-continuation-t3098071">Open GApps Project on XDA-Developers</a></li> 
+        </ul>
+        <p>Please use the XDA Threads if you have propblems with the GApps packages or questions about them.</p>
+        <ul>
+          <p><button class="btn btn-xs btn-danger" type="button">Important notes for Android 6.0:</button></p>
+          <p>Installing GApps tends to be problematic: in order to try to avoid installation issues, be sure to install GApps immediately after installing the ROM,
+             before booting the system for the first time.</p>
+          <p><b>Maybe needed (check the gapps xda thread for more information):</b> After the initial bootup finished, be sure to go into Settings -> Apps, and grant every permission to every Google application - most importantly,
+             Google Play services. In the case of an upgrade you also might need to re-install the GApps package, as upgrading wipes /system. You shouldn't need to re-set the permissions afterwards.</p>
+          <p><b>One more note:</b> DO NOT set up your Google account until you grant all permissions, otherwise you will be stuck on the initial setup.
+          <br />
+        </ul>
       </div>
     </div>
   </body>
