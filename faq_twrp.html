@@ -53,7 +53,7 @@
                   <li><a href="gapps.html">GApps (information and links)</a></li>
                 </ul>
               </li>
-              <li class="active"><a href="faq.html">FAQ</a></li>
+              <li><a href="faq.html">FAQ</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Known bugs <span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -74,90 +74,68 @@
       </nav>
       <!-- Main body -->
       <div class="jumbotron">
-        <p><b>How to flash a Rom properly?</b></p>
-        <ul>
-          <li>backup all important files (e.g. contacts) and store them on your MicroSD-Card or on your PC/Laptop</li>
-          <li>copy the rom and gapps you like to install to your MicroSD-Card (make sure Gapps match the Android version of the Rom!)</li>
-          <li>boot into your custom recovery</li>
-          <li>make a backup of your current running rom and store it on your MicroSD-Card or on your PC/Laptop (some of the following are named slight different depending on the recovery you use)</li>
-          <ul>
-            <li>wipe cache</li>
-            <li>wipe dalvic cache</li>
-            <li>wipe/format system</li>
-            <li>wipe/format data</li>
-            <li>reboot your recovery once!</li>
-            <li>flash rom</li>
-            <li>flash gapps</li>
-            <li>reboot and give your device some time to do it's first boot!</li>
-          </ul>
-          <a href="faq_twrp.html" class="btn btn-default btn-lg btn-block" id="btn">Tutorial with screenshots</a>
-        </ul>
+        <h2>How to wipe in TWRP properly?</h2>
         <br />
-        <p><b>What Rom do i use on my Galaxy Tab2?</b></p>
-        <ul>
-          <li>You can use a device specific rom for your device (discontinued), the Rom name need to match your model.</li>
-          <li>
-            You can use a unifed Rom for your device.
-            <ul>
-              <li>GT-P3110, GT-P3113, GT-P5110 and GT-P5113 user: flash "espressowifi" Roms</li>
-              <li>GT-P3100 and GT-P5100 user: flash "espresso3g" Roms</li>
-            </ul>
-            <div class="alert alert-dismissible alert-warning">
-            <button type="button" class="close" data-dismiss="alert">&times;</button>
-            <h4>Note:</h4>
-            <p>Your device get detected automatically on unified builds and loads proper driver and config at boot! You shouldn't notice any difference compared to the device specific builds (only changed romname).</p>
-          </div>
-        </ul>
-        <br />
-        <p><b>Rom installation failed on "error 7" in recovery, what can i do?</b></p>
-        <p>Best will be to post a recovery.log. There's an option inside your recovery to create one.</p>
-        <p>You can get the log to your PC using adb:</p>
-        <p>$ adb pull /path/to/log/log.name</p>
-        <br />
-        <p>If this is not possible for your: tell the whole message you get! There are different "error 7" messages out!</p>
-        <ul>
-          <li>it could be you used a recovery for a different device (p3100, p3110, p5100 and p5110 have a own recovery!)</li>
-          <li>it could be you flashed a file/rom not made for your device</li>
-          <li>it could be your recovery is to old (official CWM is to old, a lot of user still use it)</li>
-        </ul>
-        <br />
-        <p><b>How to enable root access?</b></p>
-        <p>Custom Roms like CyanogenMod and SlimRoms are pre-rooted by default, you only need to enable it.</p>
-        <ul>
-          <li>Settings -> About Tablet / About Phone</li>
-          <li>7 x tab on the Build number (you'll get a notification that you are a developer now / enabled developer options)</li>
-          <li>Settings -> Developer options  -> Root access</li>
-          <li>set root access to "Apps and ADB"</li>
-        </ul>
+          <p><b>1.</b> After TWRP booted click on "Wipe"</p>
+          <br />
+          <img src="./res/twrp/1.png" class="img-responsive" />
+          <br />
+          <p><b>2.</b> Click on "Format Data"</p>
+          <br />
+          <img src="./res/twrp/2.png" class="img-responsive" />
+          <br />
+
           <div class="alert alert-dismissible alert-warning">
-            <button type="button" class="close" data-dismiss="alert">&times;</button>
-            <h4>Note:</h4>
-            <p>OmniRom and AOSP aren't pre-rooted, you need to use <a href="http://forum.xda-developers.com/showthread.php?t=1538053">SuperSu</a>
-           or the <a href="http://forum.xda-developers.com/android/software-hacking/wip-selinux-capable-superuser-t3216394">OpenSource SuperUser</a> to get rooted.</p>
+              <button type="button" class="close" data-dismiss="alert">&times;</button>
+              <h4>Warning!</h4>
+              <p>Format Data will format your internal Storage! Make sure you have made a backup of important data! <b>This can't be undone!</b><br />
+              <br />
+                 <b<Note:</b> This step is needed to use encryption on your internal storage, "Format Data" will keep some space for the "footer" which is needed
+                 by encryption!
+              </p>
           </div>
-        <br />
-        <p><b>How do i get proper logs?</b></p>
-        <p>Well, there are some apps out (e.g. Syslog App) which can help getting usefull logs, but i prefer using adb to get those logs:
-        <ul>
-          <li>Logcat:
-          <br />$ adb shell logcat > logcat.txt
-          <br />(abort/stop logging pressing "Ctrl+C" on your keyboard)</li>
+
+          <p><b>3.</b> Type "yes" and clck on the arrow to confirm format action</p>
           <br />
-          <li>Radio Logcat:
-          <br />$ adb logcat -b radio -v time -d > logcat_radio.log</li>
+          <img src="./res/twrp/3.png" class="img-responsive" />
           <br />
-          <li>Dmesg:
-          <br />$ adb shell dmesg > dmesg.txt</li>
+          <p><b>4.</b> Once format data is done click on the "Back" button.</p>
           <br />
-          <li>last_kmsg:
-          <br />$ adb shell su -c "cat /proc/last_kmsg" > last_kmsg.txt</li>
+          <img src="./res/twrp/4.png" class="img-responsive" />
           <br />
-          <li>audit.log:
-          <br />(make sure root is enabled!)
-          <br />$ adb root
-          <br />$ adb pull /data/misc/audit/audit.log</li>
-        </ul>
-        <br />
+          <p><b>5.</b> Now click on "Advanced Wipe"</p>
+          <br />
+          <img src="./res/twrp/5.png" class="img-responsive" />
+          <br />
+          <p><b>6.</b> Check</p>
+          <ul>
+            <li>Dalvic / ART Cache</li>
+            <li>System</li>
+            <li>Cache</li>
+          </ul>
+          <br />
+          <img src="./res/twrp/6.png" class="img-responsive" />
+          <br />
+          <p><b>7.</b> Swipe to confirm wipe action</p>
+          <br />
+          <p><b>8.</b> Once wipe is done, click on the back button to go back to TWRPs main screen.
+             Click on the "Reboot" button.</p>
+          <br />
+          <img src="./res/twrp/7.png" class="img-responsive" />
+          <br />
+          <p><b>9.</b> Click on "Recovery", after that Swipe to reboot.</p>
+          <br />
+          <img src="./res/twrp/8.png" class="img-responsive" />
+          <br />
+          <img src="./res/twrp/9.png" class="img-responsive" />
+          <br />
+          <p><b>10.</b> Done! Wait until your device rebooted into recovery, now you can flash any rom (made for your device) you like.</p>
+          <br />
+          <br />
+
+          <a href="faq.html" class="btn btn-default btn-lg btn-block" id="btn">Back to FAQ</a>
+
+
       </div>
     </div>
       
@@ -165,13 +143,13 @@
         <div class="container">
             <p class="text-muted"><a href="https://github.com/andi34" target="_blank">Android-Andi</a> &copy; 2016</p>
         </div>
-    </footer>      
-      
+    </footer>
+  
     <!-- Scripts -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
       
-  </body>
+    </body>
 </html>
