@@ -83,7 +83,20 @@
       
       <div class="container">
           <div class="jumbotron">
-          
+
+        <p><b>08.06.2016</b></p>
+        <p>New CM 13.0 builds for espressowifi and espresso3g available</p>
+        <ul>
+           <li>Latest CM 13.0 source</li>
+           <li>Attempt to fix hotspot</li>
+           <li>
+               Ziyan fixed the random mac adress:<br />
+               The Samsung BCMDHD used to read the factory MAC address from /efs. Accessing the filesystem in-kernel is a very bad practice, but what can we expect from Samsung?<br />
+               We now calculate the MAC address based on the SoC Die ID: this is unique for all devices, and ensures that the same device will always have the same MAC address, not a randomly generated one.
+           </li>
+          </ul>
+          <br />
+        </ul>
         <p><b>17.05.2016</b></p>
         <ul>
           <p>Some updates on http://andi34.github.io</p>
