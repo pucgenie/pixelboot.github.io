@@ -125,6 +125,18 @@
           </div>
         </ul>
         <br />
+        <p><b>How to re-calibrate the compass on my Tab 2?</b></p>
+        <ul>
+          <li>The compass sensor is calculated from the accelerometer and magnetic field sensors. If the values reported by the compass sensor are not right, you can re-calibrate the magnetic field sensor with the following steps:</li>
+          <ul>
+            <li>adb shell stop geomagneticd</li>
+            <li>adb shell rm /data/sensors/yas.cfg</li>
+            <li>adb shell rm /data/sensors/yas-backup.cfg</li>
+            <li>adb shell start geomagneticd</li>
+          </ul>
+          <li>Now start an application using the compass sensor. Move the device in every direction, with a rotation around each axis: the device should now be re-calibrated.</li>
+        </ul>
+        <br />
         <p><b>Rom installation failed on "error 7" in recovery, what can i do?</b></p>
         <p>Best will be to post a recovery.log. There's an option inside your recovery to create one.</p>
         <p>You can get the log to your PC using adb:</p>
