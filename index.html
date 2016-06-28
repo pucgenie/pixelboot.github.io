@@ -109,6 +109,15 @@
             <h2>Latest Updates</h2>
             <hr />
                   
+                      <p><b>28.06.2016</b></p>
+                      <ul>
+                          <p>New OmniRom 6.0 for espressowifi and espresso3g</p>
+                          <ul>
+                              <li>Fixed sensor position on P31XX devices.</li>
+                              <li>Fixed SIM Pin issues on espresso3g</li>
+                          </ul>
+                      </ul>
+                      <br />
                       <p><b>25.06.2016</b></p>
                       <ul>
                           <p>Initial OmniRom 6.0.1 builds for espressowifi and espresso3g available</p>
@@ -122,21 +131,6 @@
                               <li>Chromecast should still work on Omni 6.</li>
                           </ul>
                       </ul>
-
-                      <p><b>08.06.2016</b></p>
-                      <ul>
-                          <p>New CM 13.0 builds for espressowifi and espresso3g available</p>
-                          <ul>
-                              <li>Latest CM 13.0 source</li>
-                              <li>Attempt to fix hotspot</li>
-                              <li>
-                                  Ziyan fixed the random mac adress:<br />
-                                  The Samsung BCMDHD used to read the factory MAC address from /efs. Accessing the filesystem in-kernel is a very bad practice, but what can we expect from Samsung?<br />
-                                  We now calculate the MAC address based on the SoC Die ID: this is unique for all devices, and ensures that the same device will always have the same MAC address, not a randomly generated one.
-                              </li>
-                          </ul>
-                      </ul>
-                      <br />
               
             <a href="news.html" class="btn btn-raised  btn-block">All Updates</a>
           </div>
