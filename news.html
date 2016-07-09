@@ -82,6 +82,29 @@
     <div class="container">
       <div class="jumbotron">
 
+        <p><b>09.07.2016</b></p>
+        <ul>
+          <p>Multi-Rom Updates for espressowifi and espresso3g</p>
+          <ul>
+            <li>Slim6 alpha 0.4</li>
+            <li>SlimLP</li>
+            <li>CM 13.0</li>
+            <li>CM 12.1 (compiling right now, will be available soon)</li>
+            <li>Omni 5.1 once CM 12.1 builds are ready</li>
+            <ul>
+              <p>What changed?</p>
+                <li>latest Rom sources</li>
+                <li>device tree cleanup and reorganisation inside the device tree</li>
+                <li>Some Kernel changes (clean up the display init sequence without bootloader init)</li>
+                <li>
+                    Enable dexpreopt with PIC<br />
+                    (Our system partitions are relatively large (~1 GB), but our data partitions are relatively small (~4.6 GB on 8 GB variants).<br />
+                    In this case, it makes sense to enable WITH_DEXPREOPT_PIC, saving at least 100 MB space on our data partitions.)
+                </li>
+            </ul>
+          </ul>
+          <br />
+        </ul>
         <p><b>01.07.2016</b></p>
         <ul>
           <p>Initial Slim6 builds for espressowifi and espresso3g</p>
