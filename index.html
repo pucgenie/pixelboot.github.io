@@ -110,6 +110,22 @@
             <h2>Latest Updates</h2>
             <hr />
 
+                      <p><b>24.08.2016</b></p>
+                      <ul>
+                        <p><b>Galaxy Tab2</b></p>
+                        <p>Notes about latest official CM11 nightly update</p>
+                        <ul>
+                          <li>Clean flash might be required because of the following changes:</li>
+                          <ul>
+                            <li>a lot of device specific updates (e.g. a lot of OpenSource blobs we already use on Android 5.1 and newer)</li>
+                            <li>kernel source got replaced with our omap based OpenSource kernel (full change history, a lot debloated)</li>
+                          </ul>
+                          <li>There might be a tiny delay between the Samsung logo and the bootanimation. This happens because we disabled the bootloader  init (The bootloader init was disabled and the kernel resets everything on boot which is a good thing but delays bootup).  Also your Tab 2 variant get detected by the kernel automatically (read out from bootloader).</li>
+                          <li>If you have issues to boot your tab after a clean flash, you might need to update your bootloader. I'll provide the files and a tutorial sometimes later this week (maybe next week).</li>
+                        </ul>
+                        <br />
+                      </ul>
+
                       <p><b>14.08.2016</b></p>
                       <ul>
                         <p><b>espressowifi / espresso3g:</b></p>
@@ -137,17 +153,6 @@
                         <br />
                       </ul>
 
-                      <p><b>12.08.2016</b></p>
-                      <ul>
-                        <p><b>espressowifi / espresso3g:</b></p>
-                        <p>Official Slim6 builds started</p>
-                        <ul>
-                          <li>Official Slim6 alpha 0.9 available</li>
-                          <li>Official changelog can be found <a href="https://slimroms.org/">here</a></li>
-                        </ul>
-                        <br />
-                      </ul>
-              
             <a href="news.html" class="btn btn-raised  btn-block">All Updates</a>
           </div>
             
