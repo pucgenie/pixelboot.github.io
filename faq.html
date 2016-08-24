@@ -189,6 +189,24 @@
           <br />$ adb pull /data/misc/audit/audit.log</li>
         </ul>
         <br />
+        <p><b>I can't change my rom, wipe / format doesn't work. Nothing changed after flashing with Odin.</b></p>
+        <p>16 GB Tab 2 have a known faulty EMMC (MAG2GA). It can happen, that your EMMC get "read only", so you can't perform any write actions (also you can't format) anymore.</p>
+        <ul>
+          <p>From the EMMC data sheet:</p>
+          <p><i><b>5.1.7 End of Life Management:</b></p>
+          <p>The end of device life time is defined when there is no more available reserved block for bad block management in the device. When the device reaches to end of its life time, device shall change its state to permanent write protection state. In this case, write operation is not allowed any more but read operation are still allowed.</b></p>
+          <p>But, reliability of the operation can not be guaranteed after end of life.</b></p></i>
+        </ul>
+        <p>On a faulty EMMC firmware it happens a lot faster.</p>
+        <p><b>What are the symptoms?</b></p>
+        <ul>
+          <li>Uninstalled apps and deleted files are back after a reboot</li>
+          <li>Formating the storage doesn't work (after reboot the old rom and apps are back)</li>
+          <li>You can flash whatever you like via Odin - it showes "passed" but after reboot nothing changed (e.g. still no StockRom or still the old Recovery you had previously installed) </li>
+          <li>... there might be some more, but only to mention some ...</li>
+        </ul>
+        <p>In most cases, the issue can be fixed by a EMMC firmware update, but you need someone who's able to do it (possible via ISP, nothing you can do esylie at home yourself). In some bad cases you need to find someone who can replace your EMMC.</p>
+        <br />
       </div>
     </div>
       
