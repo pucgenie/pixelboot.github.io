@@ -132,10 +132,10 @@
         <ul>
           <li>The compass sensor is calculated from the accelerometer and magnetic field sensors. If the values reported by the compass sensor are not right, you can re-calibrate the magnetic field sensor with the following steps:</li>
           <ul>
-            <li>adb shell stop geomagneticd</li>
-            <li>adb shell rm /data/sensors/yas.cfg</li>
-            <li>adb shell rm /data/sensors/yas-backup.cfg</li>
-            <li>adb shell start geomagneticd</li>
+            <pre><code>adb shell stop geomagneticd
+            <br />adb shell rm /data/sensors/yas.cfg
+            <br />adb shell rm /data/sensors/yas-backup.cfg
+            <br />adb shell start geomagneticd</code></pre>
           </ul>
           <li>Now start an application using the compass sensor. Move the device in every direction, with a rotation around each axis: the device should now be re-calibrated.</li>
         </ul>
@@ -175,27 +175,23 @@
         <p><b>How do i get proper logs?</b></p>
         <p>Well, there are some apps out (e.g. Syslog App) which can help getting usefull logs, but i prefer using adb to get those logs:
         <ul>
-          <li>Logcat:
-          <br />$ adb shell logcat > logcat.txt
-          <br />(abort/stop logging pressing "Ctrl+C" on your keyboard)</li>
-          <br />
-          <li>Radio Logcat:
-          <br />$ adb logcat -b radio -v time -d > logcat_radio.log</li>
-          <br />
-          <li>Dmesg:
-          <br />$ adb shell dmesg > dmesg.txt</li>
-          <br />
-          <li>last_kmsg:
-          <br />$ adb shell su -c "cat /proc/last_kmsg" > last_kmsg.txt</li>
-          <br />
-          <li>audit.log:
-          <br />(make sure root is enabled!)
-          <br />$ adb root
-          <br />$ adb pull /data/misc/audit/audit.log</li>
+          <li>Logcat:</li>
+            <pre><code>adb shell logcat > logcat.txt</code></pre>
+            <p>(abort/stop logging pressing <kbd><kbd>ctrl</kbd> + <kbd>c</kbd></kbd> on your keyboard)</p>
+          <li>Radio Logcat:</li>
+            <pre><code>adb logcat -b radio -v time -d > logcat_radio.log</code></pre>
+          <li>Dmesg:</li>
+            <pre><code>adb shell dmesg > dmesg.txt</code></pre>
+          <li>last_kmsg:</li>
+            <pre><code>adb shell su -c "cat /proc/last_kmsg" > last_kmsg.txt</code></pre>
+          <li>audit.log:</li>
+            <p>(make sure root is enabled!)</p>
+            <pre><code>adb root
+            <br />adb pull /data/misc/audit/audit.log</code></pre>
         </ul>
         <br />
         <hr />
-        <p><b>I can't change my rom, wipe / format doesn't work. Nothing changed after flashing with Odin.</b></p>
+        <b>I can't change my rom, wipe / format doesn't work. Nothing changed after flashing with Odin.</b></p>
         <p>16 GB Tab 2 have a known faulty EMMC (MAG2GA). It can happen, that your EMMC get "read only", so you can't perform any write actions (also you can't format) anymore.</p>
         <ul>
           <p>From the EMMC data sheet:</p>
