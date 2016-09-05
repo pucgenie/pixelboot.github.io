@@ -48,12 +48,8 @@ body {
     padding-top: 65px;
   }
   .navbar-transparent {
-    background: rgba(0, 0, 0, 0) !important;
-    color: black !important;
-  }
-  .navbar.scrolled {
     background: rgba(0, 0, 0, 0.4) !important;
-    color: rgba(255,255,255, 0.9) !important;
-    padding-top: 10px !important;
+    color: white !important;
   }
+  
 }
