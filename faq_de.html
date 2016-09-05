@@ -198,6 +198,33 @@
         </ul>
         <br />
         <hr />
+        <p><b>Was ist der Unterschied zwischen dem "alten" und "neuen" Kernel Quellcode den Ihr nutzt??</b></p>
+        <ul>
+          <p>Vorweg: Die meiste Arbeit hat Ziyan @ XDA-Developers erledigt. Der Kernel ist das Herz unserer Roms. Ein Paar Worte zum "neuen" Kernel:</p>
+          <ul>
+            <li>Basiert auf dem offiziellem <a href="http://git.omapzoom.org/?p=kernel/omap.git;a=shortlog;h=refs/heads/p-android-omap-3.0-dev">OMAP4 Kernel Quellcode (p-android-omap-3.0-dev branch)</a></li>
+            <li>Update auf 3.0.101 <a href="https://kernel.googlesource.com/pub/scm/linux/kernel/git/stable/linux-stable/+/linux-3.0.y">linux-stable/linux-3.0.y</a></li>
+            <li>Komplette Aenderungs-Historie</li>
+            <li>BCMDHD Update auf 1.88.45 vom 3.4 Kernel(<b>Info:</b> Samsungs BCMDHD hat vorher die Mac Adresse aus /efs ausgelesen. Aus Sicht der Sicherheit eine sehr sehr schlechte Sache, dass ein Kernel diese Rechte auf das Dateisystem hat. Was anderes von Samsung erwartet? Die Mac adresse wird jetzt auf Basis des SOC erstellt und sollte genauso einmalig sein.)</li>
+            <li>last_kmsg Support</li>
+            <li>Samsungs Source entmuellt bevor die Treiber etc. hinzugefuegt wurden</li>
+            <li>dynamic tiler allocations (mehr freier Ram verfuegbar)</li>
+            <li>Die Tab2 Variante wird beim Starten automatisch erkannt (Der lcd_panel_id command line parameter aus dem Bootloader wird ausgelesen um das richtige Geraet zu erkennen)</li>
+            <li>Neues property (/sys/board_properties/type) um den Board Typ anzuzeigen</li>
+            <div class="alert alert-primary">
+              <div class="alert-icon">
+                <i class="material-icons">info</i>
+              </div>
+              <button type="button" class="close" data-dismiss="alert">&times;</button>
+              <b>Info:</b>
+              <p>Machne Aenderungen basieren auf diesem "property" (z.B. um die richtigen Sensor Treiber oder Audio-Config fuer euer Geraet zu laden) - Aeltere Roms nutzen dies nicht, deshalb kann es zu Problemen kommen, wenn ihr alte Custom Kernel auf den neuen Roms nutzt!</p>
+            </div>
+            <li>Ein Kernel Quellcode fuer alle Android Versions (4.4 und neuer, 4.4 Roms nutzen jedoch eine eigene defconfig)</li>
+          </ul>
+          <p>Wir nutzen den "neuen" auf allen unserern Roms (Android 5.1 und neuer, aber auch auf manchen alten offiziellen 4.4 Roms wie z.B. CM 11.0). <a href="https://github.com/OMAP4-AOSP/android_kernel_samsung_espresso/commits/stable">Den Kernel Quellcode findet ihr hier</a> , <a href="https://github.com/OMAP4-AOSP/android_kernel_samsung_espresso/commits/history">Historie vom "entmuellen" hier</a>.</p>
+        </ul>
+        <br />
+        <hr />
         <p><b>Wie kann ich das Einschalt Logo/Bild auf meinem Galaxy Tab2 ändern?</b></p>
         <ul>
           <p>Es gibt ein schoenes Tutorial von Ketut Kumajaya, welches ich uebersetzt, aktualisiert und hier bereit stelle.</p>
