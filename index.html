@@ -15,26 +15,27 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
     <link href="assets/material-kit.css" rel="stylesheet"/>
     <link href="assets/style.css" rel="stylesheet" />
+    <link href="assets/animate.min.css" rel="stylesheet"/>
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
   </head>
-  <body>
+  <body id="page-top">
     <div class="container">
       <nav class="navbar navbar-transparent navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <button type="button" class="navbar-toggle collapsed navbarButton" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Android-Andi</a>
+            <a class="navbar-brand page-scroll" href="#page-top">Android-Andi</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#">Home</a></li>
+              <li class="active"><a href="#page-top" class="page-scroll">Home</a></li>
               <li><a href="news.html">News</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recoveries<span class="caret"></span></a>
@@ -199,10 +200,17 @@
         </div>
         <div class="addthis_native_toolbox"></div>
     </div>
-      
+    <br/>
     <footer class="footer">
       <div class="container">
-        <p class="text-muted"><a href="https://github.com/andi34" target="_blank">Android-Andi</a> &copy; 2016</p>
+        <div class="row">
+          <div class="col-sm-6">
+            <p class="text-muted"><a href="https://github.com/andi34" target="_blank">Android-Andi</a> &copy; 2016. All rights reserved.</p>
+          </div>
+          <div class="col-sm-6">
+            <p class="text-right hidden-xs"><a href="#page-top" class="btn btn-default btn-sm btn-simple page-scroll">Back to Top</a></p>
+          </div>
+        </div>
       </div>
     </footer>
 
@@ -212,6 +220,8 @@
     <script src="assets/material-kit.js"></script>
     <script src="assets/material.min.js"></script>
     <script src="assets/scroll.js"></script>
+    <script src="assets/wow.min.js"></script>
+    <script src="assets/jquery.easing.min.js"></script>
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-574c7b479f77586f"></script>
 
   </body>
