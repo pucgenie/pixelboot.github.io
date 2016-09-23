@@ -3,7 +3,10 @@ function checkScroll(){
     if($(window).scrollTop() > 0) {
         $('.navbar').addClass("scrolled");
     }
-    else if ($(window).scrollTop() == 0) {
+    else if ($('div.in').length) {
+		
+	}
+    else  {
         $('.navbar').removeClass("scrolled");
     }
   
