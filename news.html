@@ -90,6 +90,29 @@
     <div class="container">
       <div class="jumbotron">
 
+         <p><b>25.09.2016</b></p>
+         <ul>
+           <p><b>Galaxy Tab2</b></p>
+           <p>Kernel Update</p>
+           <ul>
+             <li>We re-enabled MMC_CAP_ERASE on our kernel source because of following reasons:</li>
+             <ul>
+               <li>"moviNAND VHX 4.41 DISCARD feature" is (and always was) added to our kernel which should prevent MAG2GA eMMC (used on most 16GB Tab2 devices) from damage (official Samsung patch)</li>
+               <li>even with MMC_CAP_ERASE disabled some Tab2 with MAG2GA eMMC got read only (the reason is an issue in the eMMC firmware - besides MAG2GA eMMC is faulty/bad by default)</li>
+               <li>without TRIM emmc lifetime is shorter, it's now possible again on supported eMMC</li>
+             </ul>
+             <li>Updated P51XX Touch Firmware</li>
+           </ul>
+           <br />
+           <p>What Roms include those changes?</p>
+           <ul>
+             <li>all builds and recoveries since 24.09.2016</li>
+           </ul>
+           <br />
+           <p><b>NOTE:</b> You might need to use TWRP 3.0.2-6 (uploaded already) to flash the new roms, on Android 4 and 6 old recoveries might work (but better update too).</p>
+           <br />
+        </ul>
+
         <p><b>20.09.2016</b></p>
         <ul>
           <p><b>Galaxy Tab2</b></p>
