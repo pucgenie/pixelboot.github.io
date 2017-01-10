@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
     <title>Custom Rom Development by Android-Andi @ XDA</title>
-
+    
   </head>
   <body  id="page-top">
     <nav class="navbar navbar-transparent navbar-fixed-top">
@@ -32,11 +32,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Android-Andi</a>
+          <a class="navbar-brand" href="/index.html">Android-Andi</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="/index.html">Home</a></li>
+            <li><a href="/index.html">Home</a></li>
             <li><a href="/news.html">News</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recoveries<span class="caret"></span></a>
@@ -51,7 +51,7 @@
               <ul class="dropdown-menu">
                 <li class="dropdown-header">Samsung Galaxy Tab2</li>
                 <li><a href="/roms_tab2_aosp.html">AOSP</a></li>
-                <li><a href="/roms_tab2_cm.html">CyanogenMod</a></li>
+                <li class="active"><a href="/roms_tab2_cm.html">CyanogenMod</a></li>
                 <li><a href="/roms_tab2_lineage.html">LineageOS</a></li>
                 <li><a href="/roms_tab2_omni.html">OmniRom</a></li>
                 <li><a href="/roms_tab2_slim.html">SlimRoms</a></li>
@@ -93,132 +93,41 @@
     
     <div class="jumbotron">
       <div class="container">
-        <h1 class="heading">Custom Rom Development<br />by Android-Andi</h1>
-        <p>To make it easy for everyone of us i added a "News" tab to this page. You'll get all important information about latest changes there. This page is still WIP, more to come later. If you find a bug on this page, feel free to help fixing it :), you can <a href="https://github.com/andi34/andi34.github.io" target="_blank">find the source here</a>.</p>
-        <a href="https://androidfilehost.com/?w=devices&uid=23329332407587552" target="_blank" class="btn btn-primary"><i class="material-icons">open_in_new</i> To all Downloads</a>
-        <a href="https://github.com/andi34" target="_blank" class="btn btn-white"><i class="material-icons">account_circle</i> Github Profile</a>
+        <img src="./res/lineage.png" alt="lineage" class="img-responsive heading" />
+        <br />
+        <p><a href="http://review.lineageos.org" target="_blank">LineageOS Gerrit Codereview</a> | <a href="http://review.lineageos.org/#/q/status:merged" target="_blank">Merged changes</a></p>
+        <p><a href="http://www.lineageos.org" target="_blank">LineageOS official Hompage (News etc.)</a></p>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="jumbotron">
+
+        <h2>LineageOS Android 4.4</h2>
+        <p><b>Unofficial unified builds (not uploaded yet):</b><br /></p>
+        <ul>
+          <li><a href="https://www.androidfilehost.com/?w=files&flid=143632&sort_by=date&sort_dir=DESC" target="_blank">espresso3g (P3100 & P5100)</a></li>
+          <li><a href="https://www.androidfilehost.com/?w=files&flid=143639&sort_by=date&sort_dir=DESC" target="_blank">espressowifi (P3110, P3113, P5110, P5113)</a></li>
+        </ul>
+        <hr/>
+        
+        <h2>LineageOS Android 5.1</h2>
+        <p><b>Unofficial unified builds (not uploaded yet):</b><br /></p>
+        <ul>
+          <li><a href="https://www.androidfilehost.com/?w=files&flid=143637&sort_by=date&sort_dir=DESC" target="_blank">espresso3g (P3100 & P5100)</a></li>
+          <li><a href="https://www.androidfilehost.com/?w=files&flid=143642&sort_by=date&sort_dir=DESC" target="_blank">espressowifi (P3110, P3113, P5110, P5113)</a></li>
+        </ul>
+        <hr/>
+        
+        <h2>LineageOS Android 6.0</h2>
+        <p><b>Unofficial unified builds (not uploaded yet):</b><br /></p>
+        <ul>
+          <li><a href="https://www.androidfilehost.com/?w=files&flid=143638&sort_by=date&sort_dir=DESC" target="_blank">espresso3g (P3100 & P5100)</a></li>
+          <li><a href="https://www.androidfilehost.com/?w=files&flid=143645&sort_by=date&sort_dir=DESC" target="_blank">espressowifi (P3110, P3113, P5110, P5113)</a></li>
+        </ul>
       </div>
     </div>
       
-    <div class="alert alert-primary">
-      <div class="container">
-        <div class="alert-icon">
-          <i class="material-icons">warning</i>
-        </div>
-        <button type="button" class="close" data-dismiss="alert">&times;</button>
-        <b>Warning!</b>
-        I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed.
-        Please do some research if you have any concerns about features included in this Roms & Recoveries before flashing it!
-        YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-              
-        <div class="col-md-6">
-          <h2><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i> Latest Updates</h2>
-          <hr />
-
-        <p><b>12.11.2016</b></p>
-        <ul>
-          <p><b>Galaxy Tab2</b></p>
-          <p>espresso-common TWRP 3.0.2-8</p>
-          <ul>
-            <li>Official changes until <a href="https://github.com/omnirom/android_bootable_recovery/commits/f3c1b2f53c634ed302d8fcd8e7023dcc11f1e51a" target="_blank">f3c1b2f head</a> from OmniRoms TWRP source (android-7.0 branch)</li>
-            <li>Fixes image flashing</li>
-          </ul>
-          <br />
-          <p>CM 13 espresso3g and espressowifi get official nightly builds!</p>
-          <ul>
-            <li><a href="http://get.cm/?device=espresso3g&type=nightly" target="_blank">espresso3g (P3100 & P5100)</a></li>
-            <li><a href="http://get.cm/?device=espressowifi&type=nightly" target="_blank">espressowifi (P3110, P3113, P5110, P5113)</a></li>
-          </ul>
-          <br />
-        </ul>
-
-        <p><b>11.11.2016</b></p>
-        <ul>
-          <p><b>Galaxy Tab2</b></p>
-          <p>SlimLP - Security Update</p>
-          <ul>
-            <li>Patched SlimLP source until 2016-10-01 security patch level</li>
-            <li>Fixed a lot of CVE on our kernel</li>
-            <li>Fixed screencast</li>
-          </ul>
-          <br />
-          <p>Omni6 Security-Update</p>
-          <ul>
-            <li>2016-11-05 security patch level</li>
-            <li>Fixed a lot of CVE on our kernel</li>
-            <li>Fixed screencast</li>
-          </ul>
-          <br />
-        </ul>
-
-          <a href="news.html" class="btn btn-primary pull-right btn-simple">All Updates</a>
-        </div>
-            
-        <div class="col-md-6">
-          <div class="visible-xs visible-sm">
-            <br/><br/>
-          </div>
-          <h2><i class="fa fa-download fa-fw" aria-hidden="true"></i> Downloads</h2>
-          <hr />
-                  
-          <h3>Samsung Galaxy Tab 2</h3>
-          <hr />
-          <h4>Roms:</h4>    
-          <div class="list-group">
-            <a href="roms_tab2_cm.html" class="list-group-item">
-              <h4 class="list-group-item-heading">CyanogenMod</h4>
-            </a>
-            <a href="roms_tab2_omni.html" class="list-group-item">
-              <h4 class="list-group-item-heading">OmniRom</h4>
-            </a>
-            <a href="roms_tab2_slim.html" class="list-group-item">
-              <h4 class="list-group-item-heading">SlimRoms</h4>
-            </a>
-            <a href="roms_tab2_aosp.html" class="list-group-item">
-              <h4 class="list-group-item-heading">AOSP</h4>
-            </a>
-          </div>
-          <h4>Extras:</h4>
-          <div class="list-group">
-            <a href="recoveries_tab2.html" class="list-group-item">
-              <h4 class="list-group-item-heading">Recoveries</h4>
-            </a>
-            <a href="gapps.html" class="list-group-item">
-              <h4 class="list-group-item-heading">GApps</h4>
-            </a>
-          </div>
-                  
-          <h3>Samsung Galaxy S3 mini</h3>
-          <hr/>
-          <h4>Roms:</h4>
-          <div class="list-group">
-            <a href="roms_golden_slim.html" class="list-group-item">
-              <h4 class="list-group-item-heading">SlimRoms</h4>
-            </a>
-          </div>
-          <h4>Extras:</h4>
-          <div class="list-group">
-            <a href="recoveries_golden.html" class="list-group-item">
-              <h4 class="list-group-item-heading">Recoveries</h4>
-            </a>
-            <a href="gapps.html" class="list-group-item">
-              <h4 class="list-group-item-heading">GApps</h4>
-            </a>
-          </div>
-        </div>
-      </div>
-      <hr/>
-
-      <h3><i class="fa fa-share-alt fa-fw" aria-hidden="true"></i> <b>Share this Page:</b></h3>
-      <div class="addthis_native_toolbox"></div><br/>
-
-    </div>
-
     <footer class="footer">
       <div class="container">
         <div class="row">
@@ -248,7 +157,6 @@
     <script src="/assets/scroll.js"></script>
     <script src="/assets/wow.min.js"></script>
     <script src="/assets/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-574c7b479f77586f"></script>
-
+      
   </body>
 </html>
