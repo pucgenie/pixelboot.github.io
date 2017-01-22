@@ -1,37 +1,3 @@
-function checkScroll() {
-
-    if($(window).scrollTop() > 0) {
-        $('.navbar').addClass("navbar-white");
-        $('.navbar').removeClass("navbar-transparent");
-    }
-    else if ($('div.in').length) {}
-    else  {
-        $('.navbar').removeClass("navbar-white");
-        $('.navbar').addClass("navbar-transparent");
-    }
-
-}
-
-if($('.navbar').length > 0) {
-    $(window).on("scroll load resize", function(){
-        checkScroll();
-    });
-}
-
-$('.navbar-collapse').on('show.bs.collapse', function () {
-    $('.navbar').addClass("navbar-white");
-    $('.navbar').removeClass("navbar-transparent");
-});
-
-$('.navbar-collapse').on('hidden.bs.collapse', function () {
-
-  if($(window).scrollTop() == 0) {
-    $('.navbar').removeClass("navbar-white");
-    $('.navbar').addClass("navbar-transparent");
-  }
-
-});
-
 /*
  *  Bootstrap Auto-Hiding Navbar - v1.0.5
  *  An extension for Bootstrap's fixed navbar which hides the navbar while the page is scrolling downwards and shows it the other way. The plugin is able to show/hide the navbar programmatically as well.
@@ -250,20 +216,3 @@ $('.navbar-collapse').on('hidden.bs.collapse', function () {
   };
 
 })(jQuery, window, document);
-
-$(".navbar-fixed-top").autoHidingNavbar();
-
-(function($) {
-    "use strict";
-
-  $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: ($($anchor.attr('href')).offset().top - 50)
-        }, 1250, 'easeInOutExpo');
-        event.preventDefault();
-    });
-  
-  new WOW().init();
-
-})(jQuery);
