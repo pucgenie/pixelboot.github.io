@@ -32,6 +32,27 @@ $('.navbar-collapse').on('hidden.bs.collapse', function () {
 
 });
 
+$(function(){
+   function stripTrailingSlash(str) {
+     if(str.substr(-1) == '/') {
+       return str.substr(0, str.length - 1);
+     }
+     return str;
+   }
+ 
+   var url = window.location.pathname;  
+   var activePage = stripTrailingSlash(url);
+ 
+   $('.nav li a').each(function(){  
+     var currentPage = stripTrailingSlash($(this).attr('href'));
+ 
+     if (activePage == currentPage) {
+       $(this).parent().addClass('active'); 
+     } 
+   });
+ });
+
+
 /*
  *  Bootstrap Auto-Hiding Navbar - v1.0.5
  *  An extension for Bootstrap's fixed navbar which hides the navbar while the page is scrolling downwards and shows it the other way. The plugin is able to show/hide the navbar programmatically as well.
