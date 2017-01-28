@@ -11,7 +11,7 @@
     <meta property="og:title"         content="Custom Rom Development by Android-Andi" />
     <meta property="og:description"   content="Custom Rom Development by Android-Andi for the Samsung Galaxy Tab 2 and Samsung Galaxy S3 mini." />
     
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
     <link href="/assets/material-kit.css" rel="stylesheet"/>
@@ -21,9 +21,10 @@
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+    
   </head>
 
-  <body id="page-top">
+  <body id="page-top"{% if page.single %} class="single"{% endif %} >
     <nav class="navbar navbar-transparent navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -128,7 +129,6 @@
     <script src="/assets/scroll.js"></script>
     <script src="/assets/wow.min.js"></script>
     <script src="/assets/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-574c7b479f77586f"></script>
     
   </body>
 </html>
