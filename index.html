@@ -5,9 +5,9 @@ layout: default
 <div class="jumbotron">
   <div class="container">
     <h1 class="heading">Custom Rom Development<br />by Android-Andi</h1>
-    <p>To make it easy for everyone of us i added a "News" tab to this page. You'll get all important information about latest changes there. This page is still WIP, more to come later. If you find a bug on this page, feel free to help fixing it :), you can <a href="https://github.com/andi34/andi34.github.io" target="_blank">find the source here</a>.</p>
-    <a href="https://androidfilehost.com/?w=devices&uid=23329332407587552" target="_blank" class="btn btn-primary"><i class="material-icons">open_in_new</i> To all Downloads</a>
-    <a href="https://github.com/andi34" target="_blank" class="btn btn-white"><i class="material-icons">account_circle</i> Github Profile</a>
+    <p>To make it easy for everyone of us i added a "News" tab to this page. You'll get all important information about latest changes there. This page is still WIP, more to come later. If you find a bug on this page, feel free to help fixing it :), you can <a href="https://github.com/andi34/andi34.github.io">find the source here</a>.</p>
+    <a href="https://androidfilehost.com/?w=devices&uid=23329332407587552" class="btn btn-primary"><i class="material-icons">open_in_new</i> To all Downloads</a>
+    <a href="https://github.com/andi34" class="btn btn-white"><i class="material-icons">account_circle</i> Github Profile</a>
   </div>
 </div>
       
@@ -32,21 +32,24 @@ layout: default
     <div class="col-md-7">
       <h2><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i> Latest Updates</h2>
       <hr />
-          
+      
+      {% for news in site.data.news limit:2 %}
       <div class="card">
-        <div class="card-content-1">
-              
-          {% include news_index.html %}
-        
+        <div class="card-heading">
+          <h3>{{ news.date | date_to_long_string }}</h3>
         </div>
-        <div class="card-button">
-          <a href="news.html" class="btn btn-primary pull-right btn-simple">All Updates</a>
+        <div class="card-content-1">
+          {{ news.content | markdownify }}
         </div>
       </div>
+      {% endfor %}      
+      
+      <a href="news.html" class="btn btn-primary">All Updates</a>
+      
     </div>
-            
+    <div class="visible-xs visible-sm"><hr/><br/></div>
     <div class="col-md-5">
-      <div class="visible-xs visible-sm"><br/></div>
+      
       <h2><i class="fa fa-download fa-fw" aria-hidden="true"></i> Downloads</h2>
       <hr />
           

@@ -1,0 +1,403 @@
+- date: 18.01.2017
+  content: |
+    **Galaxy Tab 2**
+       
+    SlimKat update (SlimKat 9.4) for espressowifi and espresso3g 
+       
+    - Applied a lot of security fixes on SlimKat Source (Android security patch level: 2017-01-01)
+    - Latest Kernelsource to adress a lot of security issues.
+    
+    SlimLP update (SlimLP 0.18) for espressowifi and espresso3g
+    
+    - Applied a lot of security fixes on SlimKat Source (Android security patch level: 2017-01-01)
+    - Latest Kernelsource to adress a lot of security issues.
+    
+    Omni 4.4 & 5.1 for espressowifi and espresso3g
+    
+    - Only device specific updates (get inline with our changes to improve Tab2 builds last couple of months)
+    - Latest Kernelsource to adress a lot of security issues, there is no rom specific security fixes applied.
+
+
+- date: 11.01.2017
+  content: |
+    **Galaxy Tab2**
+    
+    - AOSP Page has been updated
+    - New TWRP 3.0.3-0 uploaded, it is now possible to flash roms which use experimental 3.4 kernel (This new TWRP is required for AOSP 7.1!!!). Official changes until [f2e3f0c head](https://github.com/omnirom/android_bootable_recovery/commits/f2e3f0c51c5f94d98ba2e0a5742c89413d1e2f42) from OmniRoms TWRP source (android-7.1 branch)
+    
+    
+- date: 10.01.2017
+  content: |
+    **General**
+
+    Some of you noticed that i am not quite active at the moment. No, i haven't sold my devices, but private life counts more atm and i have a lot of other stuff to do because i am moving. Hopefully from february i'll be more active again. I hope all of you had a good start into 2017!
+    
+    **Galaxy Tab2**
+    
+    CyanogenMod is discontinued, i guess all of you noticed the rebranding to LineageOS (at the end user should only notice the name change).
+    
+    Unoffical LineageOS testbuilds for espresso3g and espressowifi might be up sometimes this week! Clean flash reqiured!
+    
+    
+- date: 12.11.2016
+  content: | 
+    **Galaxy Tab2**
+    
+    espresso-common TWRP 3.0.2-8
+    
+    - Official changes until [f3c1b2f](https://github.com/omnirom/android_bootable_recovery/commits/f3c1b2f53c634ed302d8fcd8e7023dcc11f1e51a) head from OmniRoms TWRP source (android-7.0 branch)
+    - Fixes image flashing
+    
+    CM 13 espresso3g and espressowifi get official nightly builds!
+    
+    - [espresso3g (P3100 & P5100)](http://get.cm/?device=espresso3g&type=nightly)
+    - [espressowifi (P3110, P3113, P5110, P5113)](http://get.cm/?device=espressowifi&type=nightly)
+    
+    
+- date: 11.11.2016
+  content: | 
+    **Galaxy Tab2**
+
+    SlimLP - Security Update
+
+    - Patched SlimLP source until 2016-10-01 security patch level
+    - Fixed a lot of CVE on our kernel
+    - Fixed screencast
+
+    Omni6 Security-Update
+
+    - 2016-11-05 security patch level
+    - Fixed a lot of CVE on our kernel
+    - Fixed screencast
+
+
+- date: 08.11.2016
+  content: | 
+    **Galaxy Tab2**
+    
+    CM 13.0 Update
+
+    - latest CM 13 source)
+    - Fixed screencast
+
+    CM 12.1 Update
+
+    - latest CM 12.1 source
+    - Fixed screencast
+
+    Slim6 Update
+
+    - latest Slim6 source
+    - Fixed screencast
+    
+    
+- date: 26.10.2016
+  content: | 
+    **Galaxy Tab2**
+    
+    SlimKat update (SlimKat 9.2) for espressowifi and espresso3g (no device specific builds)
+
+    - Applied a lot of security fixes on SlimKat Source (Android security patch level: 2016-10-01)
+    - Fixed a bunch of security issues on our Kernel
+    
+    
+- date: 25.09.2016
+  content: | 
+    **Galaxy Tab2**
+    
+    Kernel Update
+
+    - We re-enabled MMC_CAP_ERASE on our kernel source because of following reasons:
+      - "moviNAND VHX 4.41 DISCARD feature" is (and always was) added to our kernel which should prevent MAG2GA eMMC (used on most 16GB Tab2 devices) from damage (official Samsung patch)
+      - even with MMC_CAP_ERASE disabled some Tab2 with MAG2GA eMMC got read only (the reason is an issue in the eMMC firmware - besides MAG2GA eMMC is faulty/bad by default)
+      - without TRIM emmc lifetime is shorter, it's now possible again on supported eMMC
+    - Updated P51XX Touch Firmware
+
+    What Roms include those changes?
+
+    - all builds and recoveries since 24.09.2016
+
+    **NOTE:** You might need to use TWRP 3.0.2-6 (uploaded already) to flash the new roms, on Android 4 and 6 old recoveries might work (but better update too).
+    
+    
+- date: 20.09.2016
+  content: | 
+    **Galaxy Tab2**
+
+    espresso-common TWRP 3.0.2-5
+
+    - Official changes until [99af766](https://github.com/omnirom/android_bootable_recovery/commits/99af7666682234f0a75f9ee7d0005c0535704e92) head from OmniRoms TWRP source (android-7.0 branch)
+    - Support eMMC 4.5. In the past our "new" kernel did not support eMMC 4.5 (some people seem to have newer EMMC). On TWRP it wasn't possible to wipe or flash any files on devices with newer EMMC.
+
+    CM 13 update for espressowifi and espresso3g
+
+    - Support eMMC 4.5. In the past our "new" kernel did not support eMMC 4.5 (some people seem to have newer EMMC) - that's why some people haven't been able to boot latest builds and got a black screen only.
+    
+    
+- date: 18.09.2016
+  content: | 
+    **Galaxy Tab2**
+    
+    CM 11 update for espressowifi and espresso3g (no device specific builds)
+
+    - Fixed slow bootanimation
+    - Fixed GPS
+
+
+- date: 06.09.2016
+  content: | 
+    espresso-common TWRP 3.0.2-4
+
+    - Official changes until [724c514](https://github.com/omnirom/android_bootable_recovery/commits/724c5148a5bf341479bf943b0c64ce8d40814148) head from OmniRoms TWRP source (android-7.0 branch)
+    
+    
+- date: 24.08.2016
+  content: | 
+    **Galaxy Tab2**
+    
+    Notes about latest official CM11 nightly update
+
+    - Clean flash might be required because of the following changes:
+      - a lot of device specific updates (e.g. a lot of OpenSource blobs we already use on Android 5.1 and newer)
+      - kernel source got replaced with our omap based OpenSource kernel (full change history, a lot debloated)
+    - There might be a tiny delay between the Samsung logo and the bootanimation. This happens because we disabled the bootloader init (The bootloader init was disabled and the kernel resets everything on boot which is a good thing but delays bootup). Also your Tab 2 variant get detected by the kernel automatically (read out from bootloader).
+    - If you have issues to boot your tab after a clean flash, you might need to update your bootloader. I'll provide the files and a tutorial sometimes later this week (maybe next week).
+
+
+- date: 14.08.2016
+  content: | 
+    **espressowifi / espresso3g:**
+
+    New espresso-common TWRP 3.0.2-3
+
+    - Latest TWRP 3 Source
+
+    **golden (GT-I8190):**
+
+    New TWRP 3.0.2-1
+
+    - Latest TWRP 3 Source
+    - Added "length" on data to keep space for crypto footer. Encryption should work fine now TWRP side (If you have still trouble: it might need some changes on the kernel which comes with your rom).
+    
+    
+- date: 13.08.2016
+  content: | 
+    **espressowifi / espresso3g:**
+    
+    New unified SlimKat build
+
+    - Security updates until 01.08.2016 Android security patch level
+    
+    
+- date: 12.08.2016
+  content: | 
+    **espressowifi / espresso3g:**
+    
+    Official Slim6 builds started
+
+    - Official Slim6 alpha 0.9 available
+    - Official changelog can be found [here](https://slimroms.org/)
+    
+    
+- date: 10.08.2016
+  content: | 
+    **espressowifi / espresso3g:**
+    
+    Slim6 alpha 0.8
+
+    - Latest SlimRoms 6 Source
+    - Official changelog can be found [here](https://slimroms.org/)
+
+    Add "No All Apps button" to known Slim6 bugs and tell how to solve it.
+
+    **S3 mini (I8190):**
+
+    Initial TWRP 3
+
+    - "reboot recovery" option has a small bug, the device reboots ~4 times until it is back in recovery.
+    
+    
+- date: 02.08.2016
+  content: | 
+    Slim6 alpha 0.7
+
+    - Latest SlimRoms 6 Source
+    - Official changelog can be found [here](https://slimroms.org/)
+    - Maybe (yes, only maybe) last test build before we can get official weekly support
+
+    CM 13
+
+    - Latest CyanogenMod 13 Source
+    
+    
+- date: 16.07.2016
+  content: | 
+    Slim6 alpha 0.5
+
+    - Latest SlimRoms 6 Source
+    - Official changelog can be found [here](https://slimroms.org/)
+    
+    
+- date: 09.07.2016
+  content: | 
+    Multi-Rom Updates for espressowifi and espresso3g
+
+    - Slim6 alpha 0.4
+    - SlimLP
+    - CM 13.0
+    - CM 12.1
+    - Omni 5.1  
+    
+        What changed?
+
+      - latest Rom sources
+      - device tree cleanup and reorganisation inside the device tree
+      - Some Kernel changes (clean up the display init sequence without bootloader init)
+      - Enable dexpreopt with PIC  
+        (Our system partitions are relatively large (~1 GB), but our data partitions are relatively small (~4.6 GB on 8 GB variants).  
+        In this case, it makes sense to enable WITH_DEXPREOPT_PIC, saving at least 100 MB space on our data partitions.)
+
+    Note: Omni6 is official now! You can use official nightly builds now!
+    
+    
+- date: 01.07.2016
+  content: | 
+    Initial Slim6 builds for espressowifi and espresso3g
+
+    - No "All Apps" button by default. Create a Widget -> SlimLauncher -> choose "All Apps" to solve it
+
+    New espresso-common TWRP 3.0.2-2
+
+    - Fixed low brightness after screentimeout
+    
+    
+- date: 28.06.2016
+  content: | 
+    New OmniRom 6.0 for espressowifi and espresso3g
+
+    - Fixed sensor position on P31XX devices.
+    - Fixed SIM Pin issues on espresso3g
+    
+    
+- date: 25.06.2016
+  content: | 
+    Initial OmniRom 6.0.1 builds for espressowifi and espresso3g available
+
+    - Latest official OmniRom source. Device specific changes are all visisble in OmniRoms device repos.
+    - Currently sensor position isn't set properly on P31xx devices, but it will be fixed on upcoming builds.  
+      A temporary fix can be found [here](http://forum.xda-developers.com/showpost.php?p=67475381&postcount=8), you simply need to flash it after the Rom from TWRP.
+    - Please note that OmniRom isn't pre-rooted!
+    - Chromecast should still work on Omni 6.
+    
+    
+- date: 08.06.2016
+  content: | 
+    New CM 13.0 builds for espressowifi and espresso3g available
+
+    - Latest CM 13.0 source
+    - Attempt to fix hotspot
+    - Ziyan fixed the random mac adress:  
+      The Samsung BCMDHD used to read the factory MAC address from /efs. Accessing the filesystem in-kernel is a very bad practice, but what can we expect from Samsung?  
+      We now calculate the MAC address based on the SoC Die ID: this is unique for all devices, and ensures that the same device will always have the same MAC address, not a randomly generated one.
+  
+
+- date: 17.05.2016
+  content: | 
+    Some updates on http://andi34.github.io
+
+    - Add Rom & Recovery Thread links to the rom pages
+    - Add Rom logos
+    - Add CWM and PhilZ Touch links for historical reason
+    - Fixed some small bugs, fixed navbar for better design and mobile view - thanks to [@aykut78](https://github.com/aykut78)
+
+
+- date: 16.05.2016
+  content: | 
+    New CM 13.0 builds for espressowifi and espresso3g available
+
+    - Latest CM 13.0 source
+    - Clean flash recommand because we switched to our new kernel for a final public test before it finally replaces our old, bloated kernel.
+    - **NOTE:** Booting takes some more time now - there's a delay for up to 10 sec. betweeen the samsung logo and bootanimation (The bootloader init was disabled and the kernel resets everything on boot which is a good thing but delays bootup.)
+    - Many thanks to XDA's Ziyan for the new kernel! He did the main part of it! (We worked together on it for almost 9 months now - where is the time?!)
+    - Kernel source will be available on CM's github after this public test to be sure everything works as it should - please respect that the source won't be public before
+    - Found a bug? Attach a logcat and dmesg on XDA.
+    
+    
+- date: 14.05.2016
+  content: | 
+    espresso-common TWRP 3.0.2-1
+
+    - Official changes until [72c87ce](https://github.com/omnirom/android_bootable_recovery/commits/72c87ce3472380ad16267be958923c1d2635dc93) head from OmniRoms TWRP source
+    - New kernel with last_kmsg support.  
+      **NOTE:** Booting TWRP takes some more time now. The bootloader init was disabled and the kernel resets everything on boot which is a good thing but delays bootup.
+      
+      
+- date: 11.04.2016
+  content: | 
+    New SlimKat for Samsung S3 mini (GT-I8190) uploaded.  
+    Includes a bunch of CVE fixes. Enjoy!
+    
+
+- date: 05.04.2016
+  content: | 
+    Updated TWRP for Samsung Galaxy Tab2 to v3.0.2-0 (Common TWRP).  
+    Fixes encryption/decryption and some small other updates.
+
+
+- date: 03.04.2016
+  content: | 
+    - New CM 13 builds for espressowifi and espresso3g uploaded, no device specific changes, only CyanogenMod upstream.  
+      For changes please check [CyanogenMods Gerrit](http://review.cyanogenmod.org/#/q/status:merged)
+
+    - New SlimLP for S3 mini (i8190) uploaded, based on latest official Source, Global Menu added on top of it.  
+      Videorecording still half broken, only works if you don't record Audio (you can use OpenCamera in that case).
+
+    - Added my work on S3 mini (i8190) on this page too.
+    
+    
+- date: 02.04.2016
+  content: | 
+    Reworked my github userpage, special thanks to Ziyan!
+
+    Added Known bugs section (much more needs to be added, feel free to help)
+
+
+- date: 28.03.2016
+  content: | 
+    Uploaded espresso-common TWRP 3.0.0-2 (updated recovery-kernel for proper last_kmsg support - makes debugging kernel issues much easier).
+
+    I also uploaded some new kernel for latest CM 13 espressowifi and espresso3g builds - please test if you have time! [More information about it here on XDA.](http://forum.xda-developers.com/showpost.php?p=66084616&postcount=711)
+    
+    
+- date: 24.03.2016
+  content: | 
+    CM 12.1 & Omni 5.1 builds and common TWRP are reuploaded (I missed to add a kernel change). Previous 23.03. builds have been removed so you can't download the wrong files anymore.
+    
+    
+- date: 23.03.2016
+  content: | 
+    **CM 12.1 & Omni 5.1 builds and common TWRP will be reuploaded (I missed to add a kernel change). Current 23.03. builds have been removed. Fixed 23.03. builds and a fixed Common TWRP will be available soon (uploading already).**
+
+    New CM 13 builds available.
+
+    Missed to add "espresso: fade off by default: This fixes orientation glitch on screen-off animation for 7 inch Tab2" - will be fixed on next build.
+
+    - libsensors: fix possible null pointer crash
+    - espresso: set hwrotation on init for 7 inch Tab2 variants
+    - some updates on kernel commonisation (might fix charging on P5113).
+
+    Those Tab2 user who are on "espresso-TWRP" please flash the latest device specific TWRP for your device or use the new Common TWRP to flash latest Roms.
+
+    - the "espresso-TWRP" won't be able to flash Roms compiled after 22.03.2016,
+    - the new "Common TWRP" won't be able to flash Roms compiled before 22.03.2017.
+    I am sorry if it confuses some of you, but as i mentioned on 22.03.2016 we would conflict with HTC's "espresso" device if we don't do the renaming.
+
+    CM 12.1 & Omni 5.1 builds have been updated:
+
+    - libsensors: fix possible null pointer crash
+    - espresso: fade off by default: This fixes orientation glitch on screen-off animation for 7 inch Tab2.
+    - espresso: set hwrotation on init for 7 inch Tab2 variants
+    
+- date: 22.03.2016
+  content: | 
+    To avoid conflicts with with HTC's myTouch 3G Slide T-Mobile ("espresso") all upcoming unified builds for GT-P3110, GT-P3113, GT-P5110 and GT-P5113 will be called "espressowifi" instead "espresso".
