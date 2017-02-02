@@ -1,5 +1,4 @@
 ---
-layout: page
 title: FAQ - Frequently Asked Questions
 icon: question-circle-o
 ---
@@ -71,12 +70,12 @@ icon: question-circle-o
         
       <ul>
         <li>The compass sensor is calculated from the accelerometer and magnetic field sensors. If the values reported by the compass sensor are not right, you   can re-calibrate the magnetic field sensor with the following steps:</li>
-        <ul>
-          <pre><code>adb shell stop geomagneticd
-          <br />adb shell rm /data/sensors/yas.cfg
-          <br />adb shell rm /data/sensors/yas-backup.cfg
-          <br />adb shell start geomagneticd</code></pre>
-        </ul>
+        
+        <pre><code>adb shell stop geomagneticd
+        <br />adb shell rm /data/sensors/yas.cfg
+        <br />adb shell rm /data/sensors/yas-backup.cfg
+        <br />adb shell start geomagneticd</code></pre>
+        
         <li>Now start an application using the compass sensor. Move the device in every direction, with a rotation around each axis: the device should now be re-calibrated.</li>
       </ul>
     </div>

@@ -1,7 +1,7 @@
 var transparent = true;
 
-var transparentDemo = true;
-var fixedTop = false;
+var transparentDemo = false;
+var fixedTop = true;
 
 var navbar_initialized = false;
 
