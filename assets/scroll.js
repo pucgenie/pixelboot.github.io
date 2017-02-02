@@ -287,7 +287,5 @@ $(".navbar-fixed-top").autoHidingNavbar();
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
     });
-  
-  new WOW().init();
 
 })(jQuery);
