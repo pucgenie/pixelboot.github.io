@@ -3,22 +3,18 @@ title: FAQ -  Häufig gestellte Fragen
 icon: question-circle-o
 ---
 
-<div class="container">
-  
-  {% for post in site.data.faq_de %}
-  <div class="card">
-    <div class="card-heading">
-      <h3>{{ post.title }}</h3>
-    </div>
-    <div class="card-content-1">
-      {{ post.content | markdownify }}
-    </div>
-    {% if post.button %}
-    <div class="card-button">
-      <a href="{{ post.button.link }}" class="btn btn-primary btn-simple">{{ post.button.title }}</a>
-    </div>
-    {% endif %}
+{% for post in site.data.faq_de %}
+<div class="card">
+  <div class="card-heading">
+    <h3>{{ post.title }}</h3>
   </div>
-  {% endfor %}
-      
+  <div class="card-content-1">
+    {{ post.content | markdownify }}
+  </div>
+  {% if post.button %}
+  <div class="card-button">
+    <a href="{{ post.button.link }}" class="btn btn-primary btn-simple">{{ post.button.title }}</a>
+  </div>
+  {% endif %}
 </div>
+{% endfor %}

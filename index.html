@@ -5,13 +5,13 @@ title: Home
 
 <div class="jumbotron">
   <div class="container">
-    <h1 class="heading">Custom Rom Development<br />by Android-Andi</h1>
+    <h1 class="heading title">Custom Rom Development<br />by Android-Andi</h1>
     <p>To make it easy for everyone of us i added a "News" tab to this page. You'll get all important information about latest changes there. This page is still WIP, more to come later. If you find a bug on this page, feel free to help fixing it :), you can <a href="https://github.com/andi34/andi34.github.io">find the source here</a>.</p>
     <a href="https://androidfilehost.com/?w=devices&uid=23329332407587552" class="btn btn-primary"><i class="material-icons">open_in_new</i> To all Downloads</a>
     <a href="https://github.com/andi34" class="btn btn-white"><i class="material-icons">account_circle</i> Github Profile</a>
   </div>
 </div>
-      
+
 <div class="alert alert-primary">
   <div class="container">
     <div class="alert-icon">
@@ -29,11 +29,11 @@ title: Home
 
 <div class="container">
   <div class="row">
-              
+
     <div class="col-md-7">
       <h2><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i> Latest Updates</h2>
       <hr />
-      
+
       {% for news in site.data.news limit:2 %}
       <div class="card">
         <div class="card-heading">
@@ -43,24 +43,24 @@ title: Home
           {{ news.content | markdownify }}
         </div>
       </div>
-      {% endfor %}      
-      
+      {% endfor %}
+
       <a href="news.html" class="btn btn-primary">All Updates</a>
-      
+
     </div>
     <div class="visible-xs visible-sm"><hr/><br/></div>
     <div class="col-md-5">
-      
+
       <h2><i class="fa fa-download fa-fw" aria-hidden="true"></i> Downloads</h2>
       <hr />
-          
+
       <div class="card">
         <div class="card-heading">
           <h3>Samsung Galaxy Tab 2</h3>
         </div>
         <div class="card-content-0">
-           
-          <h4>Roms:</h4>    
+
+          <h4>Roms:</h4>
           <div class="list-group">
             <a href="roms_tab2_cm.html" class="list-group-item">
               <h4 class="list-group-item-heading">CyanogenMod</h4>
@@ -89,7 +89,7 @@ title: Home
           </div>
         </div>
       </div>
-          
+
       <div class="card">
         <div class="card-heading">
           <h3>Samsung Galaxy S3 mini</h3>
@@ -112,13 +112,13 @@ title: Home
           </div>
         </div>
       </div>
-          
+
     </div>
   </div>
   <hr/>
-        
+
   <h3><i class="fa fa-share-alt fa-fw" aria-hidden="true"></i> <b>Share this Page:</b></h3>
   <div class="addthis_native_toolbox"></div><br/>
   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-574c7b479f77586f"></script>
-  
+
 </div>
