@@ -1,15 +1,11 @@
 function checkScroll() {
-
     if($(window).scrollTop() > 0) {
         $('.navbar').addClass("navbar-white");
-        $('.navbar').removeClass("navbar-transparent");
     }
     else if ($('div.in').length) {}
     else  {
         $('.navbar').removeClass("navbar-white");
-        $('.navbar').addClass("navbar-transparent");
     }
-
 }
 
 if($('.navbar').length > 0) {
@@ -20,16 +16,12 @@ if($('.navbar').length > 0) {
 
 $('.navbar-collapse').on('show.bs.collapse', function () {
     $('.navbar').addClass("navbar-white");
-    $('.navbar').removeClass("navbar-transparent");
 });
 
 $('.navbar-collapse').on('hidden.bs.collapse', function () {
-
   if($(window).scrollTop() == 0) {
     $('.navbar').removeClass("navbar-white");
-    $('.navbar').addClass("navbar-transparent");
   }
-
 });
 
 $(function(){
@@ -39,22 +31,30 @@ $(function(){
      }
      return str;
    }
- 
-   var url = window.location.pathname;  
+
+   var url = window.location.pathname;
    var activePage = stripTrailingSlash(url);
- 
-   $('.nav li a').each(function(){  
+
+   $('.nav li a').each(function(){
      var currentPage = stripTrailingSlash($(this).attr('href'));
- 
+
      if (activePage == currentPage) {
-       $(this).parent().addClass('active'); 
-     } 
+       $(this).parent().addClass('active');
+     }
    });
  });
 
 $(document.links).filter(function() {
     return this.hostname != window.location.hostname;
 }).attr('target', '_blank');
+
+
+$('a.page-scroll').bind('click', function(event) {
+    $('html, body').stop().animate({
+        scrollTop: ($($(this).attr('href')).offset().top)
+    }, 1250, 'easeInOutExpo');
+    event.preventDefault();
+});
 
 /*
  *  Bootstrap Auto-Hiding Navbar - v1.0.5
@@ -276,16 +276,3 @@ $(document.links).filter(function() {
 })(jQuery, window, document);
 
 $(".navbar-fixed-top").autoHidingNavbar();
-
-(function($) {
-    "use strict";
-
-  $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: ($($anchor.attr('href')).offset().top)
-        }, 1250, 'easeInOutExpo');
-        event.preventDefault();
-    });
-
-})(jQuery);
