@@ -1,13 +1,11 @@
-function checkScroll() {
+$(window).scroll (function() {
     if($(window).scrollTop() > 0) {
         $('.navbar').addClass('navbar-white');
     }
     else if (!$('#navbar').hasClass("in")) {
       $('.navbar').removeClass('navbar-white');
     }
-}
-
-document.onscroll = checkScroll;
+});
 
 $('.navbar-collapse').on('show.bs.collapse', function () {
     $('.navbar').addClass('navbar-white');
