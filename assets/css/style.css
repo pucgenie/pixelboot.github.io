@@ -31,7 +31,6 @@ li {
   font-size: 14px !important;
 }
 .navbar-transparent {
-  background: transparent !important;
   color: black !important;
 }
 .navbar {
@@ -43,8 +42,14 @@ li {
   box-shadow: 0 1px 8px rgba(0,0,0,.3) !important;
 }
 .navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus {
-  color: inherit;
   background-color: rgba(0, 0, 0, 0.04) !important;
+}
+.nav li {
+  transition: all 0.2s ease-out;
+}
+.nav li:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+  border-radius: 2px;
 }
 .single {
   padding-top: 100px;
@@ -62,10 +67,10 @@ li {
   border-bottom: 1px solid rgba(0,0,0,0.12);
 }
 .card-content-0 {
-  padding: 8px 24px !important;
+  padding: 8px 24px;
 }
 .card-content-1 {
-  padding: 24px !important;
+  padding: 24px;
 }
 .card-button {
   padding: 0 8px;
@@ -87,7 +92,6 @@ li {
     padding-top: 75px;
   }
   .footer {
-    height: 120px;
     text-align: center !important;
   }
 
