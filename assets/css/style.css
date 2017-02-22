@@ -73,9 +73,15 @@ li {
   padding: 0 8px;
   border-top: 1px solid rgba(0,0,0,0.12);
 }
+.title {
+  font-weight: 500;
+}
 
 @media (max-width: 768px) {
 
+  .navbar-transparent {
+    padding-top: 10px !important;
+  }
   .heading {
     font-size: 50px;
   }
