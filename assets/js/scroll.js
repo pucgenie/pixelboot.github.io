@@ -3,9 +3,20 @@ $(window).scroll (function() {
         $('.navbar').addClass('navbar-white');
     }
     else if (!$('#navbar').hasClass('in')) {
-      $('.navbar').removeClass('navbar-white');
+        $('.navbar').removeClass('navbar-white');
     }
 });
+
+function btt() {
+  if ($(window).height() < $(document).height()) {
+    $('.btt').css( 'display', 'block');
+  }
+  else {
+    $('.btt').css( 'display', 'none');
+  }
+}
+$(window).resize(btt);
+$(document).ready(btt);
 
 $('.navbar-collapse').on('show.bs.collapse', function () {
     $('.navbar').addClass('navbar-white');

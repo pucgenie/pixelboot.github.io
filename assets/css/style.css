@@ -79,6 +79,9 @@ li {
 .title {
   font-weight: 500;
 }
+.btt {
+  display: none;
+}
 
 @media (max-width: 768px) {
 
