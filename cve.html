@@ -6,7 +6,7 @@ icon: newspaper-o
 {% for cve in site.data.cve %}
 <div class="card">
   <div class="card-heading">
-    <h3>{{ cve.cve }}</h3>
+    <h3>{{ cve.cve }}</h3> (<a target="_blank" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ cve.cve }}">https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ cve.cve }}</a>)
   </div>
   <div class="card-content-1">
     <b>Information:</b></br>
