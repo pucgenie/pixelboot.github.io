@@ -59,7 +59,7 @@
 
     You can get the log to your PC using adb:
 
-        $ adb pull /path/to/log/log.name
+        adb pull /path/to/log/log.name
 
     If this is not possible for your: tell the whole message you get! There are different "error 7" messages out!
 
@@ -85,7 +85,7 @@
         <span aria-hidden="true"><i class="material-icons">clear</i></span>
       </button>
       <b>Note:</b>
-      OmniRom and AOSP aren't pre-rooted, you need to use <a href="http://forum.xda-developers.com/showthread.php?t=1538053">SuperSu</a> or the <a href="http://forum.xda-developers.com/android/software-hacking/wip-selinux-capable-superuser-t3216394">OpenSource SuperUser</a> to get rooted.
+      LineageOS, OmniRom and AOSP aren't pre-rooted, you need to use <a href="http://forum.xda-developers.com/showthread.php?t=1538053">SuperSu</a> or the <a href="http://forum.xda-developers.com/android/software-hacking/wip-selinux-capable-superuser-t3216394">OpenSource SuperUser</a> to get rooted.
     </div>
     
     
