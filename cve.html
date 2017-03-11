@@ -9,6 +9,10 @@ icon: newspaper-o
     <h3>{{ cve.cve }}</h3>
   </div>
   <div class="card-content-1">
+    Information:
+    {{ cve.info | markdownify }}
+  </div>
+  <div class="card-content-1">
     {{ cve.content | markdownify }}
   </div>
 </div>
