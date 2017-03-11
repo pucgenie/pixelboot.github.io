@@ -1,0 +1,1154 @@
+- cve: CVE-2012-6657
+  content: |
+    - Kernel before 3.5.7
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-6657
+
+- cve: CVE-2012-6689
+  content: |
+    - Kernel before 3.5.5
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-6689
+
+- cve: CVE-2012-6704
+  content: |
+    - Kernel before 3.5
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-6704
+
+- cve: CVE-2012-6704
+  content: |
+    - Kernel through 3.14.3
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0196
+    - https://github.com/torvalds/linux/commit/4291086b1f081b869c6d79e5b7441633dc3ace00
+
+- cve: CVE-2014-2523
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2523
+
+- cve: CVE-2014-2851
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2851
+
+- cve: CVE-2014-4014
+  content: |
+    - capabilities implementation in the Linux kernel before 3.14.8
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4014
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=23adbe12ef7d3d4195e80800ab36b37bee28cd03
+
+- cve: CVE-2014-4323
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4323
+
+- cve: CVE-2014-4655
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4655
+
+- cve: CVE-2014-4943
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4943
+
+- cve: CVE-2014-5206
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5206
+
+- cve: CVE-2014-7825
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-7825
+
+- cve: CVE-2014-7826
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-7826
+
+- cve: CVE-2014-7970
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-7970
+
+- cve: CVE-2014-8160
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8160
+
+- cve: CVE-2014-8173
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8173
+
+- cve: CVE-2014-8709
+  content: |
+    - Linux kernel before 3.13.5
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8709
+    - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=338f977f4eb441e69bb9a46eaa0ac715c931a67f 
+
+- cve: CVE-2014-9420
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9420
+    - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f54e18f1b831c92f6512d2eedb224cd63d607d3d
+
+- cve: CVE-2014-9529
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9529
+
+- cve: CVE-2014-9683
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9683
+
+- cve: CVE-2014-9715
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9715
+
+- cve: CVE-2014-9914
+  content: |
+    - Linux kernel before 3.15.2
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-9914
+    - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=9709674e68646cee5a24e3000b3558d25412203a
+
+- cve: CVE-2015-0565
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0565
+    - https://review.lineageos.org/#/c/108135
+
+- cve: CVE-2015-0569
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-0569
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=a079d716b5481223f0166c644e9ec7c75a31b02c - Patch from CAF
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/prima/log/CORE/HDD/src/wlan_hdd_wext.c?h=LA.BF.1.1.3-01610-8x74.0 - prima
+
+- cve: CVE-2015-1420
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-1420
+
+- cve: CVE-2015-1465
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-1465
+
+- cve: CVE-2015-1534
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-1534
+
+- cve: CVE-2015-1805
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-1805
+
+- cve: CVE-2015-2041
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2041
+
+- cve: CVE-2015-2686
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2686
+
+- cve: CVE-2015-3288
+  content: |
+    - mm/memory.c in the Linux kernel before 4.1.4
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3288
+    - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=6b7339f4c31ad69c8e9c0b2859276e22cf72176d
+
+- cve: CVE-2015-2922
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2922
+
+- cve: CVE-2015-3339
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3339
+
+- cve: CVE-2015-3636
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3636
+
+- cve: CVE-2015-4170
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4170
+
+- cve: CVE-2015-4177
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4177
+
+- cve: CVE-2015-5366
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5366
+
+- cve: CVE-2015-5697
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5697
+
+- cve: CVE-2015-5706
+  content: |
+    - Kernel 3.x and 4.x before 4.0.4
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5706
+    - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f15133df088ecadd141ea1907f2c96df67c729f0
+
+- cve: CVE-2015-7509
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7509
+
+- cve: CVE-2015-7515
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7515
+
+- cve: CVE-2015-7550
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7550
+
+- cve: CVE-2015-7872
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7872
+
+- cve: CVE-2015-8019
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8019
+
+- cve: CVE-2015-8215
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8215
+
+- cve: CVE-2015-8539
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8539
+
+- cve: CVE-2015-8543
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8543
+
+- cve: CVE-2015-8575
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8575
+
+- cve: CVE-2015-8785
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8785
+
+- cve: CVE-2015-8830
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8830
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=4c185ce06dca14f5cea192f5a2c981ef50663f2b
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=a70b52ec1aaeaf60f4739edb1b422827cb6f3893
+
+- cve: CVE-2015-8839
+  content: |
+    - ext4 filesystem implementation in the Linux kernel before 4.5
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8839
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ea3d7209ca01da209cda6f0dea8be9cc4b7a933b
+    - https://android.googlesource.com/kernel/msm/+/bdba352e898cbf57c8620ad68c8abf749c784d1f%5E!/
+
+- cve: CVE-2015-8951
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8951
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=ccff36b07bfc49efc77b9f1b55ed2bf0900b1d5b
+
+- cve: CVE-2015-8961
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8961
+
+- cve: CVE-2015-8962
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8962
+
+- cve: CVE-2015-8963
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8963
+
+- cve: CVE-2015-8964
+  content: |
+    - drivers/tty/tty_ldisc.c in the Linux kernel before 4.5
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8964
+    - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=dd42bf1197144ede075a9d4793123f7689e164bc - Patch
+    - https://review.lineageos.org/#/c/85266/2 - 3.10 backport
+
+- cve: CVE-2015-8966
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8966
+
+- cve: CVE-2015-8967
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8967
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=c623b33b4e9599c6ac5076f7db7369eb9869aa04
+
+- cve: CVE-2016-0723
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-0723
+
+- cve: CVE-2016-0728
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-0728
+
+- cve: CVE-2016-0774
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-0774
+    - https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/commit/fs/pipe.c?id=b381fbc509052d07ccf8641fd7560a25d46aaf1e
+
+- cve: CVE-2016-0805
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-0805
+
+- cve: CVE-2016-0819
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-0819
+
+- cve: CVE-2016-0821
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-0821
+
+- cve: CVE-2016-0823
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-0823
+
+- cve: CVE-2016-10044
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10044
+    - https://android.googlesource.com/kernel/msm/+/689ea150ab61cb193268d4b7f68de68acf207db4
+    - https://android.googlesource.com/kernel/msm/+/bc02d1d9f5d0e0610504c24b05fef54726ba1a1b
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=22f6b4d34fcf039c63a94e7670e0da24f8575a5a
+
+- cve: CVE-2016-10088
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10088
+    - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=128394eff343fc6d2f32172f03e24829539c5835
+
+- cve: CVE-2016-10153
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10153
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=a45f795c65b479b4ba107b6ccde29b896d51ee98
+
+- cve: CVE-2016-10154
+  content: |
+    - Kernel 4.9.x before 4.9.1
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=06deeec77a5a689cc94b21a8a91a76e42176685d
+
+- cve: CVE-2016-10200
+  content: |
+    - l2tp: fix racy SOCK_ZAPPED flag check in l2tp_ip{,6}_bind()
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10200
+    - https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/commit/?id=32c231164b762dddefa13af5a0101032c70b50ef
+
+- cve: CVE-2016-10208
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-
+
+
+- cve: CVE-2016-10208
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10208
+    - https://review.lineageos.org/#/c/160982
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=3a4b77cd47bb837b8557595ec7425f281f2ca1fe
+
+- cve: CVE-2016-1583
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1583
+    - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/fs/ecryptfs/file.c?id=f0fe970df3838c202ef6c07a4c2b36838ef0a88b
+
+- cve: CVE-2016-2053
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2053
+
+- cve: CVE-2016-2059
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2059
+
+- cve: CVE-2016-2061
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2061
+
+- cve: CVE-2016-2062
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2062
+
+- cve: CVE-2016-2066
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2066
+
+- cve: CVE-2016-2068
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2068
+
+- cve: CVE-2016-2184
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2184
+    - https://kernel.googlesource.com/pub/scm/linux/kernel/git/stable/linux-stable.git/+/836b34a935abc91e13e63053d0a83b24dfb5ea78
+
+- cve: CVE-2016-2384
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2384
+
+- cve: CVE-2016-2465
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2465
+
+- cve: CVE-2016-2466
+  content: |
+    - Qualcomm sound driver in Android before 2016-06-01 on Nexus 6 devices
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2466
+
+- cve: CVE-2016-2467
+  content: |
+    - Qualcomm sound driver in Android before 2016-06-01 on Nexus 5 devices
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2467
+
+- cve: CVE-2016-2468
+  content: |
+    - Qualcomm GPU driver in Android before 2016-06-01 on Nexus 5, 5X, 6, 6P, and 7 devices
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2468
+
+- cve: CVE-2016-2469
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2469
+
+- cve: CVE-2016-2474
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2474
+
+- cve: CVE-2016-2475
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2475
+
+- cve: CVE-2016-2488
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2488
+
+- cve: CVE-2016-2503
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2503
+
+- cve: CVE-2016-2504
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2504
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?h=APSS.FSM.3.0&id=ec5feea777b07c0e1f9ce45b7f3179a3f6facf75
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?h=APSS.FSM.3.0&id=7aee4635f58229cf97cb57cf6614b711331a1c3c
+
+- cve: CVE-2016-2545
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2545
+
+- cve: CVE-2016-2546
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2546
+
+- cve: CVE-2016-2547
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2547
+
+- cve: CVE-2016-2549
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2549
+
+- cve: CVE-2016-2847
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2847
+
+- cve: CVE-2016-3134
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-3134
+
+- cve: CVE-2016-3135
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-3135
+
+- cve: CVE-2016-3138
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-3138
+
+- cve: CVE-2016-3156
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-3156
+
+- cve: CVE-2016-3768
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-3768
+
+- cve: CVE-2016-3809
+  content: |
+    - networking component in Android before 2016-07-05 on Android One, Nexus 5, Nexus 5X, Nexus 6, Nexus 6P, Nexus 7 (2013), Nexus 9, Nexus Player, and Pixel C devices
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-3809
+
+- cve: CVE-2016-3813
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-3813
+
+- cve: CVE-2016-3859
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-3859
+
+- cve: CVE-2016-3866
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-3866
+
+- cve: CVE-2016-3893
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-3893
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=a7a6ddc91cce7ad5ad55c9709b24bfc80f5ac873
+
+- cve: CVE-2016-3904
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-3904
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=069683407ca9a820d05c914b57c587bcd3f16a3a
+
+- cve: CVE-2016-3931
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-3931
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=e80b88323f9ff0bb0e545f209eec08ec56fca816
+
+- cve: CVE-2016-3935
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-3935
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=5f69ccf3b011c1d14a1b1b00dbaacf74307c9132
+
+- cve: CVE-2016-3951
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-3951
+
+- cve: CVE-2016-4470
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-4470
+
+- cve: CVE-2016-4482
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-4482
+
+- cve: CVE-2016-4486
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-4486
+
+- cve: CVE-2016-4569
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-4569
+
+- cve: CVE-2016-4578
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-4578
+
+- cve: CVE-2016-4794
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-4794
+
+- cve: CVE-2016-4805
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-4805
+
+- cve: CVE-2016-4998
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-4998
+
+- cve: CVE-2016-5195
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5195
+
+- cve: CVE-2016-5342
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5342
+
+- cve: CVE-2016-5343
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5343
+
+- cve: CVE-2016-5345
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5345
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=67118716a2933f6f30a25ea7e3946569a8b191c6
+
+- cve: CVE-2016-5346
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5346
+    - https://www.codeaurora.org/null-pointer-dereference-when-processing-accept-system-call-user-process-afmsmipc-sockets-cve-2016
+    - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=71fe5361cbef34e2d606b79e8936a910a3e95566
+    - https://review.lineageos.org/#/c/163837
+
+- cve: CVE-2016-5829
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5829
+
+- cve: CVE-2016-5856
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5856
+    - https://source.codeaurora.org/quic/la/kernel/msm-4.4/commit/?id=0c0622914ba53cdcb6e79e85f64bfdf7762c0368
+
+- cve: CVE-2016-5857
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5857
+    - https://source.codeaurora.org/quic/la/kernel/msm-4.4/commit/?id=d9d2c405d46ca27b25ed55a8dbd02bd1e633e2d5
+
+- cve: CVE-2016-6136
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6136
+
+- cve: CVE-2016-6683
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6683
+
+- cve: CVE-2016-6725
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6725
+
+- cve: CVE-2016-6738
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6738
+
+- cve: CVE-2016-6740
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6740
+    - https://www.codeaurora.org/stack-overflow-msmcameraqupi2cwriteseq-cve-2016-6740
+
+- cve: CVE-2016-6741
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6741
+    - https://www.codeaurora.org/stack-overflow-msmcameraqupi2creadseq-cve-2016-6741
+
+- cve: CVE-2016-6749
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6749
+    - https://www.codeaurora.org/possible-kernel-pointer-leak-kgsl-debug-messages-cve-2016-6749
+    - https://www.codeaurora.org/gitweb/quic/la/?p=kernel/msm-3.10.git;a=commit;h=aff982f224d45a7faf7ad4e74633d1a8510a1c04
+
+- cve: CVE-2016-6750
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6750
+    - https://www.codeaurora.org/kernel-address-leak-smp2pdebug-cve-2016-6750
+    - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=34bda711a1c7bc7f9fd7bea3a5be439ed00577e5
+
+- cve: CVE-2016-6755
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6755
+    - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=b5df02edbcdf53dbbab77903d28162772edcf6e0
+
+- cve: CVE-2016-6756
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6756
+    - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=f91d28dcba304c9f3af35b5bebaa26233c8c13a5
+
+- cve: CVE-2016-6757
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6757
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=cd99d3bbdb16899a425716e672485e0cdc283245
+
+- cve: CVE-2016-6786
+  content: |
+    - Linux kernel before 4.0
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6786
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f63a8daa5812afef4f06c962351687e1ff9ccb2b
+
+- cve: CVE-2016-6787
+  content: |
+    - Linux kernel before 4.0
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6787
+    - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f63a8daa5812afef4f06c962351687e1ff9ccb2b
+
+- cve: CVE-2016-6791
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6791
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=62580295210b6c0bd809cde7088b45ebb65ace79
+
+- cve: CVE-2016-6828
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6828
+
+- cve: CVE-2016-7042
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-7042
+
+- cve: CVE-2016-7117
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-7117
+
+- cve: CVE-2016-7910
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-7910
+
+- cve: CVE-2016-7911
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-7911
+
+- cve: CVE-2016-7914
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-7914
+
+- cve: CVE-2016-7915
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-7915
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=50220dead1650609206efe91f0cc116132d59b3f
+
+- cve: CVE-2016-7916
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-7916
+    - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=8148a73c9901a8794a50f950083c00ccf97d43b3
+
+- cve: CVE-2016-7917
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-7917
+
+- cve: CVE-2016-8391
+  content: |
+    - Qualcomm sound driver, Kernels 3.10 3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8391
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=62580295210b6c0bd809cde7088b45ebb65ace79
+
+- cve: CVE-2016-8399
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8399
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=0eab121ef8750a5c8637d51534d5e9143fb0633f
+
+- cve: CVE-2016-8403
+  content: |
+    - Kernel 3.10
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8403
+
+- cve: CVE-2016-8405
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8405
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=2dc705a9930b4806250fbf5a76e55266e59389f2
+
+- cve: CVE-2016-8406
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8406
+
+- cve: CVE-2016-8407
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8407
+
+- cve: CVE-2016-8410
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8410
+    - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?h=e2bbf665187a1f0a1248e4a088823cb182153ba9
+
+- cve: CVE-2016-8412
+  content: |
+    - Qualcomm Camera, Kernels 3.10, 3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8412
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=42a98c44669d92dafcf4d6336bdccaeb2db12786
+
+- cve: CVE-2016-8413
+  content: |
+    - Qualcomm camera driver, Kernels 3.10, 3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8413
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=bc77232707df371ff6bab9350ae39676535c0e9d
+
+- cve: CVE-2016-8414
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8414
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=320970d3da9b091e96746424c44649a91852a846
+
+- cve: CVE-2016-8416
+  content: |
+    - Qualcomm video driver, Kernel 3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8416
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=e3af5e89426f1c8d4e703d415eff5435b925649f
+
+- cve: CVE-2016-8417
+  content: |
+    - Qualcomm camera driver, Kernels 3.10, 3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8417
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=01dcc0a7cc23f23a89adf72393d5a27c6d576cd0
+
+- cve: CVE-2016-8418
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8418
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=8f8066581a8e575a7d57d27f36c4db63f91ca48f
+
+- cve: CVE-2016-8434
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8434
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.14/commit/?id=3e3866a5fced40ccf9ca442675cf915961efe4d9
+
+- cve: CVE-2016-8436
+  content: |
+    - Kernel 3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8436
+    - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=228e8d17b9f5d22cf9896ab8eff88dc6737c2ced
+
+- cve: CVE-2016-8450
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8450
+    - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=e909d159ad1998ada853ed35be27c7b6ba241bdb
+
+- cve: CVE-2016-8477
+  content: |
+    - Qualcomm camera driver, Kernels 3.10, 3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8477
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=33c9042e38506b04461fa99e304482bc20923508
+    - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=96145eb5f0631f0e105d47abebc8f940f7621eeb
+
+- cve: CVE-2016-8478
+  content: |
+    - Qualcomm video driver, Kernel 3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8478
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=e3af5e89426f1c8d4e703d415eff5435b925649f
+
+- cve: CVE-2016-8480
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8480
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=0ed0f061bcd71940ed65de2ba46e37e709e31471
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=cd70f6025a7bbce89af7a7abf4c40a219fdea406
+
+- cve: CVE-2016-8483
+  content: |
+    - Qualcomm power driver, Kernels 3.10, 3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8483
+    - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=6997dcb7ade1315474855821e64782205cb0b53a - Patch for 3.18
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?h=APSS.FSM.3.0&id=7e147f4532394f06c3d7bce9cc6e682785754e45 - Patch for 3.10
+
+- cve: CVE-2016-8650
+  content: |
+    - Kernels through 4.8.11
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8650
+    - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f5527fffff3f002b0a6b376163613b82f69de073
+
+- cve: CVE-2016-8655
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-8655
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=84ac7260236a49c79eede91617700174c2c19b0c
+
+- cve: CVE-2016-9120
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-9120
+
+- cve: CVE-2016-9576
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-9576
+    - https://github.com/torvalds/linux/commit/a0ac402cfcdc904f9772e1762b3fda112dcc56a0
+
+- cve: CVE-2016-9754
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-9754
+    - http://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/commit/?id=59643d1535eb220668692a5359de22545af579f6
+
+- cve: CVE-2016-9793
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-9793
+    - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=b98b0bc8c431e3ceb4b26b0dfc8db509518fb290
+
+- cve: CVE-2016-9794
+  content: |
+    - ALSA subsystem in the Linux kernel before 4.7
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-9794
+    - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=3aa02cb664c5fb1042958c8d1aa8c35055a2ebc4
+
+- cve: CVE-2016-9794
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-9794
+    -http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=3aa02cb664c5fb1042958c8d1aa8c35055a2ebc4
+
+- cve: CVE-2016-9806
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-9806
+    - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=92964c79b357efd980812c4de5c1fd2ec8bb5520
+
+- cve: CVE-2017-0403
+  content: |
+    - Kernel 3.10, 3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0403
+
+- cve: CVE-2017-0404
+  content: |
+    - Kernel 3.10, 3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0404
+
+- cve: CVE-2017-0427
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0427
+
+- cve: CVE-2017-0432
+  content: |
+    - MediaTek driver
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0432
+
+- cve: CVE-2017-0433
+  content: |
+    - Synaptics touchscreen driver
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0433
+
+- cve: CVE-2017-0434
+  content: |
+    - Kernel-3.18 Synaptics touchscreen driver
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0434
+
+- cve: CVE-2017-0436
+  content: |
+    - Qualcomm sound driver A-32624661 - QC-CR#1078000: The patch for this issue is not publicly available. The update is contained in the latest binary drivers for Nexus devices available from the Google Developer site.
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0436
+
+- cve: CVE-2017-0437
+  content: |
+    - Qualcomm Wi-Fi driver
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0437
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=1f0b036dc74ccb6e9f0a03a540efdb0876f5ca77 - qcacld-2.0
+
+- cve: CVE-2017-0438
+  content: |
+    - Qualcomm Wi-Fi driver
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0438
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=1f0b036dc74ccb6e9f0a03a540efdb0876f5ca77 - qcacld-2.0
+
+- cve: CVE-2017-0439
+  content: |
+    - Qualcomm Wi-Fi driver
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0439
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=81b6b5538d3227ed4b925fcceedb109abb2a4c61 - qcacld-2.0
+
+- cve: CVE-2017-0440
+  content: |
+    - Qualcomm Wi-Fi driver
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0440
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=10f0051f7b3b9a7635b0762a8cf102f595f7a268 - qcacld2.0
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/prima/commit/?id=054ce0761e900c5f63089393f8b6cadf17d55ade - prima
+
+- cve: CVE-2017-0441
+  content: |
+    - Qualcomm Wi-Fi driver
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0441
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=da87131740351b833f17f05dfa859977bc1e7684 - qcacld-2.0
+
+- cve: CVE-2017-0442
+  content: |
+    - Qualcomm Wi-Fi driver
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0442
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=1f0b036dc74ccb6e9f0a03a540efdb0876f5ca77 - qcacld-2.0
+
+- cve: CVE-2017-0443
+  content: |
+    - Qualcomm Wi-Fi driver
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0443
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=1f0b036dc74ccb6e9f0a03a540efdb0876f5ca77 - qcacld-2.0
+
+- cve: CVE-2017-0444
+  content: |
+    - Realtek sound driver
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0444
+
+- cve: CVE-2017-0445
+  content: |
+    - HTC touchscreen driver
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0445
+
+- cve: CVE-2017-0446
+  content: |
+    - HTC touchscreen driver
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0446
+
+- cve: CVE-2017-0447
+  content: |
+    - HTC touchscreen driver
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0447
+
+- cve: CVE-2017-0448
+  content: |
+    - NVIDIA video driver, Kernel 3.10
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0448
+
+- cve: CVE-2017-0449
+  content: |
+    - Broadcom WiFi, Kernel 3.10
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0449
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=59f55cd40b5f44941afc78b78e5bf81ad3dd723e
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=35346beb2d8882115f698ab22a96803552b5c57e
+
+- cve: CVE-2017-0451
+  content: |
+    - MSM Kernel-3.10, Kernel-3.18 qdsp6v2
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0451
+
+- cve: CVE-2017-0452
+  content: |
+    - Qualcomm camera driver, Kernel 3.10
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0452
+    - https://android.googlesource.com/kernel/msm/+/4fa7499742c56c7f7064c9dc14c3a34f4be38851
+    - https://github.com/android/kernel_msm/commit/4fa7499742c56c7f7064c9dc14c3a34f4be38851
+
+- cve: CVE-2017-0453
+  content: |
+    - Qualcomm Wi-Fi driver, Kernel 3.10
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0453
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=05af1f34723939f477cb7d25adb320d016d68513
+
+- cve: CVE-2017-0458
+  content: |
+    - Qualcomm camera driver, Kernel 3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0458
+    - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=eba46cb98431ba1d7a6bd859f26f6ad03f1bf4d4
+
+- cve: CVE-2017-0459
+  content: |
+    - Qualcomm Wi-Fi driver, Kernel 3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0459
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?h=rel/msm-3.18&id=ffacf6e2dc41b6063c3564791ed7a2f903e7e3b7
+
+- cve: CVE-2017-0460
+  content: |
+    - Qualcomm networking driver, Kernels 3.10, 3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0460
+    - https://android.googlesource.com/kernel/msm/+/3d63c530096ccd118ab7078c7b9f93c040f803bd
+    - https://github.com/android/kernel_msm/commit/3d63c530096ccd118ab7078c7b9f93c040f803bd - Patch 3.10
+
+- cve: CVE-2017-0461
+  content: |
+    - Qualcomm Wi-Fi driver, Kernels 3.10, 3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0461
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=ce5d6f84420a2e6ca6aad6b866992970dd313a65
+
+- cve: CVE-2017-0463
+  content: |
+    - Qualcomm networking driver, Kernels 3.10, 3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0463
+    - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=955bd7e7ac097bdffbadafab90e5378038fefeb2
+
+- cve: CVE-2017-0464
+  content: |
+    - Qualcomm Wi-Fi driver, Kernels 3.10, 3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0464
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=051597a4fe19fd1292fb7ea2e627d12d1fd2934f
+
+- cve: CVE-2017-0507
+  content: |
+    - Kernel-3.10, Kernel-3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0507
+    - https://android.googlesource.com/kernel/msm/+/03c26a1d8c8687131da151c2e4bd5a04d08e0dec
+    - https://github.com/android/kernel_msm/commit/03c26a1d8c8687131da151c2e4bd5a04d08e0dec
+
+- cve: CVE-2017-0516
+  content: |
+    - Qualcomm input hardware driver, Kernel-3.10, Kernel-3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0516
+    - https://android.googlesource.com/kernel/msm/+/1e2b69bf3ab61979a05e796e76c8ecd1ec251c42
+    - https://github.com/android/kernel_msm/commit/1e2b69bf3ab61979a05e796e76c8ecd1ec251c42
+
+- cve: CVE-2017-0520
+  content: |
+    - Qualcomm crypto engine driver, Kernel-3.10, Kernel-3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0520
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=eb2aad752c43f57e88ab9b0c3c5ee7b976ee31dd
+
+- cve: CVE-2017-0521
+  content: |
+    - Qualcomm camera driver, Kernel-3.10, Kernel-3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0521
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=dbe4f26f200db10deaf38676b96d8738afcc10c8
+
+- cve: CVE-2017-0523
+  content: |
+    - Qualcomm Wi-Fi driver
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0523
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=5bb646471da76d3d5cd02cf3da7a03ce6e3cb582
+
+- cve: CVE-2017-0531
+  content: |
+    - Qualcomm Wi-Fi driver, Kernel-3.10, Kernel-3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0531
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=530f3a0fd837ed105eddaf99810bc13d97dc4302
+
+- cve: CVE-2017-0533
+  content: |
+    - Qualcomm video driver, Kernel 3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0533
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=e3af5e89426f1c8d4e703d415eff5435b925649f
+
+- cve: CVE-2017-0534
+  content: |
+    - Qualcomm video driver, Kernel-3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0534
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=e3af5e89426f1c8d4e703d415eff5435b925649f
+
+- cve: CVE-2017-0535
+  content: |
+    - HTC sound codec driver, Kernel 3.10
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0535
+
+- cve: CVE-2017-0536
+  content: |
+    - Synaptics touchscreen driver, Kernel 3.10, 3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0536
+
+- cve: CVE-2017-0537
+  content: |
+    - USB gadget driver, Kernel 3.10, 3.18
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0537
+
+- cve: CVE-2017-2636
+  content: |
+    - kernel through 4.10.1
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2636
+    - https://git.kernel.org/cgit/linux/kernel/git/gregkh/tty.git/commit/?h=tty-linus&id=82f2341c94d270421f383641b7cd670e474db56b
+
+- cve: CVE-2017-5546
+  content: |
+    - Kernel 4.8.x and 4.9.x before 4.9.5
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5546
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=c4e490cf148e85ead0d1b1c2caaba833f1d5b29f
+
+- cve: CVE-2017-5547
+  content: |
+    - Linux kernel 4.9.x before 4.9.6
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5547
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=6d104af38b570d37aa32a5803b04c354f8ed513d
+
+- cve: CVE-2017-5550
+  content: |
+    - Linux kernel before 4.9.5
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5550
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=b9dc6f65bc5e232d1c05fe34b5daadc7e8bbf1fb
+
+- cve: CVE-2017-5551
+  content: |
+    - Linux kernel before 4.9.6
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5551
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=497de07d89c1410d76a15bec2bb41f24a2a89f31
+
+- cve: CVE-2017-5669
+  content: |
+    - Linux kernel through 4.9.12
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5669
+    - https://github.com/torvalds/linux/commit/e1d35d4dc7f089e6c9c080d556feedf9c706f0c7 
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=95e91b831f87ac8e1f8ed50c14d709089b4e01b8
+
+- cve: CVE-2017-5967
+  content: |
+    - Linux kernel through 4.9.9
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5967
+    - http://git.kernel.org/cgit/linux/kernel/git/tip/tip.git/commit/?id=dfb4357da6ddbdf57d583ba64361c9d792b0e0b1
+
+- cve: CVE-2017-5972
+  content: |
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5972
+
+- cve: CVE-2017-5986
+  content: |
+    - Linux kernel before 4.9.11 
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5986
+    - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=2dcab598484185dea7ec22219c76dcdd59e3cb90
+
+- cve: CVE-2017-6001
+  content: |
+    - Linux kernel before 4.9.7
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-6001
+    - http://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/commit/?h=linux-3.2.y&id=9eb0e01be831d0f37ea6278a92c32424141f55fb - 3.2 (and 3.4) backport
+
+- cve: CVE-2017-6074
+  content: |
+    - net/dccp/input.c in the Linux kernel through 4.9.11
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-6074
+    - https://github.com/torvalds/linux/commit/5edabca9d4cff7f1f2b68f0bac55ef99d9798ba4
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=5edabca9d4cff7f1f2b68f0bac55ef99d9798ba
+
+- cve: CVE-2017-6214
+  content: |
+    - net/ipv4/tcp.c in the Linux kernel before 4.9.11
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-6214
+    - https://github.com/torvalds/linux/commit/ccf7abb93af09ad0868ae9033d1ca8108bdaec82 
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ccf7abb93af09ad0868ae9033d1ca8108bdaec82
+
+- cve: CVE-2017-6345
+  content: |
+    - LLC subsystem in the Linux kernel before 4.9.13
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-6345
+    - https://review.lineageos.org/#/q/topic:CVE-2017-6345
+    - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=8b74d439e1697110c5e5c600643e823eb1dd0762
+
+- cve: CVE-2017-6346
+  content: |
+    - net/packet/af_packet.c in the Linux kernel before 4.9.13
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-6346
+    - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=d199fab63c11998a602205f7ee7ff7c05c97164b
+
+- cve: CVE-2017-6347
+  content: |
+    - net/ipv4/ip_sockglue.c in the Linux kernel before 4.10.1
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-6347
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ca4ef4574f1ee5252e2cd365f8f5d5bafd048f32
+
+- cve: CVE-2017-6353
+  content: |
+    - net/sctp/socket.c in the Linux kernel through 4.10.1
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-6353
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=dfcb9f4f99f1e9a49e43398a7bfbf56927544af1

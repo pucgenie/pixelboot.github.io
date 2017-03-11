@@ -1,0 +1,15 @@
+---
+title: CVE
+icon: newspaper-o
+---
+
+{% for cve in site.data.cve %}
+<div class="card">
+  <div class="card-heading">
+    <h3>{{ cve.cve }}</h3>
+  </div>
+  <div class="card-content-1">
+    {{ cve.content | markdownify }}
+  </div>
+</div>
+{% endfor %}
