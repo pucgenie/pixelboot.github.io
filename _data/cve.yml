@@ -36,7 +36,6 @@
 - cve: CVE-2014-4323
   info:
   content:
-  content: 
 
 - cve: CVE-2014-4655
   info:
@@ -369,8 +368,7 @@
 
 - cve: CVE-2016-2465
   info:
-  content: |
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2465
+  content: 
 
 - cve: CVE-2016-2466
   info: |
