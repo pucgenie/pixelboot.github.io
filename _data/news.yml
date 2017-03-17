@@ -1,3 +1,19 @@
+- date: 17.03.2017
+  content: |
+    **Galaxy Tab2**
+    
+    - New TWRP 3.1.0-0 uploaded. Official changes until [76958ae head](https://github.com/omnirom/android_bootable_recovery/commits/76958ae984d7c4a963f7673e834d4bae7b4ca939) from OmniRoms TWRP source (android-7.1 branch)
+
+    **Samsung Galaxy Nexus**
+    
+    Thanks a lot to all donators! I received my maguro yesterday!
+
+
+    SlimRoms
+
+    - Initial unified (maguro & toro & toroplus) [Slim6 Build available](http://andi34.github.io/roms_tuna_slim.html)!
+
+
 - date: 01.02.2017
   content: |
     **Galaxy Tab 2**
@@ -50,7 +66,7 @@
     
     
 - date: 12.11.2016
-  content: | 
+  content: |
     **Galaxy Tab2**
     
     espresso-common TWRP 3.0.2-8
@@ -65,7 +81,7 @@
     
     
 - date: 11.11.2016
-  content: | 
+  content: |
     **Galaxy Tab2**
 
     SlimLP - Security Update
