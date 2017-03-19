@@ -13,6 +13,13 @@ icon: newspaper-o
     {{ cve.info | markdownify }}
     <b>Links:</b>
     {{ cve.content | markdownify }}
-  </div>
+    {% if cve.espressocommitid %}
+    <b>Galaxy Tab 2 Kernel:</b></br>
+    <a target="_blank" href="https://github.com/Unlegacy-Android/android_kernel_samsung_espresso/commit/{{ cve.espressocommitid }}">https://github.com/Unlegacy-Android/android_kernel_samsung_espresso/commit/{{ cve.espressocommitid }}</a></br>
+    {% endif %}
+    {% if cve.tunacommitid %}
+    <b>Galaxy Nexus Kernel:</b></br>
+    <a target="_blank" href="https://github.com/Unlegacy-Android/android_kernel_samsung_tuna/commit/{{ cve.tunacommitid }}">https://github.com/Unlegacy-Android/android_kernel_samsung_tuna/commit/{{ cve.tunacommitid }}</a></br>
+    {% endif %}
 </div>
 {% endfor %}
