@@ -1,21 +1,21 @@
 - cve: CVE-2012-6657
   info: |
     - Kernel before 3.5.7
-  content: 
+  content:
   espressocommitid: 1a6b2c9da08fe3dc1fa825dfefcc70010c088a35
   tunacommitid: 1a6b2c9da08fe3dc1fa825dfefcc70010c088a35
 
 - cve: CVE-2012-6689
   info: |
     - Kernel before 3.5.5
-  content: 
+  content:
   espressocommitid: f8df5b8a9dec89726e6bf8a2073c72a533c6d0c5
   tunacommitid: f8df5b8a9dec89726e6bf8a2073c72a533c6d0c5
 
 - cve: CVE-2012-6704
   info: |
     - Kernel before 3.5
-  content: 
+  content:
 
 - cve: CVE-2012-0196
   info: |
@@ -27,13 +27,13 @@
 
 - cve: CVE-2014-2523
   info:
-  content: 
+  content:
   espressocommitid: 206c82641540fe94e5a3ff8afe85d3d70ffbb03e
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2014-2851
   info:
-  content: 
+  content:
   espressocommitid: 7e16c3a0a0ddbd5162b91e14a5e68587c9ecd142
   tunacommitid: 051d9d2d9f34fc7213e2e087c5eecc93b3d0d34e
 
@@ -49,84 +49,84 @@
 
 - cve: CVE-2014-4655
   info:
-  content: 
+  content:
   espressocommitid: 9693d6c238352f97f7829cdd3f13c2e5fbd1095e
   tunacommitid: b5640f6bd170d2c6c47746b52a1e849f343cce30
 
 - cve: CVE-2014-4943
   info:
-  content: 
+  content:
   espressocommitid: 2ab8afb3e51a9feab437da37a85c5a38ba56e109
   tunacommitid: c803831c2cd079ace467fb5108fe931067329a03
 
 - cve: CVE-2014-5206
   info:
-  content: 
+  content:
   espressocommitid: 161b9ba07ef08992dbc5e19f4a7182391bc7e304
   tunacommitid: abf897c63fd00f9b5e944b5c6026b94032e8e3e6
 
 - cve: CVE-2014-7825
   info:
-  content: 
+  content:
   espressocommitid: 8111864b2a4a348b3308b16b765840d84da5fc60
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2014-7826
   info:
-  content: 
+  content:
   espressocommitid: 4d53d08701f7046cd71080a1db73b463f47f3cb5
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2014-7970
   info:
-  content: 
+  content:
   espressocommitid: [688e47e1712eb074164ad193719444b38adb29de, 5104b699e2de83a0dae627d9117402bab3b5be86, 634cd0d589e05c6ffa6a1497eaf8e34d43665764]
   tunacommitid: [c65271af2b1b87875b8a456605f80e573c974b9d, 97370807c593c0664f904fed0968d10c9b9773bb, b3d050c96833ce2355a92f7e38aed0608f0afe1d]
 
 - cve: CVE-2014-8160
   info:
-  content: 
+  content:
   espressocommitid: ac98028680c77d4aabfee9c9013f40f41fd5a74f
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2014-8173
   info:
-  content: 
+  content:
   espressocommitid: dfdf9977dca09935f62063ba5df9cbc4e29632dd
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2014-8709
   info: |
     - Linux kernel before 3.13.5
   content: |
-    - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=338f977f4eb441e69bb9a46eaa0ac715c931a67f 
-  espressocommitid: 
-  tunacommitid: 
+    - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=338f977f4eb441e69bb9a46eaa0ac715c931a67f
+  espressocommitid:
+  tunacommitid:
 
 - cve: CVE-2014-9420
   info:
-  content: 
+  content:
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f54e18f1b831c92f6512d2eedb224cd63d607d3d
   espressocommitid: 70b8bd2d707a7ccf9d505ee45fe0b1a7e2254b6d
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2014-9529
   info:
-  content: 
+  content:
   espressocommitid: e3b01a434817312ac3c982068beb1535602c3e78
   tunacommitid: NA!
 
 - cve: CVE-2014-9683
   info:
-  content: 
+  content:
   espressocommitid: c00e586e91cbf627e4bcded6ba345b24f2aab831
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2014-9715
   info:
-  content: 
+  content:
   espressocommitid: d0b33f0375d83bd75f18746e73f50c8291850f21
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2014-9914
   info: |
@@ -147,37 +147,37 @@
 
 - cve: CVE-2015-1420
   info:
-  content: 
+  content:
   espressocommitid: fde6845c63f2a4f6da7b06b29e1a7b1ade14ffd1
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2015-1465
   info:
-  content: 
+  content:
   espressocommitid: 3177ffcf0f1b71b92d324d613888304e0ad05704
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2015-1534
   info:
-  content: 
+  content:
   espressocommitid: 6ce1d71e333840178aabde3b7becbe1bd1e676dd
   tunacommitid: 63c87918fddfec92603bae2d02bfb79b4c163c17
 
 - cve: CVE-2015-1805
   info:
-  content: 
+  content:
   espressocommitid: cc9d3276c8e26c835069d6f0e1810a78861a8a43
   tunacommitid: 7c5858c56bec2d889a610c2a5f413242c123a79e
 
 - cve: CVE-2015-2041
   info:
-  content: 
+  content:
   espressocommitid: 2d979221b7b89b21110ba215a8ef8629578d95b2
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2015-2686
   info:
-  content: 
+  content:
   espressocommitid: 4c6ae8c25da838076b89414e4a6d6c5be5dd8470
   tunacommitid: c239e55b05a9efcb2167ad76a1a1ce440d5647ef
 
@@ -186,18 +186,18 @@
     - mm/memory.c in the Linux kernel before 4.1.4
   content: |
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=6b7339f4c31ad69c8e9c0b2859276e22cf72176d
-  espressocommitid: 
-  tunacommitid: 
+  espressocommitid:
+  tunacommitid:
 
 - cve: CVE-2015-2922
   info:
-  content: 
+  content:
   espressocommitid: bdca6741fea27843f1ab3991e2604ba244757412
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2015-3339
   info:
-  content: 
+  content:
   espressocommitid: 844a7f057bac49544c8db43e7866bbb1aa57e9b3
   tunacommitid: 5ae1cc76486e597a4d0748756d06cbbc8b630c51
 
@@ -208,24 +208,24 @@
   tunacommitid: dea5543a5eb548057a059791cd1f18c8b1525db6
 
 - cve: CVE-2015-4170
-  info: 3.10+ only 
-  content: 
+  info: 3.10+ only
+  content:
 
 - cve: CVE-2015-4177
   info:
-  content: 
+  content:
   espressocommitid: 0587952b9b9b268da00f44f8c57ba5dad9008426
   tunacommitid: 432881361ae8b989308d2790b29e74a29b3abffa
 
 - cve: CVE-2015-5366
   info:
-  content: 
+  content:
   espressocommitid: 392ac20d3988e9976b8fdf684ed08277cc502b17
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2015-5697
   info:
-  content: 
+  content:
   espressocommitid: f9c0ef83e2c86f71adc788dc8341ce8aac647ac1
   tunacommitid: b1088c80a2d77beb91e51aa4c3cdf801105c7f4f
 
@@ -234,64 +234,64 @@
     - Kernel 3.x and 4.x before 4.0.4
   content: |
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f15133df088ecadd141ea1907f2c96df67c729f0
-  espressocommitid: 
-  tunacommitid: 
+  espressocommitid:
+  tunacommitid:
 
 - cve: CVE-2015-7509
   info:
-  content: 
+  content:
   espressocommitid: af9e2d68dcba78235b676adf1e062837dfc2a8d8
   tunacommitid: 58b5fbd6a741b38143f7c04fd31fab3769ac3ee8
 
 - cve: CVE-2015-7515
   info:
-  content: 
+  content:
   espressocommitid: [4f0117d217a5e728218dca3fca5f9685c3daadb0, 5e24578f01c071d3daf3b9cfe98213055bca49a2]
   tunacommitid: [636d8449e45790ec680ab17d445a661bec76ab7f, f6f03821cb5c818d0a9054dec6131b0459a4bd13]
 
 - cve: CVE-2015-7550
   info:
-  content: 
+  content:
   espressocommitid: 598b591a4f42f1e4def0a327ddb333ed12253e53
   tunacommitid: 7b134d85fcbc325405c4f557d07bcaa660587af6
 
 - cve: CVE-2015-7872
   info:
-  content: 
+  content:
 
 - cve: CVE-2015-8019
   info:
-  content: 
+  content:
   espressocommitid: bacf0bd1103409e63740485a22c3fc4e50d2d086
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2015-8215
   info:
-  content: 
+  content:
   espressocommitid: 4753de42b49d6b2652882eced24517009bab8fe1
   tunacommitid: 6c9cd466d72af405fe984179271768982d70b133
 
 - cve: CVE-2015-8539
   info:
-  content: 
+  content:
   espressocommitid: 264391350b55b80bf835d4bcb1393d258634959b
   tunacommitid: c0ef4327beb3cd9f44dbea30b7335aab9bb3afaa
 
 - cve: CVE-2015-8543
   info:
-  content: 
+  content:
   espressocommitid: fad9a34032797132332967e5a9d83027506d019b
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2015-8575
   info:
-  content: 
+  content:
   espressocommitid: 7d3c865fcff8b48c68fe5037810389365560043d
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2015-8785
   info:
-  content: 
+  content:
   espressocommitid: dcfa96e1e5a93df70ba73d0a3cfb6722eb2a1331
   tunacommitid: 64900286e3583d5a767870dedb8ef96a120a06e9
 
@@ -315,23 +315,23 @@
 - cve: CVE-2015-8951
   info:
   content: |
-    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=ccff36b07bfc49efc77b9f1b55ed2bf0900b1d5b 
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=ccff36b07bfc49efc77b9f1b55ed2bf0900b1d5b
 
 - cve: CVE-2015-8961
   info:
-  content:  
+  content:
 
 - cve: CVE-2015-8962
   info:
-  content: 
+  content:
   espressocommitid: d7e38b9b4f49bd8ee5001ccb9875d347bd4138d5
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2015-8963
   info:
-  content: 
+  content:
   espressocommitid: 2d51c497acae03c7cebe350f3f69c091116a9904
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2015-8964
   info: |
@@ -342,9 +342,9 @@
 
 - cve: CVE-2015-8966
   info:
-  content: 
+  content:
   espressocommitid: 07a53fd8e43fe688bfb17c8b0b5be11650533216
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2015-8967
   info:
@@ -353,13 +353,13 @@
 
 - cve: CVE-2016-0723
   info:
-  content: 
+  content:
   espressocommitid: af4d4cecc4282c0c3469f120e05fee835cf933c3
   tunacommitid: b2453ec2b6cad5cba666871c0e1129cf4fd84f18
 
 - cve: CVE-2016-0728
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-0774
   info:
@@ -370,21 +370,21 @@
 
 - cve: CVE-2016-0805
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-0819
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-0821
   info:
-  content: 
+  content:
   espressocommitid: 79d20666ef5195be50c4d88b162d28558dd319a2
   tunacommitid: 3aec0cdea547f0867b967c9b6d29f6188a807813
 
 - cve: CVE-2016-0823
   info:
-  content: 
+  content:
   espressocommitid: 88f265d099dc9cb18390210605351aa80cbeea24
   tunacommitid: 39ee6064302a8aa03243114509121cf00114fb76
 
@@ -395,14 +395,14 @@
     - https://android.googlesource.com/kernel/msm/+/bc02d1d9f5d0e0610504c24b05fef54726ba1a1b
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=22f6b4d34fcf039c63a94e7670e0da24f8575a5a
   espressocommitid: 068cdb9c326334b27e8df3c37e3687048c195a1f
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2016-10088
   info:
   content: |
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=128394eff343fc6d2f32172f03e24829539c5835
   espressocommitid: cdd68d594d9a91da119aadd8838f1f052765f20d
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2016-10153
   info:
@@ -427,89 +427,89 @@
     - https://review.lineageos.org/#/c/160982
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=3a4b77cd47bb837b8557595ec7425f281f2ca1fe
   espressocommitid: 9a441c2708b0d4162e116bf0988601760919eb00
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2016-1583
   info:
   content: |
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/fs/ecryptfs/file.c?id=f0fe970df3838c202ef6c07a4c2b36838ef0a88b
   espressocommitid: cb42be6121bc1ed6616a1d88687fa9030b1c0c63
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2016-2053
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-2059
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-2061
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-2062
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-2066
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-2068
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-2184
   info:
   content: |
     - https://kernel.googlesource.com/pub/scm/linux/kernel/git/stable/linux-stable.git/+/836b34a935abc91e13e63053d0a83b24dfb5ea78
   espressocommitid: [4c20c09f5d9aa45c86ca0fb048580c841a76616c, 12f54ce7808f461ce373eb97f2f96df2c73de104, 18f50def1fb8c5d2bf05165d899a4bb7d4432ab8]
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2016-2384
   info:
-  content: 
+  content:
   espressocommitid: b110dd1d522e8d693f5b6b95d195dd93f165a409
   tunacommitid: b30d3ddca6312e1672dad53f14a797ccd04eea7d
 
 - cve: CVE-2016-2465
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-2466
   info: |
     - Qualcomm sound driver in Android before 2016-06-01 on Nexus 6 devices
-  content: 
+  content:
 
 - cve: CVE-2016-2467
   info: |
     - Qualcomm sound driver in Android before 2016-06-01 on Nexus 5 devices
-  content: 
+  content:
 
 - cve: CVE-2016-2468
   info: |
     - Qualcomm GPU driver in Android before 2016-06-01 on Nexus 5, 5X, 6, 6P, and 7 devices
-  content: 
+  content:
 
 - cve: CVE-2016-2469
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-2474
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-2475
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-2488
   info:
-  content: 
+  content:
 - cve: CVE-2016-2503
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-2504
   info:
@@ -519,80 +519,80 @@
 
 - cve: CVE-2016-2545
   info:
-  content: 
+  content:
   espressocommitid: 85d95922efbab7f296bd82fa868c7de232e34bea
   tunacommitid: b29afdb3e5bacdffc4b1d7a42a06e500691ddade
 
 - cve: CVE-2016-2546
   info:
-  content: 
+  content:
   espressocommitid: 086d6af727a482b6c7361b176653b07db009f6bf
   tunacommitid: a9f2e3fbc1e569e051acd94509420f7827adb759
 
 - cve: CVE-2016-2547
   info:
-  content: 
+  content:
   espressocommitid: b5c210408c5379f9af62fcd4b8d7f4d6d375bab1
   tunacommitid: ed79e8c292b3ae33a5e90da795ff7eef1bc45c70
 
 - cve: CVE-2016-2549
   info:
-  content: 
+  content:
   espressocommitid: 187ae74f225ccfadbd873af61449cfdc808d81be
   tunacommitid: 89bb9190dab2c68927678dc3ea5846f8036d5ec7
 
 - cve: CVE-2016-2847
   info:
-  content: 
+  content:
   espressocommitid: 368978c130c1b327a161f629e07e98baa8f9ffec
   tunacommitid: 4fffde9bbf293cf13f14471751ed79476d034321
 
 - cve: CVE-2016-3134
   info:
-  content: 
+  content:
   espressocommitid: 6f95d97293e0b7504542b94b42fd33f838b92d49
   tunacommitid: 1450de7368a3efd3125e6a124be6c2b61ed3fa6f
 
 - cve: CVE-2016-3135
   info:
-  content: 
+  content:
   espressocommitid: a21bfaa2ba13e54281fb36593c21cb470be08438
   tunacommitid: 5a9fd17fbef9d3fc0e8b064191fddc615cd28672
 
 - cve: CVE-2016-3138
   info:
-  content: 
+  content:
   espressocommitid: d32548c447f83547d6e859dacfc395b005d2afa3
   tunacommitid: 7225016ede8f7530226177312dee6c16745a09d9
 
 - cve: CVE-2016-3156
   info:
-  content: 
+  content:
   espressocommitid: 49e91354cbc924301873b02c87f982b2c5504f34
   tunacommitid: 8dc3ce140daa07aa3c01601a778251b5e6e75a86
 
 - cve: CVE-2016-3768
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-3809
   info: |
     - networking component in Android before 2016-07-05 on Android One, Nexus 5, Nexus 5X, Nexus 6, Nexus 6P, Nexus 7 (2013), Nexus 9, Nexus Player, and Pixel C devices
-  content: 
+  content:
   espressocommitid: 26870521c882010b0b8b3752420780685a7876ce
   tunacommitid: 721e353f0e7130f91a94fc49f112bc2cf2752023
 
 - cve: CVE-2016-3813
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-3859
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-3866
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-3893
   info:
@@ -616,69 +616,69 @@
 
 - cve: CVE-2016-3951
   info:
-  content: 
+  content:
   espressocommitid: 21f09c80b2a1ae27adcacbb878bd05adde96c051
   tunacommitid: 3a3e24c9e33556b48b45133bab1fb16c247156f3
 
 - cve: CVE-2016-4470
   info:
-  content: 
+  content:
   espressocommitid: 46d64c2565f7daf428b72b15b4b721cff9519f16
   tunacommitid: 1ea92daf8c8f1da090d675ebd6fecbe8e2ffaddf
 
 - cve: CVE-2016-4482
   info:
-  content: 
+  content:
   espressocommitid: bf2931f07d0aaadb3ff66f5bfc21491422256431
   tunacommitid: db59cdbbef015a82a19c0781f78ff92be42c9e2b
 
 - cve: CVE-2016-4486
   info:
-  content: 
+  content:
   espressocommitid: 7e2dfc575a2df911f2669b05e9ec2f7c7f65096d
   tunacommitid: afdb73b7672e27c05a36c85a861029918b6ebba2
 
 - cve: CVE-2016-4569
   info:
-  content: 
+  content:
   espressocommitid: 01262946c179c64ae7710b18debbca0be47227b5
   tunacommitid: e82c5202f4629bdecdf6ae4056a7066038d9a546
 
 - cve: CVE-2016-4578
   info:
-  content: 
+  content:
   espressocommitid: [afbb9bd5d95dca067698cbad77f99bde42b9ad2d, cfc40456cacd820565aff98cf8a4f9a7b6a7357b]
   tunacommitid: [acaaccdca0fc90b207671634c40733c7c1e42c3f, 96c694de5d730d3b7fd648e6d3b6cc71b4f8640b]
 
 - cve: CVE-2016-4794
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-4805
   info:
-  content: 
+  content:
   espressocommitid: d901e9c4cec6da765a85fbb815e06a6f9ee85809
   tunacommitid: f20a65dbffb7fe90b43f0f0af753f30f62589491
 
 - cve: CVE-2016-4998
   info:
-  content: 
+  content:
   espressocommitid: [5ed55375251b41036d8a0cd6281ca73586378dc2, aaa7f514c910653a03dcd00aa0e07dfdb26385a9]
   tunacommitid: [ae9fbfcd7964d89c80a4e5840b0db8a28df058d5, 023903a9497cea62272484be752ff75a860c6269]
 
 - cve: CVE-2016-5195
   info:
-  content: 
+  content:
   espressocommitid: 61a3b7c7c2151234e917a1c7c8b19311a9089b77
   tunacommitid: fa1e8b5bf458368bd80a9d7ce011340a5a6db29e
 
 - cve: CVE-2016-5342
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-5343
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-5345
   info:
@@ -694,7 +694,7 @@
 
 - cve: CVE-2016-5829
   info:
-  content: 
+  content:
   espressocommitid: c301aaa9bdf3b18f87b19fc2a849e341acebb507
   tunacommitid: 8fd826b1ed20ca0c4506d46ef97b28e8ed646afe
 
@@ -710,23 +710,23 @@
 
 - cve: CVE-2016-6136
   info:
-  content: 
+  content:
   espressocommitid: 597586d1fcbc9b5201306419c68b0a03b28f9771
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2016-6683
   info:
-  content: 
+  content:
   espressocommitid: e451c4512151a20337d268b48e5afa0ec4fc9561
   tunacommitid: ae5fb0c47eede4311c6cbe1b31106f6310ee2587
 
 - cve: CVE-2016-6725
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-6738
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-6740
   info:
@@ -771,7 +771,7 @@
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f63a8daa5812afef4f06c962351687e1ff9ccb2b
   espressocommitid: 752b10ca4697cacbc38e2d1cd93c0075a0a2bd43
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2016-6787
   info: |
@@ -779,7 +779,7 @@
   content: |
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f63a8daa5812afef4f06c962351687e1ff9ccb2b
   espressocommitid: 752b10ca4697cacbc38e2d1cd93c0075a0a2bd43
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2016-6791
   info:
@@ -788,19 +788,19 @@
 
 - cve: CVE-2016-6828
   info:
-  content: 
+  content:
   espressocommitid: a40fe7a70685c0dc52667af2be1f17708ea9e9bd
   tunacommitid: 34a03f9ad67ccd4c20b4cf835f8c26bc52d2eb61
 
 - cve: CVE-2016-7042
   info:
-  content: 
+  content:
   espressocommitid: a0c04111f6bd9e6ae786e470c85d16c8de1a3c88
   tunacommitid: 813c49a16f2c66817e6bfbe335088292991e617f
 
 - cve: CVE-2016-7117
   info:
-  content: 
+  content:
   espressocommitid: 534201b1d3239c20603647ea4abf78786e6ce038
   tunacommitid: e34b198b1c31588d13ab102c89f6c0846c20d751
 
@@ -808,24 +808,24 @@
   info:
   content:
   espressocommitid: 1af357b8dc66720fc1e0ae4e67af6e23e0597688
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2016-7911
   info:
-  content: 
+  content:
   espressocommitid: feb6909eecc3022269374b6fdd6f4d78edf6497d
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2016-7914
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-7915
   info:
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=50220dead1650609206efe91f0cc116132d59b3f
   espressocommitid: e3bad8c45cc889228ebe9f0eaf70d55e9dffb1f0
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2016-7916
   info:
@@ -834,7 +834,7 @@
 
 - cve: CVE-2016-7917
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-8391
   info: |
@@ -850,20 +850,20 @@
 - cve: CVE-2016-8403
   info: |
     - Kernel 3.10
-  content: 
+  content:
 
 - cve: CVE-2016-8405
   info:
-  content: 
+  content:
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=2dc705a9930b4806250fbf5a76e55266e59389f2
 
 - cve: CVE-2016-8406
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-8407
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-8410
   info:
@@ -957,11 +957,11 @@
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=84ac7260236a49c79eede91617700174c2c19b0c
   espressocommitid: cbea99cc67b835c476bccbb86b8587d8a1ee24db
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2016-9120
   info:
-  content: 
+  content:
 
 - cve: CVE-2016-9576
   info:
@@ -973,14 +973,14 @@
   content: |
     - http://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/commit/?id=59643d1535eb220668692a5359de22545af579f6
   espressocommitid: 35f54b5e739776bc7bdf69d777a9b72887635a94
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2016-9793
   info:
   content: |
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=b98b0bc8c431e3ceb4b26b0dfc8db509518fb290
   espressocommitid: 986fdb8a7e435027c8ced08963b2861d6790ac01
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2016-9794
   info: |
@@ -988,7 +988,7 @@
   content: |
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=3aa02cb664c5fb1042958c8d1aa8c35055a2ebc4
   espressocommitid: eff5551cb14000114c96f6ec84ab1eba5a629c26
-  tunacommitid: 
+  tunacommitid:
 
 - cve: CVE-2016-9806
   info:
@@ -998,36 +998,36 @@
 - cve: CVE-2017-0403
   info: |
     - Kernel 3.10, 3.18
-  content: 
+  content:
 
 - cve: CVE-2017-0404
   info: |
     - Kernel 3.10, 3.18
-  content: 
+  content:
 
 - cve: CVE-2017-0427
   info:
-  content: 
+  content:
 
 - cve: CVE-2017-0432
   info: |
     - MediaTek driver
-  content: 
+  content:
 
 - cve: CVE-2017-0433
   info: |
     - Synaptics touchscreen driver
-  content: 
+  content:
 
 - cve: CVE-2017-0434
   info: |
     - Kernel-3.18 Synaptics touchscreen driver
-  content: 
+  content:
 
 - cve: CVE-2017-0436
   info: |
     - Qualcomm sound driver A-32624661 - QC-CR#1078000: The patch for this issue is not publicly available. The update is contained in the latest binary drivers for Nexus devices available from the Google Developer site.
-  content: 
+  content:
 
 - cve: CVE-2017-0437
   info: |
@@ -1075,27 +1075,27 @@
 - cve: CVE-2017-0444
   info: |
     - Realtek sound driver
-  content: 
+  content:
 
 - cve: CVE-2017-0445
   info: |
     - HTC touchscreen driver
-  content: 
+  content:
 
 - cve: CVE-2017-0446
   info: |
     - HTC touchscreen driver
-  content: 
+  content:
 
 - cve: CVE-2017-0447
   info: |
     - HTC touchscreen driver
-  content: 
+  content:
 
 - cve: CVE-2017-0448
   info: |
     - NVIDIA video driver, Kernel 3.10
-  content: 
+  content:
 
 - cve: CVE-2017-0449
   info: |
@@ -1107,7 +1107,7 @@
 - cve: CVE-2017-0451
   info: |
     - MSM Kernel-3.10, Kernel-3.18 qdsp6v2
-  content: 
+  content:
 
 - cve: CVE-2017-0452
   info: |
@@ -1212,17 +1212,17 @@
 - cve: CVE-2017-0535
   info: |
     - HTC sound codec driver, Kernel 3.10
-  content: 
+  content:
 
 - cve: CVE-2017-0536
   info: |
     - Synaptics touchscreen driver, Kernel 3.10, 3.18
-  content: 
+  content:
 
 - cve: CVE-2017-0537
   info: |
     - USB gadget driver, Kernel 3.10, 3.18
-  content: 
+  content:
 
 - cve: CVE-2017-2636
   info: |
@@ -1258,7 +1258,7 @@
   info: |
     - Linux kernel through 4.9.12
   content: |
-    - https://github.com/torvalds/linux/commit/e1d35d4dc7f089e6c9c080d556feedf9c706f0c7 
+    - https://github.com/torvalds/linux/commit/e1d35d4dc7f089e6c9c080d556feedf9c706f0c7
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=95e91b831f87ac8e1f8ed50c14d709089b4e01b8
 
 - cve: CVE-2017-5967
@@ -1269,7 +1269,7 @@
 
 - cve: CVE-2017-5972
   info:
-  content: 
+  content:
 
 - cve: CVE-2017-5986
   info: |
@@ -1294,7 +1294,7 @@
   info: |
     - net/ipv4/tcp.c in the Linux kernel before 4.9.11
   content: |
-    - https://github.com/torvalds/linux/commit/ccf7abb93af09ad0868ae9033d1ca8108bdaec82 
+    - https://github.com/torvalds/linux/commit/ccf7abb93af09ad0868ae9033d1ca8108bdaec82
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ccf7abb93af09ad0868ae9033d1ca8108bdaec82
 
 - cve: CVE-2017-6345

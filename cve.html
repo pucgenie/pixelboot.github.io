@@ -3,23 +3,33 @@ title: CVE
 icon: newspaper-o
 ---
 
+<style>
+  body {
+    word-wrap: break-word;
+  }
+</style>
+
 {% for cve in site.data.cve %}
 <div class="card">
   <div class="card-heading">
-    <h3>{{ cve.cve }}</h3> (<a target="_blank" href="https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ cve.cve }}">https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ cve.cve }}</a>)
+    <h3>{{ cve.cve }}</h3> (<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ cve.cve }}">https://cve.mitre.org/cgi-bin/cvename.cgi?name={{ cve.cve }}</a>)
   </div>
   <div class="card-content-1">
-    <b>Information:</b></br>
+    {% if cve.info %}
+    <b>Information:</b><br />
     {{ cve.info | markdownify }}
-    <b>Links:</b>
+    {% endif %}
+    {% if cve.content %}
+    <b>Links:</b><br />
     {{ cve.content | markdownify }}
+    {% endif %}
     {% if cve.espressocommitid %}
-    <b>Galaxy Tab 2 Kernel:</b></br>
-    <a target="_blank" href="https://github.com/Unlegacy-Android/android_kernel_samsung_espresso/commit/{{ cve.espressocommitid }}">https://github.com/Unlegacy-Android/android_kernel_samsung_espresso/commit/{{ cve.espressocommitid }}</a></br>
+    <b>Galaxy Tab 2 Kernel:</b><br />
+    <a href="https://github.com/Unlegacy-Android/android_kernel_samsung_espresso/commit/{{ cve.espressocommitid }}">https://github.com/Unlegacy-Android/android_kernel_samsung_espresso/commit/{{ cve.espressocommitid }}</a></br>
     {% endif %}
     {% if cve.tunacommitid %}
-    <b>Galaxy Nexus Kernel:</b></br>
-    <a target="_blank" href="https://github.com/Unlegacy-Android/android_kernel_samsung_tuna/commit/{{ cve.tunacommitid }}">https://github.com/Unlegacy-Android/android_kernel_samsung_tuna/commit/{{ cve.tunacommitid }}</a></br>
+    <b>Galaxy Nexus Kernel:</b><br />
+    <a href="https://github.com/Unlegacy-Android/android_kernel_samsung_tuna/commit/{{ cve.tunacommitid }}">https://github.com/Unlegacy-Android/android_kernel_samsung_tuna/commit/{{ cve.tunacommitid }}</a></br>
     {% endif %}
   </div>
 </div>
