@@ -1,0 +1,116 @@
+- title: How to skip sudo password promt while running 'sudo update-alternatives --config java'
+  content: |
+      Some of you know the problem: you compile different Android Roms and need to change the default java/javac/javap version depending on the Android-Version you like to compile.
+
+      Most annoying if you use scripts to automate your Rom compile: enter sudo password.
+
+      There's an easy way to disable the sudo password promt adding a specific rule to /etc/sudoers.
+
+      The default /etc/sudoers file looks like this:
+      ```
+      # 
+      # This file MUST be edited with the 'visudo' command as root.
+      #
+      # Please consider adding local content in /etc/sudoers.d/ instead of
+      # directly modifying this file.
+      #
+      # See the man page for details on how to write a sudoers file.
+      #
+      Defaults	env_reset
+      Defaults	mail_badpass
+      Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
+      
+      # Host alias specification
+      
+      # User alias specification
+      
+      # Cmnd alias specification
+      
+      # User privilege specification
+      root	ALL=(ALL:ALL) ALL
+
+      # Members of the admin group may gain root privileges
+      %admin ALL=(ALL) ALL
+
+      # Allow members of group sudo to execute any command
+      %sudo	ALL=(ALL:ALL) ALL
+
+      # See sudoers(5) for more information on "#include" directives:
+
+      #includedir /etc/sudoers.d
+
+      ```
+
+      Now we need to make some modification to allow running 'sudo update-alternatives --config java' , 'sudo update-alternatives --config javac' and 'sudo update-alternatives --config javap' without entering the sudo password.
+
+      Run the following command from terminal:
+      
+      ```
+      pkexec visudo
+      ```
+      First we create an alias for those commands:
+
+      ```
+      @@ -15,6 +15,7 @@ Defaults      secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/b
+       # User alias specification
+       
+       # Cmnd alias specification
+      +Cmnd_Alias JAVA_CMD = /usr/bin/update-alternatives --config java, /usr/bin/update-alternatives --config javac, /usr/bin/update-alternatives --config javap
+ 
+       # User privilege specification
+       root   ALL=(ALL:ALL) ALL
+      ```
+      
+      We only want to give a special user (that's your username) the abillity to run mentioned commands without getting the sudo password request prompt:
+
+      ```
+      @@ -24,6 +25,7 @@ root  ALL=(ALL:ALL) ALL
+ 
+       # Allow members of group sudo to execute any command
+       %sudo  ALL=(ALL:ALL) ALL
+      +[username]   ALL=NOPASSWD: JAVA_CMD
+ 
+       # See sudoers(5) for more information on "#include" directives:
+ 
+      ```
+      (replace '[username]' with your linux user name, save the file.
+
+      Now you are able to run 'sudo update-alternatives --config java' , 'sudo update-alternatives --config javac' and 'sudo update-alternatives --config javap' without entering the sudo password.
+
+
+      An example how this can be used in your scripts (i am defining "JAVAVERTARGET" for each rom to make sure the right java version is used):
+
+      ```
+      javacheck() {
+      if [ "$JAVAVERTARGET" == "7" ]; then
+        echo "Setting default jdk to 1.7"
+        echo 2 | sudo /usr/bin/update-alternatives --config java > /dev/null
+        echo 2 | sudo /usr/bin/update-alternatives --config javac > /dev/null
+        echo 2 | sudo /usr/bin/update-alternatives --config javap > /dev/null
+      else
+        echo "Setting default jdk to 1.8"
+        echo 3 | sudo /usr/bin/update-alternatives --config java > /dev/null
+        echo 3 | sudo /usr/bin/update-alternatives --config javac > /dev/null
+        echo 3 | sudo /usr/bin/update-alternatives --config javap > /dev/null
+      fi
+      }
+      ```
+
+      Find out the proper echo number needed for the java version you like to set by typing
+
+      ```
+      sudo update-alternatives --config java
+      ```
+      
+      Example from my envoirement (used on previous example):
+
+      ```
+      There are 3 choices for the alternative java (providing /usr/bin/java).
+      
+        Selection    Path                                            Priority   Status
+      ------------------------------------------------------------
+        0            /usr/lib/jvm/java-6-oracle/jre/bin/java          1082      auto mode
+        1            /usr/lib/jvm/java-6-oracle/jre/bin/java          1082      manual mode
+      * 2            /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java   1071      manual mode
+        3            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java   1081      manual mode
+      ```
