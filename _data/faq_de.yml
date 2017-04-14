@@ -19,8 +19,8 @@
     
 - title: Welche Rom kann ich auf mein Galaxy Tab2 flashen?
   content: |
-    - Du kannst Gerätespezifische Roms verwenden (werden nicht mehr weiterentwickelt), achte aber darauf das der Name zu deinem Gerät passt.
-    - Du kannst außerdem auch eine unified Rom für dein Tab2 verwenden.
+    - Du kannst gerätespezifische Roms verwenden (diese werden nicht mehr weiterentwickelt), achte aber darauf das der Name zu deinem Gerät passt.
+    - Du kannst außerdem auch eine "unified" Rom für dein Tab2 verwenden.
       - Wenn du ein GT-P3110, GT-P3113, GT-P5110 oder GT-P5113 besitzt: flashe "espressowifi" Roms
       - Wenn du ein GT-P3100 oder GT-P5100 besitzt: flashe "espresso3g" Roms
     
@@ -32,7 +32,7 @@
         <span aria-hidden="true"><i class="material-icons">clear</i></span>
       </button>
       <b>Wichtig:</b>
-        Wenn ihr unified Builds verwendet werden alle Treiber und Konfigurationen von eurem Tab automatisch beim booten erkannt! Ihr dürftet keinerlei Unterschiede gegenüber den Gerätespezifischen Builds bemerken (abgesehen vom Namen).
+        Wenn ihr "unified" Roms verwendet werden alle Treiber und Konfigurationen für euer Tab automatisch beim booten erkannt! Ihr dürftet keinerlei Unterschiede gegenüber den gerätespezifischen Roms bemerken (abgesehen vom Namen).
     </div>
     
     
@@ -133,7 +133,7 @@
       ```
 
   
-- title: Was ist der Unterschied zwischen dem "alten" und "neuen" Kernel Quellcode den Ihr nutzt?
+- title: Was ist der Unterschied zwischen dem "alten" und "neuen" Kernel-Quellcode den Ihr nutzt?
   content: |
     Vorweg: Die meiste Arbeit hat Ziyan @ XDA-Developers erledigt. Der Kernel ist das Herz unserer Roms. Ein Paar Worte zum "neuen" Kernel:
 
