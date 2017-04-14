@@ -59,7 +59,9 @@
 
     You can get the log to your PC using adb:
 
-        adb pull /path/to/log/log.name
+      ```
+      adb pull /path/to/log/log.name
+      ```
 
     If this is not possible for your: tell the whole message you get! There are different "error 7" messages out!
 

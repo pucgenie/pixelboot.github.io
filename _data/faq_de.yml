@@ -38,7 +38,7 @@
     
 - title: Wie rekalibriere ich den Kompass von meinem Tab 2?
   content: |
-    - Der Kompass Sensor berechnet mit hilfe des Accelerometers und des Magnetfeld Sensors die Himmelsrichtung. Sollten diese Werte einmal nicht mehr stimmen, könnt ihr den Magnetfeld Sensor mit folgenden Schritten rekalibrieren: 
+    - Der Kompasssensor berechnet mit hilfe des Accelerometers und des Magnetfeldsensors die Himmelsrichtung. Sollten diese Werte einmal nicht mehr stimmen, könnt ihr den Magnetfeldsensor mit folgenden Schritten rekalibrieren: 
  
       ```
       adb shell stop geomagneticd
@@ -50,7 +50,7 @@
       adb shell start geomagneticd
       ```
 
-    - startet danach eine Kompass App und dreht das Tab mehrmals in jede Richtung um die eigene Achse. Danach sollte euer Tab rekalibriert sein.
+    - startet danach eine Kompass-App und dreht das Tab mehrmals in jede Richtung um die eigene Achse. Danach sollte euer Tab rekalibriert sein.
 
     
 - title: Was kann ich tun wenn die Rom installation wegen eines "Error 7" im Recovery fehlschlägt ?
@@ -59,7 +59,9 @@
 
     So bekommt ihr das log mit adb auf euren PC:
 
-        adb pull /path/to/log/log.name
+      ```
+      adb pull /path/to/log/log.name
+      ```
 
     Wenn es bei euch einmal nicht funktionieren sollte: postet bitte die gesamte Nachricht die ihr im Recovery angezeigt bekommt, da
     es für einen "Error 7" unterschiedliche Gründe gibt.
@@ -71,7 +73,7 @@
     
 - title: Wie bekomme ich Root Zugriff ?
   content: |
-    Custom Roms wie SlimRoms sind von Haus aus gerootet, der Root Zugriff muß nur von euch aktiviert werden.
+    Custom Roms wie SlimRoms sind von Haus aus gerootet, der Root-Zugriff muß nur von euch aktiviert werden.
 
     - Einstellungen -> Über das Tablet / Über das Telefon
     - Tippt 7x auf die Build nummer (ihr bekommt eine Benachrichtigung wenn die Entwickleroptionen aktiviert sind)
@@ -86,7 +88,7 @@
         <span aria-hidden="true"><i class="material-icons">clear</i></span>
       </button>
       <b>Wichtig:</b>
-      LineageOS, OmniRom and AOSP sind von Haus aus NICHT gerootet. Ihr benötigt deshalb noch <a href="http://forum.xda-developers.com/showthread.php?t=1538053">SuperSu</a> oder <a href="http://forum.xda-developers.com/android/software-hacking/wip-selinux-capable-superuser-t3216394">OpenSource SuperUser</a> um Root zu bekommen.
+      LineageOS, OmniRom und AOSP sind von Haus aus NICHT gerootet. Ihr benötigt deshalb noch <a href="http://forum.xda-developers.com/showthread.php?t=1538053">SuperSu</a> oder <a href="http://forum.xda-developers.com/android/software-hacking/wip-selinux-capable-superuser-t3216394">OpenSource SuperUser</a> um Root zu bekommen.
     </div>
     
     
@@ -138,7 +140,7 @@
     - Basiert auf dem offiziellem [OMAP4 Kernel Quellcode (p-android-omap-3.0-dev branch)](http://git.omapzoom.org/?p=kernel/omap.git;a=shortlog;h=refs/heads/p-android-omap-3.0-dev)
     - Update auf 3.0.101 [linux-stable/linux-3.0.y](https://kernel.googlesource.com/pub/scm/linux/kernel/git/stable/linux-stable/+/linux-3.0.y)
     - Komplette Änderungs-Historie
-    - BCMDHD Update auf 1.88.45 vom 3.4 Kernel(**Info:** Samsungs BCMDHD hat vorher die Mac Adresse aus /efs ausgelesen. Aus Sicht der Sicherheit eine sehr sehr schlechte Sache, dass ein Kernel diese Rechte auf das Dateisystem hat. Was anderes von Samsung erwartet? Die Mac adresse wird jetzt auf Basis des SOC erstellt und sollte genauso einmalig sein.)
+    - BCMDHD Update auf 1.88.45 vom 3.4 Kernel(**Info:** Samsungs BCMDHD hat vorher die MAC-Adresse aus /efs ausgelesen. Aus Sicht der Sicherheit eine sehr sehr schlechte Sache, dass ein Kernel diese Rechte auf das Dateisystem hat. Was anderes von Samsung erwartet? Die MAC-Adresse wird jetzt auf Basis des SOC erstellt und sollte genauso einmalig sein.)
     - last_kmsg Support
     - Samsungs Source entmüllt bevor die Treiber etc. hinzugefügt wurden
     - dynamic tiler allocations (mehr freier Ram verfügbar)
