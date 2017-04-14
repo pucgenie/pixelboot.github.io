@@ -95,29 +95,40 @@
 
     - Logcat:
     
-          adb shell logcat > logcat.txt
+      ```
+      adb shell logcat > logcat.txt
+      ```
           
       (abort/stop logging pressing <kbd><kbd>ctrl</kbd> + <kbd>c</kbd></kbd> on your keyboard)
 
     - Radio Logcat:
-    
-          adb logcat -b radio -v time -d > logcat_radio.log
+
+      ```
+      adb logcat -b radio -v time -d > logcat_radio.log
+      ```
           
     - Dmesg:
-    
-          adb shell dmesg > dmesg.txt
+
+      ```
+      adb shell dmesg > dmesg.txt
+      ```
           
     - last_kmsg:
-    
-          adb shell su -c "cat /proc/last_kmsg" > last_kmsg.txt
+      (make sure root is enabled!)
+
+      ```
+      adb shell su -c "cat /proc/last_kmsg" > last_kmsg.txt
+      ```
           
     - audit.log:  
       (make sure root is enabled!)
 
-          adb root
+      ```
+      adb root
 
-          adb pull /data/misc/audit/audit.log
-          
+      adb pull /data/misc/audit/audit.log
+      ```
+
   
 - title: What's the difference between the "old" and the "new" kernel source you are using?
   content: |
@@ -147,7 +158,7 @@
     - One kernel source for all Android Versions (4.4 and newer, only different defconfig for 4.4 Roms)
     
     We now use the new kernel on all of our roms (Android 5.1 an newer, but we also switched to it on some of the official 4.4 Roms like CM 11.0).  
-    [Kernel Source can be found here](https://github.com/OMAP4-AOSP/android_kernel_samsung_espresso/commits/stable) , [History from cleanup and update here.](https://github.com/OMAP4-AOSP/android_kernel_samsung_espresso/commits/history)
+    [Kernel Source can be found here](https://github.com/Unlegacy-Android/android_kernel_samsung_espresso/commits/stable) , [History from cleanup and update here.](https://github.com/OMAP4-AOSP/android_kernel_samsung_espresso/commits/history)
     
     
 - title: How to change the bootlogo of my Galaxy Tab2?

@@ -96,29 +96,40 @@
 
     - Logcat:
     
-          adb shell logcat > logcat.txt
+      ```
+      adb shell logcat > logcat.txt
+      ```
           
-      (zum stoppen des loggings drückt <kbd><kbd>ctrl</kbd> + <kbd>c</kbd></kbd> auf eurer Tastatur)
+      (zum stoppen des loggings drückt <kbd><kbd>Strg</kbd> + <kbd>c</kbd></kbd> auf eurer Tastatur)
 
     - Radio Logcat:
     
-          adb logcat -b radio -v time -d > logcat_radio.log
+      ```
+      adb logcat -b radio -v time -d > logcat_radio.log
+      ```
           
     - Dmesg:
     
-          adb shell dmesg > dmesg.txt
+      ```
+      adb shell dmesg > dmesg.txt
+      ```
           
     - last_kmsg:
-    
-          adb shell su -c "cat /proc/last_kmsg" > last_kmsg.txt
+      (seid sicher das ihr root seit)
+
+      ```
+      adb shell su -c "cat /proc/last_kmsg" > last_kmsg.txt
+      ```
           
     - audit.log:  
       (seid sicher das ihr root seit)
 
-          adb root
+      ```
+      adb root
 
-          adb pull /data/misc/audit/audit.log
-          
+      adb pull /data/misc/audit/audit.log
+      ```
+
   
 - title: Was ist der Unterschied zwischen dem "alten" und "neuen" Kernel Quellcode den Ihr nutzt?
   content: |
@@ -148,7 +159,7 @@
     - Ein Kernel Quellcode für alle Android Versions (4.4 und neuer, 4.4 Roms nutzen jedoch eine eigene defconfig)
     
     Wir nutzen den "neuen" auf allen unserern Roms (Android 5.1 und neuer, aber auch auf manchen alten offiziellen 4.4 Roms wie z.B. CM 11.0).  
-    [Den Kernel Quellcode findet ihr hier](https://github.com/OMAP4-AOSP/android_kernel_samsung_espresso/commits/stable) , [Historie vom "entmüllen" hier.](https://github.com/OMAP4-AOSP/android_kernel_samsung_espresso/commits/history)
+    [Den Kernel Quellcode findet ihr hier](https://github.com/Unlegacy-Android/android_kernel_samsung_espresso/commits/stable) , [Historie vom "entmüllen" hier.](https://github.com/OMAP4-AOSP/android_kernel_samsung_espresso/commits/history)
     
     
 - title: Wie kann ich das Einschalt Logo/Bild auf meinem Galaxy Tab2 ändern?
