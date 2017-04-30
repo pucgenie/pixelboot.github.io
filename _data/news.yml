@@ -1,3 +1,16 @@
+- date: 30.04.2017
+  content: |
+    **General**
+       
+    I found some time to update Slim6. Applied all updates for 2017-04-01 security patch level. The Update will be available for following devices:
+
+    - Galaxy Tab2
+    - Galaxy Nexus (also added ffmpeg codecs)
+    - Oneplus One
+
+    Source can be found [here](https://github.com/SlimRomsSecurity) in case you wan't to compile yourself.
+
+
 - date: 25.04.2017
   content: |
     **General**
