@@ -1,5 +1,9 @@
 - date: 30.04.2017
   content: |
+    **UPDATE 01 May 2017**
+
+    Reuploaded all Slim6 builds to fix [CVE-2016-10244](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10244). SlimKat builds will get a second build later too.
+
     **Slim6**
        
     I found some time to update Slim6. Applied all updates for 2017-04-01 security patch level. The Update will be available for following devices:
