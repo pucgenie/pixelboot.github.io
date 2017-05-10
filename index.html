@@ -34,7 +34,7 @@ title: Home
       <h2><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i> Latest Updates</h2>
       <hr />
 
-      {% for news in site.data.news limit:3 %}
+      {% for news in site.data.news limit:2 %}
       <div class="card">
         <div class="card-heading">
           <h3>{{ news.date | date_to_long_string }}</h3>
