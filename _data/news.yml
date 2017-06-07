@@ -1,3 +1,16 @@
+- date: 07.06.2017
+  content: |
+    **General**
+
+    After 6 Weeks i got my LG G4 back again... now waiting for the bootloop again (i am sure it will happen a 3rd time)... on vacation i never felt that bad using a phone like this time, running a backup of my photos every evening because i don't feel secure using that phone...
+
+    I pushed some new AnyKernel for Galaxy Nexus and Tab2 Family which fix/workaround an security issue of LineageOS SU binary, besides that i am still not back to development.
+
+    **Slim7**
+
+    New Slim7 builds are up for Galaxy Nexus, had to test if latest translations compile fine - no device specific changes, only latest Slim7 Source + Translations.
+
+
 - date: 30.04.2017
   content: |
     **LineageOS 13**
