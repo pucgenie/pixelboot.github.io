@@ -1,3 +1,40 @@
+- date: 19.07.2017
+  content: |
+    **Updates**
+       
+    New LineageOS 11 builds are available for Galaxy Tab2 (espressowifi & espresso3g)
+
+    Slim7 Build 1.2 is available for Galaxy Nexus (tuna), deepsleep issues introduced in previous build should be solved.
+
+
+
+    **Discontinued**
+       
+    IMO Android 5 was never a good running version for my devices and i'll stop all work on Android 5.
+    I like to spend my little time on improving Android 4.4.4 and Android 6.0.1 based roms (also applying security Updates monthly).
+
+    Discontinued Roms:
+
+    - SlimLP
+    - AOSP / UA 5.1
+    - CM12.1 / LineageOS 12.1
+    - OmniRom 5
+
+
+    Discontinued devices:
+
+    - Samsung Galaxy S3 Mini ("golden")
+
+    Sorry, but at the moment i don't have the time to work on this devices.
+
+
+
+    **Future plans**
+
+    smart-t78@XDA-Developers and i started working on updating OmniRom 6 again (working our way up to July 2017 Security Patch Level. Maybe later we'll look again at OmniRom 4.
+    OmniRom is one of my favourite - i'll post an update once there's some news.
+
+
 - date: 18.07.2017
   content: |
     **Slim6**
