@@ -1,3 +1,23 @@
+- date: 18.07.2017
+  content: |
+    **Slim6**
+       
+    Slim6 updated! Source rebased on latest AOSP android-6.0.1_r80 tag for 2017-07-01 security patch level. The Update will be available for following devices:
+
+    - Galaxy Tab2
+    - Galaxy Nexus
+    - Oneplus One
+
+
+    **SlimKat**
+
+    SlimKat updates for 2017-07-01 security patch level. The Update will be available for following devices:
+
+    - Galaxy Tab2
+
+
+    Source can be found [here](https://github.com/SlimRomsSecurity) in case you wan't to compile yourself.
+
 - date: 16.06.2017
   content: |
     **Slim6**
