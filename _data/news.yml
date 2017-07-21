@@ -1,8 +1,28 @@
+- date: 22.07.2017
+  content: |
+    **OmniRom 4**
+       
+    OmniRom 4 updated! I have spend another whole day (>12 hours) to bring it up to 2017-07-01 security patch level. The Update will be available for Galaxy Tab2 (espressowifi & espresso3g).
+
+    There's some extras added by default now which never made it's way into Omni 4 official:
+
+    - All in One Animation Control
+    - Battery Saver mode
+    - On-The-Go mode
+    - Implement App circle sidebar
+    - follow dark 4.4 UI
+
+    Those features have never been ready for official Omni, but people spend a lot of time writing those features and i really like those.
+    Enjoy the build! (It will be online in the morning.)
+    Source can be found [here](https://github.com/omni-security) in case you want to compile yourself.
+    If you like to buy me some coffe [click here](https://forum.xda-developers.com/donatetome.php?u=5153662).
+
+
 - date: 21.07.2017
   content: |
     **OmniRom 6**
        
-    OmniRom 6 updated! Source rebased on latest AOSP android-6.0.1_r80 tag for 2017-07-01 security patch level. The Update will be available for Galaxy Tab2 (espressowifi & espresso3g)
+    OmniRom 6 updated! Source rebased on latest AOSP android-6.0.1_r80 tag for 2017-07-01 security patch level. The Update will be available for Galaxy Tab2 (espressowifi & espresso3g).
 
     Source can be found [here](https://github.com/omni-security) in case you want to compile yourself.
 
