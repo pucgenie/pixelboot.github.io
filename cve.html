@@ -31,6 +31,10 @@ icon: newspaper-o
     <b>Galaxy Nexus Kernel:</b><br />
     <a href="https://github.com/Unlegacy-Android/android_kernel_samsung_tuna/commit/{{ cve.tunacommitid }}">https://github.com/Unlegacy-Android/android_kernel_samsung_tuna/commit/{{ cve.tunacommitid }}</a></br>
     {% endif %}
+    {% if cve.omap4commitid %}
+    <b>Common OMAP4 Kernel:</b><br />
+    <a href="https://github.com/Unlegacy-Android/android_kernel_ti_omap4/commit/{{ cve.tunacommitid }}">https://github.com/Unlegacy-Android/android_kernel_ti_omap4/commit/{{ cve.omap4commitid }}</a></br>
+    {% endif %}
   </div>
 </div>
 {% endfor %}

@@ -4,6 +4,7 @@
   content:
   espressocommitid: 1a6b2c9da08fe3dc1fa825dfefcc70010c088a35
   tunacommitid: 1a6b2c9da08fe3dc1fa825dfefcc70010c088a35
+  omap4commitid: 1a6b2c9da08fe3dc1fa825dfefcc70010c088a35
 
 - cve: CVE-2012-6689
   info: |
@@ -11,6 +12,7 @@
   content:
   espressocommitid: f8df5b8a9dec89726e6bf8a2073c72a533c6d0c5
   tunacommitid: f8df5b8a9dec89726e6bf8a2073c72a533c6d0c5
+  omap4commitid: f8df5b8a9dec89726e6bf8a2073c72a533c6d0c5
 
 - cve: CVE-2012-6704
   info: |
@@ -24,6 +26,7 @@
     - https://github.com/torvalds/linux/commit/4291086b1f081b869c6d79e5b7441633dc3ace00
   espressocommitid: 26bd845be44674e9444ea4ef57ff42040d63fc2b
   tunacommitid: c016769fb1e94500718c14a00b2bba134c357e2a
+  omap4commitid: e3436211f9b2cd6a5168e833fe5bc5a6ab3e50ea
 
 - cve: CVE-2013-2015
   info: |
@@ -32,6 +35,7 @@
     - https://android.googlesource.com/kernel/common.git/+/016a3592cc34fa349235b5a8b48af5cece2cbfeb%5E%21/
   espressocommitid: 6ac3a550f14a5b4a24417097cd6abcb8c79a0d5a
   tunacommitid: 6ac3a550f14a5b4a24417097cd6abcb8c79a0d5a
+  omap4commitid: 6ac3a550f14a5b4a24417097cd6abcb8c79a0d5a
 
 - cve: CVE-2014-0206
   info: |
@@ -50,6 +54,7 @@
   content:
   espressocommitid: 206c82641540fe94e5a3ff8afe85d3d70ffbb03e
   tunacommitid: 332f672d5d8d0d0bbc6cd1d84a8862acad736657
+  omap4commitid: b58617544679858e1427ef8cef87ed7eb57fc9c0
 
 - cve: CVE-2014-2706
   info: |
@@ -62,6 +67,7 @@
   content:
   espressocommitid: 7e16c3a0a0ddbd5162b91e14a5e68587c9ecd142
   tunacommitid: 051d9d2d9f34fc7213e2e087c5eecc93b3d0d34e
+  omap4commitid: 4e61e4b39529c531b1877469c392302bc3d3d1d7
 
 - cve: CVE-2014-3145
   info: |
@@ -89,6 +95,7 @@
   content:
   espressocommitid: 9693d6c238352f97f7829cdd3f13c2e5fbd1095e
   tunacommitid: b5640f6bd170d2c6c47746b52a1e849f343cce30
+  omap4commitid: 99150876dcd38a3bd045af9f94bcd4320b496bf0
 
 - cve: CVE-2014-4656
   info: |
@@ -102,12 +109,14 @@
   content:
   espressocommitid: 2ab8afb3e51a9feab437da37a85c5a38ba56e109
   tunacommitid: c803831c2cd079ace467fb5108fe931067329a03
+  omap4commitid: 0b9caee2525149783c3cea742fbf8f419bc219b8
 
 - cve: CVE-2014-5206
   info:
   content:
   espressocommitid: 161b9ba07ef08992dbc5e19f4a7182391bc7e304
   tunacommitid: abf897c63fd00f9b5e944b5c6026b94032e8e3e6
+  omap4commitid: 8bde665934e028625d03e61274f71fb3fd33dace
 
 - cve: CVE-2014-7822
   info: |
@@ -120,24 +129,28 @@
   content:
   espressocommitid: 8111864b2a4a348b3308b16b765840d84da5fc60
   tunacommitid: 73f57c81b0abe3cbf617a76b5439965fc0b72b10
+  omap4commitid: 4fcfda76bda903bfbb8aba3c66dd4f1b78c06ec0
 
 - cve: CVE-2014-7826
   info:
   content:
   espressocommitid: 4d53d08701f7046cd71080a1db73b463f47f3cb5
   tunacommitid: 00851dc8e518938cd8dffdbb1e8a884f02ef2f71
+  omap4commitid: e10fee655ba846e688c053cfabfd83ed2a937e17
 
 - cve: CVE-2014-7970
   info:
   content:
   espressocommitid: [688e47e1712eb074164ad193719444b38adb29de, 5104b699e2de83a0dae627d9117402bab3b5be86, 634cd0d589e05c6ffa6a1497eaf8e34d43665764]
   tunacommitid: [c65271af2b1b87875b8a456605f80e573c974b9d, 97370807c593c0664f904fed0968d10c9b9773bb, b3d050c96833ce2355a92f7e38aed0608f0afe1d]
+  omap4commitid: [d30b9f28410fc8c97d79c03182756273dfda2a1b, c2ce2b71a92e4c9d207b6dd4b6f2d8d32a772038, 3f9dcd0eccaffdc240addb5bb514ff37fb3a3de4]
 
 - cve: CVE-2014-8160
   info:
   content:
   espressocommitid: ac98028680c77d4aabfee9c9013f40f41fd5a74f
   tunacommitid: 25eb21cc4d8f5228ae0b9e125e62a54ace1190ef
+  omap4commitid: 16d9ab6e1c627bfe1cf46bc3821d6bae2b3ef039
 
 - cve: CVE-2014-8173
   info: |
@@ -146,6 +159,7 @@
     - https://github.com/torvalds/linux/commit/ee53664bda169f519ce3c6a22d378f0b946c8178 (patch)
   espressocommitid: dfdf9977dca09935f62063ba5df9cbc4e29632dd
   tunacommitid: 144aa5b682d86882cc742b2b82f45bde6c2c5b8f
+  omap4commitid: cdfaae26d79ca63eee9da7e209cce0588dfecf6b
 
 - cve: CVE-2014-8709
   info: |
@@ -159,26 +173,30 @@
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f54e18f1b831c92f6512d2eedb224cd63d607d3d
   espressocommitid: 70b8bd2d707a7ccf9d505ee45fe0b1a7e2254b6d
   tunacommitid: 36b73f9e95c841e5073ba42a9c0ecbd4b1135912
+  omap4commitid: b1bdb52b6a87d3877da01c8a17eeb6ddd64d38df
 
 - cve: CVE-2014-9529
   info: Kernel up to 3.18.2; should be applied in security/keys/key.c on 3.0
   content: |
     - https://github.com/torvalds/linux/commit/a3a8784454692dd72e5d5d34dcdab17b4420e74c (patch)
-    -https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=dc4a2f40de4 (3.2.y backport)
+    - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=dc4a2f40de4 (3.2.y backport)
   espressocommitid: e3b01a434817312ac3c982068beb1535602c3e78
   tunacommitid: f970b7086234d3c2692a034980c47a62ba89c9ce
+  omap4commitid: 3cd78031a2406db8ecb69a9b36011261196bb621
 
 - cve: CVE-2014-9683
   info:
   content:
   espressocommitid: c00e586e91cbf627e4bcded6ba345b24f2aab831
   tunacommitid: 34726a77124dd5d634c2658dfb1074ecdd81db78
+  omap4commitid: b333589203d1b2912630e305d32a6448394d3d46
 
 - cve: CVE-2014-9715
   info:
   content:
   espressocommitid: d0b33f0375d83bd75f18746e73f50c8291850f21
   tunacommitid: ea038ab4bb0019d65ce78a8e5dfe7026bb87db6a
+  omap4commitid: 21f44ef06b4baaeef962c73f8684944dfbe54587
 
 - cve: CVE-2014-9914
   info: |
@@ -216,42 +234,44 @@
   content:
   espressocommitid: fde6845c63f2a4f6da7b06b29e1a7b1ade14ffd1
   tunacommitid: 58bbec01d7469a137d20be555f6964112e691d1a
+  omap4commitid: f8f28e6dc64daac1a334dafc2a7aa9d5cf4cb80c
 
 - cve: CVE-2015-1465
   info:
   content:
   espressocommitid: 3177ffcf0f1b71b92d324d613888304e0ad05704
   tunacommitid: 9ac11bab540554c5810686e96766c329fde9879f
+  omap4commitid: 579ed0d882e7c281af9eecadef16cb7e31168aa8
 
 - cve: CVE-2015-1534
   info:
   content:
   espressocommitid: 6ce1d71e333840178aabde3b7becbe1bd1e676dd
   tunacommitid: 63c87918fddfec92603bae2d02bfb79b4c163c17
+  omap4commitid: 1ac3d10612ad0ca2e60014415731212ee450783b
 
 - cve: CVE-2015-1805
   info:
   content:
   espressocommitid: cc9d3276c8e26c835069d6f0e1810a78861a8a43
   tunacommitid: 7c5858c56bec2d889a610c2a5f413242c123a79e
+  omap4commitid: e2093553aa493c2c85c537570f446af954884c85
 
 - cve: CVE-2015-2041
   info:
   content:
   espressocommitid: 2d979221b7b89b21110ba215a8ef8629578d95b2
   tunacommitid: b6b3acd7138e254a07f323061a4b4938e40a56e8
-
-- cve: CVE-2015-2686
-  info:
-  content:
-  espressocommitid: 4c6ae8c25da838076b89414e4a6d6c5be5dd8470
-  tunacommitid: c239e55b05a9efcb2167ad76a1a1ce440d5647ef
+  omap4commitid: 3d25ad4be0313b853b3a8d096ce4fd7833f5d235
 
 - cve: CVE-2015-2686
   info: |
     - Notes:net/socket.c in the Linux kernel 3.19 before 3.19.3 does not validate certain range data for (1) sendto and (2) recvfrom system calls, which allows local users to gain privileges by leveraging a subsystem that uses the copy_from_iter function in the iov_iter interface, as demonstrated by the Bluetooth subsystem.
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=4de930efc23b92ddf88ce91c405ee645fe6e27ea
+  espressocommitid: 4c6ae8c25da838076b89414e4a6d6c5be5dd8470
+  tunacommitid: c239e55b05a9efcb2167ad76a1a1ce440d5647ef
+  omap4commitid: 006af84bc825c08235b7825c84d09e5efbd194f0
 
 - cve: CVE-2015-3288
   info: |
@@ -264,18 +284,21 @@
   content:
   espressocommitid: bdca6741fea27843f1ab3991e2604ba244757412
   tunacommitid: d023b7dd5a4bb77d7bf85118d00020c43572f01d
+  omap4commitid: d16a664f61293cdd3f0b27fdfb6cb2f2b5eb75ea
 
 - cve: CVE-2015-3339
   info:
   content:
   espressocommitid: 844a7f057bac49544c8db43e7866bbb1aa57e9b3
   tunacommitid: 5ae1cc76486e597a4d0748756d06cbbc8b630c51
+  omap4commitid: a445f8cd1a5259b811537924744ea38efc005c8b
 
 - cve: CVE-2015-3636
   info:
   content: on tuna and espresso squashed by accident into a different commit
   espressocommitid: 4473a5cae71c7326f269eaa3ade9fa05b9929f8f
   tunacommitid: dea5543a5eb548057a059791cd1f18c8b1525db6
+  omap4commitid: bcc74544bd3031977b11dae62735ba1fc578904a
 
 - cve: CVE-2015-4170
   info: 3.10+ only
@@ -288,6 +311,7 @@
     - https://github.com/torvalds/linux/commit/cd4a40174b71acd021877341684d8bb1dc8ea4ae (mainline patch)
   espressocommitid: 0587952b9b9b268da00f44f8c57ba5dad9008426
   tunacommitid: 432881361ae8b989308d2790b29e74a29b3abffa
+  omap4commitid: 5c6ad485492291fc9748cb7e8b7c92600563ed98
 
 - cve: CVE-2015-5366
   info: |
@@ -296,6 +320,7 @@
     - https://github.com/torvalds/linux/commit/beb39db59d14990e401e235faf66a6b9b31240b0
   espressocommitid: 392ac20d3988e9976b8fdf684ed08277cc502b17
   tunacommitid: 0aa2b57ddfe1ceb93ba2779afd4c0745b1ab1ddf
+  omap4commitid: f1b3b41c1d5bb19d6ecc89460242fe292f5ee7e9
 
 - cve: CVE-2015-5697
   info: |
@@ -304,6 +329,7 @@
     - https://github.com/torvalds/linux/commit/b6878d9e03043695dbf3fa1caa6dfc09db225b1
   espressocommitid: f9c0ef83e2c86f71adc788dc8341ce8aac647ac1
   tunacommitid: b1088c80a2d77beb91e51aa4c3cdf801105c7f4f
+  omap4commitid: a223297e60ff368de6872477a20dba8acda30f1b
 
 - cve: CVE-2015-5706
   info: |
@@ -318,6 +344,7 @@
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=c9b92530a723ac5ef8e352885a1862b18f31b2f5
   espressocommitid: af9e2d68dcba78235b676adf1e062837dfc2a8d8
   tunacommitid: 58b5fbd6a741b38143f7c04fd31fab3769ac3ee8
+  omap4commitid: 861a2c295698a35afb69e8c649252448fd7b26e2
 
 - cve: CVE-2015-7515
   info: |
@@ -325,6 +352,7 @@
   content:
   espressocommitid: [4f0117d217a5e728218dca3fca5f9685c3daadb0, 5e24578f01c071d3daf3b9cfe98213055bca49a2]
   tunacommitid: [636d8449e45790ec680ab17d445a661bec76ab7f, f6f03821cb5c818d0a9054dec6131b0459a4bd13]
+  omap4commitid: [8c6a6ff98ae20ae53e055f7ea2199953592ce1be, aa7f4a77c65e9a2da2fdbeb4a71a4482f3bef3e6]
 
 - cve: CVE-2015-7550
   info: |
@@ -332,6 +360,7 @@
   content:
   espressocommitid: 598b591a4f42f1e4def0a327ddb333ed12253e53
   tunacommitid: 7b134d85fcbc325405c4f557d07bcaa660587af6
+  omap4commitid: 664dcb8b7162ec262dba59650732a0f99b37ba0f
 
 - cve: CVE-2015-7872
   info: |
@@ -344,36 +373,42 @@
   content:
   espressocommitid: bacf0bd1103409e63740485a22c3fc4e50d2d086
   tunacommitid: 0eda4dee21798487f5c250e078bbaecb36a57bf8
+  omap4commitid: f4f869c3fe454f92124d0458b1c56b200e68c04a
 
 - cve: CVE-2015-8215
   info:
   content:
   espressocommitid: 4753de42b49d6b2652882eced24517009bab8fe1
   tunacommitid: 6c9cd466d72af405fe984179271768982d70b133
+  omap4commitid: f2345f7e92901cdd8bdf0d478cb0db717598bdf1
 
 - cve: CVE-2015-8539
   info:
   content:
   espressocommitid: 264391350b55b80bf835d4bcb1393d258634959b
   tunacommitid: c0ef4327beb3cd9f44dbea30b7335aab9bb3afaa
+  omap4commitid: 90e94c80e9118995a52a29ebc5818c0fcd98fb7f
 
 - cve: CVE-2015-8543
   info:
   content:
   espressocommitid: fad9a34032797132332967e5a9d83027506d019b
   tunacommitid: 587f26de56d6d63fc713d84fe1ab27062760b694
+  omap4commitid: 67eb72e6f0f953726b2cbcbd31fc32ee16d2cd1c
 
 - cve: CVE-2015-8575
   info:
   content:
   espressocommitid: 7d3c865fcff8b48c68fe5037810389365560043d
   tunacommitid: 92da275400c4251bb4f87368a3a3a26f12fd3880
+  omap4commitid: 11ea4c2ee7c4c30d547ffd87e5866aaead6d401c
 
 - cve: CVE-2015-8785
   info:
   content:
   espressocommitid: dcfa96e1e5a93df70ba73d0a3cfb6722eb2a1331
   tunacommitid: 64900286e3583d5a767870dedb8ef96a120a06e9
+  omap4commitid: c1c530338951acb6863bb779ee08c63e4a17c537
 
 - cve: CVE-2015-8830
   info:
@@ -382,6 +417,7 @@
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=a70b52ec1aaeaf60f4739edb1b422827cb6f3893
   espressocommitid: b13cf99edb6ed2dbd522dd1d126d06228e7510ef
   tunacommitid: 2ec196c975ffb8076df77f6fa929448717e5141b
+  omap4commitid: 2ec196c975ffb8076df77f6fa929448717e5141b
 
 - cve: CVE-2015-8839
   info: |
@@ -391,6 +427,7 @@
     - https://android.googlesource.com/kernel/msm/+/bdba352e898cbf57c8620ad68c8abf749c784d1f%5E!/
   espressocommitid: cc31b4a3be7cb84f4695711df74fe1098af43c08
   tunacommitid: 1b4c62e83d3fe13b0f6794e7ad09f7002951bb94
+  omap4commitid: 189485a0b25dbfbe85f3d86249702e4e844a3def
 
 - cve: CVE-2015-8951
   info:
@@ -406,12 +443,14 @@
   content:
   espressocommitid: d7e38b9b4f49bd8ee5001ccb9875d347bd4138d5
   tunacommitid: b96ce630a623cb799acc645eb3a2b6d30c9c1a42
+  omap4commitid: e298f1e522c8868932655804d784b9cc092fc9db
 
 - cve: CVE-2015-8963
   info:
   content:
   espressocommitid: 2d51c497acae03c7cebe350f3f69c091116a9904
   tunacommitid: 921a43cd674a3183875c922f5bc37b46753fc6d9
+  omap4commitid: 4382e8516536365cc45edb651eaf5074d44ed6f9
 
 - cve: CVE-2015-8964
   info: |
@@ -425,6 +464,7 @@
   content:
   espressocommitid: 07a53fd8e43fe688bfb17c8b0b5be11650533216
   tunacommitid: 9499fe073f7db66520c93c572f7f87918853477a
+  omap4commitid: ecd7d682d8f1c75481154ac2a6e4b9c86b32fa42
 
 - cve: CVE-2015-8967
   info:
@@ -442,6 +482,7 @@
   content:
   espressocommitid: af4d4cecc4282c0c3469f120e05fee835cf933c3
   tunacommitid: b2453ec2b6cad5cba666871c0e1129cf4fd84f18
+  omap4commitid: e6877c3b062389eccb146d19e56cbcd205e2ad88
 
 - cve: CVE-2016-0728
   info:
@@ -453,6 +494,7 @@
     - https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/commit/fs/pipe.c?id=b381fbc509052d07ccf8641fd7560a25d46aaf1e
   espressocommitid: 793e28d9ad0a498c453d9a9e3bc51d1c493e5cfa
   tunacommitid: 1b385b9c358451dcae8cb6f8ff330879328f4253
+  omap4commitid: 4dc98567e1449b4e7fe6b3d01eecfcb1f7e9ae21
 
 - cve: CVE-2016-0805
   info:
@@ -467,12 +509,14 @@
   content:
   espressocommitid: 79d20666ef5195be50c4d88b162d28558dd319a2
   tunacommitid: 3aec0cdea547f0867b967c9b6d29f6188a807813
+  omap4commitid: 923ab4606d00a24dfc10bb8879e6a9965d8276eb
 
 - cve: CVE-2016-0823
   info:
   content:
   espressocommitid: 88f265d099dc9cb18390210605351aa80cbeea24
   tunacommitid: 39ee6064302a8aa03243114509121cf00114fb76
+  omap4commitid: d46b07f49b8760a19cc79b192ed3cd9430622821
 
 - cve: CVE-2016-10044
   info:
@@ -482,6 +526,7 @@
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=22f6b4d34fcf039c63a94e7670e0da24f8575a5a
   espressocommitid: 068cdb9c326334b27e8df3c37e3687048c195a1f
   tunacommitid: 6ba9f02f84a9da5c71987f5ededdad269359392e
+  omap4commitid: 93fe5ddc8055c7a7a9cb707bb42005e7b711c95d
 
 - cve: CVE-2016-10088
   info:
@@ -489,6 +534,7 @@
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=128394eff343fc6d2f32172f03e24829539c5835
   espressocommitid: cdd68d594d9a91da119aadd8838f1f052765f20d
   tunacommitid: 93822e2780a88ae170c7c93dbdeebe2184188bea
+  omap4commitid: 782a63c4b681bc9636bf17b86fa0c52c9fd0fecf
 
 - cve: CVE-2016-10153
   info:
@@ -514,6 +560,7 @@
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=3a4b77cd47bb837b8557595ec7425f281f2ca1fe
   espressocommitid: 9a441c2708b0d4162e116bf0988601760919eb00
   tunacommitid: a66fd6fcdd0557504aba6e106768550882a4a45c
+  omap4commitid: 77a37e151eb0a094ef5f27eb17d5603f946cab08
 
 - cve: CVE-2016-10229
   info: |
@@ -645,6 +692,7 @@
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/fs/ecryptfs/file.c?id=f0fe970df3838c202ef6c07a4c2b36838ef0a88b
   espressocommitid: cb42be6121bc1ed6616a1d88687fa9030b1c0c63
   tunacommitid: 3b15be9188c1992521181b76d74849acedf3342b
+  omap4commitid: bd965191f30da74d5a85d709a6ba14bf6c2988fd
 
 - cve: CVE-2016-2053
   info:
@@ -676,13 +724,15 @@
   content: |
     - https://kernel.googlesource.com/pub/scm/linux/kernel/git/stable/linux-stable.git/+/836b34a935abc91e13e63053d0a83b24dfb5ea78
   espressocommitid: [4c20c09f5d9aa45c86ca0fb048580c841a76616c, 12f54ce7808f461ce373eb97f2f96df2c73de104, 18f50def1fb8c5d2bf05165d899a4bb7d4432ab8]
-  tunacommitid: [ 31ba19e9cbc584b2ab344548afdea8289202605e, 4de3aca47f8e3292bb2b9e620d36a85f8a38d4c9, e5787ac54acf529b770736750a8182e639340f07]
+  tunacommitid: [31ba19e9cbc584b2ab344548afdea8289202605e, 4de3aca47f8e3292bb2b9e620d36a85f8a38d4c9, e5787ac54acf529b770736750a8182e639340f07]
+  omap4commitid: [6eb8b17075cf65f5f5986ca1303b07987f133b84, 9435336138824d6e2a542fa8d4de67e523afed62, c59250cf6062e1fcd591ca2e6eaec5f58ed2da96]
 
 - cve: CVE-2016-2384
   info:
   content:
   espressocommitid: b110dd1d522e8d693f5b6b95d195dd93f165a409
   tunacommitid: b30d3ddca6312e1672dad53f14a797ccd04eea7d
+  omap4commitid: 4521c04f2bad83a47c4d6b5a97c9fb3cc03f8d41
 
 - cve: CVE-2016-2465
   info:
@@ -733,30 +783,35 @@
   content:
   espressocommitid: 85d95922efbab7f296bd82fa868c7de232e34bea
   tunacommitid: b29afdb3e5bacdffc4b1d7a42a06e500691ddade
+  omap4commitid: 254a325245aaaaa2543a75c48613e4360bdb9aa2
 
 - cve: CVE-2016-2546
   info:
   content:
   espressocommitid: 086d6af727a482b6c7361b176653b07db009f6bf
   tunacommitid: a9f2e3fbc1e569e051acd94509420f7827adb759
+  omap4commitid: 7313ea3bb6726ddd07793be7b64706272169e139
 
 - cve: CVE-2016-2547
   info:
   content:
   espressocommitid: b5c210408c5379f9af62fcd4b8d7f4d6d375bab1
   tunacommitid: ed79e8c292b3ae33a5e90da795ff7eef1bc45c70
+  omap4commitid: 667ad48394c5af3adc4c3c6367161bbd4ef54932
 
 - cve: CVE-2016-2549
   info:
   content:
   espressocommitid: 187ae74f225ccfadbd873af61449cfdc808d81be
   tunacommitid: 89bb9190dab2c68927678dc3ea5846f8036d5ec7
+  omap4commitid: 6c9159c529f0255b9cabddcf8c1ba3cd3fbddb2c
 
 - cve: CVE-2016-2847
   info:
   content:
   espressocommitid: 368978c130c1b327a161f629e07e98baa8f9ffec
   tunacommitid: 4fffde9bbf293cf13f14471751ed79476d034321
+  omap4commitid: e92a5c214e75bfbdacbd81c947f380e517973b37
 
 - cve: CVE-2016-3070
   info: |
@@ -769,24 +824,28 @@
   content:
   espressocommitid: 6f95d97293e0b7504542b94b42fd33f838b92d49
   tunacommitid: 1450de7368a3efd3125e6a124be6c2b61ed3fa6f
+  omap4commitid: be07edda40f40def305183cfa869fd54d9a3e363
 
 - cve: CVE-2016-3135
   info:
   content:
   espressocommitid: a21bfaa2ba13e54281fb36593c21cb470be08438
   tunacommitid: 5a9fd17fbef9d3fc0e8b064191fddc615cd28672
+  omap4commitid: 1064351fd78269a91b89cc0aa7c989b7976365a5
 
 - cve: CVE-2016-3138
   info:
   content:
   espressocommitid: d32548c447f83547d6e859dacfc395b005d2afa3
   tunacommitid: 7225016ede8f7530226177312dee6c16745a09d9
+  omap4commitid: d01bdd12c19cea3a0d193fff93469a929e630375
 
 - cve: CVE-2016-3156
   info:
   content:
   espressocommitid: 49e91354cbc924301873b02c87f982b2c5504f34
   tunacommitid: 8dc3ce140daa07aa3c01601a778251b5e6e75a86
+  omap4commitid: c3a42765347d032cca29a8dcd2eae4e6f752d911
 
 - cve: CVE-2016-3768
   info:
@@ -798,6 +857,7 @@
   content:
   espressocommitid: 26870521c882010b0b8b3752420780685a7876ce
   tunacommitid: 721e353f0e7130f91a94fc49f112bc2cf2752023
+  omap4commitid: 603a60e03194aae89d07208d9632c4b23bcfe877
 
 - cve: CVE-2016-3813
   info:
@@ -842,36 +902,42 @@
   content:
   espressocommitid: 21f09c80b2a1ae27adcacbb878bd05adde96c051
   tunacommitid: 3a3e24c9e33556b48b45133bab1fb16c247156f3
+  omap4commitid: 32602f8b5bc4d9b977171313eaf80e2b6efd7a6a
 
 - cve: CVE-2016-4470
   info:
   content:
   espressocommitid: 46d64c2565f7daf428b72b15b4b721cff9519f16
   tunacommitid: 1ea92daf8c8f1da090d675ebd6fecbe8e2ffaddf
+  omap4commitid: e6be44d99a4da21b994d3fbb8de189ec3eeeb884
 
 - cve: CVE-2016-4482
   info:
   content:
   espressocommitid: bf2931f07d0aaadb3ff66f5bfc21491422256431
   tunacommitid: db59cdbbef015a82a19c0781f78ff92be42c9e2b
+  omap4commitid: 77f5a81bfdde8b972cda0da4ad397de55c89aabe
 
 - cve: CVE-2016-4486
   info:
   content:
   espressocommitid: 7e2dfc575a2df911f2669b05e9ec2f7c7f65096d
   tunacommitid: afdb73b7672e27c05a36c85a861029918b6ebba2
+  omap4commitid: d6341a7268642a2cc28e01a20f4a47d686129790
 
 - cve: CVE-2016-4569
   info:
   content:
   espressocommitid: 01262946c179c64ae7710b18debbca0be47227b5
   tunacommitid: e82c5202f4629bdecdf6ae4056a7066038d9a546
+  omap4commitid: 6dde904dcce1d361d032c937bd43180b3e9bfa5c
 
 - cve: CVE-2016-4578
   info:
   content:
   espressocommitid: [afbb9bd5d95dca067698cbad77f99bde42b9ad2d, cfc40456cacd820565aff98cf8a4f9a7b6a7357b]
   tunacommitid: [acaaccdca0fc90b207671634c40733c7c1e42c3f, 96c694de5d730d3b7fd648e6d3b6cc71b4f8640b]
+  omap4commitid: [20a0d8b6ee3954b252f9bc02607c8fb699d3ee93, 81e5f70b4a9c395b21ead351d3d1821fafa5d25c]
 
 - cve: CVE-2016-4794
   info:
@@ -882,18 +948,21 @@
   content:
   espressocommitid: d901e9c4cec6da765a85fbb815e06a6f9ee85809
   tunacommitid: f20a65dbffb7fe90b43f0f0af753f30f62589491
+  omap4commitid: 4b60cd7fe732277ae5c6531aee532c94b7fee340
 
 - cve: CVE-2016-4998
   info:
   content:
   espressocommitid: [5ed55375251b41036d8a0cd6281ca73586378dc2, aaa7f514c910653a03dcd00aa0e07dfdb26385a9]
   tunacommitid: [ae9fbfcd7964d89c80a4e5840b0db8a28df058d5, 023903a9497cea62272484be752ff75a860c6269]
+  omap4commitid: [3eb548a58ccd78de8359ea9f3424529e2e30f8a9, 4999962e83c26fda42a9363a6400c41bf03ff512]
 
 - cve: CVE-2016-5195
   info:
   content:
   espressocommitid: 61a3b7c7c2151234e917a1c7c8b19311a9089b77
   tunacommitid: fa1e8b5bf458368bd80a9d7ce011340a5a6db29e
+  omap4commitid: f5d463d3b214f5fa63b225eca8e471a41217d272
 
 - cve: CVE-2016-5342
   info:
@@ -935,6 +1004,7 @@
   content:
   espressocommitid: c301aaa9bdf3b18f87b19fc2a849e341acebb507
   tunacommitid: 8fd826b1ed20ca0c4506d46ef97b28e8ed646afe
+  omap4commitid: 27a3d79afdffaf44fd25eafd05c0b3a758512de5
 
 - cve: CVE-2016-5853
   info: |
@@ -1013,12 +1083,14 @@
   content:
   espressocommitid: 597586d1fcbc9b5201306419c68b0a03b28f9771
   tunacommitid: b7214691e89ea5d26881b8cd1a195e3d5a452240
+  omap4commitid: 177ae7ace3e907cb31074c1e9d63ea07de2e13a3
 
 - cve: CVE-2016-6683
   info:
   content:
   espressocommitid: e451c4512151a20337d268b48e5afa0ec4fc9561
   tunacommitid: ae5fb0c47eede4311c6cbe1b31106f6310ee2587
+  omap4commitid: 2b178235ac87a6da20d502a92b5ed5bbe3e7146b
 
 - cve: CVE-2016-6725
   info:
@@ -1074,6 +1146,7 @@
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f63a8daa5812afef4f06c962351687e1ff9ccb2b
   espressocommitid: 752b10ca4697cacbc38e2d1cd93c0075a0a2bd43
   tunacommitid: b0b8fe1162675a04381c3b4752a296f430dab363
+  omap4commitid: 1d6c887a6c5be637e5413b58d37ae15b0c0fc0bc
 
 - cve: CVE-2016-6787
   info: |
@@ -1082,6 +1155,7 @@
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f63a8daa5812afef4f06c962351687e1ff9ccb2b
   espressocommitid: 752b10ca4697cacbc38e2d1cd93c0075a0a2bd43
   tunacommitid: b0b8fe1162675a04381c3b4752a296f430dab363
+  omap4commitid: 1d6c887a6c5be637e5413b58d37ae15b0c0fc0bc
 
 - cve: CVE-2016-6791
   info:
@@ -1093,12 +1167,14 @@
   content:
   espressocommitid: a40fe7a70685c0dc52667af2be1f17708ea9e9bd
   tunacommitid: 34a03f9ad67ccd4c20b4cf835f8c26bc52d2eb61
+  omap4commitid: 168536a7dc1413e5971d6c9c3df579ac8d4cf282
 
 - cve: CVE-2016-7042
   info:
   content:
   espressocommitid: a0c04111f6bd9e6ae786e470c85d16c8de1a3c88
   tunacommitid: 813c49a16f2c66817e6bfbe335088292991e617f
+  omap4commitid: 443cd205cf9cd8c3d366dedeee35abd570150ce1
 
 - cve: CVE-2016-7097
   info: |
@@ -1111,18 +1187,21 @@
   content:
   espressocommitid: 534201b1d3239c20603647ea4abf78786e6ce038
   tunacommitid: e34b198b1c31588d13ab102c89f6c0846c20d751
+  omap4commitid: 8efc474e4f4a40b3e91498b6526e8dbffccb3b8b
 
 - cve: CVE-2016-7910
   info:
   content:
   espressocommitid: 1af357b8dc66720fc1e0ae4e67af6e23e0597688
   tunacommitid: c034432bbc703f4468d98b83a71b26c58e6641bd
+  omap4commitid: 7de49d73dfd0a08ec2208cb4d0879b04ea0110d4
 
 - cve: CVE-2016-7911
   info:
   content:
   espressocommitid: feb6909eecc3022269374b6fdd6f4d78edf6497d
   tunacommitid: 005494dcc7810b92b6d5690690ce63171689c440
+  omap4commitid: 11e161ead604659bf669e14d881cb0147e12ab82
 
 - cve: CVE-2016-7914
   info:
@@ -1134,6 +1213,7 @@
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=50220dead1650609206efe91f0cc116132d59b3f
   espressocommitid: e3bad8c45cc889228ebe9f0eaf70d55e9dffb1f0
   tunacommitid: fcfa86c00074fb75f9d3079a1313f9f709924cf1
+  omap4commitid: 6a050261c0e4dbec69556a016d49a5cf5f3e3467
 
 - cve: CVE-2016-7916
   info:
@@ -1273,6 +1353,7 @@
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=84ac7260236a49c79eede91617700174c2c19b0c
   espressocommitid: cbea99cc67b835c476bccbb86b8587d8a1ee24db
   tunacommitid: 7a131e3be8ee52b2238e022b9b32cdba366d87aa
+  omap4commitid: e798e09deec889662367ad4a0574bd7c9a9161c9
 
 - cve: CVE-2016-9120
   info:
@@ -1295,6 +1376,7 @@
     - http://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/commit/?id=59643d1535eb220668692a5359de22545af579f6
   espressocommitid: 35f54b5e739776bc7bdf69d777a9b72887635a94
   tunacommitid: 5106c500f3ae0dbae66b394daf32f7e73e0e8039
+  omap4commitid: cb5b1c7c3f3e40f9181db1fe3b589489fb9e2522
 
 - cve: CVE-2016-9793
   info:
@@ -1302,6 +1384,7 @@
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=b98b0bc8c431e3ceb4b26b0dfc8db509518fb290
   espressocommitid: 986fdb8a7e435027c8ced08963b2861d6790ac01
   tunacommitid: 51e64fff820c0758a60b7704c2df6e2ac9304cf9
+  omap4commitid: 3197b9357f1ed522827cf667ef0c6d50ae4a5cc3
 
 - cve: CVE-2016-9794
   info: |
@@ -1310,6 +1393,7 @@
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=3aa02cb664c5fb1042958c8d1aa8c35055a2ebc4
   espressocommitid: eff5551cb14000114c96f6ec84ab1eba5a629c26
   tunacommitid: 8424ce7229307408d1aed5a77fd7d410d8b89a80
+  omap4commitid: 3db62c0a2e326f98040424b9a2d04b8062e1358a
 
 - cve: CVE-2016-9806
   info:
