@@ -28,6 +28,28 @@
   tunacommitid: c016769fb1e94500718c14a00b2bba134c357e2a
   omap4commitid: e3436211f9b2cd6a5168e833fe5bc5a6ab3e50ea
 
+- cve: CVE-2012-6701
+  info: |
+    - upstream fs
+  content: |
+    - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=a70b52ec1aaeaf60f4739edb1b422827cb6f3893
+  omap4commitid: 2ec196c975ffb8076df77f6fa929448717e5141b
+
+- cve: CVE-2012-6703
+  info: |
+    - Integer overflow in the ALSA subsystem
+  content: |
+    - https://github.com/torvalds/linux/commit/b35cc8225845112a616e3a2266d2fde5ab13d3ab
+    - https://github.com/android/kernel_msm/commit/81ce573830e9d5531531b3ec778c58e6b9167bcd
+    - https://github.com/torvalds/linux/commit/4dc040a0b34890d2adc0d63da6e9bfb4eb791b19
+
+- cve: CVE-2012-6704
+  info: |
+    - Kernel before 3.5
+  content: |
+    - https://github.com/torvalds/linux/commit/82981930125abfd39d7c8378a9cfdf5e1be2002b
+  omap4commitid: 
+
 - cve: CVE-2013-2015
   info: |
     - Kernel before 3.8; Looks like it goes with CVE-2015-7509; Included in 3.0.100, 3.4.66
@@ -36,6 +58,15 @@
   espressocommitid: 6ac3a550f14a5b4a24417097cd6abcb8c79a0d5a
   tunacommitid: 6ac3a550f14a5b4a24417097cd6abcb8c79a0d5a
   omap4commitid: 6ac3a550f14a5b4a24417097cd6abcb8c79a0d5a
+
+- cve: CVE-2013-4312
+  info: |
+    - Linux kernel before 4.4.1. The patches for the 4.5 kernel seem to apply more clean to some kernels
+  content: |
+    - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=a5a6cf8c405e826ff7ed1308dde72560c0ed4854 v3.2 [1/2]
+    - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=5ea820046ee399214221c0bb817eb35d304c9604 v3.2 [2/2]
+    - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=712f4aad406bb1ed67f3f98d04c044191f0ff593 v4.5 [1/2]
+    - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=415e3d3e90ce9e18727e8843ae343eda5a58fad6 v4.5 [2/2]
 
 - cve: CVE-2014-0206
   info: |
@@ -48,6 +79,7 @@
     - Linux 3.0+; Included in 3.4.92
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=e6a623460e5fc960ac3ee9f946d3106233fd28d8
+  omap4commitid: 
 
 - cve: CVE-2014-2523
   info:
@@ -61,6 +93,7 @@
     - Linux 3.0-3.13.6; Patched in 3.0.68, 3.4.79, 3.10.29
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=1d147bfa64293b2723c4fec50922168658e613ba
+  omap4commitid: 
 
 - cve: CVE-2014-2851
   info:
@@ -76,6 +109,7 @@
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=05ab8f2647e4221cbdb3856dd7d32bd5407316b3 (mainline patch)
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=314760e66c35c8ffa51b4c4ca6948d207e783079 (3.10 patch)
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=d41eb74e53d94aba656ffda647d106808e636cd6 (3.2 patch)
+  omap4commitid: 
 
 - cve: CVE-2014-4014
   info: |
@@ -166,6 +200,7 @@
     - Linux kernel before 3.13.5
   content: |
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=338f977f4eb441e69bb9a46eaa0ac715c931a67f
+  omap4commitid: 3cd78031a2406db8ecb69a9b36011261196bb621
 
 - cve: CVE-2014-9420
   info:
