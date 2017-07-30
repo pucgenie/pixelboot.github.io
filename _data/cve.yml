@@ -1578,48 +1578,98 @@
 
 - cve: CVE-2016-2847
   info:
-  content:
+  content: |
+    - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=759c01142a5d0f364a462346168a56de28a80f52
   espressocommitid: 368978c130c1b327a161f629e07e98baa8f9ffec
   tunacommitid: 4fffde9bbf293cf13f14471751ed79476d034321
   omap4commitid: e92a5c214e75bfbdacbd81c947f380e517973b37
+  baconcommitid: 9a1e3902c1b250de99bf959101c2f504abe7499a
 
 - cve: CVE-2016-3070
   info: |
-    - 
+    - doesn't affect linux <= 3.2
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=af110cc4b24250faafd4f3b9879cf51e350d7799
+  baconcommitid: afe9467857414d32782b817ff0c6126c712ea31e
 
 - cve: CVE-2016-3134
   info:
-  content:
+  content: |
+    - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=54d83fc74aa9ec72794373cb47432c5f7fb1a309
+    - 3.10 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?h=v3.10.107&id=82e2616ad251a3f72991036d6e8acebbd0aceb80
   espressocommitid: 6f95d97293e0b7504542b94b42fd33f838b92d49
   tunacommitid: 1450de7368a3efd3125e6a124be6c2b61ed3fa6f
   omap4commitid: be07edda40f40def305183cfa869fd54d9a3e363
+  baconcommitid: b385e280e94c94b92b24d19c105173b8d0424085
 
 - cve: CVE-2016-3135
-  info:
+  info: |
+    - linux <= 3.2 not affected
   content:
   espressocommitid: a21bfaa2ba13e54281fb36593c21cb470be08438
   tunacommitid: 5a9fd17fbef9d3fc0e8b064191fddc615cd28672
   omap4commitid: 1064351fd78269a91b89cc0aa7c989b7976365a5
+  baconcommitid: a51b6f8e7c02826164b240fd85a52797d211383a
+
+
+- cve: CVE-2016-3136
+  info: |
+    - Kernel crashes on invalid USB device descriptors (mct_u232 driver)
+  content: |
+    - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=4e9a0b05257f29cf4b75f3209243ed71614d062e
+    - https://source.codeaurora.org/quic/la/kernel/tegra/commit/?id=2633b8df3dff0377066fb32feb8ef06ae834d7ff
+  baconcommitid: a8252f25e26f01c888621186a0db4930cdc6663f
+
+
+- cve: CVE-2016-3137
+  info: |
+    - Kernel <= 3.2 not affected
+  content: |
+    - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=c55aee1bf0e6b6feec8b2927b43f7a09a6d5f754
+    - https://source.codeaurora.org/quic/la/kernel/tegra/commit/?id=7a17891b0194ba11f7ee15a18e545808b0d27495
+  baconcommitid: dcfe2e530379276a13003516144ddc0e5caf8187
 
 - cve: CVE-2016-3138
-  info:
-  content:
+  info: |
+    - Crash on invalid USB device descriptors (cdc_acm driver)
+  content: |
+    - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8835ba4a39cf53f705417b3b3a94eb067673f2c9
+    - https://source.codeaurora.org/quic/la/kernel/tegra/commit/?id=801c5f937ef7edb23e411bc00d3695496b89dca2
   espressocommitid: d32548c447f83547d6e859dacfc395b005d2afa3
   tunacommitid: 7225016ede8f7530226177312dee6c16745a09d9
   omap4commitid: d01bdd12c19cea3a0d193fff93469a929e630375
+  baconcommitid: d204f5fae1efaa690ac22bdfdd02e1f2966078a3
+
+- cve: CVE-2016-3140
+  info: |
+    - Kernel crashes on invalid USB device descriptors (digi_acceleport driver)
+  content: |
+    - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=5a07975ad0a36708c6b0a5b9fea1ff811d0b0c1f
+    - https://source.codeaurora.org/quic/la/kernel/tegra/commit/?id=129e6372f40a423bcded0a6dae547205edf652fb
+  baconcommitid: 964178592d075bb360c941fb9b38a350edeb4817
 
 - cve: CVE-2016-3156
   info:
-  content:
+  content: |
+    - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=fbd40ea0180a2d328c5adc61414dc8bab9335ce2
   espressocommitid: 49e91354cbc924301873b02c87f982b2c5504f34
   tunacommitid: 8dc3ce140daa07aa3c01601a778251b5e6e75a86
   omap4commitid: c3a42765347d032cca29a8dcd2eae4e6f752d911
+  baconcommitid: ec2fce22ca6ed238239c7e9bc2bf85a7b4c54bb0
+
+- cve: CVE-2016-3689
+  info: |
+    - Kernel panic on invalid USB device descriptor (ims-pcu driver)
+  content: |
+    - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=a0ad220c96692eda76b2e3fd7279f3dcd1d8a8ff
+    - https://github.com/android/kernel_msm/commit/7ca573e32c0a6634d679540314a80d235f224bfb
 
 - cve: CVE-2016-3768
-  info:
-  content:
+  info: |
+    - Qualcomm performance component in Android before 2016-07-05 on Nexus 5, 6, 5X, 6P, and 7 (2013) devices 
+  content: |
+    - https://github.com/android/kernel_msm/commit/84d8c81420aaa7c6cd6f57cb52daccf07b1f7a50
+  baconcommitid: 9cc48185b80261cd1c0f72d4c55ce362e8eb50a7
 
 - cve: CVE-2016-3809
   info: |
@@ -1628,44 +1678,109 @@
   espressocommitid: 26870521c882010b0b8b3752420780685a7876ce
   tunacommitid: 721e353f0e7130f91a94fc49f112bc2cf2752023
   omap4commitid: 603a60e03194aae89d07208d9632c4b23bcfe877
+  baconcommitid: 6792b8cb452cdb0fb48bfe2d4012606b762b6336
 
 - cve: CVE-2016-3813
-  info:
+  info: |
+    - Qualcomm USB driver in Android before 2016-07-05 on Nexus 5, 5X, 6, and 6P devices
+  content: |
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=3c0add95808fdada98ba0ab465c0b4ba49e71d26
+  baconcommitid: 275fe6cc49304d74ede24c7da337181810b97b77
+
+- cve: CVE-2016-3843
+  info: |
+    - Elevation of privilege vulnerability in kernel performance subsystem
+  content: |
+    - 1/4 https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=e65cc8f9c46c6b8119826fbc22ffeb4e96e80e8a
+    - 2/4 https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=149cf87192059fab0cb49ec5c691783c3565c215
+    - 3/4 https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=8fe72ba71e08fbc2c5a5d4985557247904d76054
+    - 4/4 https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=15c897f31ba18f67559d6b7f1a6afa855baa756c
+    - https://source.android.com/security/bulletin/2016-08-01#elevation-of-privilege-vulnerability-in-kernel-performance
+  baconcommitid: [751c375bd7e5e211d1a85c7923cc4d5d03f49ac9, b0904f155a541d3ba883cb5d7ac599079ab41aea, 1b9bb5ef6806515c1baee7cbab9d7f92f0f1710a]
+
+- cve: CVE-2016-3857
+  info: |
+    - arm: oabi compat: add missing access checks
   content:
+    - 3.10 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?h=v3.10.107&id=d948109df11c8485e972b4cc0eb4820d4b754615
+    - AOSP https://github.com/android/kernel_msm/commit/cd169f77b41de0fc1c8b790d71ac8c6c0c0dc7ef
+    - Lineage https://review.lineageos.org/80282
 
 - cve: CVE-2016-3859
-  info:
-  content:
+  info: |
+    - Qualcomm camera driver in Android before 2016-09-05 on Nexus 5, 5X, 6, and 6P devices
+  content: |
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=fe297dc01f7ea95bb1bff25f6fc4257f0ef832ff
+  baconcommitid: a2e5f55e02cd33ec26b73651eb366ac44af193a6
 
 - cve: CVE-2016-3866
-  info:
-  content:
+  info: |
+    - Qualcomm sound driver in Android before 2016-09-05 on Nexus 5X, 6, and 6P devices 
+  content: |
+    - ???
+
+- cve: CVE-2016-3867
+  info: |
+    - qcom ipa privilege escalation
+  content: |
+    - 3.10 https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=816da3d19cfee937f5add485a112bb1cdfcb72c8
+    - 3.18 https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=b518b33d4b7da7df5a0348a97ffb4f35be819937
+  baconcommitid: 622565ffd2a6710297185edfedc0cfd3735a9019
 
 - cve: CVE-2016-3893
-  info:
+  info: |
+    - Qualcomm sound codec in Android before 2016-09-05 on Nexus 6P devices
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=a7a6ddc91cce7ad5ad55c9709b24bfc80f5ac873
+  baconcommitid: c892430da24243e740216c6d446a38e60bf50f14
+
+- cve: CVE-2016-3894
+  info: |
+    - qcom DMA information disclosure
+  content: |
+    - https://github.com/android/kernel_msm/commit/c91479f60bbca0ece50d184e4cfcda52ddb5983e
+    - https://www.codeaurora.org/information-exposure-msmdmaiorbuf-ioctl-command-dmatest-device-cve-2016-3894
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=de3e3e5930b1edfebec7870390443279ec5b65fe
 
 - cve: CVE-2016-3904
-  info:
+  info: |
+    - Qualcomm bus driver in Android before 2016-11-05
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=069683407ca9a820d05c914b57c587bcd3f16a3a
 
-- cve: CVE-2016-3931
+- cve: CVE-2016-3906
   info:
   content: |
+    - https://www.codeaurora.org/improper-input-validation-while-updating-power-data-energy-aware-feature-cve-2016-3906
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=46d740d12c2a8bd9e0b27a968af6544682f7cb0e
+
+- cve: CVE-2016-3907
+  info: |
+    - There is a kernel stack information leak when processing AUDIO_GET_WMA_CONFIG_V2_32 ioctl in the audio WMA driver.
+  content: |
+    - https://www.codeaurora.org/kernel-stack-information-leak-when-processing-audiogetwmaconfigv232-ioctl-cve-2016-3907
+    - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=744330f4e5d70dce71c4c9e03c5b6a8b59bb0cda
+
+- cve: CVE-2016-3931
+  info: |
+    - Qualcomm QSEE Communicator driver in Android before 2016-10-05 on Nexus 5X, Nexus 6, Nexus 6P, and Android One devices
+  content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=e80b88323f9ff0bb0e545f209eec08ec56fca816
+  baconcommitid: 96630efceebf73500291431a37f73f483587c235
 
 - cve: CVE-2016-3934
   info: |
-    - Not to be confused with CVE-2016-6741, as it has the same commit title
+    - Qualcomm camera driver in Android before 2016-10-05 on Nexus 5, Nexus 5X, Nexus 6, Nexus 6P, and Android One devices (not to be confused with CVE-2016-6741, as it has the same commit title)
   content: |
-    - 
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=27fbeb6b025d5d46ccb0497cbed4c6e78ed1c5cc
+  baconcommitid: 1fc9dfd1a87ba6dc98640191900123171bab54fc
 
 - cve: CVE-2016-3935
-  info:
+  info: |
+    - Qualcomm cryptographic engine driver in Android before 2016-10-05 on Nexus 5X, Nexus 6, Nexus 6P, and Android One devices
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=5f69ccf3b011c1d14a1b1b00dbaacf74307c9132
+  baconcommitid: cb6d9a5071b9bebc9a4efbb2cd3c0993e02be636
 
 - cve: CVE-2016-3951
   info:
@@ -1673,6 +1788,7 @@
   espressocommitid: 21f09c80b2a1ae27adcacbb878bd05adde96c051
   tunacommitid: 3a3e24c9e33556b48b45133bab1fb16c247156f3
   omap4commitid: 32602f8b5bc4d9b977171313eaf80e2b6efd7a6a
+  baconcommitid: 1d17c1ef8a77f86996a5e1ad860aeb30c2bcfca6
 
 - cve: CVE-2016-4470
   info:
@@ -1680,6 +1796,7 @@
   espressocommitid: 46d64c2565f7daf428b72b15b4b721cff9519f16
   tunacommitid: 1ea92daf8c8f1da090d675ebd6fecbe8e2ffaddf
   omap4commitid: e6be44d99a4da21b994d3fbb8de189ec3eeeb884
+  baconcommitid: 3b280ea5b6028c0877890860f3877c697e56038d
 
 - cve: CVE-2016-4482
   info:
@@ -1687,78 +1804,116 @@
   espressocommitid: bf2931f07d0aaadb3ff66f5bfc21491422256431
   tunacommitid: db59cdbbef015a82a19c0781f78ff92be42c9e2b
   omap4commitid: 77f5a81bfdde8b972cda0da4ad397de55c89aabe
+  baconcommitid: 92e98465076fcbeaf1677191f91db81982f270c8
 
 - cve: CVE-2016-4486
-  info:
-  content:
+  info: |
+    - kernel before 4.5.5
+  content: |
+    - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=5f8e44741f9f216e33736ea4ec65ca9ac03036e6
   espressocommitid: 7e2dfc575a2df911f2669b05e9ec2f7c7f65096d
   tunacommitid: afdb73b7672e27c05a36c85a861029918b6ebba2
   omap4commitid: d6341a7268642a2cc28e01a20f4a47d686129790
+  baconcommitid: 0494d91dc15eb7fb428bc85162a11e8ec4253aeb
 
 - cve: CVE-2016-4569
   info:
-  content:
+  content: |
+    - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=cec8f96e49d9be372fdb0c3836dcf31ec71e457e
   espressocommitid: 01262946c179c64ae7710b18debbca0be47227b5
   tunacommitid: e82c5202f4629bdecdf6ae4056a7066038d9a546
   omap4commitid: 6dde904dcce1d361d032c937bd43180b3e9bfa5c
+  baconcommitid: 5b21a3bd9e6bd4ba8cc6e86099151245861d3f9f
 
 - cve: CVE-2016-4578
   info:
-  content:
+  content: |
+    - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=9a47e9cff994f37f7f0dbd9ae23740d0f64f9fe6
   espressocommitid: [afbb9bd5d95dca067698cbad77f99bde42b9ad2d, cfc40456cacd820565aff98cf8a4f9a7b6a7357b]
   tunacommitid: [acaaccdca0fc90b207671634c40733c7c1e42c3f, 96c694de5d730d3b7fd648e6d3b6cc71b4f8640b]
   omap4commitid: [20a0d8b6ee3954b252f9bc02607c8fb699d3ee93, 81e5f70b4a9c395b21ead351d3d1821fafa5d25c]
+  baconcommitid: cc29f6bda2ca4934204ecd03a6a3d52430c22a4b
 
 - cve: CVE-2016-4794
-  info:
-  content:
+  info: |
+    - Use-after-free vulnerability in mm/percpu.c in the Linux kernel through 4.6 allows local users to cause a denial of service (BUG) or possibly have unspecified other impact via crafted use of the mmap and bpf system calls.
+  content: |
+    - http://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/commit/?id=6710e594f71ccaad8101bc64321152af7cd9ea28
+    - http://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/commit/?id=4f996e234dad488e5d9ba0858bc1bae12eff82c3
+  baconcommitid: 
 
 - cve: CVE-2016-4805
   info:
-  content:
+  content: |
+    - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=1f461dcdd296eecedaffffc6bae2bfa90bd7eb89
   espressocommitid: d901e9c4cec6da765a85fbb815e06a6f9ee85809
   tunacommitid: f20a65dbffb7fe90b43f0f0af753f30f62589491
   omap4commitid: 4b60cd7fe732277ae5c6531aee532c94b7fee340
+  baconcommitid: 5a5567366ac6dce12988d067a8c7a46c7ab82ca0
 
 - cve: CVE-2016-4998
   info:
-  content:
+  content: |
+    - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6e94e0cfb0887e4013b3b930fa6ab1fe6bb6ba91
   espressocommitid: [5ed55375251b41036d8a0cd6281ca73586378dc2, aaa7f514c910653a03dcd00aa0e07dfdb26385a9]
   tunacommitid: [ae9fbfcd7964d89c80a4e5840b0db8a28df058d5, 023903a9497cea62272484be752ff75a860c6269]
   omap4commitid: [3eb548a58ccd78de8359ea9f3424529e2e30f8a9, 4999962e83c26fda42a9363a6400c41bf03ff512]
+  baconcommitid: 2e64c4943d60336825a1e0f6bff971330c48f9ff
 
 - cve: CVE-2016-5195
-  info:
-  content:
+  info: |
+    - DirtyCOW - probably the most dangerous bug in a while.
+  content: |
+    - 3.4 backport https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=1c8544a93151329be95f702f6f4029f860b77ee7
+    - 3.10 backport https://github.com/android/kernel_msm/commit/c33d1bdff9c4c24e73e7c7f48ce8f8c1819a233f
+    - 3.18 https://github.com/android/kernel_msm/commit/47f4f5225f27dc8b495ef2f946edd405630245ca
   espressocommitid: 61a3b7c7c2151234e917a1c7c8b19311a9089b77
   tunacommitid: fa1e8b5bf458368bd80a9d7ce011340a5a6db29e
   omap4commitid: f5d463d3b214f5fa63b225eca8e471a41217d272
+  baconcommitid: f74caecb673d8b6dbeddd65749e0b484b48c5522
+
+- cve: CVE-2016-5340
+  info: |
+    - drivers/staging/android/ashmem.c
+  content: |
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=06e51489061e5473b4e2035c79dcf7c27a6f75a6
+  baconcommitid: 0dfe801834b08dff828f45134e78347980101539
 
 - cve: CVE-2016-5342
-  info:
-  content:
+  info: |
+    - Qualcomm wcnss_wlan device driver for the Linux kernel 3.x
+  content: |
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=579e796cb089324c55e0e689a180575ba81b23d9
+  baconcommitid: 15805a767875ff7fcf8ae741af3650312c9ea047
 
 - cve: CVE-2016-5343
-  info:
-  content:
+  info: |
+    - drivers/soc/qcom/qdsp6v2/voice_svc.c in the QDSP6v2 Voice Service driver for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, allows attackers to cause a denial of service (memory corruption) or possibly have unspecified other impact via a write request, as demonstrated by a voice_svc_send_req buffer overflow.
+  content: |
+    - https://review.lineageos.org/#/c/108406/
+  baconcommitid: c49ce75124b088fd8b0f2640bf818c1e083a7b0c
 
 - cve: CVE-2016-5345
-  info:
+  info: |
+    - Qualcomm FM Radio Transceiver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=67118716a2933f6f30a25ea7e3946569a8b191c6
 
 - cve: CVE-2016-5346
-  info:
+  info: |
+    - Qualcomm Avtimer driver
   content: |
     - https://www.codeaurora.org/null-pointer-dereference-when-processing-accept-system-call-user-process-afmsmipc-sockets-cve-2016
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=71fe5361cbef34e2d606b79e8936a910a3e95566
     - https://review.lineageos.org/#/c/163837
+  baconcommitid: 8d19e45ea83397604f5dd3e71893265646c56dd2
 
 - cve: CVE-2016-5347
   info: |
     - Qualcomm qdsp6v2
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=f14390f13e62460fc6b05fc0acde0e825374fdb6
+  baconcommitid: 
 
 - cve: CVE-2016-5349
   info: |
@@ -1771,10 +1926,12 @@
 
 - cve: CVE-2016-5829
   info:
-  content:
+  content: |
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/drivers/hid/usbhid/hiddev.c?h=LA.UM.5.5.r1-04000-8x96.0&id=af37375834fe1dd7a7a08c6042664ffc2a1a3beb
   espressocommitid: c301aaa9bdf3b18f87b19fc2a849e341acebb507
   tunacommitid: 8fd826b1ed20ca0c4506d46ef97b28e8ed646afe
   omap4commitid: 27a3d79afdffaf44fd25eafd05c0b3a758512de5
+  baconcommitid: c2398a078c606c2aec83cad9ba40199a5b8c8b54
 
 - cve: CVE-2016-5853
   info: |
@@ -1793,9 +1950,11 @@
     - Qualcomm SPCom driver
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=a5edb54e93ba85719091fe2bc426d75fa7059834
+  baconcommitid: 
 
 - cve: CVE-2016-5856
-  info:
+  info: |
+    - Qualcomm SPCom driver in the Android kernel 2017-03-05 
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-4.4/commit/?id=0c0622914ba53cdcb6e79e85f64bfdf7762c0368
 
@@ -1803,6 +1962,7 @@
   info:
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-4.4/commit/?id=d9d2c405d46ca27b25ed55a8dbd02bd1e633e2d5
+  baconcommitid: 
 
 - cve: CVE-2016-5858
   info: |
@@ -1810,6 +1970,7 @@
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=3154eb1d263b9c3eab2c9fa8ebe498390bf5d711
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=afc5bea71bc8f251dad1104568383019f4923af6
+  baconcommitid: 9a3f8e6a1a335e0c19dff5f882f39af9022b8cb9
 
 - cve: CVE-2016-5859
   info: |
@@ -1823,11 +1984,33 @@
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=9f91ae0d7203714fc39ae78e1f1c4fd71ed40498
 
+- cve: CVE-2016-5861
+  info: |
+    - A-36251375, Qualcomm MDSS video driver
+  content: |
+    - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=cf3c97b8b6165f13810e530068fbf94b07f1f77d
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=17b37501db36fb1723e31ea17961b66df7432fc7
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=bfc6eee5e30a0c20bc37495233506f4f0cc4991d
+  baconcommitid: d8417e7fc2a94a20e538e7ef4b0964e128520ee8
+
 - cve: CVE-2016-5862
   info: |
     - Qualcomm sound codec driver msm8996
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=4199451e83729a3add781eeafaee32994ff65b04
+
+- cve: CVE-2016-5863
+  info: |
+    - upstream USB HID devices
+  content: |
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=daf0acd54a6a80de227baef9a06285e4aa5f8c93
+  baconcommitid: c2398a078c606c2aec83cad9ba40199a5b8c8b54
+
+- cve: CVE-2016-5864
+  info: |
+    - A-36251231, QC Sound driver
+  content: |
+    - https://source.codeaurora.org/quic/la/kernel/msm-4.4/commit/?id=cbc21ceb69cb7bca0643423a7ca982abce3ce50a
 
 - cve: CVE-2016-5867
   info: |
@@ -1854,6 +2037,7 @@
   espressocommitid: 597586d1fcbc9b5201306419c68b0a03b28f9771
   tunacommitid: b7214691e89ea5d26881b8cd1a195e3d5a452240
   omap4commitid: 177ae7ace3e907cb31074c1e9d63ea07de2e13a3
+  baconcommitid: ba3e1237cb02278c48c0876ba5894295f8325604
 
 - cve: CVE-2016-6683
   info:
@@ -1862,25 +2046,60 @@
   tunacommitid: ae5fb0c47eede4311c6cbe1b31106f6310ee2587
   omap4commitid: 2b178235ac87a6da20d502a92b5ed5bbe3e7146b
 
+- cve: CVE-2016-6698
+  info: |
+    - There is a kernel stack information leak when processing audio ioctls in the Qualcomm audio driver.
+  content: |
+    - https://www.codeaurora.org/kernel-stack-information-leak-when-processing-audio-ioctls-cve-2016-6698
+    - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=de90beb76ad0b80da821c3b857dd30cd36319e61
+
+
 - cve: CVE-2016-6725
-  info:
+  info: |
+    - Qualcomm crypto driver in Android before 2016-11-05
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=cc95d644ee8a043f2883d65dda20e16f95041de3
+  baconcommitid: 7c90fd1d414f1cb78a6d70f8f6731c12176e0e29
 
 - cve: CVE-2016-6738
-  info:
+  info: |
+    - Qualcomm crypto engine driver in Android before 2016-11-05
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=a829c54236b455885c3e9c7c77ac528b62045e79
+  baconcommitid: 7789a07b698855da8d078d0f42ca8c03c72d1a82
+
+- cve: CVE-2016-6739
+  info: |
+    - Qualcomm camera driver in Android before 2016-11-05
+  content: |
+    - https://www.codeaurora.org/heap-overflow-function-msmcppcfgframe-cve-2016-6739
+    - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=c4af572a7ad59c0f07fd316a08055bc86dfb5f0d
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/drivers/media/platform/msm/camera_v2/pproc/cpp/msm_cpp.c?h=LA.BR.1.2.9_rb1.18&id=b0c2274b13a0487e72e57342a842a99a15149fb9
 
 - cve: CVE-2016-6740
-  info:
+  info: |
+    - Qualcomm camera driver in Android before 2016-11-05 
   content: |
     - https://www.codeaurora.org/stack-overflow-msmcameraqupi2cwriteseq-cve-2016-6740
+    - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=a939a87f0adf91feceb329a5c080b86e1ee333c7
+    - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=ef78bd62f0c064ae4c827e158d828b2c110ebcdc
 
 - cve: CVE-2016-6741
-  info:
+  info: |
+    - Qualcomm camera driver in Android before 2016-11-05
   content: |
     - https://www.codeaurora.org/stack-overflow-msmcameraqupi2creadseq-cve-2016-6741
+    - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=80a1d9978c11f76bbe6d2e622bf2ded18f27e34f
+  baconcommitid: 0e8aa5ef341b08f78052c606413832e179a04163
+
+- cve: CVE-2016-6748
+  info: |
+    - qualcomm video driver
+  content: |
+    - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=313d9f89e76ada8d900c9a578cd5cb77d5813625
+    - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=be651d020b122a1ba9410d23ca4ebbe9f5598df6
+    - https://www.codeaurora.org/possible-kernel-pointer-leak-vidc-driver-debug-messages-cve-2016-6748
+  baconcommitid: a3c29cede44f4a75dc3f50990825379f712dfc48
 
 - cve: CVE-2016-6749
   info:
