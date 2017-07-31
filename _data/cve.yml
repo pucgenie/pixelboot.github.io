@@ -2604,7 +2604,7 @@
 
 - cve: CVE-2017-0403
   info: |
-    - Kernel 3.10, 3.18, 3.4
+    - Kernel 3.0, 3.4, 3.10, 3.18
   content: |
     - https://github.com/android/kernel_msm/commit/2c5c1fd0d2a2a96fab750fa332cb703022c16c04
 
@@ -2615,9 +2615,18 @@
     - https://github.com/android/kernel_msm/commit/4faa6d2e9b53546823882d8889820ff9ce3c372f
 
 - cve: CVE-2017-0427
-  info:
+  info: |
+    - fs/proc/array.c: make safe access to group_leader
   content: |
-    - https://github.com/android/kernel_msm/commit/1d6d364ee174676a225a77dc7ca8dac887199718
+    - 3.10 https://github.com/android/kernel_msm/commit/5db4167c9924c68ab9554bba3a98ecfd14b91a8e
+    - 3.18 https://github.com/android/kernel_msm/commit/1d6d364ee174676a225a77dc7ca8dac887199718
+  baconcommitid: a688a2cb13389bcc3c8f2bc8f87b7c977c9fb4f1
+
+- cve: CVE-2016-0430
+  info: |
+    - Elevation of privilege vulnerability in Broadcom Wi-Fi driver
+  content: |
+    - https://github.com/android/kernel_msm/commit/709105c301aa53fb86c46b36f882998558b19652
 
 - cve: CVE-2017-0432
   info: |
@@ -2626,9 +2635,11 @@
 
 - cve: CVE-2017-0433
   info: |
-    - Synaptics touchscreen driver
+    - Vulnerable sysfs entries in Synaptics touchscreen driver. Note: Google goofed and put the wrong bug id# on these changes.  The bug id they put is actually for cve-2017-0445, which is only for htc synaptic driver.
   content: |
-    - https://android.googlesource.com/kernel/tegra/+/2fde6b734fda07addf76e6a81287fdf717635516
+    - https://github.com/android/kernel_msm/commit/fe160e51f02ee5db529c2e84ac8364c89cce005e
+    - https://github.com/android/kernel_msm/commit/2615c5f302441568e6dd20007bc5246d72837e80
+    - https://alephsecurity.com/vulns/aleph-2016001
 
 - cve: CVE-2017-0434
   info: |
@@ -2640,16 +2651,20 @@
   info: |
     - Qualcomm sound driver
   content: |
-    - https://github.com/android/kernel_msm/commit/1706cfc4daba827a882aed241031d2174f4bfd78
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=ce9db0874906f6aedd80bb28d457eadfe38bdd02
+    - https://github.com/android/kernel_msm/commit/831da5d113d214db6894e9fd0ce98762ee8a544a
+    - https://source.android.com/security/bulletin/2017-02-01#eop-in-qualcomm-sound-driver
 
 - cve: CVE-2017-0436
   info: |
-    - Qualcomm sound driver A-32624661 - QC-CR#1078000: The patch for this issue is not publicly available. The update is contained in the latest binary drivers for Nexus devices available from the Google Developer site.
-  content:
+    - Qualcomm sound driver. NOTE: Patching this cve also fixes cve-2016-8481 and cve-2017-0435
+  content: |
+    - https://source.android.com/security/bulletin/2017-02-01#eop-in-qualcomm-sound-driver
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=ce9db0874906f6aedd80bb28d457eadfe38bdd02
 
 - cve: CVE-2017-0437
   info: |
-    - Qualcomm Wi-Fi driver
+    - Qualcomm Wi-Fi driver, same as CVE-2017-0438, CVE-2017-0442, CVE-2017-0443
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=1f0b036dc74ccb6e9f0a03a540efdb0876f5ca77 - qcacld-2.0
 
@@ -2671,12 +2686,14 @@
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=10f0051f7b3b9a7635b0762a8cf102f595f7a268 - qcacld2.0
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/prima/commit/?id=054ce0761e900c5f63089393f8b6cadf17d55ade - prima
+  baconcommitid: d914381dbcead3859cedf023bcbf16fd60717173
 
 - cve: CVE-2017-0441
   info: |
     - Qualcomm Wi-Fi driver
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=da87131740351b833f17f05dfa859977bc1e7684 - qcacld-2.0
+  baconcommitid: f3df6c7e1ff72ee4a394f4d6e1a2484fda2d6da3
 
 - cve: CVE-2017-0442
   info: |
@@ -2693,25 +2710,27 @@
 - cve: CVE-2017-0444
   info: |
     - Realtek sound driver
-  content:
+  content: |
+    - https://android.googlesource.com/kernel/tegra/+/230f280dd4046a227665ff07c9afaa7b9aa1e061
 
 - cve: CVE-2017-0445
   info: |
     - HTC touchscreen driver
   content: |
-    - https://github.com/android/kernel_msm/commit/fe160e51f02ee5db529c2e84ac8364c89cce005e
-    - https://github.com/android/kernel_msm/commit/773179468893965c2b81aa7ffe3722b6868ef749
-    - https://github.com/android/kernel_msm/commit/fde3f527e2fda799bbfce5f2c8b06b2b836ecc69
+    - 1/2 https://github.com/android/kernel_msm/commit/773179468893965c2b81aa7ffe3722b6868ef749
+    - 2/2 https://github.com/android/kernel_msm/commit/367e64520dba1652d8f6d0ac1ebda3cab0f9e374
 
 - cve: CVE-2017-0446
   info: |
     - HTC touchscreen driver
-  content:
+  content: |
+    - https://github.com/android/kernel_msm/commit/773179468893965c2b81aa7ffe3722b6868ef749
 
 - cve: CVE-2017-0447
   info: |
     - HTC touchscreen driver
-  content:
+  content: |
+    - https://github.com/android/kernel_msm/commit/773179468893965c2b81aa7ffe3722b6868ef749
 
 - cve: CVE-2017-0448
   info: |
@@ -2721,7 +2740,8 @@
 - cve: CVE-2017-0449
   info: |
     - Broadcom WiFi, Kernel 3.10
-  content:
+  content: |
+    - https://github.com/android/kernel_msm/commit/323a28bf14c622bdd1b9ecf09a339b00af98c965
 
 - cve: CVE-2017-0451
   info: |
@@ -2741,7 +2761,9 @@
   info: |
     - Qualcomm Wi-Fi driver, Kernel 3.10
   content: |
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/prima/commit/?id=dd88a6eb22a0df94c6414d1fe815d61e9dfb0a34
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=05af1f34723939f477cb7d25adb320d016d68513
+  baconcommitid: 115664c51912eef077dac41c3c7dbaa287ac1653
 
 - cve: CVE-2017-0454
   info: |
@@ -2759,6 +2781,7 @@
   info: |
     - Qualcomm Wi-Fi driver, Kernel 3.18
   content: |
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=b4e374926ddc325840cda704aea1eb0c49d7f0e3
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?h=rel/msm-3.18&id=ffacf6e2dc41b6063c3564791ed7a2f903e7e3b7
 
 - cve: CVE-2017-0460
@@ -2773,6 +2796,8 @@
     - Qualcomm Wi-Fi driver, Kernels 3.10, 3.18
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=ce5d6f84420a2e6ca6aad6b866992970dd313a65
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/prima/commit/?id=02bd3c61ccb5a68eee42e6cfc59fc8d7120167a2
+  baconcommitid: 578f60bf199ad0f98f4c087c6f792d0caf302c6f
 
 - cve: CVE-2017-0462
   info: |
@@ -2805,6 +2830,15 @@
     - https://android.googlesource.com/kernel/msm/+/03c26a1d8c8687131da151c2e4bd5a04d08e0dec
     - https://github.com/android/kernel_msm/commit/03c26a1d8c8687131da151c2e4bd5a04d08e0dec
 
+- cve: CVE-2016-0510
+  info: |
+    - Elevation of privilege vulnerability in kernel FIQ debugger
+  content: |
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=d4dfd82835bb6f92de3bfb8a1cbf6beaf892ad08
+    - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=7a4fd6fb0df85d16db29561e0063b41a62f11e4d
+    - https://android.googlesource.com/kernel/tegra/+/a075f8ab69f679f221f9e2001363aae83cbdd2e8
+    - https://review.lineageos.org/#/c/179097
+
 - cve: CVE-2017-0516
   info: |
     - Qualcomm input hardware driver, Kernel-3.10, Kernel-3.18
@@ -2830,9 +2864,15 @@
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=5bb646471da76d3d5cd02cf3da7a03ce6e3cb582
 
+- cve: CVE-2016-0525
+  info: |
+    - qcom ipa privilege elevation
+  content: |
+    - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=050ee9e77ca89e9997792a0ab371470218da9a97
+
 - cve: CVE-2017-0531
   info: |
-    - Qualcomm Wi-Fi driver, Kernel-3.10, Kernel-3.18
+    - AsoC driver, Kernel-3.10, Kernel-3.18
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=530f3a0fd837ed105eddaf99810bc13d97dc4302
 
@@ -2865,6 +2905,7 @@
     - USB gadget driver, Kernel 3.10, 3.18
   content: |
     - https://review.lineageos.org/#/c/167726/
+    - https://chromium-review.googlesource.com/c/428059/3
 
 - cve: CVE-2017-0564
   info: |
@@ -2880,6 +2921,7 @@
     -  Qualcomm crypto engine driver drivers/crypto/msm/qcedev.c Kernel-3.10, Kernel-3.18
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=2b09507d78b25637df6879cd2ee2031b208b3532
+  baconcommitid: 3ce84fe2b56202f3bd510e074daec1b5756591b9
 
 - cve: CVE-2017-0583
   info: |
@@ -2940,10 +2982,11 @@
     - Qualcomm qdsp6v2
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=1aa5df9246557a98181f03e98530ffd509b954c8
+    - https://review.lineageos.org/#/q/topic:CVE-2017-0611
 
 - cve: CVE-2017-0612
   info: |
-    - Qualcomm Secure Execution Environment Data Integrity Partition (DIP) for MDTP
+    - Qualcomm Secure Execution Environment Data Integrity Partition (DIP) for MDTP; Kernel 3.18
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=05efafc998dc86c3b75af9803ca71255ddd7a8eb
 
@@ -3007,15 +3050,102 @@
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=970d6933e53c1f7ca8c8b67f49147b18505c3b8f
 
+- cve: CVE-2017-0633
+  info: |
+    - Information disclosure vulnerability in Broadcom Wi-Fi driver
+  content: |
+    - https://github.com/android/kernel_msm/commit/4e38c573e81eb76f09bae425f035be392fbab370
+
+- cve: CVE-2017-0636
+  info: |
+    - A-35310230, M-ALPS03162263, MediaTek Command queue driver
+  content:
+
+- cve: CVE-2017-0648
+  info: |
+    - A-36101220, FIQ debugger, Nexus 9
+  content: |
+    - https://android.googlesource.com/kernel/tegra/+/34597d088801ad8060b45026df2435f52136032f
+    - https://alephsecurity.com/vulns/aleph-2017000
+
+- cve: CVE-2017-0649
+  info: |
+    - A-34468195, M-ALPS03162283, MediaTek Sound driver
+  content: 
+
+- cve: CVE-2017-0650
+  info: |
+    - A-35472278, Synaptics Touchscreen driver
+  content: |
+    - https://github.com/android/kernel_msm/commit/c6d874fd2c515406bc33ab78d60df70a47bddae2
+
+- cve: CVE-2017-0651
+  info: |
+    - A-35644815, ION subsystem
+  content: |
+    - https://android.googlesource.com/kernel/tegra/+/c555ed3d0a8133c30731f25263b44d878844e277
+
+- cve: CVE-2017-0705
+  info: |
+    - broadcom wifi
+  content: |
+    - https://android.googlesource.com/kernel/msm/+/1bc21cd909be18f07501940346c56d819cc57ef7
+
+- cve: CVE-2017-0706
+  info: |
+    - broadcom wifi
+  content: |
+    - https://android.googlesource.com/kernel/msm/+/6a469209ac014b6d93f373e042500f6e8cd6a04a%5E%21/#F0
+
+- cve: CVE-2017-0710
+  info: |
+    - kernel TCB
+  content: |
+    - https://android.googlesource.com/kernel/msm/+/f37e859ab4c55c6c56e3c157bbed3024fc8d0dc6
+
+- cve: CVE-2017-1000364
+  info: |
+    - An issue was discovered in the size of the stack guard page on Linux, specifically a 4k stack guard page is not sufficiently large and can be "jumped" over (the stack guard page is bypassed), this affects Linux Kernel versions 4.11.5 and earlier (the stackguard page was introduced in 2010).
+  content: |
+    - 3.10 https://review.lineageos.org/#/c/178806/ ; https://review.lineageos.org/#/c/178807/ ; https://review.lineageos.org/#/c/178808/
+    - 3.4 https://review.lineageos.org/#/c/179545/ ; https://review.lineageos.org/#/c/179546/
+    - 3.18 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?h=v3.18.59&id=d4712eb79b17d85c9e354efa2d3156ce50736128 ; https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit?h=linux-3.18.y&id=c6aeba66df8743478d7b9f64fa76d88ed4100c67 ; https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit?h=linux-3.18.y&id=509f8f1772ec2972898771ecc376572b6efd184a
+    - 3.2 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=640c7dfdc7c723143b1ce42f5569ec8565cbbde7 ; https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=a7d519473a32267e52f1f92141240451e5403dd3
+
+- cve: CVE-2017-1000365
+  info: |
+    - fs/exec.c: account for argv/envp pointers
+  content: |
+    - 3.10 https://review.lineageos.org/#/c/179178/1
+    - 3.18 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?h=v3.18.59&id=2dff2164d171e9c27f2f7fa778d408ecf4d1e1ea
+
+- cve: CVE-2017-1000380
+  info: |
+    - sound/core/timer.c in the Linux kernel before 4.11.5 is vulnerable to a data race in the ALSA /dev/snd/timer driver resulting in local users being able to read information belonging to other users, i.e., uninitialized memory contents may be disclosed when a read and an ioctl happen at the same time.
+  content: |
+    - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ba3021b2c79b2fa9114f92790a99deb27a65b728 ; https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=d11662f4f798b50d8c8743f433842c3e40fe3378
+
+- cve: CVE-2017-2618
+  info: |
+    - selinux: fix off-by-one in setprocattr
+  content: |
+    - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?h=v3.10.107&id=a71b4196a72f09ed223d8140de7fd47ccdaf6e2b
+
 - cve: CVE-2017-2636
   info: |
     - kernel through 4.10.1
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/gregkh/tty.git/commit/?h=tty-linus&id=82f2341c94d270421f383641b7cd670e474db56b
 
+- cve: CVE-2017-2671
+  info: |
+    - ping, Kernel versions <=4.10.8
+  content: |
+    - https://git.kernel.org/pub/scm/linux/kernel/git/davem/net.git/commit/net/ipv4/ping.c?id=43a6684519ab0a6c52024b5e25322476cabad893
+
 - cve: CVE-2017-5546
   info: |
-    - Kernel 4.8.x and 4.9.x before 4.9.5
+    - Kernel 4.7.x, 4.8.x and 4.9.x before 4.9.5
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=c4e490cf148e85ead0d1b1c2caaba833f1d5b29f
 
@@ -3033,7 +3163,7 @@
 
 - cve: CVE-2017-5551
   info: |
-    - Linux kernel before 4.9.6
+    - Linux kernel after 3.14 and before 4.9.6; same as 3.2 backport for CVE-2016-7097
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=497de07d89c1410d76a15bec2bb41f24a2a89f31
 
@@ -3043,10 +3173,11 @@
   content: |
     - https://github.com/torvalds/linux/commit/e1d35d4dc7f089e6c9c080d556feedf9c706f0c7
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=95e91b831f87ac8e1f8ed50c14d709089b4e01b8
+  baconcommitid: 0a34a22dcdd2b957aa5661861913e2b6e4ce4267
 
 - cve: CVE-2017-5897
   info: |
-    - The ip6gre_err function in net/ipv6/ip6_gre.c in the Linux kernel allows remote attackers to have unspecified impact via vectors involving GRE flags in an IPv6 packet, which trigger an out-of-bounds access
+    - The ip6gre_err function in net/ipv6/ip6_gre.c in the Linux kernel allows remote attackers to have unspecified impact via vectors involving GRE flags in an IPv6 packet, which trigger an out-of-bounds access. Kernel <= 3.2 not affected
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/davem/net.git/commit/?id=7892032cfe67f4bde6fc2ee967e45a8fbaf33756
 
@@ -3055,10 +3186,21 @@
     - Linux kernel through 4.9.9
   content: |
     - http://git.kernel.org/cgit/linux/kernel/git/tip/tip.git/commit/?id=dfb4357da6ddbdf57d583ba64361c9d792b0e0b1
+    - 3.10 https://review.lineageos.org/#/c/163292/
+    - 3.18 https://review.lineageos.org/170669
+  baconcommitid: 89fddbe615c9e9bd1561072d51ad67d617827eb7
+
+- cve: CVE-2017-5970
+  info: |
+    - Upstream kernel <= 4.9.9 net ipv4 crash
+  content: |
+    - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=34b2cef20f19c87999fff3da4071e66937db9644
 
 - cve: CVE-2017-5972
   info:
-  content:
+  content: |
+    - https://github.com/android/kernel_msm/commit/e994b2f0fb9229aeff5eea9541320bd7b2ca8714
+    - (Apparently this fix is needed (?): https://review.lineageos.org/#/c/181001/)
 
 - cve: CVE-2017-5986
   info: |
@@ -3071,6 +3213,7 @@
     - Linux kernel before 4.9.7
   content: |
     - http://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/commit/?h=linux-3.2.y&id=9eb0e01be831d0f37ea6278a92c32424141f55fb - 3.2 (and 3.4) backport
+  baconcommitid: 06ae9f0ba79054411b8fee14e480ffa8fc60563a
 
 - cve: CVE-2017-6074
   info: |
@@ -3078,6 +3221,7 @@
   content: |
     - https://github.com/torvalds/linux/commit/5edabca9d4cff7f1f2b68f0bac55ef99d9798ba4
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=5edabca9d4cff7f1f2b68f0bac55ef99d9798ba
+  baconcommitid: a2564f2ebb980b2bd7023b8ef1221c2cbf4d11fc
 
 - cve: CVE-2017-6214
   info: |
@@ -3085,6 +3229,18 @@
   content: |
     - https://github.com/torvalds/linux/commit/ccf7abb93af09ad0868ae9033d1ca8108bdaec82
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ccf7abb93af09ad0868ae9033d1ca8108bdaec82
+  baconcommitid: 000be494f3c4895d4fb2eb391c1ce88606c9e894
+
+- cve: CVE-2017-6247
+  info: |
+    - A-34386301, Nvidia Sound driver
+  content:
+
+- cve: CVE-2017-6248
+  info: |
+    - kernel before 4.9.13
+  content: |
+    - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=4c03b862b12f980456f9de92db6d508a4999b788
 
 - cve: CVE-2017-6345
   info: |
@@ -3116,6 +3272,12 @@
     - net/sctp/socket.c in the Linux kernel through 4.10.1
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=dfcb9f4f99f1e9a49e43398a7bfbf56927544af1
+
+- cve: CVE-2017-6421
+  info: |
+    - A-36251986, MStar touchscreen driver
+  content: |
+    - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=be42c7ff1f0396484882451fd18f47144c8f1b6b
 
 - cve: CVE-2017-6423
   info: |
