@@ -23,21 +23,29 @@ icon: newspaper-o
     <b>Links:</b><br />
     {{ cve.content | markdownify }}
     {% endif %}
+    <b>Galaxy Tab 2 Kernel:</b>
     {% if cve.espressocommitid %}
-    <b>Galaxy Tab 2 Kernel:</b><br />
-    <a href="https://github.com/Unlegacy-Android/android_kernel_samsung_espresso/commit/{{ cve.espressocommitid }}">https://github.com/Unlegacy-Android/android_kernel_samsung_espresso/commit/{{ cve.espressocommitid }}</a></br>
+    <br /><a href="https://github.com/Unlegacy-Android/android_kernel_samsung_espresso/commit/{{ cve.espressocommitid }}">https://github.com/Unlegacy-Android/android_kernel_samsung_espresso/commit/{{ cve.espressocommitid }}</a></br>
+    {% else %}
+    <b> UNAFFECTED OR UNPATCHED</b></br>
     {% endif %}
+    <b>Galaxy Nexus Kernel:</b>
     {% if cve.tunacommitid %}
-    <b>Galaxy Nexus Kernel:</b><br />
-    <a href="https://github.com/Unlegacy-Android/android_kernel_samsung_tuna/commit/{{ cve.tunacommitid }}">https://github.com/Unlegacy-Android/android_kernel_samsung_tuna/commit/{{ cve.tunacommitid }}</a></br>
+    <br /><a href="https://github.com/Unlegacy-Android/android_kernel_samsung_tuna/commit/{{ cve.tunacommitid }}">https://github.com/Unlegacy-Android/android_kernel_samsung_tuna/commit/{{ cve.tunacommitid }}</a></br>
+    {% else %}
+    <b> UNAFFECTED OR UNPATCHED</b></br>
     {% endif %}
+    <b>Common OMAP4 Kernel:</b>
     {% if cve.omap4commitid %}
-    <b>Common OMAP4 Kernel:</b><br />
-    <a href="https://github.com/Unlegacy-Android/android_kernel_ti_omap4/commit/{{ cve.omap4commitid }}">https://github.com/Unlegacy-Android/android_kernel_ti_omap4/commit/{{ cve.omap4commitid }}</a></br>
+    <br /><a href="https://github.com/Unlegacy-Android/android_kernel_ti_omap4/commit/{{ cve.omap4commitid }}">https://github.com/Unlegacy-Android/android_kernel_ti_omap4/commit/{{ cve.omap4commitid }}</a></br>
+    {% else %}
+    <b> UNAFFECTED OR UNPATCHED</b></br>
     {% endif %}
+    <b>Oneplus msm8974 Kernel:</b>
     {% if cve.baconcommitid %}
-    <b>Oneplus msm8974 Kernel:</b><br />
-    <a href="https://github.com/andi34/android_kernel_oneplus_msm8974/commit/{{ cve.baconcommitid }}">https://github.com/andi34/android_kernel_oneplus_msm8974/commit/{{ cve.baconcommitid }}</a></br>
+    <br /><a href="https://github.com/andi34/android_kernel_oneplus_msm8974/commit/{{ cve.baconcommitid }}">https://github.com/andi34/android_kernel_oneplus_msm8974/commit/{{ cve.baconcommitid }}</a></br>
+    {% else %}
+    <b>UNAFFECTED OR UNPATCHED</b></br>
     {% endif %}
   </div>
 </div>

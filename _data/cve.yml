@@ -2255,7 +2255,7 @@
     - kernel before 4.5.4 
   content: |
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=8148a73c9901a8794a50f950083c00ccf97d43b3
-  baconcommitid: 
+  baconcommitid: c0697b8d4540f8b6ccad1b8b059bb3b5e252e3e0
 
 - cve: CVE-2016-7917
   info: |
