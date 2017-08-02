@@ -1745,6 +1745,12 @@
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=de3e3e5930b1edfebec7870390443279ec5b65fe
   baconcommitid: 0cbe18235c12dd50d3cd5935dcb1616dd138dbf7
 
+- cve: CVE-2016-3902
+  info: |
+    - Information disclosure vulnerability in Qualcomm IPA driver
+  content: |
+    - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=2fca425d781572393fbe51abe2e27a932d24a768
+
 - cve: CVE-2016-3904
   info: |
     - Qualcomm bus driver in Android before 2016-11-05
@@ -2529,7 +2535,6 @@
     - Information disclosure vulnerability in HTC input driver
   content: |
     - https://github.com/android/kernel_msm/commit/d906945fc287f9df48b99349fea962b921d4d39e
-  baconcommitid: 8b5ecb6ec70761844826d4d05bbcccae653abcc2
 
 - cve: CVE-2016-8476
   info: |
@@ -2544,6 +2549,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=33c9042e38506b04461fa99e304482bc20923508
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=96145eb5f0631f0e105d47abebc8f940f7621eeb
+  baconcommitid: 8b5ecb6ec70761844826d4d05bbcccae653abcc2
 
 - cve: CVE-2016-8478
   info: |
@@ -2625,6 +2631,7 @@
   content: |
     - https://github.com/torvalds/linux/commit/a0ac402cfcdc904f9772e1762b3fda112dcc56a0
     - https://review.lineageos.org/#/q/topic:CVE-2016-9576
+  baconcommitid: 70b0db438654a32f7df22c600666524bb4dbaf82
 
 - cve: CVE-2016-9604
   info: |
@@ -2674,12 +2681,14 @@
     - Kernel 3.0, 3.4, 3.10, 3.18
   content: |
     - https://github.com/android/kernel_msm/commit/2c5c1fd0d2a2a96fab750fa332cb703022c16c04
+  baconcommitid: 439048c2edea2eb7e11a4e498a2c37c40218bf5c
 
 - cve: CVE-2017-0404
   info: |
     - Kernel 3.10, 3.18, 3.4
   content: |
     - https://github.com/android/kernel_msm/commit/4faa6d2e9b53546823882d8889820ff9ce3c372f
+  baconcommitid: 2477aa768e9ee8e7e3c3ea78a4ed09269cfb0066
 
 - cve: CVE-2017-0427
   info: |
@@ -3315,6 +3324,7 @@
   content: |
     - https://review.lineageos.org/#/q/topic:CVE-2017-6345
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=8b74d439e1697110c5e5c600643e823eb1dd0762
+  baconcommitid: 92fafb643fde77d4575ce8448d128a416b436612
 
 - cve: CVE-2017-6346
   info: |
