@@ -209,7 +209,7 @@
   espressocommitid: 4d53d08701f7046cd71080a1db73b463f47f3cb5
   tunacommitid: 00851dc8e518938cd8dffdbb1e8a884f02ef2f71
   omap4commitid: e10fee655ba846e688c053cfabfd83ed2a937e17
-
+  baconcommitid: 9922dba85d9a2d752297ff6030f6af84156472a7
 - cve: CVE-2014-7970
   info: |
     - Kernel up to 3.17
@@ -345,6 +345,7 @@
     - qcom qseecom
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=b4338420db61f029ca6713a89c41b3a5852b20ce
+  baconcommitid: e201495764bc06dea6d11a328f4a32c35e832212
 
 - cve: CVE-2014-9786
   info: |
@@ -1273,14 +1274,12 @@
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=27f7b3b3059f6181e2786f886f4cd92f413bc30c (kernel/msm-3.18)
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=21e0ead58e47798567d846b84f16f89cf69a57ae (kernel/msm-3.10)
-  baconcommitid: 
 
 - cve: CVE-2016-10233
   info: |
     - Qualcomm drivers/media/video/msm/io/msm_camera_io_util.c
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=d793c6d91ecba2a1fd206ad47a4fd408d290addf
-  baconcommitid: 
 
 - cve: CVE-2016-10234
   info: |
@@ -1294,6 +1293,7 @@
     - Qualcomm Wi-Fi driver
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=5bb0059243515ecdac138cfdb4cee7259bbd0bbc
+  baconcommitid: 67d2dd1312e8c2e87d7fb156e366d055c4e670fa
 
 - cve: CVE-2016-10236
   info: |
@@ -1307,6 +1307,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=93863644b4547324309613361d70ad9dc91f8dfd
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/prima/commit/?id=5842cb5d592b7a4b89f2459ba71f78d860eb6267
+  baconcommitid: 593b869f506bb1cb54dfb75877e3296081cb8ebd
 
 - cve: CVE-2016-10285
   info: |
@@ -1705,6 +1706,7 @@
     - 3.10 https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?h=v3.10.107&id=d948109df11c8485e972b4cc0eb4820d4b754615
     - AOSP https://github.com/android/kernel_msm/commit/cd169f77b41de0fc1c8b790d71ac8c6c0c0dc7ef
     - Lineage https://review.lineageos.org/80282
+  baconcommitid: e62d25eb692a0e3a22a54e2fef515d90dd4e9d1c
 
 - cve: CVE-2016-3859
   info: |
@@ -1741,6 +1743,7 @@
     - https://github.com/android/kernel_msm/commit/c91479f60bbca0ece50d184e4cfcda52ddb5983e
     - https://www.codeaurora.org/information-exposure-msmdmaiorbuf-ioctl-command-dmatest-device-cve-2016-3894
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=de3e3e5930b1edfebec7870390443279ec5b65fe
+  baconcommitid: 0cbe18235c12dd50d3cd5935dcb1616dd138dbf7
 
 - cve: CVE-2016-3904
   info: |
@@ -2039,6 +2042,34 @@
   omap4commitid: 177ae7ace3e907cb31074c1e9d63ea07de2e13a3
   baconcommitid: ba3e1237cb02278c48c0876ba5894295f8325604
 
+- cve: CVE-2016-6679
+  info: |
+    - Information disclosure vulnerability in Qualcomm Wi-Fi driver
+  content: |
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/prima/commit/?id=d39345f0abc309959d831d09fcbf1619cc0ae0f5
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=f081695446679aa44baa0d00940ea18455eeb4c5
+    - https://github.com/android/kernel_msm/commit/2d8b76ef0d269dd2939050c4eae4838803730c42
+
+- cve: CVE-2016-6680
+  info: |
+    - Information disclosure vulnerability in Qualcomm Wi-Fi driver
+  content: |
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=2f2fa073b95d4700de88c0f7558b4a18c13ac552
+    - https://github.com/android/kernel_msm/commit/f4e24e60b5729032ac9d53cb2ac08ab0d05d67a4
+
+- cve: CVE-2016-6681
+  info: |
+    - Information disclosure vulnerability in Qualcomm sound driver (qdsp6v2) Note: The patch for this cve also fixes CVE-2016-6682
+  content: |
+    - https://github.com/android/kernel_msm/commit/f3a55611dc1c0363374ad92eb52b6ee09bf5ff49
+
+- cve: CVE-2016-6682
+  info: |
+    - Information disclosure vulnerability in Qualcomm sound driver (qdsp6v2) Note: The patch for this cve also fixes CVE-2016-6681
+  content: |
+    - https://github.com/android/kernel_msm/commit/f3a55611dc1c0363374ad92eb52b6ee09bf5ff49
+  baconcommitid: 
+
 - cve: CVE-2016-6683
   info: |
     - Android binder driver
@@ -2085,6 +2116,7 @@
     - https://www.codeaurora.org/stack-overflow-msmcameraqupi2cwriteseq-cve-2016-6740
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=a939a87f0adf91feceb329a5c080b86e1ee333c7
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=ef78bd62f0c064ae4c827e158d828b2c110ebcdc 
+  baconcommitid: 5511998fecf8732d7dd842879091a0bf879e971d
 
 - cve: CVE-2016-6741
   info: |
@@ -2145,6 +2177,7 @@
     - Qualcomm camera, Kernel 3.10 and 3.18
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=b5df02edbcdf53dbbab77903d28162772edcf6e0
+  baconcommitid: bc3a0baa73644ffa74a0c68bba47f16ab30cb1fa
 
 - cve: CVE-2016-6756
   info: |
@@ -2157,6 +2190,7 @@
     - Qualcomm components including the camera driver and video driver, Kernel 3.10 and 3.18
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=cd99d3bbdb16899a425716e672485e0cdc283245
+  baconcommitid: 007c223fe945b2de795fb0703cd190d8b3f4012d
 
 - cve: CVE-2016-6786
   info: |
@@ -2275,6 +2309,7 @@
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=0eab121ef8750a5c8637d51534d5e9143fb0633f
     - https://github.com/android/kernel_msm/commit/a1b9bc540f4af79bd23e01ec08429e0efa4d2f7b
+  baconcommitid: f008544c7010de5582f87e9c60aa4c0945f786a4
 
 - cve: CVE-2016-8403
   info: |
@@ -2317,6 +2352,7 @@
     - Qualcomm camera driver, Kernels 3.10, 3.18
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=bc77232707df371ff6bab9350ae39676535c0e9d
+  baconcommitid: a6aa7ea03d4a1d3d15a84811c3d557c747a5d4aa
 
 - cve: CVE-2016-8414
   info: |
@@ -2343,7 +2379,7 @@
     - Qualcomm camera driver, Kernels 3.10, 3.18
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=01dcc0a7cc23f23a89adf72393d5a27c6d576cd0
-  baconcommitid: 
+  baconcommitid: 872667252e1db086436cec826b18bd6e31fb7a0a
 
 - cve: CVE-2016-8418
   info: |
@@ -2352,6 +2388,27 @@
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=8f8066581a8e575a7d57d27f36c4db63f91ca48f
     - https://www.codeaurora.org/integer-overflow-vulnerability-qce-driver-cve-2016-8418
   baconcommitid: da8fbf97e73933a7a84146af368a7eeee8258ef6
+
+- cve: CVE-2016-8419
+  info: |
+    - Elevation of privilege vulnerability in Qualcomm Wi-Fi driver
+  content: |
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=9ba50d536227666a5b6abd51f2b122675d950488
+    - https://github.com/android/kernel_msm/commit/5dcbbf80f4deb9b078cca860f6d1760d6f9398b8
+
+- cve: CVE-2016-8420
+  info: |
+    - Elevation of privilege vulnerability in Qualcomm Wi-Fi driver
+  content: |
+    - https://github.com/android/kernel_msm/commit/983ad9423f67549b074cdb4fd5e51ed8248e2ccd
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=c6597e015a7ce5ee71d3725fc55e64fc50923f4e
+
+- cve: CVE-2016-8421
+  info: |
+    - Elevation of privilege vulnerability in Qualcomm Wi-Fi driver
+  content: |
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=61a5cdb9adc96645583f528ac923e6e59f3abbcb
+    - https://github.com/android/kernel_msm/commit/0160130f4217c782a7857588f668ab54fae21f58
 
 - cve: CVE-2016-8434
   info: |
@@ -2472,6 +2529,14 @@
     - Information disclosure vulnerability in HTC input driver
   content: |
     - https://github.com/android/kernel_msm/commit/d906945fc287f9df48b99349fea962b921d4d39e
+  baconcommitid: 8b5ecb6ec70761844826d4d05bbcccae653abcc2
+
+- cve: CVE-2016-8476
+  info: |
+    - Elevation of privilege vulnerability in Qualcomm Wi-Fi driver
+  content: |
+    - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=bfe8035bce6fec72ed1d064b94529fce8fb09799
+    - https://github.com/android/kernel_msm/commit/391b6eea59269ce8962c2ae160de6c8ac8bb4967
 
 - cve: CVE-2016-8477
   info: |
@@ -2509,6 +2574,7 @@
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=ce9db0874906f6aedd80bb28d457eadfe38bdd02
     - https://github.com/android/kernel_msm/commit/831da5d113d214db6894e9fd0ce98762ee8a544a
     - https://source.android.com/security/bulletin/2017-02-01#eop-in-qualcomm-sound-driver
+  baconcommitid: 04bc1076a0f07985a4e1c51d8861c0faf9493390
 
 - cve: CVE-2016-8483
   info: |
@@ -2552,6 +2618,7 @@
     - upstream kernel sctp
   content: |
     - https://github.com/torvalds/linux/commit/bf911e985d6bbaa328c20c3e05f4eb03de11fdd6
+  baconcommitid: d0c767884d1cb8d48101886090b42a7b84720262
 
 - cve: CVE-2016-9576
   info:
