@@ -14,11 +14,26 @@ icon: newspaper-o
     <h3>Oneplus msm8974 Kernel</h3>
   </div>
   <div class="card-content-1">
+    <h2>Patched</h2>
 {% for cve in site.data.cve %}
     {% if cve.baconcommitid %}
+    {% if cve.baconcommitid != "unaffected" %}
+    {% if cve.baconcommitid != null %}
     <b>{{ cve.cve }}</b>: <a href="https://github.com/andi34/android_kernel_oneplus_msm8974/commit/{{ cve.baconcommitid }}">{{ cve.baconcommitid }}</a></br>
-    {% else %}
-    <b>{{ cve.cve }}</b>: <b>UNAFFECTED OR UNPATCHED</b></br>
+    {% endif %}
+    {% endif %}
+    {% endif %}
+{% endfor %}
+    <h2>Unaffected</h2>
+{% for cve in site.data.cve %}
+    {% if cve.baconcommitid == "unaffected" %}
+    <b>{{ cve.cve }}</b>: UNAFFECTED</br>
+    {% endif %}
+{% endfor %}
+    <h2>Unpatched/need to be checked</h2>
+{% for cve in site.data.cve %}
+    {% if cve.baconcommitid == null %}
+    <b>{{ cve.cve }}</b>: UNAFFECTED OR UNPATCHED</br>
     {% endif %}
 {% endfor %}
   </div>

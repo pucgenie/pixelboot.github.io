@@ -86,6 +86,7 @@
     -  Kernel >= 3.10 and < 3.15.1 
   content: |
     - Patch 3.12+ https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=d36db46c2cba973557eb6138d22210c4e0cf17d6
+  baconcommitid: unaffected
 
 - cve: CVE-2014-1739
   info: |
@@ -2039,6 +2040,7 @@
   content: |
     - https://www.codeaurora.org/null-pointer-dereference-when-processing-accept-system-call-user-process-afmsmipc-sockets-cve-2016
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=71fe5361cbef34e2d606b79e8936a910a3e95566
+  baconcommitid: d3e8712c89ff5cf90ac8199d578085af443f957f
 
 - cve: CVE-2016-6136
   info:
@@ -2703,6 +2705,7 @@
     - Elevation of privilege vulnerability in Broadcom Wi-Fi driver
   content: |
     - https://github.com/android/kernel_msm/commit/709105c301aa53fb86c46b36f882998558b19652
+  baconcommitid: 14cc1c9ff82bd45946c9e6fcc9995ea3da5b22be
 
 - cve: CVE-2017-0432
   info: |
