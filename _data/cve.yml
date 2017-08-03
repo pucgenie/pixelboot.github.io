@@ -144,6 +144,7 @@
   content: |
     - https://www.codeaurora.org/projects/security-advisories/improper-input-validation-mdp-driver-when-processing-color-maps (CAF advisory)
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=014fa8def84c62893fa016e873c12de1da498603 (CAF 3.10 patch)
+  omap4commitid: unaffected
   baconcommitid: e49871cb74e1ce6bd9fc088b70ec63a33d08a74d
 
 - cve: CVE-2014-4655
@@ -305,6 +306,7 @@
     - qcom audio
   content: |
     - https://us.codeaurora.org/cgit/quic/la/kernel/msm/commit/arch/arm/mach-msm/qdsp6v2/msm_audio_ion.c?h=LA.BF.1.1.3_rb1.12&id=0b5f49b360afdebf8ef55df1e48ec141b3629621
+  omap4commitid: unaffected
   baconcommitid: 0b5f49b360afdebf8ef55df1e48ec141b3629621
 
 - cve: CVE-2014-9780
@@ -312,12 +314,14 @@
     - qcom video
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=b5bb13e1f738f90df11e0c17f843c73999a84a54
+  omap4commitid: unaffected
 
 - cve: CVE-2014-9781
   info: |
     - qcom video
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/drivers/video/?h=LA.BF.1.1.3_rb1.12&id=a2b5237ad265ec634489c8b296d870827b2a1b13&context=20&ignorews=0&dt=0
+  omap4commitid: unaffected
   baconcommitid: a2b5237ad265ec634489c8b296d870827b2a1b13
 
 - cve: CVE-2014-9782
@@ -325,6 +329,7 @@
     - qcom camera
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/patch/?id=2e57a46ab2ba7299d99d9cdc1382bd1e612963fb
+  omap4commitid: unaffected
   baconcommitid: 210c0d4b917ef4ca3fdf293a629521d1b3b03ee3
 
 - cve: CVE-2014-9783
@@ -332,6 +337,7 @@
     - qcom camera
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=2b1050b49a9a5f7bb57006648d145e001a3eaa8b
+  omap4commitid: unaffected
   baconcommitid: e40d824afc8e22e316c609ef3bd70186467ca35d
 
 - cve: CVE-2014-9784
@@ -339,6 +345,7 @@
     - qcom diag debugfs
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=36503d639cedcc73880974ed92132247576e72ba
+  omap4commitid: unaffected
   baconcommitid: 965c07fde90ddc2e3d0b12d70d4caef7a4257f0a
 
 - cve: CVE-2014-9785
@@ -346,6 +353,7 @@
     - qcom qseecom
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=b4338420db61f029ca6713a89c41b3a5852b20ce
+  omap4commitid: unaffected
   baconcommitid: e201495764bc06dea6d11a328f4a32c35e832212
 
 - cve: CVE-2014-9786
@@ -353,6 +361,7 @@
     - qcom camera
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/patch/?id=2fb303d9c6ca080f253b10ed9384293ca69ad32b
+  omap4commitid: unaffected
   baconcommitid: 3728b744c5d7c73c3471bb1f0d1cd211c963b870
 
 - cve: CVE-2014-9787
@@ -360,6 +369,7 @@
     - qcom qseecom
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=528400ae4cba715f6c9ff4a2657dafd913f30b8b
+  omap4commitid: unaffected
   baconcommitid: 528400ae4cba715f6c9ff4a2657dafd913f30b8b
 
 - cve: CVE-2014-9788
@@ -367,6 +377,7 @@
     - qcom audio
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=73bfc22aa70cc0b7e6709381125a0a42aa72a4f2
+  omap4commitid: unaffected
   baconcommitid: 10fc73c33d63496268e340ce83d677e26c7adf75
 
 - cve: CVE-2014-9789
@@ -374,6 +385,7 @@
     - qcom audio
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=5720ed5c3a786e3ba0a2428ac45da5d7ec996b4e
+  omap4commitid: unaffected
   baconcommitid: 61dcd66c1b3703af2d840028d412037feaf983a6
 
 - cve: CVE-2014-9790
@@ -381,6 +393,7 @@
     - qcom mmc debugfs
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?h=LA.BF.1.1.3_rb1.12&id=6ed921bda8cbb505e8654dfc1095185b0bccc38e
+  omap4commitid: unaffected
   baconcommitid: 9bc30c0d1832f7dd5b6fa10d5e48a29025176569
 
 - cve: CVE-2014-9792
@@ -388,6 +401,7 @@
     - qcom msm ipc
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=a3e3dd9fc0a2699ae053ffd3efb52cdc73ad94cd
+  omap4commitid: unaffected
   baconcommitid: 89310659124015c14a6bd5628044cfca91901613
 
 - cve: CVE-2014-9803
@@ -395,12 +409,14 @@
     - arm64 memory management
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/arch/arm64/include/asm/pgtable.h?h=linux-3.10.y&id=5a0fdfada3a2aa50d7b947a2e958bf00cbe0d830
+  omap4commitid: unaffected
 
 - cve: CVE-2014-9863
   info: |
     - qcom diag driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=75eac48a48562f819f50eeff8369b296d89102d7
+  omap4commitid: unaffected
   baconcommitid: 3e20090b5b0e8759cd2dc6fbaefebfc2799342f8
 
 - cve: CVE-2014-9864
@@ -408,6 +424,7 @@
     - qcom qseecom
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=a1124defc680055e2f2a8c8e3da4a94ca2ec842e
+  omap4commitid: unaffected
   baconcommitid: a1124defc680055e2f2a8c8e3da4a94ca2ec842e
 
 - cve: CVE-2014-9865
@@ -415,6 +432,7 @@
     - qcom qseecom
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=e65a876a155de945e306f2726f3a557415e6044e
+  omap4commitid: unaffected
   baconcommitid: dddf444041397a6c966b8b38856218f1424f6c8d
 
 - cve: CVE-2014-9866
@@ -422,6 +440,7 @@
     - qcom camera
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=8e6daae70422ad35146a87700e6634a747d1ff5d
+  omap4commitid: unaffected
   baconcommitid: 63bc807980e2e414a045931ce19bd2f88dac536c
 
 - cve: CVE-2014-9867
@@ -429,12 +448,14 @@
     - qcom camera
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=322c518689a7f820165ca4c5d6b750b02ac34665
+  omap4commitid: unaffected
 
 - cve: CVE-2014-9868
   info: |
     - qcom camera
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=1f274b74c00187ba1c379971503f51944148b22f
+  omap4commitid: unaffected
   baconcommitid: 5cc2cb573ae15fdbc0c7114715693509b5fd0c0a
 
 - cve: CVE-2014-9869
@@ -443,6 +464,7 @@
   content: |
     - patch 1 https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=8d1f7531ff379befc129a6447642061e87562bca
     - patch 2 https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=7a26934e4196b4aa61944081989189d59b108768
+  omap4commitid: unaffected
   baconcommitid: [7a26934e4196b4aa61944081989189d59b108768, 8d1f7531ff379befc129a6447642061e87562bca]
 
 - cve: CVE-2014-9870
@@ -457,6 +479,7 @@
     - qcom camera
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=f615e40c706708f74cd826d5b19c63025f54c041
+  omap4commitid: unaffected
   baconcommitid: 340e6b36f46c8ea4a43a5a7ebec6cd5f103687fa
 
 - cve: CVE-2014-9872
@@ -464,6 +487,7 @@
     - qcom diag driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=fc787ebd71fa231cc7dd2a0d5f2208da0527096a
+  omap4commitid: unaffected
   baconcommitid: fc787ebd71fa231cc7dd2a0d5f2208da0527096a
 
 - cve: CVE-2014-9873
@@ -471,6 +495,7 @@
     - qcom diag driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=ef29ae1d40536fef7fb95e4d5bb5b6b57bdf9420
+  omap4commitid: unaffected
   baconcommitid: 492a33390c6d14562bd93eb7e0cca4b2c947bd8f
 
 - cve: CVE-2014-9874
@@ -479,12 +504,14 @@
   content: |
     - patch https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=56ff68b1f93eaf22e5e0284648fd862dc08c9236
     - B family https://github.com/LineageOS/android_kernel_motorola_msm8226/commit/6b7b66961934660a91fb035e6e4223689a2500da
+  omap4commitid: unaffected
 
 - cve: CVE-2014-9875
   info: |
     - qcom diag driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=b77c694b88a994d077316c157168c710696f8805
+  omap4commitid: unaffected
   baconcommitid: b77c694b88a994d077316c157168c710696f8805
 
 - cve: CVE-2014-9876
@@ -493,12 +520,14 @@
   content: |
     - patch for 3.0 https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=7efd393ca08ac74b2e3d2639b0ad77da139e9139
     - patch for 3.4 and newer https://github.com/android/kernel_msm/commit/794cd44fe8e32a4afe31a2f9f6a4499aaa874a48 
+  omap4commitid: unaffected
 
 - cve: CVE-2014-9877
   info: |
     - qcom camera
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=f0c0112a6189747a3f24f20210157f9974477e03
+  omap4commitid: unaffected
   baconcommitid: 21270b30c2adc6036d45b545b815f93a7eaa33bc
 
 - cve: CVE-2014-9878
@@ -506,6 +535,7 @@
     - qcom mmc driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=96a62c1de93a44e6ca69514411baf4b3d67f6dee
+  omap4commitid: unaffected
   baconcommitid: 54d564b97f368b86532ef7bbb43d24d37712e2b0
 
 - cve: CVE-2014-9879
@@ -513,6 +543,7 @@
     - qcom video
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=ecc8116e1befb3a764109f47ba0389434ddabbe4
+  omap4commitid: unaffected
   baconcommitid: 08ff7956da6b7fad30c283bc519807003828cfbb
 
 - cve: CVE-2014-9880
@@ -520,12 +551,14 @@
     - qcom video
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=f2a3f5e63e15e97a66e8f5a300457378bcb89d9c
+  omap4commitid: unaffected
 
 - cve: CVE-2014-9881
   info: |
     - qcom fm radio
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=ba3f404a10b3bb7e9c20440837df3cd35c5d0c4b
+  omap4commitid: unaffected
   baconcommitid: 03fa74ccc2eb69df694c6f6f9c51cd3b8e06dcd3
 
 - cve: CVE-2014-9882
@@ -534,6 +567,7 @@
   content: |
     - patch1 https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=3a4ebaac557a9e3fbcbab4561650abac8298a4d9
     - patch2 https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=0f6afe815b1b3f920f3502be654c848bdfe5ef38
+  omap4commitid: unaffected
   baconcommitid: [3a4ebaac557a9e3fbcbab4561650abac8298a4d9, 0f6afe815b1b3f920f3502be654c848bdfe5ef38]
 
 - cve: CVE-2014-9883
@@ -541,6 +575,7 @@
     - qcom diag driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=cbf79a67348e48557c0d0bb9bc58391b3f84bc46
+  omap4commitid: unaffected
   baconcommitid: cbf79a67348e48557c0d0bb9bc58391b3f84bc46
 
 - cve: CVE-2014-9884
@@ -548,6 +583,7 @@
     - qcom qseecom
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=f4948193c46f75e16d4382c4472485ab12b7bd17 
+  omap4commitid: unaffected
   baconcommitid: f4948193c46f75e16d4382c4472485ab12b7bd17
 
 - cve: CVE-2014-9885
@@ -555,6 +591,7 @@
     - qcom thermal
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=a1d5a4cbd5aa8656bc23b40c7cc43941e10f89c3
+  omap4commitid: unaffected
   baconcommitid: 114616f16e4c4fbb8f7b2520bf093cd957cf6206
 
 - cve: CVE-2014-9886
@@ -563,6 +600,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=80be0e249c906704085d13d4ae446f73913fc225
     - Same patch as CVE-2014-9898
+  omap4commitid: unaffected
   baconcommitid: b4c3272a6e97714a7d3bcb0b4a18f340840f0ac4
 
 - cve: CVE-2014-9887
@@ -570,6 +608,7 @@
     - qcom qseecom
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=b1bc773cf61265e0e3871b2e52bd6b3270ffc6c3
+  omap4commitid: unaffected
   baconcommitid: a69c16e0f7fd4098bf7f899ebe9b9de07a1a7d86
 
 - cve: CVE-2014-9888
@@ -585,6 +624,7 @@
     - qcom camera
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit?id=f4e2f2d4ef58c88340774099dff3324ec8baa24a
+  omap4commitid: unaffected
   baconcommitid: f4e2f2d4ef58c88340774099dff3324ec8baa24a
 
 - cve: CVE-2014-9890
@@ -592,6 +632,7 @@
     - qcom camera
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=14e0c8614d2715589583d8a95e33c422d110eb6f
+  omap4commitid: unaffected
   baconcommitid: 752d6952383b8d0d4315c79439accd248152bb4b
 
 - cve: CVE-2014-9891
@@ -599,6 +640,7 @@
     - qcom qseecom
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=c10f03f191307f7114af89933f2d91b830150094
+  omap4commitid: unaffected
   baconcommitid: fd86ecdfddf4accf8b9a4ee7b1bcf94c3b035bf5
 
 - cve: CVE-2014-9892
@@ -608,12 +650,12 @@
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=591b1f455c32206704cbcf426bb30911c260c33e
   baconcommitid: 1914ca80abf8379370d9363262f91f8a1bced60a
 
-
 - cve: CVE-2014-9893
   info: |
     - qcom video
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=bfc6eee5e30a0c20bc37495233506f4f0cc4991d
+  omap4commitid: unaffected
   baconcommitid: d8417e7fc2a94a20e538e7ef4b0964e128520ee8
 
 - cve: CVE-2014-9894
@@ -621,6 +663,7 @@
     - qcom qseecom
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=83214431cd02674c70402b160b16b7427e28737f
+  omap4commitid: unaffected
   baconcommitid: 7a01882544dd53445b281b051d4b85664d2b1a5f
 
 - cve: CVE-2014-9895
@@ -636,6 +679,7 @@
     - qcom audio
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=89f2bcf1ac860b0b380e579e9a8764013f263a7d
+  omap4commitid: unaffected
   baconcommitid: b03d70d722fb5cd22e7c3d0536323427aa10f295
 
 - cve: CVE-2014-9897
@@ -643,6 +687,7 @@
     - qcom audio
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=46135d80765cb70a914f02a6e7b6abe64679ec86
+  omap4commitid: unaffected
   baconcommitid: 2164ef0c982eca7eea907a34e165b0ca9a8c6f92
 
 - cve: CVE-2014-9898
@@ -651,6 +696,7 @@
     - Same patch as CVE-2014-9886
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=80be0e249c906704085d13d4ae446f73913fc225
+  omap4commitid: unaffected
   baconcommitid: b4c3272a6e97714a7d3bcb0b4a18f340840f0ac4
 
 - cve: CVE-2014-9899
@@ -658,6 +704,7 @@
     - qcom usb driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=8756624acb1e090b45baf07b2a8d0ebde114000e
+  omap4commitid: unaffected
   baconcommitid: 20d1dfb322a3ce3f79fb128c9dbde25ce4740356
 
 - cve: CVE-2014-9900
@@ -672,13 +719,14 @@
     - qcom wifi driver
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/prima/commit/?id=637f0f7931dd7265ac1c250dc2884d6389c66bde
+  omap4commitid: unaffected
 
 - cve: CVE-2014-9902
   info: |
     - qcom wifi driver
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/prima/commit/?id=3b1c44a3a7129dc25abe2c23543f6f66c59e8f50
-  baconcommitid: 
+  omap4commitid: unaffected
 
 - cve: CVE-2014-9903
   info: |
@@ -725,6 +773,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=a079d716b5481223f0166c644e9ec7c75a31b02c - Patch from CAF
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/prima/log/CORE/HDD/src/wlan_hdd_wext.c?h=LA.BF.1.1.3-01610-8x74.0 - prima
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2015-0570
@@ -734,7 +783,7 @@
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=8bd73c3452ab22ba9bdbaac5ab12de2ed25fcb9d
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/prima/commit/?id=606babd474290e84e5a86f94480f62f4a5ff92ac
     - https://github.com/android/kernel_msm/commit/255dd931573beb3afca15909f483f26db22a5c98
-
+  omap4commitid: unaffected
 
 - cve: CVE-2015-0571
   info: |
@@ -742,6 +791,7 @@
   content: |
     - https://source.android.com/security/bulletin/2016-05-01#eop_in_qualcomm_wi-fi_driver
     - https://www.codeaurora.org/projects/security-advisories/multiple-issues-wlan-driver-allow-local-privilege-escalation-cve-2015
+  omap4commitid: unaffected
 
 - cve: CVE-2015-1420
   info: |
@@ -846,6 +896,7 @@
     - 3.10+ only
   content: |
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=cf872776fc84128bb779ce2b83a37c884c3203ae
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2015-4177
@@ -883,6 +934,7 @@
     - Kernel 3.x and 4.x before 4.0.4
   content: |
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f15133df088ecadd141ea1907f2c96df67c729f0
+  omap4commitid: unaffected
 
 - cve: CVE-2015-5707
   info: |
@@ -1010,6 +1062,7 @@
     - qcom diag driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=c66202b9288cc4ab1c38f7c928fa1005c285c170
+  omap4commitid: unaffected
   baconcommitid: 58f799c588ea93bda6bf16f49e91368e2ab23f4e
 
 - cve: CVE-2015-8938
@@ -1017,6 +1070,7 @@
     - qcom camera
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=51c39420e3a49d1a7f05a77c64369b7623088238
+  omap4commitid: unaffected
   baconcommitid: 8ad163e831a2b2c30551edb360f168a604cdb0bb
 
 - cve: CVE-2015-8939
@@ -1024,6 +1078,7 @@
     - qcom video
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=884cff808385788fa620833c7e2160a4b98a21da
+  omap4commitid: unaffected
   baconcommitid: 884cff808385788fa620833c7e2160a4b98a21da
 
 - cve: CVE-2015-8940
@@ -1031,6 +1086,7 @@
     - qcom audio
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=e13ebd727d161db7003be6756e61283dce85fa3b
+  omap4commitid: unaffected
   baconcommitid: 
 
 - cve: CVE-2015-8941
@@ -1038,6 +1094,7 @@
     - qcom camera
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=d4d4d1dd626b21e68e78395bab3382c1eb04877f
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2015-8492
@@ -1045,6 +1102,7 @@
     - qcom camera
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=9ec380c06bbd79493828fcc3c876d8a53fd3369f
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2015-8943
@@ -1052,6 +1110,7 @@
     - qcom video
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=ad376e4053b87bd58f62f45b6df2c5544bc21aee
+  omap4commitid: unaffected
   baconcommitid: ad376e4053b87bd58f62f45b6df2c5544bc21aee
 
 - cve: CVE-2015-8944
@@ -1066,6 +1125,7 @@
     - Qualcomm sound driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=ccff36b07bfc49efc77b9f1b55ed2bf0900b1d5b
+  omap4commitid: unaffected
   baconcommitid: b966f5b634b4e157abf3871f44e7f98699a361ef
 
 - cve: CVE-2015-8955
@@ -1079,6 +1139,7 @@
     - does not affect Linux <= 3.2
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6934da9238da947628be83635e365df41064b09b
+  omap4commitid: unaffected
 
 - cve: CVE-2015-8962
   info:
@@ -1104,6 +1165,7 @@
   content: |
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=dd42bf1197144ede075a9d4793123f7689e164bc - Patch
     - https://review.lineageos.org/#/c/85266/2 - 3.10 backport
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2015-8966
@@ -1121,6 +1183,7 @@
     - arm64 kernels only
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=c623b33b4e9599c6ac5076f7db7369eb9869aa04
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2015-9004
@@ -1143,6 +1206,7 @@
   info: |
     - According to Google: ... Android versions 5.0 and above, SELinux rules prevents third-party applications from reaching the affected code. Introduced in v3.8-rc1
   content:
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-0758
@@ -1167,6 +1231,7 @@
     - Qualcomm perf module
   content:
     - https://github.com/android/kernel_msm/commit/b3f0b1f694258b3b3debc5256eec94bb2a9eb454
+  omap4commitid: unaffected
   baconcommitid: 2fa84388935a9fd8658f4df2bcc59219fc0605ad
 
 
@@ -1177,6 +1242,7 @@
     - https://source.android.com/security/bulletin/2016-02-01#elevation_of_privilege_vulnerability_in_qualcomm_wifi_driver
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/log/?qt=grep&q=25344453&h=caf%2Faosp-new%2Fandroid-msm-bullhead-3.10-nougat-mr2
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/log/?h=caf%2Faosp-new%2Fandroid-msm-flo-3.4-marshmallow-mr2&qt=grep&q=27104184
+  omap4commitid: unaffected
 
 - cve: CVE-2016-0819
   info: |
@@ -1184,6 +1250,7 @@
   content: |
     - https://www.codeaurora.org/elevation-privilege-vulnerability-performance-component-cve-2016-0819
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=e32c1b1a3d368afe1b09e81b3087ab8810282e93
+  omap4commitid: unaffected
 
 - cve: CVE-2016-0821
   info:
@@ -1228,6 +1295,7 @@
     - Kernel 4.9.x before 4.9.6
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=a45f795c65b479b4ba107b6ccde29b896d51ee98
+  omap4commitid: unaffected
   baconcommitid: 093697d5ec237bce51f2ef0f235703ec75fcdb12
 
 - cve: CVE-2016-10154
@@ -1235,6 +1303,7 @@
     - Kernel 4.9.x before 4.9.1
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=06deeec77a5a689cc94b21a8a91a76e42176685d
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-10200
@@ -1270,6 +1339,7 @@
     - drivers/crypto/msm/qce50.c
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=bd9a8fc6d7f6bd1a0b936994630006de450df657
+  omap4commitid: unaffected
   baconcommitid: cad104c3a266cd3dc70eacfd5f75a05d9b1789c4
 
 - cve: CVE-2016-10231
@@ -1277,6 +1347,7 @@
     - Qualcomm sound codec driver sound/soc/codecs/wcd9335.c. Related to CVE-2016-5858
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=3bfe5a89916f7d29492e9f6d941d108b688cb804
+  omap4commitid: unaffected
   baconcommitid: 9a3f8e6a1a335e0c19dff5f882f39af9022b8cb9
 
 - cve: CVE-2016-10232
@@ -1285,6 +1356,7 @@
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=27f7b3b3059f6181e2786f886f4cd92f413bc30c (kernel/msm-3.18)
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=21e0ead58e47798567d846b84f16f89cf69a57ae (kernel/msm-3.10)
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-10233
@@ -1292,6 +1364,7 @@
     - Qualcomm drivers/media/video/msm/io/msm_camera_io_util.c
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=d793c6d91ecba2a1fd206ad47a4fd408d290addf
+  omap4commitid: unaffected
 
 - cve: CVE-2016-10234
   info: |
@@ -1299,6 +1372,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=d12370c7f3ecded1867fbd6b70ded35db55cab1d
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=c7d7492c1e329fdeb28a7901c4cd634d41a996b1
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-10235
@@ -1306,6 +1380,7 @@
     - Qualcomm Wi-Fi driver
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=5bb0059243515ecdac138cfdb4cee7259bbd0bbc
+  omap4commitid: unaffected
   baconcommitid: 67d2dd1312e8c2e87d7fb156e366d055c4e670fa
 
 - cve: CVE-2016-10236
@@ -1313,6 +1388,7 @@
     - Qualcomm USB driver drivers/usb/gadget/function/f_mbim.c
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=b8199c2b852f1e23c988e10b8fbb8d34c98b4a1c
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-10283
@@ -1321,6 +1397,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=93863644b4547324309613361d70ad9dc91f8dfd
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/prima/commit/?id=5842cb5d592b7a4b89f2459ba71f78d860eb6267
+  omap4commitid: unaffected
   baconcommitid: 593b869f506bb1cb54dfb75877e3296081cb8ebd
 
 - cve: CVE-2016-10285
@@ -1328,6 +1405,7 @@
     - Qualcomm MDSS video driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=67dfd3a65336e0b3f55ee83d6312321dc5f2a6f9
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-10286
@@ -1335,6 +1413,7 @@
     - Qualcomm MDSS video driver
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=5d30a3d0dc04916ddfb972bfc52f8e636642f999
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-10287
@@ -1342,6 +1421,7 @@
     - Qualcomm qdsp6v2
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=937bc9e644180e258c68662095861803f7ba4ded
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-10288
@@ -1349,6 +1429,7 @@
     - Qualcomm LED driver
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=db2cdc95204bc404f03613d5dd7002251fb33660
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-10289
@@ -1356,6 +1437,7 @@
     - Qualcomm crypto driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=a604e6f3889ccc343857532b63dea27603381816
+  omap4commitid: unaffected
   baconcommitid: ea8606e2d89d6bddb96fc3f383b8a418eca00283
 
 - cve: CVE-2016-10290
@@ -1363,6 +1445,7 @@
     - Qualcomm shared memory driver; this CVE also fixes CVE-2016-10296
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=a5e46d8635a2e28463b365aacdeab6750abd0d49
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-10291
@@ -1370,6 +1453,7 @@
     - Qualcomm Slimbus driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=a225074c0494ca8125ca0ac2f9ebc8a2bd3612de
+  omap4commitid: unaffected
   baconcommitid: c5726aadc8df9a9de113c5a42e5838d37d50f1a7
 
 - cve: CVE-2016-10293
@@ -1378,6 +1462,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=2469d5374745a2228f774adbca6fb95a79b9047f
     - https://android.googlesource.com/kernel/msm.git/+/be1708643216b2ac2d8d123b4a6a838132320274%5E%21 (bullhead, angler)
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-10294
@@ -1385,6 +1470,7 @@
     - Qualcomm qpnp-fg power driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=9e9bc51ffb8a298f0be5befe346762cdb6e1d49c
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-10295
@@ -1392,6 +1478,7 @@
     - Qualcomm qpnp-flash LED driver; Kernel 3.18
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=f11ae3df500bc2a093ddffee6ea40da859de0fa9
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-10296
@@ -1400,6 +1487,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=a5e46d8635a2e28463b365aacdeab6750abd0d49
     - https://android.googlesource.com/kernel/msm/+/b6901d6249def3c77410db6f721cdd2e25d5c5ae%5E%21 (AOSP backport from android-7.1.2_r0.12)
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-1583
@@ -1416,6 +1504,7 @@
     - doesn't affect kernel <= 3.2
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=0d62e9dd6da45bbf0f33a8617afc5fe774c8f45f
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-2059
@@ -1423,6 +1512,7 @@
     - Qualcomm IPC router
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=9e8bdd63f7011dff5523ea435433834b3702398d
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-2061
@@ -1430,6 +1520,7 @@
     - Qualcomm camera driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=79db14ca9f791a14be9376a0340ad3b9b9a4d603
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-2062
@@ -1437,6 +1528,7 @@
     - Qualcomm GPU driver for the Linux kernel 3.x
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=27c95b64b2e4b5ff1288cbaa6e353dd803d71576
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-2066
@@ -1444,6 +1536,7 @@
     - Qualcomm QDSP6 audio driver
   content: |
     - https://us.codeaurora.org/cgit/quic/la/kernel/msm-3.18/commit/?id=775fca8289eff931f91ff6e8c36cf2034ba59e88
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-2068
@@ -1451,6 +1544,7 @@
     - Qualcomm QDSP6 audio driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=2c04c0dab66013b7dfbe4d5a523c2c1d6b5b11d6
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-2184
@@ -1504,6 +1598,7 @@
     - Qualcomm video driver in Android before 2016-06-01 on Nexus 5, 5X, 6, and 6P devices
   content:
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=09dc4abecb0da388aedb37a57889c1ce2b267807
+  omap4commitid: unaffected
   baconcommitid: fac441cb10a2bd0d523df0ff2f36e23428cb359f
 
 - cve: CVE-2016-2466
@@ -1511,6 +1606,7 @@
     - Qualcomm sound driver in Android before 2016-06-01 on Nexus 6 devices
   content: |
     - https://android.googlesource.com/kernel/msm.git/+/8292fe595c99ccbcb5e73debdba21d5f1ad91ef6%5E%21/#F0
+  omap4commitid: unaffected
   baconcommitid: e1d17842cc8f4f368531ea292700c001c6bd8e78
 
 - cve: CVE-2016-2467
@@ -1518,6 +1614,7 @@
     - Qualcomm sound driver in Android before 2016-06-01 on Nexus 5 devices
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=38b6131d78cecec5d970230aeee3cef485103d82
+  omap4commitid: unaffected
   baconcommitid: 588b3416ba26e03c1f0680fc2d55dbeb69e13482
 
 - cve: CVE-2016-2468
@@ -1526,6 +1623,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=b5eb67744215b3434a36b9251e28da3dc2a638a6
     - https://android.googlesource.com/kernel/msm.git/+/eb6cc9d4af6791d4d34075e3fa08f0c858087a8c%5E%21/#F0
+  omap4commitid: unaffected
   baconcommitid: 740e6f3c3c4a1387ae32a20fe55ae21f8635abce
 
 - cve: CVE-2016-2469
@@ -1534,6 +1632,7 @@
   content: |
     - https://android.googlesource.com/kernel/msm/+/4029268991f478b98b6d37106af8f1f635c0b595
     - https://www.codeaurora.org/missing-validation-arguments-when-handling-dap-set-param-ioctl-msm-qdsp6-sound-driver-cve-2016-2469
+  omap4commitid: unaffected
   baconcommitid: ff9d1ba27c27d9276e5b6c01ad96f12ec0674c9d
 
 - cve: CVE-2016-2474
@@ -1541,6 +1640,7 @@
     - Qualcomm Wi-Fi driver in Android before 2016-06-01 on Nexus 5X devices 
   content: |
     - https://android.googlesource.com/kernel/msm.git/+/c28506a3622983e3f750a9dcc856904a82717b8a
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-2475
@@ -1555,6 +1655,7 @@
     - Qualcomm camera driver in Android before 2016-06-01 on Nexus 5, 5X, 6, 6P, and 7 (2013) devices
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=91ea960b91250eca57d8fbdb8aafa11d80695d46
+  omap4commitid: unaffected
   baconcommitid: d3faccc197d08092f3fc818ef27485ae5f28d7fa
 
 - cve: CVE-2016-2503
@@ -1562,7 +1663,7 @@
     - Qualcomm GPU driver in Android before 2016-07-05 on Nexus 5X and 6P devices
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=0c46fc0f8fb7ffd26557b51b235d463a01ee75f5
-  baconcommitid: 
+  omap4commitid: unaffected
 
 - cve: CVE-2016-2504
   info: |
@@ -1570,7 +1671,14 @@
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?h=APSS.FSM.3.0&id=ec5feea777b07c0e1f9ce45b7f3179a3f6facf75
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?h=APSS.FSM.3.0&id=7aee4635f58229cf97cb57cf6614b711331a1c3c
+  omap4commitid: unaffected
   baconcommitid: 9ccbad902481d816ff5988f05c68897ad007bb35
+
+- cve: CVE-2016-2544
+  info: |
+    - upstream audio
+  content: |
+    - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3567eb6af614dac436c4b16a8d426f9faed639b3
 
 - cve: CVE-2016-2545
   info:
@@ -1699,6 +1807,7 @@
     - Qualcomm performance component in Android before 2016-07-05 on Nexus 5, 6, 5X, 6P, and 7 (2013) devices 
   content: |
     - https://github.com/android/kernel_msm/commit/84d8c81420aaa7c6cd6f57cb52daccf07b1f7a50
+  omap4commitid: unaffected
   baconcommitid: 9cc48185b80261cd1c0f72d4c55ce362e8eb50a7
 
 - cve: CVE-2016-3809
@@ -1715,6 +1824,7 @@
     - Qualcomm USB driver in Android before 2016-07-05 on Nexus 5, 5X, 6, and 6P devices
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=3c0add95808fdada98ba0ab465c0b4ba49e71d26
+  omap4commitid: unaffected
   baconcommitid: 275fe6cc49304d74ede24c7da337181810b97b77
 
 - cve: CVE-2016-3843
@@ -1742,6 +1852,7 @@
     - Qualcomm camera driver in Android before 2016-09-05 on Nexus 5, 5X, 6, and 6P devices
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=fe297dc01f7ea95bb1bff25f6fc4257f0ef832ff
+  omap4commitid: unaffected
   baconcommitid: a2e5f55e02cd33ec26b73651eb366ac44af193a6
 
 - cve: CVE-2016-3866
@@ -1749,6 +1860,7 @@
     - Qualcomm sound driver in Android before 2016-09-05 on Nexus 5X, 6, and 6P devices 
   content: |
     - ???
+  omap4commitid: unaffected
 
 - cve: CVE-2016-3867
   info: |
@@ -1756,6 +1868,7 @@
   content: |
     - 3.10 https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=816da3d19cfee937f5add485a112bb1cdfcb72c8
     - 3.18 https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=b518b33d4b7da7df5a0348a97ffb4f35be819937
+  omap4commitid: unaffected
   baconcommitid: 622565ffd2a6710297185edfedc0cfd3735a9019
 
 - cve: CVE-2016-3893
@@ -1763,6 +1876,7 @@
     - Qualcomm sound codec in Android before 2016-09-05 on Nexus 6P devices
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=a7a6ddc91cce7ad5ad55c9709b24bfc80f5ac873
+  omap4commitid: unaffected
   baconcommitid: c892430da24243e740216c6d446a38e60bf50f14
 
 - cve: CVE-2016-3894
@@ -1772,6 +1886,7 @@
     - https://github.com/android/kernel_msm/commit/c91479f60bbca0ece50d184e4cfcda52ddb5983e
     - https://www.codeaurora.org/information-exposure-msmdmaiorbuf-ioctl-command-dmatest-device-cve-2016-3894
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=de3e3e5930b1edfebec7870390443279ec5b65fe
+  omap4commitid: unaffected
   baconcommitid: 0cbe18235c12dd50d3cd5935dcb1616dd138dbf7
 
 - cve: CVE-2016-3902
@@ -1779,6 +1894,7 @@
     - Information disclosure vulnerability in Qualcomm IPA driver
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=2fca425d781572393fbe51abe2e27a932d24a768
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-3903
@@ -1787,6 +1903,7 @@
   content: |
     - https://www.codeaurora.org/use-after-free-camera-driver-cve-2016-3903
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=b8874573428e8ce024f57c6242d662fcca5e5d55
+  omap4commitid: unaffected
   baconcommitid: f0007769e9a83e2f8d2421752b6e1c5b5c6b1ec6
 
 - cve: CVE-2016-3904
@@ -1794,13 +1911,16 @@
     - Qualcomm bus driver in Android before 2016-11-05
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=069683407ca9a820d05c914b57c587bcd3f16a3a
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-3906
-  info:
+  info: |
+    - drivers/power/qcom
   content: |
     - https://www.codeaurora.org/improper-input-validation-while-updating-power-data-energy-aware-feature-cve-2016-3906
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=46d740d12c2a8bd9e0b27a968af6544682f7cb0e
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-3907
@@ -1809,6 +1929,7 @@
   content: |
     - https://www.codeaurora.org/kernel-stack-information-leak-when-processing-audiogetwmaconfigv232-ioctl-cve-2016-3907
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=744330f4e5d70dce71c4c9e03c5b6a8b59bb0cda
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-3931
@@ -1816,6 +1937,7 @@
     - Qualcomm QSEE Communicator driver in Android before 2016-10-05 on Nexus 5X, Nexus 6, Nexus 6P, and Android One devices
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=e80b88323f9ff0bb0e545f209eec08ec56fca816
+  omap4commitid: unaffected
   baconcommitid: 96630efceebf73500291431a37f73f483587c235
 
 - cve: CVE-2016-3934
@@ -1823,6 +1945,7 @@
     - Qualcomm camera driver in Android before 2016-10-05 on Nexus 5, Nexus 5X, Nexus 6, Nexus 6P, and Android One devices (not to be confused with CVE-2016-6741, as it has the same commit title)
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=27fbeb6b025d5d46ccb0497cbed4c6e78ed1c5cc
+  omap4commitid: unaffected
   baconcommitid: 1fc9dfd1a87ba6dc98640191900123171bab54fc
 
 - cve: CVE-2016-3935
@@ -1830,6 +1953,7 @@
     - Qualcomm cryptographic engine driver in Android before 2016-10-05 on Nexus 5X, Nexus 6, Nexus 6P, and Android One devices
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=5f69ccf3b011c1d14a1b1b00dbaacf74307c9132
+  omap4commitid: unaffected
   baconcommitid: cb6d9a5071b9bebc9a4efbb2cd3c0993e02be636
 
 - cve: CVE-2016-3951
@@ -1934,6 +2058,7 @@
     - Qualcomm wcnss_wlan device driver for the Linux kernel 3.x
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=579e796cb089324c55e0e689a180575ba81b23d9
+  omap4commitid: unaffected
   baconcommitid: 15805a767875ff7fcf8ae741af3650312c9ea047
 
 - cve: CVE-2016-5343
@@ -1941,6 +2066,7 @@
     - drivers/soc/qcom/qdsp6v2/voice_svc.c in the QDSP6v2 Voice Service driver for the Linux kernel 3.x, as used in Qualcomm Innovation Center (QuIC) Android contributions for MSM devices and other products, allows attackers to cause a denial of service (memory corruption) or possibly have unspecified other impact via a write request, as demonstrated by a voice_svc_send_req buffer overflow.
   content: |
     - https://review.lineageos.org/#/c/108406/
+  omap4commitid: unaffected
   baconcommitid: c49ce75124b088fd8b0f2640bf818c1e083a7b0c
 
 - cve: CVE-2016-5345
@@ -1948,6 +2074,7 @@
     - Qualcomm FM Radio Transceiver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=67118716a2933f6f30a25ea7e3946569a8b191c6
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-5346
@@ -1957,6 +2084,7 @@
     - https://www.codeaurora.org/null-pointer-dereference-when-processing-accept-system-call-user-process-afmsmipc-sockets-cve-2016
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=71fe5361cbef34e2d606b79e8936a910a3e95566
     - https://review.lineageos.org/#/c/163837
+  omap4commitid: unaffected
   baconcommitid: 8d19e45ea83397604f5dd3e71893265646c56dd2
 
 - cve: CVE-2016-5347
@@ -1964,6 +2092,7 @@
     - Qualcomm qdsp6v2
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=f14390f13e62460fc6b05fc0acde0e825374fdb6
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-5349
@@ -1974,6 +2103,7 @@
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=9bd398661cae758ffc557adc7de74ba32654e1f9
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=e3d969000fb60ecb9bc01667fa89957f67763514
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=03853a58952834ac3e1e3007c9c680dd4c001a2f
+  omap4commitid: unaffected
 
 - cve: CVE-2016-5829
   info:
@@ -1989,6 +2119,7 @@
     - Qualcomm qdsp6v2
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=a8f3b894de319718aecfc2ce9c691514696805be
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-5854
@@ -1996,6 +2127,7 @@
     - Qualcomm SPCom driver
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=28d23d4d7999f683b27b6e0c489635265b67a4c9
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-5855
@@ -2003,6 +2135,7 @@
     - Qualcomm SPCom driver
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=a5edb54e93ba85719091fe2bc426d75fa7059834
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-5856
@@ -2010,6 +2143,7 @@
     - Qualcomm SPCom driver in the Android kernel 2017-03-05 
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-4.4/commit/?id=0c0622914ba53cdcb6e79e85f64bfdf7762c0368
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-5857
@@ -2024,6 +2158,7 @@
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=3154eb1d263b9c3eab2c9fa8ebe498390bf5d711
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=afc5bea71bc8f251dad1104568383019f4923af6
+  omap4commitid: unaffected
   baconcommitid: 9a3f8e6a1a335e0c19dff5f882f39af9022b8cb9
 
 - cve: CVE-2016-5859
@@ -2031,6 +2166,7 @@
     - Qualcomm qdsp6v2 Dolby DAP
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=97fdb441a9fb330a76245e473bc1a2155c809ebe
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-5860
@@ -2038,6 +2174,7 @@
     - Qualcomm sound driver
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=9f91ae0d7203714fc39ae78e1f1c4fd71ed40498
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-5861
@@ -2047,6 +2184,7 @@
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=cf3c97b8b6165f13810e530068fbf94b07f1f77d
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=17b37501db36fb1723e31ea17961b66df7432fc7
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=bfc6eee5e30a0c20bc37495233506f4f0cc4991d
+  omap4commitid: unaffected
   baconcommitid: d8417e7fc2a94a20e538e7ef4b0964e128520ee8
 
 - cve: CVE-2016-5862
@@ -2054,6 +2192,7 @@
     - Qualcomm sound codec driver msm8996
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=4199451e83729a3add781eeafaee32994ff65b04
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-5863
@@ -2068,6 +2207,7 @@
     - A-36251231, QC Sound driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-4.4/commit/?id=cbc21ceb69cb7bca0643423a7ca982abce3ce50a
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-5867
@@ -2082,6 +2222,7 @@
     - Qualcomm rndis_ipa
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=fbb765a3f813f5cc85ddab21487fd65f24bf6a8c
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-5870
@@ -2090,6 +2231,7 @@
   content: |
     - https://www.codeaurora.org/null-pointer-dereference-when-processing-accept-system-call-user-process-afmsmipc-sockets-cve-2016
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=71fe5361cbef34e2d606b79e8936a910a3e95566
+  omap4commitid: unaffected
   baconcommitid: d3e8712c89ff5cf90ac8199d578085af443f957f
 
 - cve: CVE-2016-6136
@@ -2107,6 +2249,7 @@
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/prima/commit/?id=d39345f0abc309959d831d09fcbf1619cc0ae0f5
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=f081695446679aa44baa0d00940ea18455eeb4c5
     - https://github.com/android/kernel_msm/commit/2d8b76ef0d269dd2939050c4eae4838803730c42
+  omap4commitid: unaffected
 
 - cve: CVE-2016-6680
   info: |
@@ -2114,18 +2257,21 @@
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=2f2fa073b95d4700de88c0f7558b4a18c13ac552
     - https://github.com/android/kernel_msm/commit/f4e24e60b5729032ac9d53cb2ac08ab0d05d67a4
+  omap4commitid: unaffected
 
 - cve: CVE-2016-6681
   info: |
     - Information disclosure vulnerability in Qualcomm sound driver (qdsp6v2) Note: The patch for this cve also fixes CVE-2016-6682
   content: |
     - https://github.com/android/kernel_msm/commit/f3a55611dc1c0363374ad92eb52b6ee09bf5ff49
+  omap4commitid: unaffected
 
 - cve: CVE-2016-6682
   info: |
     - Information disclosure vulnerability in Qualcomm sound driver (qdsp6v2) Note: The patch for this cve also fixes CVE-2016-6681
   content: |
     - https://github.com/android/kernel_msm/commit/f3a55611dc1c0363374ad92eb52b6ee09bf5ff49
+  omap4commitid: unaffected
 
 - cve: CVE-2016-6683
   info: |
@@ -2150,6 +2296,7 @@
     - Qualcomm crypto driver in Android before 2016-11-05
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=cc95d644ee8a043f2883d65dda20e16f95041de3
+  omap4commitid: unaffected
   baconcommitid: 7c90fd1d414f1cb78a6d70f8f6731c12176e0e29
 
 - cve: CVE-2016-6738
@@ -2157,6 +2304,7 @@
     - Qualcomm crypto engine driver in Android before 2016-11-05
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=a829c54236b455885c3e9c7c77ac528b62045e79
+  omap4commitid: unaffected
   baconcommitid: 7789a07b698855da8d078d0f42ca8c03c72d1a82
 
 - cve: CVE-2016-6739
@@ -2166,6 +2314,7 @@
     - https://www.codeaurora.org/heap-overflow-function-msmcppcfgframe-cve-2016-6739
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=c4af572a7ad59c0f07fd316a08055bc86dfb5f0d
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/drivers/media/platform/msm/camera_v2/pproc/cpp/msm_cpp.c?h=LA.BR.1.2.9_rb1.18&id=b0c2274b13a0487e72e57342a842a99a15149fb9
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-6740
@@ -2175,6 +2324,7 @@
     - https://www.codeaurora.org/stack-overflow-msmcameraqupi2cwriteseq-cve-2016-6740
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=a939a87f0adf91feceb329a5c080b86e1ee333c7
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=ef78bd62f0c064ae4c827e158d828b2c110ebcdc 
+  omap4commitid: unaffected
   baconcommitid: 5511998fecf8732d7dd842879091a0bf879e971d
 
 - cve: CVE-2016-6741
@@ -2183,6 +2333,7 @@
   content: |
     - https://www.codeaurora.org/stack-overflow-msmcameraqupi2creadseq-cve-2016-6741
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=80a1d9978c11f76bbe6d2e622bf2ded18f27e34f
+  omap4commitid: unaffected
   baconcommitid: 0e8aa5ef341b08f78052c606413832e179a04163
 
 - cve: CVE-2016-6748
@@ -2192,6 +2343,7 @@
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=313d9f89e76ada8d900c9a578cd5cb77d5813625
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=be651d020b122a1ba9410d23ca4ebbe9f5598df6
     - https://www.codeaurora.org/possible-kernel-pointer-leak-vidc-driver-debug-messages-cve-2016-6748
+  omap4commitid: unaffected
   baconcommitid: a3c29cede44f4a75dc3f50990825379f712dfc48
 
 - cve: CVE-2016-6749
@@ -2200,7 +2352,7 @@
   content: |
     - https://www.codeaurora.org/possible-kernel-pointer-leak-kgsl-debug-messages-cve-2016-6749
     - https://www.codeaurora.org/gitweb/quic/la/?p=kernel/msm-3.10.git;a=commit;h=aff982f224d45a7faf7ad4e74633d1a8510a1c04
-  baconcommitid: 
+  omap4commitid: unaffected
 
 - cve: CVE-2016-6750
   info: |
@@ -2208,6 +2360,7 @@
   content: |
     - https://www.codeaurora.org/kernel-address-leak-smp2pdebug-cve-2016-6750
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=34bda711a1c7bc7f9fd7bea3a5be439ed00577e5
+  omap4commitid: unaffected
 
 - cve: CVE-2016-6751
   info: |
@@ -2215,6 +2368,7 @@
   content: |
     - https://github.com/android/kernel_msm/commit/38ddb9427aa96bdfcdc5fe1877f439d2f7bdd87b
     - https://www.codeaurora.org/multiple-uninitialized-kernel-memory-information-disclosures-msm-compr-q6-v2c-cve-2016-6751
+  omap4commitid: unaffected
   baconcommitid: d7973755d6e419b28e7ca79ea04e48dc9fb3d2c7
 
 - cve: CVE-2016-6752
@@ -2236,6 +2390,7 @@
     - Qualcomm camera, Kernel 3.10 and 3.18
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=b5df02edbcdf53dbbab77903d28162772edcf6e0
+  omap4commitid: unaffected
   baconcommitid: bc3a0baa73644ffa74a0c68bba47f16ab30cb1fa
 
 - cve: CVE-2016-6756
@@ -2243,6 +2398,7 @@
     - Qualcomm components including the camera driver and video driver, Kernel 3.10 and 3.18
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=f91d28dcba304c9f3af35b5bebaa26233c8c13a5
+  omap4commitid: unaffected
 
 - cve: CVE-2016-6757
   info: |
@@ -2276,6 +2432,7 @@
     - Qualcomm sound driver, Kernel 3.10 and 3.18, same as CVE-2016-8391
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=62580295210b6c0bd809cde7088b45ebb65ace79
+  omap4commitid: unaffected
 
 - cve: CVE-2016-6828
   info:
@@ -2333,6 +2490,7 @@
     - doesn't affect <= 3.2
   content: |
     - https://github.com/torvalds/linux/commit/8d4a2ec1e0b41b0cf9a0c5cd4511da7f8e4f3de2 
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-7915
@@ -2349,6 +2507,7 @@
     - kernel before 4.5.4 
   content: |
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=8148a73c9901a8794a50f950083c00ccf97d43b3
+  omap4commitid: unaffected
   baconcommitid: c0697b8d4540f8b6ccad1b8b059bb3b5e252e3e0
 
 - cve: CVE-2016-7917
@@ -2357,6 +2516,7 @@
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=c58d6c93680f28ac58984af61d0a7ebf4319c241
     - https://android.googlesource.com/kernel/msm/+/376cc0f2ce5fd07e8d189371728305f61bf90e97
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-8391
@@ -2364,6 +2524,7 @@
     - Qualcomm sound driver, Kernels 3.10 3.18
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=62580295210b6c0bd809cde7088b45ebb65ace79
+  omap4commitid: unaffected
 
 - cve: CVE-2016-8399
   info:
@@ -2377,6 +2538,7 @@
     - Information disclosure vulnerability in kernel USB driver - Kernel 3.10
   content: |
     - https://android.googlesource.com/kernel/tegra/+/de55d30d3ed76ab8b5c61f2ccf730ce86fd59592
+  omap4commitid: unaffected
 
 - cve: CVE-2016-8405
   info:
@@ -2401,13 +2563,14 @@
     - QC audio driver
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?h=e2bbf665187a1f0a1248e4a088823cb182153ba9
-  baconcommitid: 
+  omap4commitid: unaffected
 
 - cve: CVE-2016-8412
   info: |
     - Qualcomm Camera, Kernels 3.10, 3.18
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=42a98c44669d92dafcf4d6336bdccaeb2db12786
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-8413
@@ -2415,6 +2578,7 @@
     - Qualcomm camera driver, Kernels 3.10, 3.18
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=bc77232707df371ff6bab9350ae39676535c0e9d
+  omap4commitid: unaffected
   baconcommitid: a6aa7ea03d4a1d3d15a84811c3d557c747a5d4aa
 
 - cve: CVE-2016-8414
@@ -2422,6 +2586,7 @@
     - QC SCM driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=320970d3da9b091e96746424c44649a91852a846
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-8415
@@ -2430,6 +2595,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=188e12a816508b11771f362c852782ec9a6f9394
     - https://github.com/android/kernel_msm/commit/c3ef29be79ea5d1c67cde62c7666cb6d4778383c
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-8416
@@ -2437,6 +2603,7 @@
     - Qualcomm video driver, Kernel 3.18, same as CVE-2016-8478
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=e3af5e89426f1c8d4e703d415eff5435b925649f
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-8417
@@ -2444,6 +2611,7 @@
     - Qualcomm camera driver, Kernels 3.10, 3.18
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=01dcc0a7cc23f23a89adf72393d5a27c6d576cd0
+  omap4commitid: unaffected
   baconcommitid: 872667252e1db086436cec826b18bd6e31fb7a0a
 
 - cve: CVE-2016-8418
@@ -2452,6 +2620,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=8f8066581a8e575a7d57d27f36c4db63f91ca48f
     - https://www.codeaurora.org/integer-overflow-vulnerability-qce-driver-cve-2016-8418
+  omap4commitid: unaffected
   baconcommitid: da8fbf97e73933a7a84146af368a7eeee8258ef6
 
 - cve: CVE-2016-8419
@@ -2460,6 +2629,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=9ba50d536227666a5b6abd51f2b122675d950488
     - https://github.com/android/kernel_msm/commit/5dcbbf80f4deb9b078cca860f6d1760d6f9398b8
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-8420
@@ -2468,6 +2638,7 @@
   content: |
     - https://github.com/android/kernel_msm/commit/983ad9423f67549b074cdb4fd5e51ed8248e2ccd
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=c6597e015a7ce5ee71d3725fc55e64fc50923f4e
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-8421
@@ -2476,12 +2647,14 @@
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=61a5cdb9adc96645583f528ac923e6e59f3abbcb
     - https://github.com/android/kernel_msm/commit/0160130f4217c782a7857588f668ab54fae21f58
+  omap4commitid: unaffected
 
 - cve: CVE-2016-8434
   info: |
     - QC KGSL driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.14/commit/?id=3e3866a5fced40ccf9ca442675cf915961efe4d9
+  omap4commitid: unaffected
   baconcommitid: a27962d0b988430ce5bfec647a4e62443f1de1a3
 
 - cve: CVE-2016-8436
@@ -2489,6 +2662,7 @@
     - Kernel 3.18
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=228e8d17b9f5d22cf9896ab8eff88dc6737c2ced
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-8450
@@ -2496,6 +2670,7 @@
     - QC sound driver
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=e909d159ad1998ada853ed35be27c7b6ba241bdb
+  omap4commitid: unaffected
   baconcommitid: 415ed0915c744dff54035387814b5b6c441cbd7d
 
 - cve: CVE-2016-8452
@@ -2505,6 +2680,7 @@
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=39fa8e972fa1b10dc68a066f4f9432753d8a2526
     - https://github.com/android/kernel_msm/commit/b05c022755257abacfc6df9e4c649adcdc3099b5
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/prima/commit/?id=1216822e1d051247ae1f6e194f16d2fc40f1eba2
+  omap4commitid: unaffected
 
 - cve: CVE-2016-8453
   info: |
@@ -2606,6 +2782,7 @@
     - Information disclosure vulnerability in HTC input driver
   content: |
     - https://github.com/android/kernel_msm/commit/d906945fc287f9df48b99349fea962b921d4d39e
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-8476
@@ -2614,6 +2791,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=bfe8035bce6fec72ed1d064b94529fce8fb09799
     - https://github.com/android/kernel_msm/commit/391b6eea59269ce8962c2ae160de6c8ac8bb4967
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-8477
@@ -2622,6 +2800,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=33c9042e38506b04461fa99e304482bc20923508
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=96145eb5f0631f0e105d47abebc8f940f7621eeb
+  omap4commitid: unaffected
   baconcommitid: 8b5ecb6ec70761844826d4d05bbcccae653abcc2
 
 - cve: CVE-2016-8478
@@ -2629,6 +2808,7 @@
     - Qualcomm video driver, Kernel 3.18
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=e3af5e89426f1c8d4e703d415eff5435b925649f
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-8479
@@ -2637,6 +2817,7 @@
   content: |
     - https://android.googlesource.com/kernel/msm/+/14139f66e4f4a678e30ed06764603cd050e06ffd
     - https://github.com/android/kernel_msm/commit/14139f66e4f4a678e30ed06764603cd050e06ffd
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-8480
@@ -2645,6 +2826,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=0ed0f061bcd71940ed65de2ba46e37e709e31471
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=cd70f6025a7bbce89af7a7abf4c40a219fdea406
+  omap4commitid: unaffected
   baconcommitid: d471aac1cdeaa8b4d916197b9dba28158ddfaba7
 
 - cve: CVE-2016-8481
@@ -2655,6 +2837,7 @@
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=ce9db0874906f6aedd80bb28d457eadfe38bdd02
     - https://github.com/android/kernel_msm/commit/831da5d113d214db6894e9fd0ce98762ee8a544a
     - https://source.android.com/security/bulletin/2017-02-01#eop-in-qualcomm-sound-driver
+  omap4commitid: unaffected
   baconcommitid: 04bc1076a0f07985a4e1c51d8861c0faf9493390
 
 - cve: CVE-2016-8483
@@ -2663,6 +2846,7 @@
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=6997dcb7ade1315474855821e64782205cb0b53a - Patch for 3.18
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?h=APSS.FSM.3.0&id=7e147f4532394f06c3d7bce9cc6e682785754e45 - Patch for 3.10
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-8650
@@ -2670,6 +2854,7 @@
     - Kernels through 4.8.11; doesn't affect <= 3.2
   content: |
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f5527fffff3f002b0a6b376163613b82f69de073
+  omap4commitid: unaffected
   baconcommitid: 88e20b1948eec57cdb8e969831b3a0d5c3b17542
 
 - cve: CVE-2016-8655
@@ -2765,6 +2950,7 @@
     - Kernel 3.10, 3.18, 3.4
   content: |
     - https://github.com/android/kernel_msm/commit/4faa6d2e9b53546823882d8889820ff9ce3c372f
+  omap4commitid: unaffected
   baconcommitid: 2477aa768e9ee8e7e3c3ea78a4ed09269cfb0066
 
 - cve: CVE-2017-0427
@@ -2786,6 +2972,7 @@
   info: |
     - MediaTek driver
   content:
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0433
@@ -2810,6 +2997,7 @@
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=ce9db0874906f6aedd80bb28d457eadfe38bdd02
     - https://github.com/android/kernel_msm/commit/831da5d113d214db6894e9fd0ce98762ee8a544a
     - https://source.android.com/security/bulletin/2017-02-01#eop-in-qualcomm-sound-driver
+  omap4commitid: unaffected
 
 - cve: CVE-2017-0436
   info: |
@@ -2817,12 +3005,14 @@
   content: |
     - https://source.android.com/security/bulletin/2017-02-01#eop-in-qualcomm-sound-driver
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=ce9db0874906f6aedd80bb28d457eadfe38bdd02
+  omap4commitid: unaffected
 
 - cve: CVE-2017-0437
   info: |
     - Qualcomm Wi-Fi driver, same as CVE-2017-0438, CVE-2017-0442, CVE-2017-0443
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=1f0b036dc74ccb6e9f0a03a540efdb0876f5ca77 - qcacld-2.0
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0438
@@ -2830,6 +3020,7 @@
     - Qualcomm Wi-Fi driver
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=1f0b036dc74ccb6e9f0a03a540efdb0876f5ca77 - qcacld-2.0
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0439
@@ -2837,6 +3028,7 @@
     - Qualcomm Wi-Fi driver
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=81b6b5538d3227ed4b925fcceedb109abb2a4c61 - qcacld-2.0
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0440
@@ -2845,6 +3037,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=10f0051f7b3b9a7635b0762a8cf102f595f7a268 - qcacld2.0
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/prima/commit/?id=054ce0761e900c5f63089393f8b6cadf17d55ade - prima
+  omap4commitid: unaffected
   baconcommitid: d914381dbcead3859cedf023bcbf16fd60717173
 
 - cve: CVE-2017-0441
@@ -2859,6 +3052,7 @@
     - Qualcomm Wi-Fi driver
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=1f0b036dc74ccb6e9f0a03a540efdb0876f5ca77 - qcacld-2.0
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0443
@@ -2866,6 +3060,7 @@
     - Qualcomm Wi-Fi driver
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=1f0b036dc74ccb6e9f0a03a540efdb0876f5ca77 - qcacld-2.0
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0444
@@ -2881,6 +3076,7 @@
   content: |
     - 1/2 https://github.com/android/kernel_msm/commit/773179468893965c2b81aa7ffe3722b6868ef749
     - 2/2 https://github.com/android/kernel_msm/commit/367e64520dba1652d8f6d0ac1ebda3cab0f9e374
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0446
@@ -2888,6 +3084,7 @@
     - HTC touchscreen driver
   content: |
     - https://github.com/android/kernel_msm/commit/773179468893965c2b81aa7ffe3722b6868ef749
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0447
@@ -2895,12 +3092,14 @@
     - HTC touchscreen driver
   content: |
     - https://github.com/android/kernel_msm/commit/773179468893965c2b81aa7ffe3722b6868ef749
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0448
   info: |
     - NVIDIA video driver, Kernel 3.10
   content:
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0449
@@ -2916,6 +3115,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=59f55cd40b5f44941afc78b78e5bf81ad3dd723e
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=35346beb2d8882115f698ab22a96803552b5c57e
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0452
@@ -2924,6 +3124,7 @@
   content: |
     - https://android.googlesource.com/kernel/msm/+/4fa7499742c56c7f7064c9dc14c3a34f4be38851
     - https://github.com/android/kernel_msm/commit/4fa7499742c56c7f7064c9dc14c3a34f4be38851
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0453
@@ -2932,6 +3133,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/prima/commit/?id=dd88a6eb22a0df94c6414d1fe815d61e9dfb0a34
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=05af1f34723939f477cb7d25adb320d016d68513
+  omap4commitid: unaffected
   baconcommitid: 115664c51912eef077dac41c3c7dbaa287ac1653
 
 - cve: CVE-2017-0454
@@ -2939,6 +3141,7 @@
     -  Qualcomm audio driver qdsp6v2/audio_hwacc_effects.c
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=cb0701a2f99fa19f01fbd4249bda9a8eadb0241f
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0458
@@ -2946,6 +3149,7 @@
     - Qualcomm camera driver, Kernel 3.18
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=eba46cb98431ba1d7a6bd859f26f6ad03f1bf4d4
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0459
@@ -2954,6 +3158,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=b4e374926ddc325840cda704aea1eb0c49d7f0e3
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?h=rel/msm-3.18&id=ffacf6e2dc41b6063c3564791ed7a2f903e7e3b7
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0460
@@ -2962,6 +3167,7 @@
   content: |
     - https://android.googlesource.com/kernel/msm/+/3d63c530096ccd118ab7078c7b9f93c040f803bd
     - https://github.com/android/kernel_msm/commit/3d63c530096ccd118ab7078c7b9f93c040f803bd - Patch 3.10
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0461
@@ -2970,6 +3176,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=ce5d6f84420a2e6ca6aad6b866992970dd313a65
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/prima/commit/?id=02bd3c61ccb5a68eee42e6cfc59fc8d7120167a2
+  omap4commitid: unaffected
   baconcommitid: 578f60bf199ad0f98f4c087c6f792d0caf302c6f
 
 - cve: CVE-2017-0462
@@ -2977,6 +3184,7 @@
     - Qualcomm Seemp driver drivers/platform/msm/seemp_core/seemp_event_encoder.c
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=eb7b1426279e751b1fc3e86f434dc349945c1ae7
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0463
@@ -2984,6 +3192,7 @@
     - Qualcomm networking driver, Kernels 3.10, 3.18
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=955bd7e7ac097bdffbadafab90e5378038fefeb2
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0464
@@ -2991,6 +3200,7 @@
     - Qualcomm Wi-Fi driver, Kernels 3.10, 3.18
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=051597a4fe19fd1292fb7ea2e627d12d1fd2934f
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0465
@@ -2998,6 +3208,7 @@
     -  Qualcomm ADSPRPC driver
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=3823f0f8d0bbbbd675a42a54691f4051b3c7e544
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0507
@@ -3006,6 +3217,7 @@
   content: |
     - https://android.googlesource.com/kernel/msm/+/03c26a1d8c8687131da151c2e4bd5a04d08e0dec
     - https://github.com/android/kernel_msm/commit/03c26a1d8c8687131da151c2e4bd5a04d08e0dec
+  omap4commitid: unaffected
 
 - cve: CVE-2016-0510
   info: |
@@ -3022,6 +3234,7 @@
   content: |
     - https://android.googlesource.com/kernel/msm/+/1e2b69bf3ab61979a05e796e76c8ecd1ec251c42
     - https://github.com/android/kernel_msm/commit/1e2b69bf3ab61979a05e796e76c8ecd1ec251c42
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0520
@@ -3029,6 +3242,7 @@
     - Qualcomm crypto engine driver, Kernel-3.10, Kernel-3.18
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=eb2aad752c43f57e88ab9b0c3c5ee7b976ee31dd
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0521
@@ -3036,6 +3250,7 @@
     - Qualcomm camera driver, Kernel-3.10, Kernel-3.18
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=dbe4f26f200db10deaf38676b96d8738afcc10c8
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0523
@@ -3043,11 +3258,13 @@
     - Qualcomm Wi-Fi driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=5bb646471da76d3d5cd02cf3da7a03ce6e3cb582
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2016-0525
   info: |
     - qcom ipa privilege elevation
+  omap4commitid: unaffected
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=050ee9e77ca89e9997792a0ab371470218da9a97
 
@@ -3056,6 +3273,7 @@
     - AsoC driver, Kernel-3.10, Kernel-3.18
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=530f3a0fd837ed105eddaf99810bc13d97dc4302
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0533
@@ -3063,6 +3281,7 @@
     - Qualcomm video driver, Kernel 3.18
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=e3af5e89426f1c8d4e703d415eff5435b925649f
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0534
@@ -3070,6 +3289,7 @@
     - Qualcomm video driver, Kernel-3.18
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=e3af5e89426f1c8d4e703d415eff5435b925649f
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0535
@@ -3077,6 +3297,7 @@
     - HTC sound codec driver, Kernel 3.10
   content: |
     - https://android.googlesource.com/kernel/tegra/+/fb2e6cf549dcbdcc10f9c3115ba5123bdd5a307e
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0536
@@ -3084,6 +3305,7 @@
     - Synaptics touchscreen driver, Kernel 3.10, 3.18
   content: |
     - https://github.com/android/kernel_msm/commit/e6430a4da1fb0212a546379eadbe986f629c3ae9
+  omap4commitid: unaffected
 
 - cve: CVE-2017-0537
   info: |
@@ -3091,6 +3313,7 @@
   content: |
     - https://review.lineageos.org/#/c/167726/
     - https://chromium-review.googlesource.com/c/428059/3
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0564
@@ -3107,6 +3330,7 @@
     -  Qualcomm crypto engine driver drivers/crypto/msm/qcedev.c Kernel-3.10, Kernel-3.18
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=2b09507d78b25637df6879cd2ee2031b208b3532
+  omap4commitid: unaffected
   baconcommitid: 3ce84fe2b56202f3bd510e074daec1b5756591b9
 
 - cve: CVE-2017-0583
@@ -3114,6 +3338,7 @@
     - Qualcomm CP access driver Disable CONFIG_CP_ACCESS64 in kernel configuration
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=452d2ad331d20b19e8a0768c4b6e7fe1b65abe8f
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0586
@@ -3121,12 +3346,14 @@
     - Qualcomm sound driver
   content: |
     - https://github.com/android/kernel_msm/commit/05bacdc0f9c16c58326a4be9e88afa870cf1024e
+  omap4commitid: unaffected
 
 - cve: CVE-2017-0604
   info: |
     - Qualcomm power driver
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=6975e2dd5f37de965093ba3a8a08635a77a960f7
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0605
@@ -3140,6 +3367,7 @@
     - Qualcomm qdsp6v2
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=d3237316314c3d6f75a58192971f66e3822cd250
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0607
@@ -3147,6 +3375,7 @@
     - Qualcomm q6dspv2
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=b003c8d5407773d3aa28a48c9841e4c124da453d
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0608
@@ -3154,12 +3383,14 @@
     - Qualcomm qdsp6v2
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=b66f442dd97c781e873e8f7b248e197f86fd2980
+  omap4commitid: unaffected
 
 - cve: CVE-2017-0609
   info: |
     - Qualcomm msm-cpe-lsm sound driver
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=38a83df036084c00e8c5a4599c8ee7880b4ee567
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0610
@@ -3167,6 +3398,7 @@
     - Qualcomm sound driver
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=65009746a6e649779f73d665934561ea983892fe
+  omap4commitid: unaffected
 
 - cve: CVE-2017-0611
   info: |
@@ -3174,6 +3406,7 @@
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=1aa5df9246557a98181f03e98530ffd509b954c8
     - https://review.lineageos.org/#/q/topic:CVE-2017-0611
+  omap4commitid: unaffected
 
 - cve: CVE-2017-0612
   info: |
@@ -3181,24 +3414,28 @@
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=05efafc998dc86c3b75af9803ca71255ddd7a8eb
   baconcommitid: unaffected
+  omap4commitid: unaffected
 
 - cve: CVE-2017-0613
   info: |
     - Qualcomm Secure Execution Environment qseecom_send_service_cmd
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=b108c651cae9913da1ab163cb4e5f7f2db87b747
+  omap4commitid: unaffected
 
 - cve: CVE-2017-0614
   info: |
     - Qualcomm Secure Execution Environment
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=fc2ae27eb9721a0ce050c2062734fec545cda604
+  omap4commitid: unaffected
 
 - cve: CVE-2017-0619
   info: |
     - Qualcomm pin controller msm_dt_node_to_map
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.14/commit/?id=72f67b29a9c5e6e8d3c34751600c749c5f5e13e1
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0620
@@ -3206,12 +3443,14 @@
     - Qualcomm Secure Channel Manager Driver
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=01b2c9a5d728ff6f2f1f28a5d4e927aaeabf56ed
+  omap4commitid: unaffected
 
 - cve: CVE-2017-0621
   info: |
     - Qualcomm camera_v2
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=9656e2c2b3523af20502bf1e933e35a397f5e82f
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0622
@@ -3219,18 +3458,21 @@
     - Goodix gt9xx touchscreen driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=40efa25345003a96db34effbd23ed39530b3ac10
+  omap4commitid: unaffected
 
 - cve: CVE-2017-0626
   info: |
     - Qualcomm crypto engine driver
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=64551bccab9b5b933757f6256b58f9ca0544f004
+  omap4commitid: unaffected
 
 - cve: CVE-2017-0629
   info: |
     - Qualcomm camera_v2
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=012e37bf91490c5b59ba2ab68a4d214b632b613f
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0631
@@ -3238,6 +3480,7 @@
     - Qualcomm camera_v2
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=8236d6ebc7e26361ca7078cbeba01509f10941d8
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0632
@@ -3245,6 +3488,7 @@
     - Qualcomm msm8x16-wcd
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=970d6933e53c1f7ca8c8b67f49147b18505c3b8f
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0633
@@ -3257,6 +3501,7 @@
   info: |
     - A-35310230, M-ALPS03162263, MediaTek Command queue driver
   content:
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0648
@@ -3271,6 +3516,7 @@
   info: |
     - A-34468195, M-ALPS03162283, MediaTek Sound driver
   content: 
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-0650
@@ -3352,6 +3598,7 @@
     - Kernel 4.7.x, 4.8.x and 4.9.x before 4.9.5
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=c4e490cf148e85ead0d1b1c2caaba833f1d5b29f
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-5547
@@ -3359,6 +3606,7 @@
     - Linux kernel 4.9.x before 4.9.6
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=6d104af38b570d37aa32a5803b04c354f8ed513d
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-5550
@@ -3366,6 +3614,7 @@
     - Linux kernel before 4.9.5
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=b9dc6f65bc5e232d1c05fe34b5daadc7e8bbf1fb
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-5551
@@ -3472,6 +3721,7 @@
     - net/ipv4/ip_sockglue.c in the Linux kernel before 4.10.1
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ca4ef4574f1ee5252e2cd365f8f5d5bafd048f32
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-6348
@@ -3492,6 +3742,7 @@
     - A-36251986, MStar touchscreen driver
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=be42c7ff1f0396484882451fd18f47144c8f1b6b
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-6423
@@ -3499,6 +3750,7 @@
     - Qualcomm Kyro L2 driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=0f264f812b61884390b432fdad081a3e995ba768
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-6424
@@ -3507,6 +3759,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=5cc2ac840e36a3342c5194c20b314f0bb95ef7e1
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/prima/commit/?id=8cac3c4aac106b917e60e7aa7d4c4189e376913c
+  omap4commitid: unaffected
   baconcommitid: 24960217679ca5f48303f73323bfbcc9a87ba296
 
 - cve: CVE-2017-6425
@@ -3514,6 +3767,7 @@
     - Qualcomm video driver drivers/video/msm/mdss/mdss_compat_utils.c
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=ef86560a21fe1f256f6ba772a195201ff202c657
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-6426
@@ -3521,6 +3775,7 @@
     - Qualcomm SPMI driver drivers/platform/msm/spmi/spmi-dbgfs.c
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=80decd6365deec08c35ecb902a58f9210599b39a
+  omap4commitid: unaffected
 
 - cve: CVE-2017-6874
   info: |
@@ -3573,6 +3828,7 @@
     - A-36252179, Video driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-4.4/commit/?id=3ce6c47d2142fcd2c4c1181afe08630aaae5a267
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-7366
@@ -3581,12 +3837,14 @@
   content: |
     - 1/2 https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=f4c9ffd6cd7960265f38e285ac43cbecf2459e45
     - 2/2 https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=7c4d5736d32f91f0cafe6cd86d00e26389970b00
+  omap4commitid: unaffected
 
 - cve: CVE-2017-7368
   info: |
     - A-33452365, Sound driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=143ef972be1621458930ea3fc1def5ebce7b0c5d
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-7369
@@ -3602,6 +3860,7 @@
     - A-34328139, Video driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=970edf007fbe64b094437541a42477d653802d85
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-7371
@@ -3636,6 +3895,7 @@
   info:
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=6efda2501976288f10895834ba2782d0df093441
+  omap4commitid: unaffected
   baconcommitid: 89d3b095e3c50867f816a21acf48265e0ac932a0
 
 - cve: CVE-2017-7495
@@ -3681,6 +3941,7 @@
     - A-34621613, Camera driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=64b7bc25e019dd07e8042e0a6ec6dc6a1dd0c385
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-8234
@@ -3688,6 +3949,7 @@
     - A-36252121, Camera driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=6266f954a52641f550ef71653ea83c80bdd083be
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-8235
@@ -3695,6 +3957,7 @@
     - A-36252376, Camera driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-4.4/commit/?id=7e4424a1b5f6a6536066cca7aac2c3a23fd39f6f
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-8236
@@ -3702,12 +3965,14 @@
     - A-35047217, IPA driver
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=cf0d31bc3b04cf2db7737d36b11a5bf50af0c1db
+  omap4commitid: unaffected
 
 - cve: CVE-2017-8237
   info: |
     - A-36252377, Networking driver
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=342d16ac6fb01e304ec75344c693257e00628ecf
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-8239
@@ -3715,6 +3980,7 @@
     - A-36251230, Camera driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=01db0e012f86b8ba6974e5cb9905261a552a0610
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-8240
@@ -3722,6 +3988,7 @@
     - A-36251985, Pin controller driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=22b8b6608174c1308208d5bc6c143f4998744547
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-8241
@@ -3729,6 +3996,7 @@
     - A-34203184, WiFi driver
   content: |
     - https://source.codeaurora.org/quic/la//platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=90213394b7efb28fa511b2eaebc1343ae3b54724
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-8242
@@ -3736,6 +4004,7 @@
     - A-34327981, QSEE Comm driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=6a3b8afdf97e77c0b64005b23fa6d32025d922e5
+  omap4commitid: unaffected
 
 - cve: CVE-2017-8244
   info: |
@@ -3744,6 +4013,7 @@
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=f51b0f3b9da62e96b0167a3eb3376fca39fc7baf
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=01673e148223c10782b03c5485aff2a82b1900c4
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=fe3bdd12315656347d1bca82d920b3df1a2b0e8a
+  omap4commitid: unaffected
 
 - cve: CVE-2017-8245
   info: |
@@ -3752,6 +4022,7 @@
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=ececf97911515114030bef1fc6df630dbb706f17
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=f53af3805879292423465cd0877cc7a75131ce10
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=5b2f6e011ba92f28e8d7dbeb11c4ee7344c33186
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-8246
@@ -3762,12 +4033,14 @@
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=30baaec8afb05abf9f794c631ad944838d498ab8
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=9734b72ae21eca557540c3c42d356dd131a20004
     - https://review.lineageos.org/#/q/topic:CVE-2017-8246
+  omap4commitid: unaffected
 
 - cve: CVE-2017-8253
   info: |
     - qcom camera
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=a5f07894058c4198f61e533d727b343c5be879b0
+  omap4commitid: unaffected
 
 - cve: CVE-2017-8254
   info: |
@@ -3775,12 +4048,14 @@
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=70afce1d9be745005c48fd565c01ce452a565e7e
     - https://review.lineageos.org/#/q/topic:CVE-2017-8254
+  omap4commitid: unaffected
 
 - cve: CVE-2017-8256
   info: |
     - qcom wifi qcacld-2.0
   content: |
     - https://source.codeaurora.org/quic/la//platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=75e1e00d6b3cd4cb89fd5314a60c333aa0b03230
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: CVE-2017-8257
@@ -3788,12 +4063,14 @@
     - qcom video SDE rotator
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-4.4/commit/?id=0f19fbd00c6679bbc524f7a6d0fc3d54cfd1c9ae
+  omap4commitid: unaffected
 
 - cve: CVE-2017-8259
   info: |
     - qcom soc service locator
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-4.4/commit/?id=68020103af00280393da10039b968c95d68e526c
+  omap4commitid: unaffected
 
 - cve: CVE-2017-8260
   info: |
@@ -3801,12 +4078,14 @@
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=8f236391e5187c05f7f4b937856944be0af7aaa5
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=52a2a62a5b0e9dd917bcd9a6d86d674833cc91b7
+  omap4commitid: unaffected
 
 - cve: CVE-2017-8261
   info: |
     - qcom camera 
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=8576feebaf688dadf0548b9a16d2b90b76ed714c
+  omap4commitid: unaffected
 
 - cve: CVE-2017-8262
   info: |
@@ -3814,6 +4093,7 @@
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=9ef4ee8e3dfaf4e796bda781826851deebbd89bd
     - https://android.googlesource.com/kernel/msm/+/6e95883e47953902ff6a5125a12cf83aa0a7de69
+  omap4commitid: unaffected
 
 - cve: CVE-2017-8263
   info: |
@@ -3827,18 +4107,21 @@
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm/commit/?id=4268b75208ca04bc63dcfadbb9a1eca8e964a697
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?h=LA.UM.5.5.r1-05100-8x96.0&id=53c6b89349730765a71722d274fc3fa41287d21f
+  omap4commitid: unaffected
 
 - cve: CVE-2017-8265
   info: |
     - qcom video
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=193813a21453ccc7fb6b04bedf881a6feaaa015f
+  omap4commitid: unaffected
 
 - cve: CVE-2017-8266
   info: |
     - qcom video
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=42627c94cf8c189332a6f5bfdd465ea662777911
+  omap4commitid: unaffected
 
 - cve: CVE-2017-8267
   info: |
@@ -3851,12 +4134,14 @@
     - qcom camera
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=5f3b68da4c8f6474df2497b6d912465d640904b8
+  omap4commitid: unaffected
 
 - cve: CVE-2017-8269
   info: |
     - qcom IPA driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=b925d9f76164475abb6f6a557327095156c9b249
+  omap4commitid: unaffected
 
 - cve: CVE-2017-8797
   info: |
@@ -3933,6 +4218,7 @@
       Remove the iterate check around setting romnt to fix this
   content: |
     - https://review.lineageos.org/#/c/174289/ - 3.10
+  omap4commitid: unaffected
   baconcommitid: unaffected
 
 - cve: LVT-2017-0004
