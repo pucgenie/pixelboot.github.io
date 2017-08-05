@@ -1,3 +1,12 @@
+- date: 05.08.2017
+  content: |
+    **Slim7**
+
+    New Slim7 builds are up for Galaxy Nexus. Latest Slim7 Source + my latest AnyKernel source.
+
+    - Switched from Linaro 4.7 to GCC 4.7 because some maguro seem to have problems with Linaro too
+
+
 - date: 22.07.2017
   content: |
     **OmniRom 4**
