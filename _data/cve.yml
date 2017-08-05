@@ -59,7 +59,7 @@
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=5ea820046ee399214221c0bb817eb35d304c9604 v3.2 [2/2]
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=712f4aad406bb1ed67f3f98d04c044191f0ff593 v4.5 [1/2]
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=415e3d3e90ce9e18727e8843ae343eda5a58fad6 v4.5 [2/2]
-  baconcommitid: 
+  baconcommitid: [43a31b174a52d74e9e913290af32a3358c02a1be, 8e5e4c5c43ddd2f4e9cb6a74355de0050361b0d8]
 
 - cve: CVE-2014-0169
   info: |
@@ -1557,6 +1557,7 @@
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=950336ba3e4a1ffd2ca60d29f6ef386dd2c7351d
     - https://github.com/android/kernel_msm/commit/37735ed2c8c12e9671a3742d6b9028bad43852df
+  baconcommitid: 06d11f40960e60412aa0ee43193779df76208811
 
 - cve: CVE-2016-2186
   info: |
@@ -1564,6 +1565,7 @@
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=9c6ba456711687b794dcf285856fc14e2c76074f
     - https://github.com/android/kernel_msm/commit/b684cb33d6867e10ba45375a12ef9f3ceb6f0aa7
+  baconcommitid: 531e8922ce1b16c2ba10f889a736f5d4cc7d819f
 
 - cve: CVE-2016-2187
   info: |
@@ -1571,6 +1573,7 @@
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=162f98dea487206d9ab79fc12ed64700667a894d
     - https://source.codeaurora.org/quic/la/kernel/tegra/commit/?id=adaad9d866105bcb8f87293a0a675f573a39129d
+  baconcommitid: 11ad544f6de3e1da956b931b985e4ff17c4fb674
 
 - cve: CVE-2016-2188
   info: |
@@ -1579,6 +1582,7 @@
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=4ec0ef3a82125efc36173062a50624550a900ae0
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=b7321e81fc369abe353cf094d4f0dc2fe11ab95f followup fix
     - https://source.codeaurora.org/quic/la/kernel/tegra/commit/?id=2fac1c275bbea560d607f2e52d23c4f92dccc12f
+  baconcommitid: e0761fd2bc10a5183fedaa8ce6f813d324dc020b
 
 - cve: CVE-2016-2384
   info:
