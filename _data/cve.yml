@@ -41,16 +41,6 @@
   omap4commitid: 
   baconcommitid: e8de7c6f3b11971fd7fab799afa81e5dcc7cce7d
 
-
-- cve: CVE-2012-0196
-  info: |
-    - Kernel through 3.14.3
-  content: |
-    - https://github.com/torvalds/linux/commit/4291086b1f081b869c6d79e5b7441633dc3ace00
-  espressocommitid: 26bd845be44674e9444ea4ef57ff42040d63fc2b
-  tunacommitid: c016769fb1e94500718c14a00b2bba134c357e2a
-  omap4commitid: e3436211f9b2cd6a5168e833fe5bc5a6ab3e50ea
-
 - cve: CVE-2013-2015
   info: |
     - Kernel before 3.8; Looks like it goes with CVE-2015-7509; Included in 3.0.100, 3.4.66
@@ -78,6 +68,8 @@
     - patch https://github.com/torvalds/linux/commit/4291086b1f081b869c6d79e5b7441633dc3ace00
     - 3.2.y backport https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=1e5099713ce
     - 3.4 backport https://source.codeaurora.org/quic/la/kernel/msm/commit/?h=LA.BF.1.1.3_rb1.12&id=9aabfc9e7775abbbcf534cdecccc4f12ee423b27
+  espressocommitid: 26bd845be44674e9444ea4ef57ff42040d63fc2b
+  tunacommitid: c016769fb1e94500718c14a00b2bba134c357e2a
   omap4commitid: e3436211f9b2cd6a5168e833fe5bc5a6ab3e50ea
   baconcommitid: 9aabfc9e7775abbbcf534cdecccc4f12ee423b27
 
@@ -1311,7 +1303,7 @@
     - l2tp: fix racy SOCK_ZAPPED flag check in l2tp_ip{,6}_bind()
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/commit/?id=32c231164b762dddefa13af5a0101032c70b50ef
-  baconcommitid: 
+  baconcommitid: c1409b26220ef53bb4b31c053d232f0f24c8dd9e
 
 - cve: CVE-2016-10208
   info:
@@ -1679,6 +1671,7 @@
     - upstream audio
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3567eb6af614dac436c4b16a8d426f9faed639b3
+  baconcommitid: 260290f86ab6ecc893d003ba27ba0be72d099b9a
 
 - cve: CVE-2016-2545
   info:
@@ -2681,6 +2674,7 @@
     - https://github.com/android/kernel_msm/commit/b05c022755257abacfc6df9e4c649adcdc3099b5
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/prima/commit/?id=1216822e1d051247ae1f6e194f16d2fc40f1eba2
   omap4commitid: unaffected
+  baconcommitid: 00a4952dec351c31884e5e791b79caef410cc7ed
 
 - cve: CVE-2016-8453
   info: |
@@ -2715,6 +2709,7 @@
     - Broadcom Wi-Fi driver
   content: |
     - https://github.com/android/kernel_msm/commit/e5c1b001a822e8b38680655c400e7b3f67cc3323
+  baconcommitid: unaffected
 
 - cve: CVE-2016-8458
   info: |
@@ -2873,6 +2868,7 @@
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=9590232bb4f4cc824f3425a6e1349afbe6d6d2b7
     - https://github.com/android/kernel_msm/commit/e9fde8664651a566df43c7439e27d59cc5d60460
+  baconcommitid: 2567a093ae236a2aab10e878161b33eeae94fd0a
 
 - cve: CVE-2016-9191
   info: |
@@ -2998,6 +2994,7 @@
     - https://github.com/android/kernel_msm/commit/831da5d113d214db6894e9fd0ce98762ee8a544a
     - https://source.android.com/security/bulletin/2017-02-01#eop-in-qualcomm-sound-driver
   omap4commitid: unaffected
+  baconcommitid: fixed
 
 - cve: CVE-2017-0436
   info: |
@@ -3006,6 +3003,7 @@
     - https://source.android.com/security/bulletin/2017-02-01#eop-in-qualcomm-sound-driver
     - https://source.codeaurora.org/quic/la/kernel/msm-3.10/commit/?id=ce9db0874906f6aedd80bb28d457eadfe38bdd02
   omap4commitid: unaffected
+  baconcommitid: 04bc1076a0f07985a4e1c51d8861c0faf9493390
 
 - cve: CVE-2017-0437
   info: |
@@ -3218,6 +3216,7 @@
     - https://android.googlesource.com/kernel/msm/+/03c26a1d8c8687131da151c2e4bd5a04d08e0dec
     - https://github.com/android/kernel_msm/commit/03c26a1d8c8687131da151c2e4bd5a04d08e0dec
   omap4commitid: unaffected
+  baconcommitid: 95b946b701d2f5eea5cc3f09213b3d02f0f2f1bb
 
 - cve: CVE-2016-0510
   info: |
@@ -3251,7 +3250,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=dbe4f26f200db10deaf38676b96d8738afcc10c8
   omap4commitid: unaffected
-  baconcommitid: unaffected
+  baconcommitid: 90fcaaf2205c255609ee93e41c4433b384ed3255
 
 - cve: CVE-2017-0523
   info: |
@@ -3324,6 +3323,7 @@
     - https://android.googlesource.com/kernel/msm/+/5594135a4dd8f6166d84e948e6088c21782e5c63%5E%21 (Android 7.1.1 Release 0.51 N4F26U,angler Linux 3.10)
     - https://android.googlesource.com/kernel/msm.git/+/51e09571eef7a6a36c238130575fc11b291afff3%5E%21/#F0 (Android 7.0.0 Release 0.50 NBD92G,shamu Linux 3.10)
     - https://github.com/android/kernel_msm/commit/941a80cf3340804e488c6ee2742e7a771bd01272
+  baconcommitid: 86bb3cc0b8745ee1d03ff91ac63bd9b7066d6fb8
 
 - cve: CVE-2017-0576
   info: |
@@ -3339,7 +3339,7 @@
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=452d2ad331d20b19e8a0768c4b6e7fe1b65abe8f
   omap4commitid: unaffected
-  baconcommitid: unaffected
+  baconcommitid: 74fcf78bfc852b0f59e620ee1fed9d175f50d85c
 
 - cve: CVE-2017-0586
   info: |
@@ -3347,6 +3347,7 @@
   content: |
     - https://github.com/android/kernel_msm/commit/05bacdc0f9c16c58326a4be9e88afa870cf1024e
   omap4commitid: unaffected
+  baconcommitid: 9d5eaecbad4bf2859c3340c589c1eb48f4c66dc0
 
 - cve: CVE-2017-0604
   info: |
@@ -3361,6 +3362,7 @@
     - Linux 3.0+ strcpy -> strlcpy in kernel/trace/trace.c
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=2161ae9a70b12cf18ac8e5952a20161ffbccb477
+  baconcommitid: fc6a79052e0969739e580c3ae0938f05ad45182b
 
 - cve: CVE-2017-0606
   info: |
@@ -3368,7 +3370,7 @@
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=d3237316314c3d6f75a58192971f66e3822cd250
   omap4commitid: unaffected
-  baconcommitid: unaffected
+  baconcommitid: d8feb67c9bc37fa190c641ed6bd8df5f90045d4d
 
 - cve: CVE-2017-0607
   info: |
@@ -3376,14 +3378,14 @@
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=b003c8d5407773d3aa28a48c9841e4c124da453d
   omap4commitid: unaffected
-  baconcommitid: unaffected
+  baconcommitid: eaa63df4d6bf9b248fdfa1be273f665c9c669ef9
 
 - cve: CVE-2017-0608
   info: |
     - Qualcomm qdsp6v2
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=b66f442dd97c781e873e8f7b248e197f86fd2980
-  omap4commitid: unaffected
+  omap4commitid: f6ceede12dd6ff12a32e02495262ff0f348acd3f
 
 - cve: CVE-2017-0609
   info: |
