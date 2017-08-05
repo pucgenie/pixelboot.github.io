@@ -38,7 +38,7 @@
     - Kernel before 3.5
   content: |
     - https://github.com/torvalds/linux/commit/82981930125abfd39d7c8378a9cfdf5e1be2002b
-  omap4commitid: 
+  omap4commitid: 53c310fc0f8b80948c6e9a6828bc6e02eb0ed5f0
   baconcommitid: e8de7c6f3b11971fd7fab799afa81e5dcc7cce7d
 
 - cve: CVE-2013-2015
@@ -85,7 +85,7 @@
     - Linux 3.0+; Included in 3.4.92
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=e6a623460e5fc960ac3ee9f946d3106233fd28d8
-  omap4commitid: 
+  omap4commitid: ea18900902c4c52dc3fbc002554d7548c7f19914
   baconcommitid: d1a999df834a81d751be87dd62b88f2f99bc650a
 
 - cve: CVE-2014-2523
@@ -101,7 +101,7 @@
     - Linux 3.0-3.13.6; Patched in 3.0.68, 3.4.79, 3.10.29
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=1d147bfa64293b2723c4fec50922168658e613ba
-  omap4commitid: 
+  omap4commitid: [fb34f6edef9ba40370c342dfcc6f3456fcb8c3a6, 5388f7589c1e00dc085c183029c6edf8e86ab9b4]
   baconcommitid: 46a5a5493360f995b834eb3b828eb59da4604509
 
 - cve: CVE-2014-2851
@@ -121,7 +121,7 @@
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=05ab8f2647e4221cbdb3856dd7d32bd5407316b3 (mainline patch)
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=314760e66c35c8ffa51b4c4ca6948d207e783079 (3.10 patch)
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=d41eb74e53d94aba656ffda647d106808e636cd6 (3.2 patch)
-  omap4commitid: 
+  omap4commitid: ba426e66a261be53d2c5cc26c85e2899e657b9cb
   baconcommitid: 7dca1b9e80e5742b8edfd747dbee9fee5995c3cf
 
 - cve: CVE-2014-4014
@@ -157,6 +157,7 @@
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=883a1d49f0d77d30012f114b2e19fc141beb3e8e (mainline patch)
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=f7500568b763 (3.2 patch)
+  omap4commitid: b7f10effc5f4196c7b058093680a9ea7d16c79fe
   baconcommitid: 2e5f14a6472167bb91ccf2e4ec1fc6586a99500b
 
 - cve: CVE-2014-4943
@@ -182,6 +183,7 @@
     -  Kernel up to 3.16
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=894c6350eaa (3.2.y backport)
+  omap4commitid: 43ce0f0a48efb16d3fa641434d8230ff07e30ab2
   baconcommitid: bff9edd65d2562a82d7ea2cdaf81c2ba8c7c231a
 
 - cve: CVE-2014-7825
@@ -1183,7 +1185,7 @@
     - Linux 3.0+
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=c3c87e770458aa004bd7ed3f29945ff436fd6511
-  omap4commitid: 
+  omap4commitid: 7a22ccdba53e11a39e2402cec8115705dca102bc
   baconcommitid: 21f1afbae40491b1e37ed2297143a94677bffca8
 
 - cve: CVE-2016-0723
@@ -1303,6 +1305,7 @@
     - l2tp: fix racy SOCK_ZAPPED flag check in l2tp_ip{,6}_bind()
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/commit/?id=32c231164b762dddefa13af5a0101032c70b50ef
+  omap4commitid: 1489739fa087ee7e4e963537163e3bc554087db8
   baconcommitid: c1409b26220ef53bb4b31c053d232f0f24c8dd9e
 
 - cve: CVE-2016-10208
@@ -2914,7 +2917,7 @@
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=b98b0bc8c431e3ceb4b26b0dfc8db509518fb290
   espressocommitid: 986fdb8a7e435027c8ced08963b2861d6790ac01
   tunacommitid: 51e64fff820c0758a60b7704c2df6e2ac9304cf9
-  omap4commitid: 3197b9357f1ed522827cf667ef0c6d50ae4a5cc3
+  omap4commitid: 797b512e58748d6e6a3056dd3b14c295e86bde46
   baconcommitid: a6e3062913b936380984d9fbd208f647b77ffcde
 
 - cve: CVE-2016-9794
