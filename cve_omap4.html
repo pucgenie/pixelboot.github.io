@@ -1,0 +1,41 @@
+---
+title: CVE-OMAP4
+icon: newspaper-o
+---
+
+<style>
+  body {
+    word-wrap: break-word;
+  }
+</style>
+
+<div class="card">
+  <div class="card-heading">
+    <h3>TI OMAP4 Kernel (common 3.0.y)</h3>
+  </div>
+  <div class="card-content-1">
+    <h2>Patched</h2>
+{% for cve in site.data.cve %}
+    {% if cve.omap4commitid %}
+    {% if cve.omap4commitid != "unaffected" %}
+    {% if cve.omap4commitid != null %}
+    <b>{{ cve.cve }}</b>: <a href="https://github.com/Unlegacy-Android/android_kernel_ti_omap4/commit/{{ cve.omap4commitid }}">{{ cve.omap4commitid }}</a></br>
+    {% endif %}
+    {% endif %}
+    {% endif %}
+{% endfor %}
+    <h2>Unaffected</h2>
+{% for cve in site.data.cve %}
+    {% if cve.omap4commitid == "unaffected" %}
+    <b>{{ cve.cve }}</b>: UNAFFECTED</br>
+    {% endif %}
+{% endfor %}
+    <h2>Unpatched/need to be checked</h2>
+{% for cve in site.data.cve %}
+    {% if cve.omap4commitid == null %}
+    <b>{{ cve.cve }}</b>: UNAFFECTED OR UNPATCHED</br>
+    {% endif %}
+{% endfor %}
+  </div>
+</div>
+
