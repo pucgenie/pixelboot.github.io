@@ -59,6 +59,7 @@
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=5ea820046ee399214221c0bb817eb35d304c9604 v3.2 [2/2]
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=712f4aad406bb1ed67f3f98d04c044191f0ff593 v4.5 [1/2]
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=415e3d3e90ce9e18727e8843ae343eda5a58fad6 v4.5 [2/2]
+  omap4commitid: [a9b27a23ce5f4dc49933be51d42834934f2b185f, c936fe3931f639b51222b4a83746b4b87bcd96e6]
   baconcommitid: [43a31b174a52d74e9e913290af32a3358c02a1be, 8e5e4c5c43ddd2f4e9cb6a74355de0050361b0d8]
 
 - cve: CVE-2014-0169
@@ -973,6 +974,7 @@
   info: |
     - Kernel before 4.2.6
   content:
+  omap4commitid: b2879a95a59df8919102476477903af10f51a6b4
   baconcommitid: 61b3a37b55a01a47e3e132eeda7f840d9ed4ca48
 
 - cve: CVE-2015-8019
@@ -2414,7 +2416,7 @@
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=f63a8daa5812afef4f06c962351687e1ff9ccb2b
   espressocommitid: 752b10ca4697cacbc38e2d1cd93c0075a0a2bd43
   tunacommitid: b0b8fe1162675a04381c3b4752a296f430dab363
-  omap4commitid: 1d6c887a6c5be637e5413b58d37ae15b0c0fc0bc
+  omap4commitid: [b4cb12a7c8a4da48e0b0caf4c29f301d93513b69, 5c134ad6e18782b8a06a59738430a8d899e601ab]
   baconcommitid: 011221dfe285ad6bec95ec33142025b10634ed62
 
 - cve: CVE-2016-6787
@@ -2457,6 +2459,7 @@
     - Kernel through 4.8.2
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=073931017b49d9458aa351605b43a7e34598caef
+  omap4commitid: 42ffeb8998214473c2a5bfb7161988ed2a82e175
   baconcommitid: 5e9a5c4d069ac8f0d58558b378e49f9e244265cc
 
 - cve: CVE-2016-7117
@@ -2531,6 +2534,7 @@
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=0eab121ef8750a5c8637d51534d5e9143fb0633f
     - https://github.com/android/kernel_msm/commit/a1b9bc540f4af79bd23e01ec08429e0efa4d2f7b
+  omap4commitid: f2d085950e99fe9b7afaca25c141aafd8cd1a89a
   baconcommitid: f008544c7010de5582f87e9c60aa4c0945f786a4
 
 - cve: CVE-2016-8403
@@ -2544,12 +2548,14 @@
   info:
   content:
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=2dc705a9930b4806250fbf5a76e55266e59389f2
+  omap4commitid: a1697c710fd7df6cf9d22dca011af2e74a5b15bf
   baconcommitid: unaffected
 
 - cve: CVE-2016-8406
   info:
   content: |
     - https://github.com/android/kernel_msm/commit/d7a15270ad80aff21d09aaea9c0e98e03e541b50
+  omap4commitid: 87a2dc6e0e4101a14a889de633f59520ace42a27
   baconcommitid: efb09b30359488ad31769f8da99ce5e1c7a9e776
 
 - cve: CVE-2016-8407
@@ -2903,6 +2909,7 @@
     - 
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=44c037827f0aeddbbbb323930fa3d09a7b4fffca
+  omap4commitid: 7e11401f997fdb530351101beeacf19ec876b01e
   baconcommitid: c7008ca67ad60866f717b975d6ec28b11bf1275e
 
 - cve: CVE-2016-9754
@@ -2946,6 +2953,7 @@
     - Kernel 3.0, 3.4, 3.10, 3.18
   content: |
     - https://github.com/android/kernel_msm/commit/2c5c1fd0d2a2a96fab750fa332cb703022c16c04
+  omap4commitid: 340d81408550c381cd33d668dff9f76c21b77039
   baconcommitid: 439048c2edea2eb7e11a4e498a2c37c40218bf5c
 
 - cve: CVE-2017-0404
@@ -2953,7 +2961,7 @@
     - Kernel 3.10, 3.18, 3.4
   content: |
     - https://github.com/android/kernel_msm/commit/4faa6d2e9b53546823882d8889820ff9ce3c372f
-  omap4commitid: unaffected
+  omap4commitid: 57e1601561ddb2c779d1d56740ef6c9b76dcf847
   baconcommitid: 2477aa768e9ee8e7e3c3ea78a4ed09269cfb0066
 
 - cve: CVE-2017-0427
@@ -2962,6 +2970,7 @@
   content: |
     - 3.10 https://github.com/android/kernel_msm/commit/5db4167c9924c68ab9554bba3a98ecfd14b91a8e
     - 3.18 https://github.com/android/kernel_msm/commit/1d6d364ee174676a225a77dc7ca8dac887199718
+  omap4commitid: b2287fdade7b26a8c08de1b12dd615fc2f28714f
   baconcommitid: a688a2cb13389bcc3c8f2bc8f87b7c977c9fb4f1
 
 - cve: CVE-2016-0430
@@ -3369,6 +3378,7 @@
     - Linux 3.0+ strcpy -> strlcpy in kernel/trace/trace.c
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=2161ae9a70b12cf18ac8e5952a20161ffbccb477
+  omap4commitid: 12c29ef66f80305ff38619ca66e45f33b704c30b
   baconcommitid: fc6a79052e0969739e580c3ae0938f05ad45182b
 
 - cve: CVE-2017-0606
@@ -3639,6 +3649,7 @@
   content: |
     - https://github.com/torvalds/linux/commit/e1d35d4dc7f089e6c9c080d556feedf9c706f0c7
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=95e91b831f87ac8e1f8ed50c14d709089b4e01b8
+  omap4commitid: 1eabe86e9a03d86b967501f07d759ba165116b14
   baconcommitid: 0a34a22dcdd2b957aa5661861913e2b6e4ce4267
 
 - cve: CVE-2017-5897
@@ -3655,6 +3666,7 @@
     - http://git.kernel.org/cgit/linux/kernel/git/tip/tip.git/commit/?id=dfb4357da6ddbdf57d583ba64361c9d792b0e0b1
     - 3.10 https://review.lineageos.org/#/c/163292/
     - 3.18 https://review.lineageos.org/170669
+  omap4commitid: 1774fec146747a1299c64b15635c1022d587e4cc
   baconcommitid: 89fddbe615c9e9bd1561072d51ad67d617827eb7
 
 - cve: CVE-2017-5970
@@ -3668,6 +3680,7 @@
   content: |
     - https://github.com/android/kernel_msm/commit/e994b2f0fb9229aeff5eea9541320bd7b2ca8714
     - (Apparently this fix is needed (?): https://review.lineageos.org/#/c/181001/)
+  omap4commitid: 85a4b01f1dc3d65c53443111b7917e121144dad7
 
 - cve: CVE-2017-5986
   info: |
@@ -3688,6 +3701,7 @@
   content: |
     - https://github.com/torvalds/linux/commit/5edabca9d4cff7f1f2b68f0bac55ef99d9798ba4
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=5edabca9d4cff7f1f2b68f0bac55ef99d9798ba
+  omap4commitid: d64ae5f3c0de94bf37aa08877fc066446a1dac82
   baconcommitid: a2564f2ebb980b2bd7023b8ef1221c2cbf4d11fc
 
 - cve: CVE-2017-6214
@@ -3696,6 +3710,7 @@
   content: |
     - https://github.com/torvalds/linux/commit/ccf7abb93af09ad0868ae9033d1ca8108bdaec82
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=ccf7abb93af09ad0868ae9033d1ca8108bdaec82
+  omap4commitid: 908272159b72a6960cd8a91b2a9e5bab190f76a1
   baconcommitid: 000be494f3c4895d4fb2eb391c1ce88606c9e894
 
 - cve: CVE-2017-6247
@@ -3716,6 +3731,7 @@
   content: |
     - https://review.lineageos.org/#/q/topic:CVE-2017-6345
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=8b74d439e1697110c5e5c600643e823eb1dd0762
+  omap4commitid: fca86734573d54affd843e77a5cefe819edade07
   baconcommitid: 92fafb643fde77d4575ce8448d128a416b436612
 
 - cve: CVE-2017-6346
@@ -3737,6 +3753,7 @@
     - kernel before 4.9.13
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=4c03b862b12f980456f9de92db6d508a4999b788
+  omap4commitid: 6f74103d2b27ffa8fd8967933ceb8597441c9c9c
   baconcommitid: unaffected
 
 - cve: CVE-2017-6353
@@ -3744,6 +3761,7 @@
     - net/sctp/socket.c in the Linux kernel through 4.10.1
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=dfcb9f4f99f1e9a49e43398a7bfbf56927544af1
+  omap4commitid: 7d4b792e725e84e0bd99d13529fdf52b142f8573
 
 - cve: CVE-2017-6421
   info: |
@@ -3797,6 +3815,7 @@
     - The keyring_search_aux function in security/keys/keyring.c in the Linux kernel through 3.14.79 allows local users to cause a denial of service
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=44d6e10f77095133e3882529a16b686b2305e6b0
+  omap4commitid: 6802c519ef27044934769be93530fa2d9fb8d465
   baconcommitid: cf2088741731402415692f0137d574e05763c50c
 
 - cve: CVE-2017-7184
@@ -3805,6 +3824,7 @@
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=677e806da4d916052585301785d847c3b3e6186a
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f843ee6dd019bcece3e74e76ad9df0155655d0df
+  omap4commitid: fa968339f2b37ff3143e9fac010505403a7834c4
 
 - cve: CVE-2017-7187
   info: |
@@ -3829,6 +3849,7 @@
     - https://android.googlesource.com/kernel/common/+/eeead20a3d208b411eab883f9ba3180c15b566d0 (3.18)
     - https://android.googlesource.com/kernel/common/+/3e77cacaae604cd127642869381a87774880afb6 (3.18)
     - https://android.googlesource.com/kernel/common/+/fe6fe14f1158bbcf4a07240cb93925e84ef25e89 (3.18)
+  omap4commitid: a8212d69a84563bf41eaa479c62b80706b421f67
   baconcommitid: [9bad1581b9c7d08560743f8184731746c2999635, e7474402f5e162a78544fca4fa0517d200e568a0]
 
 - cve: CVE-2017-7364
@@ -3903,7 +3924,7 @@
   info:
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?id=6efda2501976288f10895834ba2782d0df093441
-  omap4commitid: unaffected
+  omap4commitid: 0a176f650b020b2ce10a84d7f850ed2448431839
   baconcommitid: 89d3b095e3c50867f816a21acf48265e0ac932a0
 
 - cve: CVE-2017-7495
@@ -3920,6 +3941,7 @@
     - Incorrect error handling in the set_mempolicy and mbind compat syscalls in mm/mempolicy.c in the Linux kernel through 4.10.9 allows local users to obtain sensitive information from uninitialized stack data by triggering failure of a certain bitmap operation
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=cf01fb9985e8deb25ccf0ea54d916b8871ae0e62
+  omap4commitid: d4afaa7417bbe240bc39ab8f8b297db738baa9f9
   baconcommitid: fc7e3fdc566220734f03fe00298741b4babccb05
 
 - cve: CVE-2017-7618
