@@ -3418,6 +3418,7 @@
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=65009746a6e649779f73d665934561ea983892fe
   omap4commitid: unaffected
+  baconcommitid: [b28c2fe0effcee0e98448d422488fe85e6a532dc, 2f6dd31fa73697b38c1828cc1cfcc515d15d706e]
 
 - cve: CVE-2017-0611
   info: |
@@ -3426,14 +3427,15 @@
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=1aa5df9246557a98181f03e98530ffd509b954c8
     - https://review.lineageos.org/#/q/topic:CVE-2017-0611
   omap4commitid: unaffected
+  baconcommitid: dcefe4e397e8eadd2ac03f7d80a94a276c9b0b00
 
 - cve: CVE-2017-0612
   info: |
     - Qualcomm Secure Execution Environment Data Integrity Partition (DIP) for MDTP; Kernel 3.18
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.18/commit/?id=05efafc998dc86c3b75af9803ca71255ddd7a8eb
-  baconcommitid: unaffected
   omap4commitid: unaffected
+  baconcommitid: unaffected
 
 - cve: CVE-2017-0613
   info: |
@@ -3462,6 +3464,7 @@
     - Qualcomm Secure Channel Manager Driver
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=01b2c9a5d728ff6f2f1f28a5d4e927aaeabf56ed
+  baconcommitid: f523f17f91987b8ebe7526add21f698c6800690c
   omap4commitid: unaffected
 
 - cve: CVE-2017-0621
@@ -3477,6 +3480,7 @@
     - Goodix gt9xx touchscreen driver
   content: |
     - https://source.codeaurora.org/quic/la/kernel/msm-3.18/commit/?id=40efa25345003a96db34effbd23ed39530b3ac10
+  baconcommitid: bf4a06936c3f4b9d1c19665026a336cf43c5d81b
   omap4commitid: unaffected
 
 - cve: CVE-2017-0626
@@ -3484,6 +3488,13 @@
     - Qualcomm crypto engine driver
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-4.4/commit/?id=64551bccab9b5b933757f6256b58f9ca0544f004
+  baconcommitid: 1b614c83730b38af891a70c3e0907a0d5eebac07
+  omap4commitid: unaffected
+
+- cve: CVE-2017-0628
+  info:
+  content:
+  baconcommitid: d4edca89ecd9f6194b8f0b009d4ef5ae73c65f95
   omap4commitid: unaffected
 
 - cve: CVE-2017-0629
@@ -3505,10 +3516,11 @@
 - cve: CVE-2017-0632
   info: |
     - Qualcomm msm8x16-wcd
+    - Qualcomm msm8x10-wcd
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=970d6933e53c1f7ca8c8b67f49147b18505c3b8f
   omap4commitid: unaffected
-  baconcommitid: unaffected
+  baconcommitid: 97ce0842834f9166deb2b22d02681a669d331c83
 
 - cve: CVE-2017-0633
   info: |
@@ -3563,13 +3575,14 @@
     - broadcom wifi
   content: |
     - https://android.googlesource.com/kernel/msm/+/6a469209ac014b6d93f373e042500f6e8cd6a04a%5E%21/#F0
-  baconcommitid: unaffected
+  baconcommitid: c753f4277ef1778760a795508dcde4f77764aab0
 
 - cve: CVE-2017-0710
   info: |
     - kernel TCB
   content: |
     - https://android.googlesource.com/kernel/msm/+/f37e859ab4c55c6c56e3c157bbed3024fc8d0dc6
+  baconcommitid: 6b0b9d4159013732a227f8468005cdff7e35d390
 
 - cve: CVE-2017-1000364
   info: |
@@ -3598,19 +3611,21 @@
     - selinux: fix off-by-one in setprocattr
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/commit/?h=v3.10.107&id=a71b4196a72f09ed223d8140de7fd47ccdaf6e2b
+  baconcommitid: 4342d5fcbf05928d4990fcb90c5508123a96e526
 
 - cve: CVE-2017-2636
   info: |
     - kernel through 4.10.1
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/gregkh/tty.git/commit/?h=tty-linus&id=82f2341c94d270421f383641b7cd670e474db56b
-  baconcommitid: unaffected
+  baconcommitid: [cfa23179487c1cef90b812ea24bcbb2087c962bb, c901d4c1aacc0e5ffa0819dcac4e30b80145d5a3]
 
 - cve: CVE-2017-2671
   info: |
     - ping, Kernel versions <=4.10.8
   content: |
     - https://git.kernel.org/pub/scm/linux/kernel/git/davem/net.git/commit/net/ipv4/ping.c?id=43a6684519ab0a6c52024b5e25322476cabad893
+  baconcommitid: 58bcecdd6b29a2b322b3b1e2a95d177636b4055f
 
 - cve: CVE-2017-5546
   info: |
@@ -3674,6 +3689,7 @@
     - Upstream kernel <= 4.9.9 net ipv4 crash
   content: |
     - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=34b2cef20f19c87999fff3da4071e66937db9644
+  baconcommitid: 189b61875138362b212d8cbedc502e9dea72eba3
 
 - cve: CVE-2017-5972
   info:
@@ -3681,12 +3697,14 @@
     - https://github.com/android/kernel_msm/commit/e994b2f0fb9229aeff5eea9541320bd7b2ca8714
     - (Apparently this fix is needed (?): https://review.lineageos.org/#/c/181001/)
   omap4commitid: 85a4b01f1dc3d65c53443111b7917e121144dad7
+  baconcommitid: cda5929f92b545460fdb9d5da9831c5a1a1099a9
 
 - cve: CVE-2017-5986
   info: |
     - Linux kernel before 4.9.11
   content: |
     - http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=2dcab598484185dea7ec22219c76dcdd59e3cb90
+  baconcommitid: e5bcbbcd0b81c330d616ed6c537e32c3d8a03cfc
 
 - cve: CVE-2017-6001
   info: |
