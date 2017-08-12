@@ -1,5 +1,15 @@
 - date: 12.08.2017
   content: |
+    **UPDATE**
+
+    Reuploaded Omni 4.4 build for tuna.
+
+    Also added device specific builds (device source matches official Omni trees, unified stuff can't be pushed because there's one commit missing in TWRP source on 4.4 to support it.)
+
+
+    OmniRom 6 should be ready next days.
+
+
     **OmniRom**
 
     First unified OmniRom 4.4 build is up for Galaxy Nexus! I'll start looking again at OmniRom 6.0 next days.
