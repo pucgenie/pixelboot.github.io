@@ -1,3 +1,32 @@
+- date: 18.08.2017
+  content: |
+    **OmniRom**
+
+    First unified OmniRom 7.x build is up for Galaxy Nexus! Using old bootanimation because the new one is in stop-and-go mode, hope to solve the issue soon.
+
+
+    **TWRP for Tuna - hardware encryption/decryption**
+
+    Since Android 6 we ship hardware encryption on Galaxy Nexus. Currently official TWRP is not able to decrypt hardware encrypted tuna devices.
+    [Ziyan](https://forum.xda-developers.com/member.php?u=2633638) started working on fixing it some time ago, but he is missing the time at the moment. [nailyk](https://forum.xda-developers.com/member.php?u=6979267) , [_yen_](https://forum.xda-developers.com/member.php?u=2375847) and i are working on finishing what Ziyan started to get decryption support added to official TWRP in future.
+    
+    I have published working TWRP for maguro, toro and toroplus [here](https://forum.xda-developers.com/showpost.php?p=73421863&postcount=2160) - please use them until we have support for hardware decryption on official TWRP.   
+
+
+    **Galaxy Tab2**
+
+    Thanks to some trolls on XDA i am not publishing any new Galaxy Tab2 Roms or Recoveries! I have said it thousand times before - stuff will be released if i feel it is ready and no one can force me to publish any N Roms! I am not your personal build bot!
+
+    - I have a private life and do all this just for fun. 
+    - I have a bad paied fulltime job, user or xda aren't paying my income and instead, if you are able to read, - donations are accepted but i welcome if those donations go to an organization who cares about (kids having) cancer (or similar).
+
+    Maybe i'll publish something in the future - can't say yet. I am sorry for those who always followed the rules - but we reached a state i don't like to continue...
+
+
+    **What else to say?**
+    Have a nice weekend!
+
+
 - date: 12.08.2017
   content: |
     **UPDATE**
