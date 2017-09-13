@@ -2252,6 +2252,7 @@
     - https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-2.0/commit/?id=f081695446679aa44baa0d00940ea18455eeb4c5
     - https://github.com/android/kernel_msm/commit/2d8b76ef0d269dd2939050c4eae4838803730c42
   omap4commitid: unaffected
+  baconcommitid: c202194a1b27739ad3390ede7a307e00e5cf7e28
 
 - cve: CVE-2016-6680
   info: |
@@ -2355,6 +2356,7 @@
     - https://www.codeaurora.org/possible-kernel-pointer-leak-kgsl-debug-messages-cve-2016-6749
     - https://www.codeaurora.org/gitweb/quic/la/?p=kernel/msm-3.10.git;a=commit;h=aff982f224d45a7faf7ad4e74633d1a8510a1c04
   omap4commitid: unaffected
+  baconcommitid: ad84ae0fcc8ed6a882634e10b42b6fb4081efccb
 
 - cve: CVE-2016-6750
   info: |
@@ -2401,6 +2403,7 @@
   content: |
     - https://source.codeaurora.org/quic/la//kernel/msm-3.10/commit/?id=f91d28dcba304c9f3af35b5bebaa26233c8c13a5
   omap4commitid: unaffected
+  baconcommitid: 28179d92ddb1e722f166b0b1508b55bcf2a01612
 
 - cve: CVE-2016-6757
   info: |
