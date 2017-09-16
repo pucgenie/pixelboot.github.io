@@ -1,3 +1,64 @@
+- date: 16.09.2017
+  content: |
+    **Slim6**
+
+    I found some time to update Slim6 (thanks to LineageOS Team). Applied updates for 2017-09-01 security patch level. The Update will be available for following devices:
+
+    - Galaxy Tab2
+    - Galaxy Nexus
+    - Oneplus One (incl. OOS Camera HAL & Sultans Snap Cam)
+
+    Source can be found [here](https://github.com/SlimRomsSecurity) in case you want to compile yourself.
+
+
+    **Implemented patches for 2017-09-01 security patch level**
+
+    - Framework
+
+        - CVE-2017-0752 A-62196835 [2] High
+
+    - Libraries
+
+        - CVE-2017-6983 A-63852675 High
+        - CVE-2017-0755 A-32178311 High
+
+    - Media Framework
+
+        - CVE-2017-0756 A-34621073 Critical
+        - CVE-2017-0757 A-36006815 Critical
+        - CVE-2017-0758 A-36492741 Critical
+        - CVE-2017-0759 A-36715268 Critical
+        - CVE-2017-0760 A-37237396 Critical
+        - CVE-2017-0761 A-38448381 Critical
+        - CVE-2017-0762 A-62214264 Critical
+        - CVE-2017-0763 A-62534693 Critical
+        - CVE-2017-0764 A-62872015 Critical
+        - CVE-2017-0765 A-62872863 Critical
+        - CVE-2017-0767 A-37536407 [2] High
+        - CVE-2017-0768 A-62019992 High
+        - CVE-2017-0770 A-38234812 High
+        - CVE-2017-0772 A-38115076 High
+        - CVE-2017-0773 A-37615911 High
+        - CVE-2017-0774 A-62673844 [2] High
+        - CVE-2017-0775 A-62673179 High
+        - CVE-2017-0776 A-38496660 Moderate
+        - CVE-2017-0777 A-38342499 Moderate
+        - CVE-2017-0778 A-62133227 Moderate
+        - CVE-2017-0779 A-38340117 [2] Moderate
+
+    - Runtime
+
+        - CVE-2017-0780 A-37742976 High
+
+    - System
+
+        - CVE-2017-0781 A-63146105 [2] Critical
+        - CVE-2017-0782 A-63146237 [2] [3] Critical
+        - CVE-2017-0783 A-63145701 High
+        - CVE-2017-0784 A-37287958 Moderate
+        - CVE-2017-0785 A-63146698 Moderate
+
+
 - date: 13.09.2017
   content: |
     **OmniROM 4**
