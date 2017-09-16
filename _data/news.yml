@@ -1,8 +1,13 @@
 - date: 16.09.2017
   content: |
+    **AOSP/Unlegacy-Android**
+
+    Updates for 2017-09-01 security patch level on Android 6.0.1 applied, will be available for supported devices!
+
+
     **Slim6**
 
-    I found some time to update Slim6 (thanks to LineageOS Team). Applied updates for 2017-09-01 security patch level. The Update will be available for following devices:
+    Updates for 2017-09-01 security patch level applied. The Update will be available for following devices:
 
     - Galaxy Tab2
     - Galaxy Nexus
@@ -11,16 +16,28 @@
     Source can be found [here](https://github.com/SlimRomsSecurity) in case you want to compile yourself.
 
 
-    **Implemented patches for 2017-09-01 security patch level**
+    **OmniROM 6**
+
+    Updates for 2017-09-01 security patch level applied. The Update will be available for following devices (later or tomorrow):
+
+    - Galaxy Tab2
+    - Galaxy Nexus
+
+
+
+    **Implemented patches for 2017-09-01 security patch level (thanks to LineageOS Team)**
+
 
     - Framework
 
         - CVE-2017-0752 A-62196835 [2] High
 
+
     - Libraries
 
         - CVE-2017-6983 A-63852675 High
         - CVE-2017-0755 A-32178311 High
+
 
     - Media Framework
 
@@ -46,9 +63,11 @@
         - CVE-2017-0778 A-62133227 Moderate
         - CVE-2017-0779 A-38340117 [2] Moderate
 
+
     - Runtime
 
         - CVE-2017-0780 A-37742976 High
+
 
     - System
 
