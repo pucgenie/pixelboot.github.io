@@ -1,3 +1,32 @@
+- date: 17.09.2017
+  content: |
+    **Slim6**
+
+    Reuploaded
+
+    Updates for Galaxy Tab 2 & Galaxy Nexus fixes the following CVEs:
+
+    - CVE-2017-0706
+    - CVE-2017-1000251
+
+    Updates for OnePlus One fixes the following CVEs:
+
+    - CVE-2017-8278
+    - CVE-2017-1000251
+    - CVE-2017-11600
+    - NOTE: [First build with CM Camera HAL](https://www.androidfilehost.com/?fid=673368273298986678), [2nd build with OSS Camera HAL + Sultans Snap Camera App](https://www.androidfilehost.com/?fid=673368273298986705)
+
+
+    **OmniROM 6**
+
+    Builds uploded! Includes all mentioned patches.
+
+
+    **AOSP/Unlegacy-Android**
+
+    Updates for 2017-09-01 security patch level on Android 7.1.2 applied, will be available for supported devices!
+
+
 - date: 16.09.2017
   content: |
     **AOSP/Unlegacy-Android**
@@ -18,7 +47,7 @@
 
     **OmniROM 6**
 
-    Updates for 2017-09-01 security patch level applied. The Update will be available for following devices (later or tomorrow):
+    Updates for 2017-09-01 security patch level applied. The Update will be available for following devices:
 
     - Galaxy Tab2
     - Galaxy Nexus
@@ -76,6 +105,11 @@
         - CVE-2017-0783 A-63145701 High
         - CVE-2017-0784 A-37287958 Moderate
         - CVE-2017-0785 A-63146698 Moderate
+
+
+    - Qualcomm Components
+
+        - CVE-2017-8278 A-62379474 High
 
 
 - date: 13.09.2017
