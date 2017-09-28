@@ -11,17 +11,23 @@ body {
   padding-top: 110px;
 }
 .jumbotron h1 {
+  font-size: 3.8em;
   line-height: 1.25em;
+}
+.jumbotron h1.bold {
+  font-weight: 500;
 }
 .jumbotron p,
 .jumbotron li {
   font-size: 17px;
   line-height: 1.5em;
 }
-p,
-li {
+p, li {
   font-size: 16px;
   line-height: 1.4
+}
+b, strong {
+  font-weight: 500;
 }
 .alert {
   line-height: 1.5
@@ -91,9 +97,6 @@ li {
   padding: 0 8px;
   border-top: 1px solid rgba(0,0,0,0.12);
 }
-.title {
-  font-weight: 500;
-}
 .btt {
   display: none;
 }
@@ -107,7 +110,7 @@ li {
   .navbar-transparent {
     padding-top: 10px !important;
   }
-  .heading {
+  .jumbotron h1 {
     font-size: 50px;
   }
   .jumbotron {
