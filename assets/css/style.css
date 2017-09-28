@@ -46,6 +46,11 @@ li {
 .navbar {
   transition: all 0.2s cubic-bezier(.25,.8,.25,1);
 }
+.navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+}
 .navbar-white {
   background-color: white !important;
   padding-top: 10px !important;
