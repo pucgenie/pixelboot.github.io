@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<style>
+	.showLink {
+		display: none;
+	}
+	a.showLink,
+	a.hideLink {
+		text-decoration: none;
+	}
+</style>
+<script>
+function show(sectionId) {
+	if (document.getElementById(sectionId)) {
+		document.getElementById(sectionId+'-show').style.display = 'none';
+		document.getElementById(sectionId+'-hide').style.display = 'inline';
+		document.getElementById(sectionId).style.display = 'block';
+	}
+}
+
+function hide(sectionId) {
+	if (document.getElementById(sectionId)) {
+		document.getElementById(sectionId+'-show').style.display = 'inline';
+		document.getElementById(sectionId+'-hide').style.display = 'none';
+		document.getElementById(sectionId).style.display = 'none';
+	}
+}
+</script>
+
+{{ content }}

@@ -29,6 +29,19 @@ defaults:
     values:
       layout: "default"
 
+  -
+    scope:
+      path: "changelog" # an empty string here means all files in the project
+    values:
+      layout: "changelog"
+
+  -
+    scope:
+      path: "faq" # an empty string here means all files in the project
+    values:
+      layout: "faq_tutorial"
+      single: "true"
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #

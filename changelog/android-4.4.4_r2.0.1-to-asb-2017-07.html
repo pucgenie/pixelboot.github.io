@@ -2,35 +2,11 @@
 title: AOSP 4.4 security-changelog
 ---
 
-<script>
-function show(sectionId) {
-	if (document.getElementById(sectionId)) {
-		document.getElementById(sectionId+'-show').style.display = 'none';
-		document.getElementById(sectionId+'-hide').style.display = 'inline';
-		document.getElementById(sectionId).style.display = 'block';
-	}
-}
-
-function hide(sectionId) {
-	if (document.getElementById(sectionId)) {
-		document.getElementById(sectionId+'-show').style.display = 'inline';
-		document.getElementById(sectionId+'-hide').style.display = 'none';
-		document.getElementById(sectionId).style.display = 'none';
-	}
-}
-</script>
-
-<div class="row">
-	<div class="col-md-12">
 <p>The raw log was generated using a modified version of <a href="https://groups.google.com/d/msg/android-building/0DtsHawjs4k/And8o3Dni_UJ">this script</a> written by <a href="https://plus.google.com/112218872649456413744/posts">JBQ</a> and improved by <a href="https://plus.google.com/+AlSutton/posts">Al Sutton</a>.</p>
 
 <p><strong>Please do not copy this without attribution to this site and JBQ for the original script.</strong></p>
-	</div>
-</div>
 
-<div class="row">
-	<div class="col-md-12">
-		<div id="changes">		
+<div id="changes">
 <p><h2><a href="#" id="android_art-show" class="showLink" onclick="show('android_art');return false;">+</a><a href="#" id="android_art-hide" class="hideLink" onclick="hide('android_art');return false;">-</a>&nbsp;<a name="android_art" class="nonLink">Project:</a> <a href="https://github.com/android-security/android_art">android_art</a></h2>
 <div id="android_art"><a href="https://github.com/android-security/android_art/commit/479fe13">479fe13</a> :  Finish fixing Zygote descriptor leakage problem<br />
 </div></p>
@@ -580,8 +556,5 @@ function hide(sectionId) {
 <div id="android_system_security"><a href="https://github.com/android-security/android_system_security/commit/2693710">2693710</a> :  Properly check for Blob max length<br />
 <a href="https://github.com/android-security/android_system_security/commit/72eade5">72eade5</a> :  Fix unchecked length in Blob creation<br />
 </div></p>
-		</div>
-	</div>
-</div>
-</div>
 
+</div>
