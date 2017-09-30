@@ -4,24 +4,18 @@ layout: blank
 
 <div class="container">
   <ul class="breadcrumb">
-    <li><a href="../index.html">Home</a></li>
-    <li><a href="../faq.html">FAQ</a></li>
+    <li><a href="/">Home</a></li>
+    <li><a href="/faq.html">FAQ</a></li>
     <li class="active">Tutorial</li>
   </ul>
 </div>
 
 <div class="container">
-  <div class="card">
-    <div class="card-heading">
-      <h2>{{ page.title }}</h2>
-    </div>
-    <div class="card-content-1">
-  
-      {{ content }}
-    
-    </div>
-    <div class="card-button">
-      <a href="/faq.html" class="btn btn-primary btn-simple"><i class="material-icons">arrow_back</i> Back to FAQ</a>
-    </div>
-  </div>
+  <h1>{{ page.title }}</h1>
+
+  {{ content }}
+
+  <br>
+  <a href="/faq.html" class="btn btn-primary"><i class="material-icons">arrow_back</i> Back to FAQ</a>
+
 </div>
