@@ -2,72 +2,72 @@
 layout: blank
 title: SlimRoms for Samsung Galaxy Nexus
 ---
-    
-<div class="jumbotron">
-  <div class="container">
-    <img src="./assets/img/slimroms.png" class="img-responsive heading" />
-    <br />
-    <p>
-      <a href="http://review.slimroms.org" target="_blank">SlimRoms Gerrit Codereview</a> | 
-      <a href="http://review.slimroms.org/#/q/status:merged" target="_blank">Merged changes</a>
-    </p>
-    <p>
-      <a href="http://slimroms.org" target="_blank">SlimRoms official Hompage</a>
-    </p>
-    <p>On SlimRoms i use all latest improvements applied on Unlegacy-Android.</p>
-    <ul>
-      <li>all carveouts reserved for Ducati (the multimedia subsystem of OMAP4, responsible for hardware-accelerated video decoding, encoding and camera functionality) have been switched over to CMA</li>
-    </ul>
-    <ul>
-      <p>A few words for those who see CMA for the first time:</p>
-      <ul>
-        <p><i>
-        "The Contiguous Memory Allocator (CMA) makes it possible for device drivers to allocate big contiguous chunks of memory after the system has booted.<br />
-        The main difference from the similar frameworks is the fact that CMA allows to transparently reuse memory region reserved for the big chunk allocation as a system memory, so no memory is wasted when no big chunk is allocated.<br />
-        Once the alloc request is issued, the framework will migrate system pages to create a required big chunk of physically contiguous memory."</i></p>
-      </ul>
-      <p>This means that a total of 996 MB physical memory is available to the system, while keeping Ducati fully working - this is a huge step forward, coming from the 694 MB available in the last factory image released by Google (Android 4.3).<br />
-      While CMA was just recently implemented for this device, thanks to one of our developers (let's just call him Luden), it's quite stable: even under heavy memory pressure, the system manages to free up the required memory in order to start up Ducati and launch the requested multimedia functionality in a few seconds at most. 
-      </p>
-    </ul>
-  </div>
-</div>
-    
-<div class="container">
-  
-  <div class="card">
-    <div class="card-heading">
-      <h3>Slim6</h3>
-    </div>
-    <div class="card-content-1">
-      <p><b>Official unified builds</b><br /></p>
-      <ul>
-        <li><a href="https://slimroms.org/#/device/tuna" target="_blank">Slim 6 for tuna (Unified - maguro, toro & toroplus)</a></li>
-        <br />
-      </ul>
-      <p><b>Unofficial unified builds:</b><br /></p>
-      <ul>
-        <li><a href="https://www.androidfilehost.com/?w=files&flid=161910&sort_by=date&sort_dir=DESC" target="_blank">Slim6 for tuna (Unified - maguro, toro & toroplus)</a></li>
-      </ul>
-      <p>For Questions and Feedback please use the Rom Threads on XDA:<br />
-        <a href="https://forum.xda-developers.com/galaxy-nexus/development/rom-slim6-t3573672" target="_blank">Slim6 (Unified - maguro, toro & toroplus)</a>
-      </p>
-    </div>
-  </div>
 
-  <div class="card">
-    <div class="card-heading">
-      <h3>Slim7</h3>
-    </div>
-    <div class="card-content-1">
-      <p><b>Unofficial unified builds:</b><br /></p>
-      <ul>
-        <li><a href="https://www.androidfilehost.com/?w=files&flid=175761&sort_by=date&sort_dir=DESC" target="_blank">Slim7 for tuna (Unified - maguro, toro & toroplus)</a></li>
-      </ul>
-      <p>For Questions and Feedback please use the Rom Threads on XDA:<br />
-        <a href="https://forum.xda-developers.com/galaxy-nexus/development/rom-slim7-t3598242" target="_blank">Slim7 (Unified - maguro, toro & toroplus)</a>
-      </p>
-    </div>
-  </div>
-  
+<div class="jumbotron">
+	<div class="container">
+		<img src="./assets/img/slimroms.png" class="img-responsive heading" />
+		<br />
+		<p>
+			<a href="http://review.slimroms.org" target="_blank">SlimRoms Gerrit Codereview</a> |
+			<a href="http://review.slimroms.org/#/q/status:merged" target="_blank">Merged changes</a>
+		</p>
+		<p>
+			<a href="http://slimroms.org" target="_blank">SlimRoms official Hompage</a>
+		</p>
+		<p>On SlimRoms i use all latest improvements applied on Unlegacy-Android.</p>
+		<ul>
+			<li>all carveouts reserved for Ducati (the multimedia subsystem of OMAP4, responsible for hardware-accelerated video decoding, encoding and camera functionality) have been switched over to CMA</li>
+		</ul>
+		<ul>
+			<p>A few words for those who see CMA for the first time:</p>
+			<ul>
+				<p><i>
+				"The Contiguous Memory Allocator (CMA) makes it possible for device drivers to allocate big contiguous chunks of memory after the system has booted.<br />
+				The main difference from the similar frameworks is the fact that CMA allows to transparently reuse memory region reserved for the big chunk allocation as a system memory, so no memory is wasted when no big chunk is allocated.<br />
+				Once the alloc request is issued, the framework will migrate system pages to create a required big chunk of physically contiguous memory."</i></p>
+			</ul>
+			<p>This means that a total of 996 MB physical memory is available to the system, while keeping Ducati fully working - this is a huge step forward, coming from the 694 MB available in the last factory image released by Google (Android 4.3).<br />
+			While CMA was just recently implemented for this device, thanks to one of our developers (let's just call him Luden), it's quite stable: even under heavy memory pressure, the system manages to free up the required memory in order to start up Ducati and launch the requested multimedia functionality in a few seconds at most.
+			</p>
+		</ul>
+	</div>
+</div>
+
+<div class="container">
+
+	<div class="card">
+		<div class="card-heading">
+			<h3>Slim6</h3>
+		</div>
+		<div class="card-content-1">
+			<p><b>Official unified builds</b><br /></p>
+			<ul>
+				<li><a href="https://slimroms.org/#/device/tuna" target="_blank">Slim 6 for tuna (Unified - maguro, toro & toroplus)</a></li>
+				<br />
+			</ul>
+			<p><b>Unofficial unified builds:</b><br /></p>
+			<ul>
+				<li><a href="https://www.androidfilehost.com/?w=files&flid=161910&sort_by=date&sort_dir=DESC" target="_blank">Slim6 for tuna (Unified - maguro, toro & toroplus)</a></li>
+			</ul>
+			<p>For Questions and Feedback please use the Rom Threads on XDA:<br />
+				<a href="https://forum.xda-developers.com/galaxy-nexus/development/rom-slim6-t3573672" target="_blank">Slim6 (Unified - maguro, toro & toroplus)</a>
+			</p>
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-heading">
+			<h3>Slim7</h3>
+		</div>
+		<div class="card-content-1">
+			<p><b>Unofficial unified builds:</b><br /></p>
+			<ul>
+				<li><a href="https://www.androidfilehost.com/?w=files&flid=175761&sort_by=date&sort_dir=DESC" target="_blank">Slim7 for tuna (Unified - maguro, toro & toroplus)</a></li>
+			</ul>
+			<p>For Questions and Feedback please use the Rom Threads on XDA:<br />
+				<a href="https://forum.xda-developers.com/galaxy-nexus/development/rom-slim7-t3598242" target="_blank">Slim7 (Unified - maguro, toro & toroplus)</a>
+			</p>
+		</div>
+	</div>
+
 </div>

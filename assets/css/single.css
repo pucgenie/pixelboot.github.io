@@ -1,31 +1,31 @@
 .single {
-  padding-top: 106px;
-  background: #fff;
+	padding-top: 106px;
+	background: #fff;
 }
 .single h1 {
-  font-size: 3.5rem;
-  padding-bottom: 0.3em;
-  border-bottom: 1px solid #eaecef;
-  font-weight: 700;
-  margin-bottom: 32px;
+	font-size: 3.5rem;
+	padding-bottom: 0.3em;
+	border-bottom: 1px solid #eaecef;
+	font-weight: 700;
+	margin-bottom: 32px;
 }
 .single p,
 .single li,
 .single a {
-  font-weight: 400;
-  letter-spacing: .03rem;
+	font-weight: 400;
+	letter-spacing: .03rem;
 }
 .breadcrumb {
-  background: #fafafa;
+	background: #fafafa;
 }
 .breadcrumb li {
-  font-size: 14px;
+	font-size: 14px;
 }
 
 @media (max-width: 768px) {
 
-  .single {
-    padding-top: 88px;
-  }
+	.single {
+		padding-top: 88px;
+	}
 
 }
