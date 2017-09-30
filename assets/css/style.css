@@ -141,7 +141,10 @@ b, strong {
   }
   .single {
     padding-top: 88px;
-
+  }
+  .jumbotron h1 {
+    font-size: 3.2em;
+    line-height: 1.25em;
   }
 
 }
