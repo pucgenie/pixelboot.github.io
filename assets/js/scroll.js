@@ -7,16 +7,16 @@ $(window).scroll (function() {
     }
 });
 
-function btt() {
+function backToTop() {
   if ($(window).height() < $(document).height()) {
-    $('.btt').css( 'display', 'block');
+    $('.backToTop').css( 'display', 'block');
   }
   else {
-    $('.btt').css( 'display', 'none');
+    $('.backToTop').css( 'display', 'none');
   }
 }
-$(window).resize(btt);
-$(document).ready(btt);
+$(window).resize(backToTop);
+$(document).ready(backToTop);
 
 $('.navbar-collapse').on('show.bs.collapse', function () {
     $('.navbar').addClass('navbar-white');
