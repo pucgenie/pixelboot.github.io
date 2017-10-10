@@ -1,16 +1,26 @@
 ---
-layout: default
+layout: blank
 ---
 <style>
 	body {
 		word-wrap: break-word;
 	}
-	.showLink {
+	.hideLink {
 		display: none;
 	}
 	a.showLink,
 	a.hideLink {
 		text-decoration: none;
+	}
+	.nonLink:hover {
+		text-decoration: none;
+	}
+	h2 {
+		font-size: 2.6rem;
+	}
+	#changes div  {
+		display: none;
+		margin-left: 30px;
 	}
 </style>
 <script>
@@ -31,4 +41,17 @@ function hide(sectionId) {
 }
 </script>
 
-{{ content }}
+<div class="container">
+	<ul class="breadcrumb">
+		<li><a href="/">Home</a></li>
+		<li><a href="/changelog.html">Changelogs</a></li>
+		<li class="active">{{ page.title }}</li>
+	</ul>
+</div>
+
+<div class="container">
+	<h1>{{ page.title }}</h1>
+
+	{{ content }}
+
+</div>
