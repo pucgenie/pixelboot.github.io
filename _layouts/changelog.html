@@ -18,7 +18,7 @@ layout: blank
 	h2 {
 		font-size: 2.6rem;
 	}
-	#changes div  {
+	#changes div {
 		display: none;
 		margin-left: 30px;
 	}
@@ -58,6 +58,15 @@ function hide(sectionId) {
 
 <div class="container">
 	<h1>{{ page.title }}</h1>
+
+	<p>
+		{% if page.official %}
+		This only includes the Android Open Source Project changes and does not include any changes in any proprietary components included by Google or any hardware manufacturer.
+		{% endif %}
+		The raw log was generated using a modified version of <a href="https://groups.google.com/d/msg/android-building/0DtsHawjs4k/And8o3Dni_UJ">this script</a> written by <a href="https://plus.google.com/112218872649456413744/posts">JBQ</a> and improved by <a href="https://plus.google.com/+AlSutton/posts">Al Sutton</a>.
+	</p>
+
+	<p><strong>Please do not copy this without attribution to this site and JBQ for the original script.</strong></p>
 
 	{{ content }}
 
