@@ -1,3 +1,20 @@
+- date: 13.10.2017
+  content: |
+    **SlimKat**
+
+    SlimKat 9.12 builds are available since about 1 Week (Galaxy Tab2 and Samsung S3 mini) and besides the monthly security bulletin (2017-10-01 security patch level) I also took some time to improve security a little bit more:
+
+    - ADB disabled by default on unoffcial builds
+    - Developer Options disabled by default on unoffcial builds
+    - removed AOSP Browser (it's not safe to use it anymore, install a up-to-date browser like Chrome from PlayStore)
+    - removed SuperUser implementation (you can use e.g. SuperSU, v1.80 works fine for me but newer versions might work too.
+      NOTE: since it's a "userdebug" build "adb root" will still work without installing a 3rd party root implementation)
+
+    Welcome a new extra:
+
+    - MicroG / Fake Signature implementation added, can be enabled from developer options
+
+
 - date: 05.10.2017
   content: |
     **AOSP/Unlegacy-Android**
