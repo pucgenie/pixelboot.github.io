@@ -1,3 +1,26 @@
+- date: 20.10.2017
+  content: |
+    **GENERAL NOTE**
+
+    I have changed the ZIP names slightly for ALL roms i am compiling. The changed names are needed to prepare for optional incremental updates in future.
+
+
+    **AOSP/Unlegacy-Android**
+
+    Todays Android 6.0.1 Updates have KRACK fixes applied, will be available for supported devices!
+
+
+    **Slim6**
+
+    Updates to fix KRACK applied. The Update will be available for following devices:
+
+    - Galaxy Tab2
+    - Galaxy Nexus
+    - Oneplus One (first build incl. CM Camera HAL, second build incl. OOS Camera HAL & Sultans Snap Cam)
+
+    Source can be found [here](https://github.com/SlimRomsSecurity) in case you want to compile yourself.
+
+
 - date: 13.10.2017
   content: |
     **SlimKat**
