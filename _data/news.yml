@@ -1,8 +1,23 @@
+- date: 21.10.2017
+  content: |
+    **More Updates because of KRACK Vulnerability**
+
+    Yesterday Slim6 and AOSP/Unlegacy-Android 6.0.1 ROMs got updated already. The following ROMs will get an Update too this weekend:
+
+    - SlimKat (Galaxy Tab2, Galaxy S3 mini)
+    - OmniROM 4 (Galaxy Tab2, Galaxy Nexus)
+    - OmniROM 6 (Galaxy Tab2, Galaxy Nexus)
+
+
+    LineageOS merged needed changes for LineageOS 13 this morning too which means next official Weekly builds will have the fix included.
+
+
 - date: 20.10.2017
   content: |
     **GENERAL NOTE**
 
     I have changed the ZIP names slightly for ALL roms i am compiling. The changed names are needed to prepare for optional incremental updates in future.
+    Only SlimKat keeps it's old name and definitely won't get incremental updates as there's a custom script running to generate the Rom ZIP.
 
 
     **AOSP/Unlegacy-Android**
