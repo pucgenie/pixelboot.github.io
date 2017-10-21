@@ -14,12 +14,6 @@
 
 - date: 20.10.2017
   content: |
-    **GENERAL NOTE**
-
-    I have changed the ZIP names slightly for ALL roms i am compiling. The changed names are needed to prepare for optional incremental updates in future.
-    Only SlimKat keeps it's old name and definitely won't get incremental updates as there's a custom script running to generate the Rom ZIP.
-
-
     **AOSP/Unlegacy-Android**
 
     Todays Android 6.0.1 Updates have KRACK fixes applied, will be available for supported devices!
