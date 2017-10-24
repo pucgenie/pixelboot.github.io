@@ -8,6 +8,8 @@ name: Custom Rom Development by Android-Andi @ XDA
 # Short bio or description
 description: Custom Rom Development by Android-Andi for the Samsung Galaxy Tab 2 and Samsung Galaxy S3 mini.
 
+
+repository: andi34/andi34.github.io
 #
 # Flags below are optional
 #
@@ -60,7 +62,7 @@ kramdown:
     css_class: 'highlight'
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
