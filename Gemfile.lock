@@ -216,8 +216,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 166)
-  jekyll (= 3.6.2)
-  jekyll-feed (~> 0.9.2)
+  jekyll (~> 3.6.2)
+  jekyll-feed (~> 0.6)
   wdm (>= 0.1.0)
 
 BUNDLED WITH
