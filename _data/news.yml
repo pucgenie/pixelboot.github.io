@@ -1,3 +1,28 @@
+- date: 05.11.2017
+  content: |
+    **More Updates**
+
+    Not much updates last 2 Weeks? Right, but we are always busy behind the scenes and real life eats some time too.
+    Most of you know already that the AOSP Browser is really outdated and has a bunch of security holes.
+    Following Roms will have the OpenSource [Lightning Browser](https://github.com/anthonycr/Lightning-Browser) added by default instead in future builds:
+
+    - SlimKat
+    - Slim6
+    - OmniROM 4
+    - OmniROM 6 (Lighning replaces outdated Chromium version here)
+
+
+    **More Security**
+
+    I'll switch to "user" builds instead "userdebug" builds on all 4.4 and 6.0 Roms. The builds are slight smaller - no need to compile extra debug files. 
+    On "user" builds there's no "adb root" which makes the build safer as before.
+    It could be there's e.g. some SELinux denials only show up on "user" builds - if you have any issues please provide a logcat and dmesg.
+    Unsure how to get proper logs? No Problem! [The FAQ can be found here](/faq.html)
+
+
+    I'll update all 4.4 and 6.0 builds until friday, enjoy!
+
+
 - date: 21.10.2017
   content: |
     **More Updates because of KRACK Vulnerability**
