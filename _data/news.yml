@@ -1,3 +1,70 @@
+- date: 18.11.2017
+  content: |
+    **AOSP/Unlegacy-Android**
+
+    Updates for 2017-11-01 security patch level on Android 6.0.1 applied, will be available for supported devices!
+
+
+    **Slim6**
+
+    Updates for 2017-11-01 security patch level applied. The Update will be available for following devices:
+
+    - Galaxy Tab2
+    - Galaxy Nexus
+    - Oneplus One (incl. OOS Camera HAL & Sultans Snap Cam)
+
+    Source can be found [here](https://github.com/SlimRomsSecurity) in case you want to compile yourself.
+
+
+    **OmniROM 6**
+
+    Updates for 2017-11-01 security patch level applied. The Update will be available for following devices:
+
+    - Galaxy Tab2
+    - Galaxy Nexus
+
+
+    **LineageOS 13**
+
+    Updates for 2017-11-01 security patch level applied. The Update will be available for following devices:
+
+    - Galaxy Tab2
+    - Galaxy Nexus (device specific builds)
+
+
+    **Implemented patches for 2017-11-01 security patch level (thanks to LineageOS Team)**
+
+
+    - Framework
+
+        - CVE-2017-0830 A-62623498 High
+
+
+    - Media Framework
+
+        - CVE-2017-0832 A-62887820 Critical
+        - CVE-2017-0833 A-62896384 Critical
+        - CVE-2017-0834 A-63125953 Critical
+        - CVE-2017-0835 A-63316832 Critical
+        - CVE-2017-0836 A-64893226 Critical
+        - CVE-2017-0839 A-64478003 High
+        - CVE-2017-0840 A-62948670 High
+        - CVE-2017-0848 A-64477217 Moderate
+        - CVE-2017-0849 A-62688399 Moderate
+        - CVE-2017-0851 A-35430570 Moderate
+        - CVE-2017-0853 A-63121644 High
+        - CVE-2017-0854 A-63873837 High
+        - CVE-2017-0857 A-65122447 High
+        - CVE-2017-0858 A-64836894 High
+
+
+    - System
+
+        - CVE-2017-0841 A-37723026 Critical
+        - CVE-2017-0842 A-37502513 High
+        - CVE-2017-0860 A-31097064 Moderate
+
+
 - date: 05.11.2017
   content: |
     **More Updates**
