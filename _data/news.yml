@@ -1,3 +1,12 @@
+- date: 17.03.2017
+  content: |
+    **TWRP**
+    
+    - New TWRP 3.2.0-0 uploaded for tuna variants and Tab.
+
+    Official changes until [06c6219 head](https://github.com/omnirom/android_bootable_recovery/commits/06c621908a14253d7c6a6d0dde3a1dec1a148109) from OmniRoms TWRP source (android-8.0 branch)
+ 
+
 - date: 18.11.2017
   content: |
     **AOSP/Unlegacy-Android**
