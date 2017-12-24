@@ -1,3 +1,87 @@
+- date: 24.12.2017
+  content: |
+    **General**
+
+    Hey together! Some of you might have read already on XDA that i am staying away from Android for some time (not sure yet if i continue later).
+    Private life is complicated at the moment... Lot's of work in my Job (and looks like it's not getting better soon...), my gf needs to quit her job
+    (so we'll only have one income for some time to pay our bills), relationship between me and my gf had better times in the past too...
+
+    Well, no need to go more in detail, but I've pushed some last Updates for suppported Roms and Devices as a christmas present for you! I wish you all merry Christmas and a Happy new year!
+
+
+
+    **AOSP/Unlegacy-Android**
+
+    Updates for 2017-12-01 security patch level on Android 6.0.1 & Android 4.4.4 applied, will be available for supported devices!
+
+
+
+    **Slim6**
+
+    Updates for 2017-12-01 security patch level applied. The Update will be available for following devices:
+
+    - Galaxy Tab2
+    - Galaxy Nexus
+    - Oneplus One (incl. OOS Camera HAL & Sultans Snap Cam)
+
+    Source can be found [here](https://github.com/SlimRomsSecurity) in case you want to compile yourself.
+
+
+
+    **OmniROM 6**
+
+    Updates for 2017-12-01 security patch level applied. The Update will be available for following devices:
+
+    - Galaxy Tab2
+    - Galaxy Nexus
+
+
+
+    **LineageOS 13**
+
+    Updates for 2017-12-01 security patch level applied. The Update will be available official for following devices:
+
+    - Galaxy Tab2
+    - Galaxy Nexus (device specific builds)
+
+
+
+    **Implemented patches for 2017-12-01 security patch level on Android 6 (thanks to LineageOS Team)**
+
+    - Media framework
+
+        - CVE-2017-0837 A-64340921 [2] High
+        - CVE-2017-0873 A-63316255 High
+        - CVE-2017-0874 A-63315932 High
+        - CVE-2017-0879 A-65025028 High
+        - CVE-2017-13148 A-65717533 High
+        - CVE-2017-13149 A-65719872 High
+        - CVE-2017-13150 A-38328132 High
+        - CVE-2017-13151 A-63874456 Critical
+        - CVE-2017-13152 A-62872384 Moderate
+        - CVE-2017-13154 A-63666573 High
+
+    - System
+
+        - CVE-2017-13156 A-64211847 High
+        - CVE-2017-13157 A-32990341 High
+        - CVE-2017-13158 A-32879915 High
+        - CVE-2017-13159 A-32879772 High 
+
+
+
+    **Implemented patches for 2017-12-01 security patch level on Android 4 (thanks to LineageOS Team)**
+
+    - CVE-2017-13157	A-32990341 High
+    - CVE-2017-13158	A-32879915 High
+    - CVE-2017-13159	A-32879772 High
+    - CVE-2017-0879	A-65025028 High
+    - CVE-2017-13152	A-62872384 Moderate
+
+
+    ( CVE-2017-13154	A-63666573 High - not added yet, breaks camera on some devices and needs further testing )
+
+
 - date: 29.11.2017
   content: |
     **TWRP**
