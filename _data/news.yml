@@ -1,3 +1,74 @@
+- date: 27.01.2018
+  content: |
+    **GENERAL**
+    Thanks to LineageOS Team for latest Android Security Bulletin backports! Within last days i've recompiled most of my Roms with
+    the patches included.
+
+
+
+    **AOSP/Unlegacy-Android**
+
+    Updates for January 2018 security patch level on Android 7.1.2 & Android 6.0.1 & Android 4.4.4 applied, available for supported devices!
+
+
+
+    **SlimKat**
+
+    Updates for January 2018 security patch level applied. The Update is available for following devices:
+
+    - Galaxy Tab2
+    - Galaxy S3 mini
+
+
+
+    **Slim6**
+
+    Updates for January 2018 security patch level applied. The Update is available for following devices:
+
+    - Galaxy Tab2
+    - Galaxy Nexus
+    - Oneplus One (incl. OOS Camera HAL & Sultans Snap Cam)
+
+    Source can be found [here](https://github.com/SlimRomsSecurity) in case you want to compile yourself.
+
+
+
+    **OmniROM 4**
+
+    Updates for January 2018 security patch level applied. The Update is available for following devices:
+
+    - Galaxy Tab2
+    - Galaxy Nexus
+
+
+
+    **OmniROM 6**
+
+    Updates for January 2018 security patch level applied. The Update is available for following devices:
+
+    - Galaxy Tab2
+    - Galaxy Nexus
+
+
+
+    **OmniROM 7**
+
+    Updates for January 2018 security patch level applied. The Update is available for following devices:
+
+    - Galaxy Tab2
+    - Galaxy Nexus
+
+
+
+    **LineageOS 13**
+
+    Updates for January 2018 security patch level applied. The Update is available for following devices:
+
+    - Galaxy Tab2
+    - Galaxy Nexus (device specific builds)
+
+
+
 - date: 24.12.2017
   content: |
     **General**
