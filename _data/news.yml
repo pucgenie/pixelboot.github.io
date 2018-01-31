@@ -1,3 +1,26 @@
+- date: 31.01.2018
+  content: |
+    **Galaxy Tab 2 and Galaxy Nexus**
+
+    All supported Roms updated. Latest builds use the default libion instead the old TI libion.
+    Please don't flash any custom kernel on top of those builds - old kernel won't work on these Roms!
+
+    Available Roms for Galaxy Tab 2
+    - LineageOS 11.0 ; 13.0 ; 14.1
+    - OmniROM 4.4; 6.0 ; 7.1
+    - SlimKat ; Slim 6; Slim 7
+
+
+    Available Roms for Galaxy Nexus
+    - LineageOS 13.0 (device specific)
+    - OmniROM 4.4; 6.0 ; 7.1
+    - Slim 6; Slim 7
+
+    Please note that there's maybe some issues flashing Gapps on some Galaxy Nexus Roms. My selfcompiled Chromium is now added by default, and
+    at least on Android 7 Roms Chromium eats to much space on /system partition (Gapps won't fit on it).
+    If you are having issues, you can flash the [Chromium Remover attached here](https://forum.xda-developers.com/showpost.php?p=75401219&postcount=98).
+
+
 - date: 27.01.2018
   content: |
     **GENERAL**
