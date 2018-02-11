@@ -1,3 +1,40 @@
+- date: 11.02.2018
+  content: |
+    **GENERAL**
+    Thanks to LineageOS Team for latest Android Security Bulletin backports (Updates for February 2018 security patch level).
+    
+    All Roms for Galaxy Nexus and Galaxy Tab2 now always include the default libion! Please don't flash old kernel on top of these ROMs - breaks at least Camera and DOMX!
+
+
+    **Galaxy Nexus**
+
+    Becuase of our tiny system-partition i had to remove Chromium from the builds. Lightning is used again as an replacement, but i'd suggest to install a browser like Chrome, Chromium or Firefox for daylie use
+    [read here](https://github.com/andi34/prebuilts_chromium#theres-a-great-lightweight-browser-cant-i-use-it).
+
+
+    **Slim6**
+
+    Updates for February 2018 security patch level applied. The Update is available for following devices:
+
+    - Galaxy Tab2
+    - Galaxy Nexus
+    - Oneplus One (incl. OOS Camera HAL & Sultans Snap Cam)
+
+    Like always: Source can be found [here](https://github.com/SlimRomsSecurity) in case you want to compile yourself.
+
+
+    **Chromium**
+
+    My selfcompiled Chromium was updated to 64.0.3282.162, it's added by default to my ROMs.
+
+
+    Developers who like to add it to their ROMs can find [the source here](https://github.com/andi34/prebuilts_chromium), User also find
+    the Download link in the README to install Chromium to any other ROM.
+
+    I am currently Updating Chromium weekly - enjoy!
+
+
+
 - date: 31.01.2018
   content: |
     **Galaxy Tab 2 and Galaxy Nexus**
