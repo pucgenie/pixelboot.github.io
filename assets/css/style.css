@@ -115,6 +115,10 @@ b, strong {
 	margin-left: auto;
 	margin-right: auto;
 }
+.scrollUp {
+	-webkit-transform: translateY(-75px);
+					transform: translateY(-75px);
+}
 
 @media (max-width: 768px) {
 
