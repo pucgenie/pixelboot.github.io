@@ -5,15 +5,14 @@ icon: question-circle-o
 
 {% for post in site.data.faq %}
 <div class="card">
-	<div class="card-heading">
-		<h3>{{ post.title }}</h3>
-	</div>
-	<div class="card-content-1">
+	<div class="card-body">
+		<h3 class="card-title">{{ post.title }}</h3>
+		<hr class="light">
 		{{ post.content | markdownify }}
 	</div>
 	{% if post.button %}
 	<div class="card-button">
-		<a href="{{ post.button.link }}" class="btn btn-primary btn-simple">{{ post.button.title }}</a>
+		<a href="{{ site.baseurl }}{{ post.button.link }}" class="btn btn-primary btn-link">{{ post.button.title }}</a>
 	</div>
 	{% endif %}
 </div>

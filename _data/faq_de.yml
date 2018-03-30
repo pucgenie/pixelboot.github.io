@@ -15,15 +15,15 @@
   button:
     title: Tutorial mit screenshots
     link: /faq/faq_twrp_de.html
-    
-    
+
+
 - title: Welche Rom kann ich auf mein Galaxy Tab2 flashen?
   content: |
     - Du kannst gerätespezifische Roms verwenden (diese werden nicht mehr weiterentwickelt), achte aber darauf das der Name zu deinem Gerät passt.
     - Du kannst außerdem auch eine "unified" Rom für dein Tab2 verwenden.
       - Wenn du ein GT-P3110, GT-P3113, GT-P5110 oder GT-P5113 besitzt: flashe "espressowifi" Roms
       - Wenn du ein GT-P3100 oder GT-P5100 besitzt: flashe "espresso3g" Roms
-    
+
     <div class="alert alert-primary">
       <div class="alert-icon">
         <i class="material-icons">info</i>
@@ -34,25 +34,25 @@
       <b>Wichtig:</b>
         Wenn ihr "unified" Roms verwendet werden alle Treiber und Konfigurationen für euer Tab automatisch beim booten erkannt! Ihr dürftet keinerlei Unterschiede gegenüber den gerätespezifischen Roms bemerken (abgesehen vom Namen).
     </div>
-    
-    
+
+
 - title: Wie rekalibriere ich den Kompass von meinem Tab 2?
   content: |
-    - Der Kompasssensor berechnet mit hilfe des Accelerometers und des Magnetfeldsensors die Himmelsrichtung. Sollten diese Werte einmal nicht mehr stimmen, könnt ihr den Magnetfeldsensor mit folgenden Schritten rekalibrieren: 
- 
+    - Der Kompasssensor berechnet mit hilfe des Accelerometers und des Magnetfeldsensors die Himmelsrichtung. Sollten diese Werte einmal nicht mehr stimmen, könnt ihr den Magnetfeldsensor mit folgenden Schritten rekalibrieren:
+
       ```
       adb shell stop geomagneticd
-          
+
       adb shell rm /data/sensors/yas.cfg
-        
+
       adb shell rm /data/sensors/yas-backup.cfg
-        
+
       adb shell start geomagneticd
       ```
 
     - startet danach eine Kompass-App und dreht das Tab mehrmals in jede Richtung um die eigene Achse. Danach sollte euer Tab rekalibriert sein.
 
-    
+
 - title: Was kann ich tun wenn die Rom installation wegen eines "Error 7" im Recovery fehlschlägt ?
   content: |
     Am besten ist es wenn ihr ein Recovery.log postet. Es gibt eine option in eurem Recovery um ein Recovery.log zu erstellen.
@@ -65,12 +65,12 @@
 
     Wenn es bei euch einmal nicht funktionieren sollte: postet bitte die gesamte Nachricht die ihr im Recovery angezeigt bekommt, da
     es für einen "Error 7" unterschiedliche Gründe gibt.
-    
+
     - Es kann z.B. sein, das ihr ein älteres Gerätespezifisches Recovery nutzt (p3100, p3110, p5100 und p5110 hatten in der Vergangenheit ein eigenes Recovery)
     - oder es kann sein, das ihr eine falsche Rom geflasht habt, die nicht zu eurem Gerät passt
     - oder es kann sein, das ihr ein zu altes Recovery nutzt (z.B. ein altes Offizielles CWM, einige nutzen es heute noch)
-    
-    
+
+
 - title: Wie bekomme ich Root Zugriff ?
   content: |
     Custom Roms wie SlimRoms sind von Haus aus gerootet, der Root-Zugriff muß nur von euch aktiviert werden.
@@ -79,7 +79,7 @@
     - Tippt 7x auf die Build nummer (ihr bekommt eine Benachrichtigung wenn die Entwickleroptionen aktiviert sind)
     - Einstellungen -> Entwickleroptionen -> Root Zugriff
     - setzt den Root Zugriff auf "Apps und ADB"
-    
+
     <div class="alert alert-primary">
       <div class="alert-icon">
         <i class="material-icons">info</i>
@@ -90,40 +90,40 @@
       <b>Wichtig:</b>
       LineageOS, OmniRom und AOSP sind von Haus aus NICHT gerootet. Ihr benötigt deshalb noch <a href="http://forum.xda-developers.com/showthread.php?t=1538053">SuperSu</a> oder <a href="http://forum.xda-developers.com/android/software-hacking/wip-selinux-capable-superuser-t3216394">OpenSource SuperUser</a> um Root zu bekommen.
     </div>
-    
-    
+
+
 - title: Wie bekomme ich logs?
   content: |
     Ihr könnt einige Apps im PlayStore finden (z.B. Syslog) die euch dabei helfen brauchbare logs zu bekommen, aber ich persönlich bevorzuge adb mit folgenden Befehlen:
 
     - Logcat:
-    
+
       ```
       adb shell logcat > logcat.txt
       ```
-          
+
       (zum stoppen des loggings drückt <kbd><kbd>Strg</kbd> + <kbd>c</kbd></kbd> auf eurer Tastatur)
 
     - Radio Logcat:
-    
+
       ```
       adb logcat -b radio -v time -d > logcat_radio.log
       ```
-          
+
     - Dmesg:
-    
+
       ```
       adb shell dmesg > dmesg.txt
       ```
-          
+
     - last_kmsg:
       (seid sicher das ihr root seit)
 
       ```
       adb shell su -c "cat /proc/last_kmsg" > last_kmsg.txt
       ```
-          
-    - audit.log:  
+
+    - audit.log:
       (seid sicher das ihr root seit)
 
       ```
@@ -132,7 +132,7 @@
       adb pull /data/misc/audit/audit.log
       ```
 
-  
+
 - title: Was ist der Unterschied zwischen dem "alten" und "neuen" Kernel-Quellcode den Ihr nutzt?
   content: |
     Vorweg: Die meiste Arbeit hat Ziyan @ XDA-Developers erledigt. Der Kernel ist das Herz unserer Roms. Ein Paar Worte zum "neuen" Kernel:
@@ -146,7 +146,7 @@
     - dynamic tiler allocations (mehr freier Ram verfügbar)
     - Die Tab2 Variante wird beim Starten automatisch erkannt (Der lcd_panel_id command line parameter aus dem Bootloader wird ausgelesen um das richtige Gerät zu erkennen)
     - Neues property (/sys/board_properties/type) um den Board Typ anzuzeigen
-    
+
       <div class="alert alert-primary">
         <div class="alert-icon">
           <i class="material-icons">info</i>
@@ -157,20 +157,20 @@
         <b>Info:</b>
         Manche Änderungen basieren auf diesem "property" (z.B. um die richtigen Sensor Treiber oder Audio-Config für euer Gerät zu laden) - Ältere Roms nutzen dies nicht, deshalb kann es zu Problemen kommen, wenn ihr alte Custom Kernel auf den neuen Roms nutzt!
       </div>
-    
+
     - Ein Kernel Quellcode für alle Android Versions (4.4 und neuer, 4.4 Roms nutzen jedoch eine eigene defconfig)
-    
-    Wir nutzen den "neuen" auf allen unserern Roms (Android 5.1 und neuer, aber auch auf manchen alten offiziellen 4.4 Roms wie z.B. CM 11.0).  
+
+    Wir nutzen den "neuen" auf allen unserern Roms (Android 5.1 und neuer, aber auch auf manchen alten offiziellen 4.4 Roms wie z.B. CM 11.0).
     [Den Kernel Quellcode findet ihr hier](https://github.com/Unlegacy-Android/android_kernel_samsung_espresso/commits/stable) , [Historie vom "entmüllen" hier.](https://github.com/OMAP4-AOSP/android_kernel_samsung_espresso/commits/history)
-    
-    
+
+
 - title: Wie kann ich das Einschalt Logo/Bild auf meinem Galaxy Tab2 ändern?
   content: |
     Es gibt ein schönes Tutorial von Ketut Kumajaya, welches ich übersetzt, aktualisiert und hier bereit stelle.
-    
+
     [Das Tutorial findet ihr hier](/faq/faq_bootlogo_de.html){: .btn .btn-primary }
-    
-    
+
+
 - title: I can't change my rom, wipe / format doesn't work. Nothing changed after flashing with Odin.
   content: |
     16 GB Tab 2 have a known faulty EMMC (MAG2GA). It can happen, that your EMMC get "read only", so you can't perform any write actions (also you can't format) anymore.
@@ -191,5 +191,5 @@
     - Formating the storage doesn't work (after reboot the old rom and apps are back)
     - You can flash whatever you like via Odin - it showes "passed" but after reboot nothing changed (e.g. still no StockRom or still the old Recovery you had previously installed)
     - ... there might be some more, but only to mention some ...
-    
+
     In most cases, the issue can be fixed by a EMMC firmware update, but you need someone who's able to do it (possible via ISP, nothing you can do esylie at home yourself). In some bad cases you need to find someone who can replace your EMMC.

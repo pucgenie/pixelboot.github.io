@@ -1,142 +1,158 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="/assets/img/avatar.png" type="image/png">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="{{ site.baseurl }}/assets/img/avatar.png" type="image/png">
 
-    <!-- Open graph tags to customize link previews. -->
-    <meta property="og:url"           content="{{ site.url }}">
-    <meta property="og:type"          content="website">
-    <meta property="og:title"         content="{{ site.name }}">
-    <meta property="og:description"   content="{{ site.description }}">
-    <meta property="og:image"         content="{{ site.url }}/assets/img/avatar.png">
+		<!-- Open graph tags to customize link previews. -->
+		<meta property="og:url"           content="{{ site.url }}">
+		<meta property="og:type"          content="website">
+		<meta property="og:title"         content="{{ site.name }}">
+		<meta property="og:description"   content="{{ site.description }}">
+		<meta property="og:image"         content="{{ site.url }}/assets/img/avatar.png">
 
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
+		<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/css/material-kit.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    {% if page.single %}
-    <link rel="stylesheet" href="/assets/css/single.css">
-    {% endif %}
+		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/material-kit.css" />
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-  </head>
+	</head>
 
-  <body id="page-top"{% if page.single %} class="single"{% endif %}>
-    <nav class="navbar navbar-transparent navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed navbarButton" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">Android-Andi</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="/">Home</a></li>
-            <li><a href="/news.html">News</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recoveries<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="/recoveries_tab2.html">Recoveries for Samsung Galaxy Tab2</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="/recoveries_golden.html">Recoveries for Samsung Galaxy S3 mini</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="/recoveries_tuna.html">Recoveries for Samsung Galaxy Nexus</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ROMs <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-header">Samsung Galaxy Tab2</li>
-                <li><a href="/roms_tab2_aosp.html">AOSP</a></li>
-                <li><a href="/roms_tab2_cm.html">CyanogenMod</a></li>
-                <li><a href="/roms_tab2_lineage.html">LineageOS</a></li>
-                <li><a href="/roms_tab2_omni.html">OmniRom</a></li>
-                <li><a href="/roms_tab2_slim.html">SlimRoms</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Samsung Galaxy S3 mini</li>
-                <li><a href="/roms_golden_slim.html">SlimRoms</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Samsung Galaxy Nexus</li>
-                <li><a href="/roms_tuna_lineage.html">LineageOS</a></li>
-                <li><a href="/roms_tuna_omni.html">OmniRom</a></li>
-                <li><a href="/roms_tuna_slim.html">SlimRoms</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Oneplus One</li>
-                <li><a href="/roms_opo_slim.html">SlimRoms</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">GApps</li>
-                <li><a href="/gapps.html">GApps (information and links)</a></li>
-              </ul>
-            </li>
-            <li><a href="/app_chromium.html">Chromium for Android</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FAQ <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-header">FAQ</li>
-                <li><a href="/faq.html"><img src="/assets/img/flags/GB.png" alt="GB"> FAQ (english)</a></li>
-                <li><a href="/faq_de.html"><img src="/assets/img/flags/DE.png" alt="DE"> FAQ (german)</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Known bugs <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-header">Samsung Galaxy Tab2</li>
-                <li><a href="/known_bugs_tab2_6.0.html">Android 6.0</a></li>
-              </ul>
-            </li>
-            <li><a href="/changelog.html">Changelogs</a></li>
-            <li><a href="/donations.html">Donations</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+	<body id="page-top"{% if page.single %} class="single"{% endif %}>
+		<nav class="navbar fixed-top navbar-expand-lg bg-white">
+			<div class="container">
+				<div class="navbar-translate">
+					<a class="navbar-brand" href="{{ site.baseurl }}/">Android-Andi</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+						<span class="navbar-toggler-icon"></span>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav ml-auto">
 
-    <div class="site-content">
-      {{ content }}
-    </div>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.baseurl }}/">Home</a>
+						</li>
 
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <p class="copyright">
-              <a href="https://github.com/andi34">Android-Andi</a> &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-            </p>
-          </div>
-          <div class="col-sm-6">
-            <div class="backToTop">
-              <div class="text-right hidden-xs">
-                <a href="#page-top" class="btn btn-sm btn-simple page-scroll">
-                  <i class="fa fa-angle-up fa-fw" aria-hidden="true"></i> Back to Top
-                </a>
-              </div>
-              <div class="text-center visible-xs">
-                <a href="#page-top" class="btn btn-simple btn-fab btn-fab-mini btn-round page-scroll">
-                  <i class="material-icons">keyboard_arrow_up</i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ site.baseurl }}/news.html">News</a>
+						</li>
 
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="/assets/js/material.min.js"></script>
-    <script src="/assets/js/scroll.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								ROMs
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<h6 class="dropdown-header">Samsung Galaxy Tab2</h6>
+								<a class="dropdown-item" href="{{ site.baseurl }}/roms_tab2_aosp.html">AOSP</a>
+								<a class="dropdown-item" href="{{ site.baseurl }}/roms_tab2_cm.html">CyanogenMod</a>
+								<a class="dropdown-item" href="{{ site.baseurl }}/roms_tab2_lineage.html">LineageOS</a>
+								<a class="dropdown-item" href="{{ site.baseurl }}/roms_tab2_omni.html">OmniRom</a>
+								<a class="dropdown-item" href="{{ site.baseurl }}/roms_tab2_slim.html">SlimRoms</a>
+								<div class="dropdown-divider"></div>
+								<h6 class="dropdown-header">Samsung Galaxy S3 mini</h6>
+								<a class="dropdown-item" href="{{ site.baseurl }}/roms_golden_slim.html">SlimRoms</a>
+								<div class="dropdown-divider"></div>
+								<h6 class="dropdown-header">Samsung Galaxy Nexus</h6>
+								<a class="dropdown-item" href="{{ site.baseurl }}/roms_tuna_lineage.html">LineageOS</a>
+								<a class="dropdown-item" href="{{ site.baseurl }}/roms_tuna_omni.html">OmniRom</a>
+								<a class="dropdown-item" href="{{ site.baseurl }}/roms_tuna_slim.html">SlimRoms</a>
+								<div class="dropdown-divider"></div>
+								<h6 class="dropdown-header">Oneplus One</h6>
+								<a class="dropdown-item" href="{{ site.baseurl }}/roms_opo_slim.html">SlimRoms</a>
+							</div>
+						</li>
 
-  </body>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Recoveries
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="{{ site.baseurl }}/recoveries_tab2.html">Samsung Galaxy Tab2</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="{{ site.baseurl }}/recoveries_golden.html">Samsung Galaxy S3 mini</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="{{ site.baseurl }}/recoveries_tuna.html">Samsung Galaxy Nexus</a>
+							</div>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								FAQ
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<h6 class="dropdown-header">FAQ</h6>
+								<a class="dropdown-item" href="{{ site.baseurl }}/faq.html"><img src="{{ site.baseurl }}/assets/img/flags/GB.png" alt="GB" class="dropdown-image"> FAQ (english)</a>
+								<a class="dropdown-item" href="{{ site.baseurl }}/faq_de.html"><img src="{{ site.baseurl }}/assets/img/flags/DE.png" alt="DE" class="dropdown-image"> FAQ (german)</a>
+							</div>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Known bugs
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<h6 class="dropdown-header">Samsung Galaxy Tab2</h6>
+								<a class="dropdown-item" href="{{ site.baseurl }}/known_bugs_tab2_6.0.html">Android 6.0</a>
+							</div>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								More
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="{{ site.baseurl }}/app_chromium.html">Chromium for Android</a>
+								<a class="dropdown-item" href="{{ site.baseurl }}/gapps.html">GApps (infos and links)</a>
+								<a class="dropdown-item" href="{{ site.baseurl }}/changelog.html">Changelogs</a>
+								<a class="dropdown-item" href="{{ site.baseurl }}/donations.html">Donations</a>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="site-content">
+			{{ content }}
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md">
+						<p class="footer-text">
+							<a href="https://github.com/andi34">Android-Andi</a> &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+						</p>
+					</div>
+					<div class="col-md">
+						<div class="footer-icons">
+							<a
+								href="https://www.facebook.com/sharer/sharer.php?u=https%3A//andi34.github.io"
+								onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A//andi34.github.io','popup','width=450,height=495'); return false;">
+								<i class="fa fa-facebook fa-fw"></i>
+							</a>
+							<a href="https://twitter.com/home?status=Custom%20Rom%20Development%20by%20Android-Andi%20%40%20XDA%20https%3A//andi34.github.io/">
+								<i class="fa fa-twitter fa-fw"></i>
+							</a>
+							<a href="https://plus.google.com/share?url=https%3A//andi34.github.io/"><i class="fa fa-google-plus fa-fw"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/bootstrap-material-design.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/material-kit.js"></script>
+
+	</body>
 </html>

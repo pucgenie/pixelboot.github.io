@@ -15,15 +15,15 @@
   button:
     title: Tutorial with screenshots
     link: /faq/faq_twrp.html
-    
-    
+
+
 - title: What Rom do i use on my Galaxy Tab2?
   content: |
     - You can use a device specific rom for your device (discontinued), the Rom name need to match your model.
     - You can use a unifed Rom for your device.
       - GT-P3110, GT-P3113, GT-P5110 and GT-P5113 user: flash "espressowifi" Roms
       - GT-P3100 and GT-P5100 user: flash "espresso3g" Roms
-    
+
     <div class="alert alert-primary">
       <div class="alert-icon">
         <i class="material-icons">info</i>
@@ -34,25 +34,25 @@
       <b>Note:</b>
         Your device get detected automatically on unified builds and loads proper driver and config at boot! You shouldn't notice any difference compared to the  device specific builds (only changed romname).
     </div>
-    
-    
+
+
 - title: How to re-calibrate the compass on my Tab 2?
   content: |
     - The compass sensor is calculated from the accelerometer and magnetic field sensors. If the values reported by the compass sensor are not right, you can re-calibrate the magnetic field sensor with the following steps:
-      
+
       ```
       adb shell stop geomagneticd
-          
+
       adb shell rm /data/sensors/yas.cfg
-        
+
       adb shell rm /data/sensors/yas-backup.cfg
-        
+
       adb shell start geomagneticd
       ```
-      
+
     - Now start an application using the compass sensor. Move the device in every direction, with a rotation around each axis: the device should now be re-calibrated.
-    
-    
+
+
 - title: Rom installation failed on "error 7" in recovery, what can i do?
   content: |
     Best will be to post a recovery.log. There's an option inside your recovery to create one.
@@ -68,8 +68,8 @@
     - it could be you used a recovery for a different device (p3100, p3110, p5100 and p5110 had a own recovery in the past!)
     - it could be you flashed a file/rom not made for your device
     - it could be your recovery is to old (official CWM is to old, a lot of user still use it)
-    
-    
+
+
 - title: How to enable root access?
   content: |
     Custom Roms like CyanogenMod and SlimRoms are pre-rooted by default, you only need to enable it.
@@ -78,7 +78,7 @@
     - 7 x tab on the Build number (you'll get a notification that you are a developer now / enabled developer options)
     - Settings -> Developer options -> Root access
     - set root access to "Apps and ADB"
-    
+
     <div class="alert alert-primary">
       <div class="alert-icon">
         <i class="material-icons">info</i>
@@ -89,18 +89,18 @@
       <b>Note:</b>
       LineageOS, OmniRom and AOSP aren't pre-rooted, you need to use <a href="http://forum.xda-developers.com/showthread.php?t=1538053">SuperSu</a> or the <a href="http://forum.xda-developers.com/android/software-hacking/wip-selinux-capable-superuser-t3216394">OpenSource SuperUser</a> to get rooted.
     </div>
-    
-    
+
+
 - title: How do i get proper logs?
   content: |
     Well, there are some apps out (e.g. Syslog App) which can help getting usefull logs, but i prefer using adb to get those logs:
 
     - Logcat:
-    
+
       ```
       adb shell logcat > logcat.txt
       ```
-          
+
       (abort/stop logging pressing <kbd><kbd>ctrl</kbd> + <kbd>c</kbd></kbd> on your keyboard)
 
     - Radio Logcat:
@@ -108,21 +108,21 @@
       ```
       adb logcat -b radio -v time -d > logcat_radio.log
       ```
-          
+
     - Dmesg:
 
       ```
       adb shell dmesg > dmesg.txt
       ```
-          
+
     - last_kmsg:
       (make sure root is enabled!)
 
       ```
       adb shell su -c "cat /proc/last_kmsg" > last_kmsg.txt
       ```
-          
-    - audit.log:  
+
+    - audit.log:
       (make sure root is enabled!)
 
       ```
@@ -131,7 +131,7 @@
       adb pull /data/misc/audit/audit.log
       ```
 
-  
+
 - title: What's the difference between the "old" and the "new" kernel source you are using?
   content: |
     First of all: the biggest part of our new kernel was done by Ziyan @ XDA-Developers. The kernel is the heart of our roms. Some words about "new" kernel:
@@ -145,7 +145,7 @@
     - use dynamic tiler allocations (more free ram available)
     - auto detect tab2 variant on boot (read out lcd_panel_id command line parameter from our bootloader to detect the board type)
     - added a property (/sys/board_properties/type) to show the board type, used by userspace drivers to configure stuff accordingly
-    
+
       <div class="alert alert-primary">
         <div class="alert-icon">
           <i class="material-icons">info</i>
@@ -156,20 +156,20 @@
         <b>Note:</b>
         Some rom changes depend on this property (e.g load proper sensor driver, audio config etc.) - old custom kernel don't use the porperty and will cause   issues on those roms!
       </div>
-    
+
     - One kernel source for all Android Versions (4.4 and newer, only different defconfig for 4.4 Roms)
-    
-    We now use the new kernel on all of our roms (Android 5.1 an newer, but we also switched to it on some of the official 4.4 Roms like CM 11.0).  
+
+    We now use the new kernel on all of our roms (Android 5.1 an newer, but we also switched to it on some of the official 4.4 Roms like CM 11.0).
     [Kernel Source can be found here](https://github.com/Unlegacy-Android/android_kernel_samsung_espresso/commits/stable) , [History from cleanup and update here.](https://github.com/OMAP4-AOSP/android_kernel_samsung_espresso/commits/history)
-    
-    
+
+
 - title: How to change the bootlogo of my Galaxy Tab2?
   content: |
     There's a great tutorial by Ketut Kumajaya which i have slight updated and added
-    
+
     [The tutorial can be found here](/faq/faq_bootlogo.html){: .btn .btn-primary }
-    
-    
+
+
 - title: I can't change my rom, wipe / format doesn't work. Nothing changed after flashing with Odin.
   content: |
     16 GB Tab 2 have a known faulty EMMC (MAG2GA). It can happen, that your EMMC get "read only", so you can't perform any write actions (also you can't format) anymore.
@@ -190,5 +190,5 @@
     - Formating the storage doesn't work (after reboot the old rom and apps are back)
     - You can flash whatever you like via Odin - it showes "passed" but after reboot nothing changed (e.g. still no StockRom or still the old Recovery you had previously installed)
     - ... there might be some more, but only to mention some ...
-    
+
     In most cases, the issue can be fixed by a EMMC firmware update, but you need someone who's able to do it (possible via ISP, nothing you can do esylie at home yourself). In some bad cases you need to find someone who can replace your EMMC.

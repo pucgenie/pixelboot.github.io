@@ -3,7 +3,7 @@ layout: blank
 title: Home
 ---
 
-<div class="jumbotron">
+<div class="jumbotron welcome">
 	<div class="container">
 		<h1 class="bold">Custom Rom Development<br />by Android-Andi</h1>
 		<p>To make it easy for everyone of us, I added a "News" tab to this page. You'll get all important information about latest changes there. This page is still WIP, more to come later. If you find a bug on this page, feel free to help fixing it :), you can <a href="https://github.com/andi34/andi34.github.io">find the source here</a>.</p>
@@ -20,7 +20,7 @@ title: Home
 		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 			<span aria-hidden="true"><i class="material-icons">clear</i></span>
 		</button>
-		<b>Warning!</b><br/>
+		<b>Warning!</b>
 		I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed.
 		Please do some research if you have any concerns about features included in this Roms & Recoveries before flashing it!
 		YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.
@@ -40,18 +40,17 @@ title: Home
 				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 					<span aria-hidden="true"><i class="material-icons">clear</i></span>
 				</button>
-				<b>GENERAL NOTE</b><br/>
-				I have changed the ZIP names slightly for ALL roms i am compiling.
+				<b>GENERAL NOTE</b>
+				I have changed the ZIP names slightly for ALL roms I am compiling.
 				The changed names are needed to prepare for optional incremental updates in future.
 				Only SlimKat keeps it's old name and definitely won't get incremental updates as
 				there's a custom script running to generate the Rom ZIP.
 			</div>
 			{% for news in site.data.news limit:2 %}
 			<div class="card">
-				<div class="card-heading">
-					<h3>{{ news.date | date_to_long_string }}</h3>
-				</div>
-				<div class="card-content-1">
+				<div class="card-body">
+					<h3 class="card-title">{{ news.date | date_to_long_string }}</h3>
+					<hr class="light">
 					{{ news.content | markdownify }}
 				</div>
 			</div>
@@ -60,89 +59,101 @@ title: Home
 			<a href="news.html" class="btn btn-primary">All Updates</a>
 
 		</div>
-		<div class="visible-xs visible-sm"><hr/><br/></div>
+		<hr class="w-100 d-sm-block d-md-none mb-4">
 		<div class="col-md-5">
 
 			<h2><i class="fa fa-download fa-fw" aria-hidden="true"></i> Downloads</h2>
 			<hr />
 
 			<div class="card">
-				<div class="card-heading">
-					<h3>Samsung Galaxy Tab 2</h3>
-				</div>
-				<div class="card-content-0">
 
-					<h4>Roms:</h4>
+				<div class="card-body">
+					<h3 class="card-title">Samsung Galaxy Tab 2</h3>
+					<hr class="light">
 					<div class="list-group">
-						<a href="roms_tab2_cm.html" class="list-group-item">
-							<h4 class="list-group-item-heading">CyanogenMod</h4>
+						<h6 class="list-group-item disabled">
+							Roms
+						</h6>
+						<a class="list-group-item list-group-item-action" href="roms_tab2_cm.html">
+							CyanogenMod
 						</a>
-						<a href="roms_tab2_lineage.html" class="list-group-item">
-							<h4 class="list-group-item-heading">LineageOS</h4>
+						<a class="list-group-item list-group-item-action" href="roms_tab2_lineage.html">
+							LineageOS
 						</a>
-						<a href="roms_tab2_omni.html" class="list-group-item">
-							<h4 class="list-group-item-heading">OmniRom</h4>
+						<a class="list-group-item list-group-item-action" href="roms_tab2_omni.html">
+							OmniRom
 						</a>
-						<a href="roms_tab2_slim.html" class="list-group-item">
-							<h4 class="list-group-item-heading">SlimRoms</h4>
+						<a class="list-group-item list-group-item-action" href="roms_tab2_slim.html">
+							SlimRoms
 						</a>
-						<a href="roms_tab2_aosp.html" class="list-group-item">
-							<h4 class="list-group-item-heading">AOSP</h4>
+						<a class="list-group-item list-group-item-action" href="roms_tab2_aosp.html">
+							AOSP
 						</a>
 					</div>
-					<h4>Extras:</h4>
+					<br>
 					<div class="list-group">
-						<a href="recoveries_tab2.html" class="list-group-item">
-							<h4 class="list-group-item-heading">Recoveries</h4>
+						<h6 class="list-group-item disabled">
+							Extras
+						</h6>
+						<a class="list-group-item list-group-item-action" href="recoveries_tab2.html">
+							Recoveries
 						</a>
-						<a href="gapps.html" class="list-group-item">
-							<h4 class="list-group-item-heading">GApps</h4>
+						<a class="list-group-item list-group-item-action" href="gapps.html" >
+							GApps
 						</a>
 					</div>
 				</div>
 			</div>
 
 			<div class="card">
-				<div class="card-heading">
-					<h3>Samsung Galaxy S3 mini</h3>
-				</div>
-				<div class="card-content-0">
-					<h4>Roms:</h4>
+				<div class="card-body">
+					<h3 class="card-title">Samsung Galaxy S3 mini</h3>
+					<hr class="light">
 					<div class="list-group">
-						<a href="roms_golden_slim.html" class="list-group-item">
-							<h4 class="list-group-item-heading">SlimRoms</h4>
+						<h6 class="list-group-item disabled">
+							Roms
+						</h6>
+						<a href="roms_golden_slim.html" class="list-group-item list-group-item-action">
+							SlimRoms
 						</a>
 					</div>
-					<h4>Extras:</h4>
+					<br>
 					<div class="list-group">
-						<a href="recoveries_golden.html" class="list-group-item">
-							<h4 class="list-group-item-heading">Recoveries</h4>
+						<h6 class="list-group-item disabled">
+							Extras
+						</h6>
+						<a href="recoveries_golden.html" class="list-group-item list-group-item-action">
+							Recoveries
 						</a>
-						<a href="gapps.html" class="list-group-item">
-							<h4 class="list-group-item-heading">GApps</h4>
+						<a href="gapps.html" class="list-group-item list-group-item-action">
+							GApps
 						</a>
 					</div>
 				</div>
 			</div>
 
 			<div class="card">
-				<div class="card-heading">
-					<h3>Samsung Galaxy Nexus</h3>
-				</div>
-				<div class="card-content-0">
-					<h4>Roms:</h4>
+				<div class="card-body">
+					<h3 class="card-title">Samsung Galaxy Nexus</h3>
+					<hr class="light">
 					<div class="list-group">
-						<a href="roms_tuna_slim.html" class="list-group-item">
-							<h4 class="list-group-item-heading">SlimRoms</h4>
+						<h6 class="list-group-item disabled">
+							Roms
+						</h6>
+						<a href="roms_tuna_slim.html" class="list-group-item list-group-item-action">
+							SlimRoms
 						</a>
 					</div>
-					<h4>Extras:</h4>
+					<br>
 					<div class="list-group">
-						<a href="recoveries_tuna.html" class="list-group-item">
-							<h4 class="list-group-item-heading">Recoveries</h4>
+						<h6 class="list-group-item disabled">
+							Extras
+						</h6>
+						<a href="recoveries_tuna.html" class="list-group-item list-group-item-action">
+							Recoveries
 						</a>
-						<a href="gapps.html" class="list-group-item">
-							<h4 class="list-group-item-heading">GApps</h4>
+						<a href="gapps.html" class="list-group-item list-group-item-action">
+							GApps
 						</a>
 					</div>
 				</div>
@@ -150,10 +161,5 @@ title: Home
 
 		</div>
 	</div>
-	<hr/>
-
-	<h3><i class="fa fa-share-alt fa-fw" aria-hidden="true"></i> <b>Share this Page:</b></h3>
-	<div class="addthis_native_toolbox"></div>
-	<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-574c7b479f77586f" async defer></script>
 
 </div>
