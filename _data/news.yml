@@ -4,7 +4,10 @@
 
     Updates for April 2018 security patch level on Android 7.1.2 & Android 6.0.1 applied, will be available for supported devices!
     CVE-2017-13285 (A-69177126) isn't fixed because we can not fork svox due to DMCA ( [READ MORE](https://github.com/github/dmca/blob/master/2014/2014-12-22-Cambridge-Mobile.md) ).
-    We are working on a solution to apply needed patch right before compiling without forking the svox - i am currently testing a way on Slim6 and OmniROM 6 [https://gerrit.unlegacy-android.org/#/c/6322/](https://gerrit.unlegacy-android.org/#/c/6322/).
+
+    We are working on a solution to apply needed patch right before compiling without forking the svox repo - i am currently testing a way on Slim6 and OmniROM 6 [https://gerrit.unlegacy-android.org/#/c/6322/](https://gerrit.unlegacy-android.org/#/c/6322/).
+
+    Also fix [CVE-2016-5341](https://wwws.nightwatchcybersecurity.com/2016/12/05/cve-2016-5341/) on Android 6.0.1 - on Android 7.1.2 it'll be fixed on next build (thought Google fixed it already in device/common but they didn't...).
 
 
     **Slim6**
@@ -13,7 +16,9 @@
 
     - Galaxy Tab2
     - Galaxy Nexus
-    - OnePlus One ( [also fix CVE-2016-5341](https://wwws.nightwatchcybersecurity.com/2016/12/05/cve-2016-5341/) )
+    - OnePlus One 
+
+    Also fix [CVE-2016-5341](https://wwws.nightwatchcybersecurity.com/2016/12/05/cve-2016-5341/) on all devices.
 
 
     **Chromium**
