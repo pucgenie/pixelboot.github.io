@@ -1,3 +1,15 @@
+- date: 15.04.2018
+  content: |
+    **OmniROM 6**
+
+    Updates for April 2018 security patch level applied. The Update is available for following devices:
+
+    - Galaxy Tab2
+    - Galaxy Nexus
+
+    Also fix [CVE-2016-5341](https://wwws.nightwatchcybersecurity.com/2016/12/05/cve-2016-5341/) on all devices.
+
+
 - date: 14.04.2018
   content: |
     **AOSP/Unlegacy-Android**
