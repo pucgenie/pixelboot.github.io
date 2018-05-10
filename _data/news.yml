@@ -1,40 +1,43 @@
 - date: 10.05.2018
   content: |
-    **General**
+    **Android 4.4 ROMs**
 
-    Random reboots on Android 4.4 Roms while root access was requested should [be solved](https://gerrit.unlegacy-android.org/6377).
+    Random reboots on Android 4.4 Roms for Galaxy Nexus and Galaxy Tab 2 while root access was requested should [be solved](https://gerrit.unlegacy-android.org/6377).
 
+    Security Patch Level not updated this time because there's not everything patched mentioned in Android Security Bulletin report. Some patches need to be looked at again.
 
-    Partial Android 4.4 Update adresses the following CVEs:
+    - The partial Android 4.4 Update adresses the following CVEs:
 
-    - CVE-2017-13274
-    - CVE-2017-13279
-    - CVE-2017-13267
-    - CVE-2017-13285
-    - CVE-2017-13290
-    - CVE-2017-13295
-    - CVE-2017-13298
-
-
-    CVEs which need to be looked at again (needs to be backported, also re-check if affected):
-
-    - CVE-2017-13276
-    - CVE-2017-13278
-    - CVE-2017-13294
-    - CVE-2017-13294
+        - CVE-2017-13274
+        - CVE-2017-13279
+        - CVE-2017-13267
+        - CVE-2017-13285
+        - CVE-2017-13290
+        - CVE-2017-13295
+        - CVE-2017-13298
 
 
-    **SlimKat**
+    - CVEs which need to be looked at again (needs to be backported, also re-check if affected):
 
-    Uploaded new builds for Galaxy Tab2 and Galaxy S3 mini, first build missed 2 Commits.
+        - CVE-2017-13276
+        - CVE-2017-13278
+        - CVE-2017-13294
 
 
-    **OmniROM 4**
+    - Available Updates for Galaxy Tab2:
 
-    Partial updates from April 2018 ASB. Security Patch Level not updated this time because there's not everything patched mentioned in Android Security Bulletin report. Some patches need to be looked at again. The Update is available for following devices:
+        - OmniROM 4
+        - SlimKat (reuploaded, missed 2 changes on previous build)
 
-    - Galaxy Tab2
-    - Galaxy Nexus
+
+    - Available Updates for Galaxy Nexus:
+
+        - OmniROM 4
+
+
+    - Available Updates for Galaxy S3 mini:
+
+        - SlimKat (reuploaded, missed 2 changes on previous build)
 
 
 - date: 09.05.2018
