@@ -10,6 +10,11 @@
     Also fix [CVE-2016-5341](https://wwws.nightwatchcybersecurity.com/2016/12/05/cve-2016-5341/) on all devices.
 
 
+    **Chromium**
+
+    Chromium was updated to 67.0.3396.44.
+
+
 - date: 10.05.2018
   content: |
     **Android 4.4 ROMs**
