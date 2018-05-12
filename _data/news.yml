@@ -1,3 +1,15 @@
+- date: 12.05.2018
+  content: |
+    **LineageOS 13**
+
+    Updates for April 2018 security patch level applied. The Update is available for following devices:
+
+    - Galaxy Tab2
+    - Galaxy Nexus (device specific)
+
+    Also fix [CVE-2016-5341](https://wwws.nightwatchcybersecurity.com/2016/12/05/cve-2016-5341/) on all devices.
+
+
 - date: 10.05.2018
   content: |
     **Android 4.4 ROMs**
