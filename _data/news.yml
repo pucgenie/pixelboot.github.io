@@ -1,3 +1,44 @@
+- date: 21.05.2018
+  content: |
+    **Android 6**
+
+    Updates for May 2018 security patch level applied.
+
+    - The Update adresses the following CVEs:
+
+        - CVE-2017-13310  A-71992105
+        - CVE-2017-13313  A-74114680
+        - CVE-2017-13315  A-70721937
+        - CVE-2017-13316  A-73311729
+        - CVE-2017-13319  A-71868329
+        - CVE-2017-13320  A-72764648
+        - CVE-2017-13323  A-73826242
+        - CVE-2017-13322  A-67862398
+
+
+    Available Updates for Galaxy Tab2:
+
+        - Slim6
+        - Unlegacy-Android
+
+
+    Available Updates for Galaxy Nexus:
+
+        - Slim6
+        - Unlegacy-Android
+
+
+    Available Updates for OnePlus One:
+
+        - Slim 6
+
+
+
+    **Chromium**
+
+    Chromium was updated to 67.0.3396.51.
+
+
 - date: 12.05.2018
   content: |
     **LineageOS 13**
