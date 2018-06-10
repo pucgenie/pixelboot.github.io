@@ -1,6 +1,6 @@
 - date: 10.06.2018
   content: |
-    **Slim6**
+    **Android 6**
 
     Updates for June 2018 security patch level applied.
 
@@ -37,11 +37,21 @@
         - USB Debugging is broken on AOSP 6.x for "user" builds.
           The issue is now fixed, if you enable USB Debugging in developer options you now get the request "Allow USB debugging?" to authorize your PC if connected.
 
-    - The Update is available for following devices:
+    Available Updates for Galaxy Tab2:
 
-        - Galaxy Tab2
-        - Galaxy Nexus
-        - OnePlus One 
+    - OmniROM 6
+    - Slim6
+
+
+    Available Updates for Galaxy Nexus:
+
+    - OmniROM 6
+    - Slim6
+
+
+    Available Updates for OnePlus One:
+
+    - Slim6
 
 
     **Chromium**
