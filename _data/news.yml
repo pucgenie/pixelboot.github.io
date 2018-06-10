@@ -32,6 +32,11 @@
         - CVE-2018-9353	A-73965890
         - CVE-2018-9354	A-74067957
 
+    - Additional fixes:
+
+        - USB Debugging is broken on AOSP 6.x for "user" builds.
+          The issue is now fixed, if you enable USB Debugging in developer options you now get the request "Allow USB debugging?" to authorize your PC if connected.
+
     - The Update is available for following devices:
 
         - Galaxy Tab2
