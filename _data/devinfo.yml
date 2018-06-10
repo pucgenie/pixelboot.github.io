@@ -55,7 +55,8 @@
        # User alias specification
        
        # Cmnd alias specification
-      +Cmnd_Alias JAVA_CMD = /usr/bin/update-alternatives --config java, /usr/bin/update-alternatives --config javac, /usr/bin/update-alternatives --config javap
+      +Cmnd_Alias JAVA_CMD = /usr/bin/update-alternatives --config java, /usr/bin/update-alternatives --config javac, /usr/bin/update-alternatives --config javadoc, /usr/bin/update-alternatives --config javap, /usr/bin/update-alternatives --config jar, /usr/bin/update-alternatives --config jarsigner
+
  
        # User privilege specification
        root   ALL=(ALL:ALL) ALL
@@ -75,7 +76,7 @@
       ```
       (replace '[username]' with your linux user name, save the file.
 
-      Now you are able to run 'sudo update-alternatives --config java' , 'sudo update-alternatives --config javac' and 'sudo update-alternatives --config javap' without entering the sudo password.
+      Now you are able to run 'sudo update-alternatives --config java' , 'sudo update-alternatives --config javac', 'sudo update-alternatives --config javadoc' 'sudo update-alternatives --config javap', 'sudo update-alternatives --config jar' and 'sudo update-alternatives --config jarsigner' without entering the sudo password.
 
 
       An example how this can be used in your scripts (i am defining "JAVAVERTARGET" for each rom to make sure the right java version is used):
@@ -86,12 +87,18 @@
         echo "Setting default jdk to 1.7"
         echo 2 | sudo /usr/bin/update-alternatives --config java > /dev/null
         echo 2 | sudo /usr/bin/update-alternatives --config javac > /dev/null
+        echo 2 | sudo /usr/bin/update-alternatives --config javadoc > /dev/null
         echo 2 | sudo /usr/bin/update-alternatives --config javap > /dev/null
+        echo 2 | sudo /usr/bin/update-alternatives --config jar > /dev/null
+        echo 2 | sudo /usr/bin/update-alternatives --config jarsigner > /dev/null
       else
         echo "Setting default jdk to 1.8"
         echo 3 | sudo /usr/bin/update-alternatives --config java > /dev/null
         echo 3 | sudo /usr/bin/update-alternatives --config javac > /dev/null
+        echo 3 | sudo /usr/bin/update-alternatives --config javadoc > /dev/null
         echo 3 | sudo /usr/bin/update-alternatives --config javap > /dev/null
+        echo 3 | sudo /usr/bin/update-alternatives --config jar > /dev/null
+        echo 3 | sudo /usr/bin/update-alternatives --config jarsigner > /dev/null
       fi
       }
       ```
