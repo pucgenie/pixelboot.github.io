@@ -1,4 +1,4 @@
-- date: 10.06.2018
+- date: 11.06.2018
   content: |
     **Android 6**
 
@@ -39,12 +39,14 @@
 
     Available Updates for Galaxy Tab2:
 
+    - LineageOS 13
     - OmniROM 6
     - Slim6
 
 
     Available Updates for Galaxy Nexus:
 
+    - LineageOS 13 (device specific)
     - OmniROM 6
     - Slim6
 
