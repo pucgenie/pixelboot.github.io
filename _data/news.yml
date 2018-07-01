@@ -1,3 +1,42 @@
+- date: 01.07.2018
+  content: |
+    **Chromium**
+
+    Chromium was updated to 68.0.3440.47.
+
+
+    **Android 4**
+
+    Updates for June 2018 security patch level applied.
+
+    - The Update adresses the following CVEs:
+        - CVE-2018-5146	A-77284393
+        - CVE-2018-9338	A-71361168
+        - CVE-2018-9340	A-71360999
+        - CVE-2018-9347	A-68664359
+        - CVE-2018-9348	A-68953854
+        - CVE-2018-9355	A-74016921
+        - CVE-2018-9356	A-74950468
+        - CVE-2018-9357	A-74947856
+        - CVE-2018-9358	A-73172115
+        - CVE-2018-9359	A-74196706
+        - CVE-2018-9360	A-74201143
+        - CVE-2018-9361	A-74202041
+        - CVE-2018-9362	A-72298611
+        - CVE-2018-9378	A-73126106
+        - CVE-2018-9349	A-72510002
+
+
+    Available Updates for Galaxy Tab2:
+
+    - Unlegacy-Android
+
+
+    Available Updates for Galaxy Nexus:
+
+    - Unlegacy-Android
+
+
 - date: 12.06.2018
   content: |
     **Android 7**
