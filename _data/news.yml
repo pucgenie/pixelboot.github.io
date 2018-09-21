@@ -1,3 +1,54 @@
+- date: 22.09.2018
+  content: |
+    **Chromium**
+
+    Chromium was updated to 70.0.3538.28.
+
+
+    **Android 4**
+
+    Updates for September 2018 security patch level applied on SlimKat.
+
+    - The Update adresses the following CVEs from July - September:
+
+        - CVE-2018-9412   A-78029004
+        - CVE-2018-9421   A-77237570
+        - CVE-2018-9365   A-74121126
+        - CVE-2018-9432   A-73173182
+        - CVE-2018-9420   A-77238656
+        - CVE-2018-9376   A-69981755
+        - CVE-2018-9434   A-29833520
+        - CVE-2018-9434   A-29833520
+        - CVE-2018-9430   A-73963551 
+        - CVE-2018-9414   A-78787521
+        - CVE-2018-9445	A-80436257[1]
+        - CVE-2018-9451	A-79488511[2]
+        - CVE-2018-9437	A-78656554
+        - CVE-2018-9446	A-80145946
+        - CVE-2018-9450	A-79541338
+        - CVE-2018-9459	A-66230183
+        - CVE-2018-9455	A-78136677
+        - CVE-2018-9436	A-79164722
+        - CVE-2018-9454	A-78286118
+        - CVE-2018-9453	A-78288378
+        - CVE-2018-9435	A-79591688
+        - CVE-2018-9449	A-79884292
+        - CVE-2018-9441	A-74075873
+        - CVE-2018-9466	A-62151041
+        - CVE-2018-9470	A-78290481
+        - CVE-2018-9440	A-77823362
+        - CVE-2018-9475	A-79266386
+        - CVE-2018-9478	A-79217522
+        - CVE-2018-9479	A-79217770
+        - CVE-2018-9456	A-78136869
+        - CVE-2018-9483	A-110216173
+        - CVE-2018-9484	A-79488381
+        - CVE-2018-9485	A-80261585
+        - CVE-2018-9486	A-80493272
+        - CVE-2018-9468	A-111084083
+        - CVE-2018-11261	A-64340487*
+
+
 - date: 21.08.2018
   content: |
     **Where have you been?**
@@ -67,21 +118,21 @@
 
     - The Update adresses the following CVEs:
 
-        - CVE-2018-5146	A-77284393
-        - CVE-2018-9338	A-71361168
-        - CVE-2018-9340	A-71360999
-        - CVE-2018-9347	A-68664359
-        - CVE-2018-9348	A-68953854
-        - CVE-2018-9355	A-74016921
-        - CVE-2018-9356	A-74950468
-        - CVE-2018-9357	A-74947856
-        - CVE-2018-9358	A-73172115
-        - CVE-2018-9359	A-74196706
-        - CVE-2018-9360	A-74201143
-        - CVE-2018-9361	A-74202041
-        - CVE-2018-9362	A-72298611
-        - CVE-2018-9378	A-73126106
-        - CVE-2018-9349	A-72510002
+        -         - CVE-2018-5146	A-77284393
+        -         - CVE-2018-9338	A-71361168
+        -         - CVE-2018-9340	A-71360999
+        -         - CVE-2018-9347	A-68664359
+        -         - CVE-2018-9348	A-68953854
+        -         - CVE-2018-9355	A-74016921
+        -         - CVE-2018-9356	A-74950468
+        -         - CVE-2018-9357	A-74947856
+        -         - CVE-2018-9358	A-73172115
+        -         - CVE-2018-9359	A-74196706
+        -         - CVE-2018-9360	A-74201143
+        -         - CVE-2018-9361	A-74202041
+        -         - CVE-2018-9362	A-72298611
+        -         - CVE-2018-9378	A-73126106
+        -         - CVE-2018-9349	A-72510002
 
 
     Available Updates for Galaxy Tab2:
@@ -111,32 +162,32 @@
 
     - The Update adresses the following CVEs:
 
-        - CVE-2018-9338	A-71361168
-        - CVE-2018-9340	A-71360999
-        - CVE-2018-9341	A-74016277
-        - CVE-2018-5146	A-77284393*
-        - CVE-2018-9345	A-77238250
-        - CVE-2018-9346	A-77238762
-        - CVE-2018-9347	A-68664359
-        - CVE-2018-9348	A-68953854
-        - CVE-2018-9355	A-74016921
-        - CVE-2018-9356	A-74950468
-        - CVE-2018-9357	A-74947856
-        - CVE-2018-9358	A-73172115
-        - CVE-2018-9359	A-74196706
-        - CVE-2018-9360	A-74201143
-        - CVE-2018-9361	A-74202041
-        - CVE-2018-9362	A-72298611
-        - CVE-2018-9375	A-75298708
-        - CVE-2018-9378	A-73126106
-        - CVE-2018-9379	A-63766886[2]
-        - CVE-2018-9349	A-72510002
-        - CVE-2018-9350	A-73552574
-        - CVE-2018-9351	A-73625898
-        - CVE-2018-9352	A-73965867[2]
-        - CVE-2018-9353	A-73965890
-        - CVE-2018-9354	A-74067957
-        - CVE-2018-9380	A-75298652
+        -         - CVE-2018-9338	A-71361168
+        -         - CVE-2018-9340	A-71360999
+        -         - CVE-2018-9341	A-74016277
+        -         - CVE-2018-5146	A-77284393*
+        -         - CVE-2018-9345	A-77238250
+        -         - CVE-2018-9346	A-77238762
+        -         - CVE-2018-9347	A-68664359
+        -         - CVE-2018-9348	A-68953854
+        -         - CVE-2018-9355	A-74016921
+        -         - CVE-2018-9356	A-74950468
+        -         - CVE-2018-9357	A-74947856
+        -         - CVE-2018-9358	A-73172115
+        -         - CVE-2018-9359	A-74196706
+        -         - CVE-2018-9360	A-74201143
+        -         - CVE-2018-9361	A-74202041
+        -         - CVE-2018-9362	A-72298611
+        -         - CVE-2018-9375	A-75298708
+        -         - CVE-2018-9378	A-73126106
+        -         - CVE-2018-9379	A-63766886[2]
+        -         - CVE-2018-9349	A-72510002
+        -         - CVE-2018-9350	A-73552574
+        -         - CVE-2018-9351	A-73625898
+        -         - CVE-2018-9352	A-73965867[2]
+        -         - CVE-2018-9353	A-73965890
+        -         - CVE-2018-9354	A-74067957
+        -         - CVE-2018-9380	A-75298652
 
     Available Updates for Galaxy Tab2:
 
@@ -160,31 +211,31 @@
 
     - The Update adresses the following CVEs:
 
-        - CVE-2018-9338	A-71361168
-        - CVE-2018-9340	A-71360999
-        - CVE-2018-9341	A-74016277
-        - CVE-2018-5146	A-77284393*
-        - CVE-2018-9345	A-77238250
-        - CVE-2018-9346	A-77238762
-        - CVE-2018-9347	A-68664359
-        - CVE-2018-9348	A-68953854
-        - CVE-2018-9355	A-74016921
-        - CVE-2018-9356	A-74950468
-        - CVE-2018-9357	A-74947856
-        - CVE-2018-9358	A-73172115
-        - CVE-2018-9359	A-74196706
-        - CVE-2018-9360	A-74201143
-        - CVE-2018-9361	A-74202041
-        - CVE-2018-9362	A-72298611
-        - CVE-2018-9375	A-75298708
-        - CVE-2018-9378	A-73126106
-        - CVE-2018-9379	A-63766886[2]
-        - CVE-2018-9349	A-72510002
-        - CVE-2018-9350	A-73552574
-        - CVE-2018-9351	A-73625898
-        - CVE-2018-9352	A-73965867[2]
-        - CVE-2018-9353	A-73965890
-        - CVE-2018-9354	A-74067957
+        -         - CVE-2018-9338	A-71361168
+        -         - CVE-2018-9340	A-71360999
+        -         - CVE-2018-9341	A-74016277
+        -         - CVE-2018-5146	A-77284393*
+        -         - CVE-2018-9345	A-77238250
+        -         - CVE-2018-9346	A-77238762
+        -         - CVE-2018-9347	A-68664359
+        -         - CVE-2018-9348	A-68953854
+        -         - CVE-2018-9355	A-74016921
+        -         - CVE-2018-9356	A-74950468
+        -         - CVE-2018-9357	A-74947856
+        -         - CVE-2018-9358	A-73172115
+        -         - CVE-2018-9359	A-74196706
+        -         - CVE-2018-9360	A-74201143
+        -         - CVE-2018-9361	A-74202041
+        -         - CVE-2018-9362	A-72298611
+        -         - CVE-2018-9375	A-75298708
+        -         - CVE-2018-9378	A-73126106
+        -         - CVE-2018-9379	A-63766886[2]
+        -         - CVE-2018-9349	A-72510002
+        -         - CVE-2018-9350	A-73552574
+        -         - CVE-2018-9351	A-73625898
+        -         - CVE-2018-9352	A-73965867[2]
+        -         - CVE-2018-9353	A-73965890
+        -         - CVE-2018-9354	A-74067957
 
     - Additional fixes:
 
@@ -225,14 +276,14 @@
 
     - The Update adresses the following CVEs:
 
-        - CVE-2017-13310  A-71992105
-        - CVE-2017-13313  A-74114680
-        - CVE-2017-13315  A-70721937
-        - CVE-2017-13316  A-73311729
-        - CVE-2017-13319  A-71868329
-        - CVE-2017-13320  A-72764648
-        - CVE-2017-13323  A-73826242
-        - CVE-2017-13322  A-67862398
+        -         - CVE-2017-13310  A-71992105
+        -         - CVE-2017-13313  A-74114680
+        -         - CVE-2017-13315  A-70721937
+        -         - CVE-2017-13316  A-73311729
+        -         - CVE-2017-13319  A-71868329
+        -         - CVE-2017-13320  A-72764648
+        -         - CVE-2017-13323  A-73826242
+        -         - CVE-2017-13322  A-67862398
 
 
     Available Updates for Galaxy Tab2:
@@ -271,7 +322,7 @@
     - Galaxy Tab2
     - Galaxy Nexus (device specific)
 
-    Also fix [CVE-2016-5341](https://wwws.nightwatchcybersecurity.com/2016/12/05/cve-2016-5341/) on all devices.
+    Also fix [        - CVE-2016-5341](https://wwws.nightwatchcybersecurity.com/2016/12/05/        - CVE-2016-5341/) on all devices.
 
 
     **Chromium**
@@ -289,20 +340,20 @@
 
     - The partial Android 4.4 Update adresses the following CVEs:
 
-        - CVE-2017-13274
-        - CVE-2017-13279
-        - CVE-2017-13267
-        - CVE-2017-13285
-        - CVE-2017-13290
-        - CVE-2017-13295
-        - CVE-2017-13298
+        -         - CVE-2017-13274
+        -         - CVE-2017-13279
+        -         - CVE-2017-13267
+        -         - CVE-2017-13285
+        -         - CVE-2017-13290
+        -         - CVE-2017-13295
+        -         - CVE-2017-13298
 
 
     - CVEs which need to be looked at again (needs to be backported, also re-check if affected):
 
-        - CVE-2017-13276
-        - CVE-2017-13278
-        - CVE-2017-13294
+        -         - CVE-2017-13276
+        -         - CVE-2017-13278
+        -         - CVE-2017-13294
 
 
     - Available Updates for Galaxy Tab2:
@@ -350,7 +401,7 @@
     - Galaxy Tab2
     - Galaxy Nexus
 
-    Also fix [CVE-2016-5341](https://wwws.nightwatchcybersecurity.com/2016/12/05/cve-2016-5341/) on all devices.
+    Also fix [        - CVE-2016-5341](https://wwws.nightwatchcybersecurity.com/2016/12/05/        - CVE-2016-5341/) on all devices.
 
 
 - date: 14.04.2018
@@ -358,11 +409,11 @@
     **AOSP/Unlegacy-Android**
 
     Updates for April 2018 security patch level on Android 7.1.2 & Android 6.0.1 applied, will be available for supported devices!
-    CVE-2017-13285 (A-69177126) isn't fixed because we can not fork svox due to DMCA ( [READ MORE](https://github.com/github/dmca/blob/master/2014/2014-12-22-Cambridge-Mobile.md) ).
+            - CVE-2017-13285 (A-69177126) isn't fixed because we can not fork svox due to DMCA ( [READ MORE](https://github.com/github/dmca/blob/master/2014/2014-12-22-Cambridge-Mobile.md) ).
 
     We are working on a solution to apply needed patch right before compiling without forking the svox repo - i am currently testing a way on Slim6 and OmniROM 6 [https://gerrit.unlegacy-android.org/#/c/6322/](https://gerrit.unlegacy-android.org/#/c/6322/).
 
-    Also fix [CVE-2016-5341](https://wwws.nightwatchcybersecurity.com/2016/12/05/cve-2016-5341/) on Android 6.0.1 - on Android 7.1.2 it'll be fixed on next build (thought Google fixed it already in device/common but they didn't...).
+    Also fix [        - CVE-2016-5341](https://wwws.nightwatchcybersecurity.com/2016/12/05/        - CVE-2016-5341/) on Android 6.0.1 - on Android 7.1.2 it'll be fixed on next build (thought Google fixed it already in device/common but they didn't...).
 
 
     **Slim6**
@@ -373,7 +424,7 @@
     - Galaxy Nexus
     - OnePlus One 
 
-    Also fix [CVE-2016-5341](https://wwws.nightwatchcybersecurity.com/2016/12/05/cve-2016-5341/) on all devices.
+    Also fix [        - CVE-2016-5341](https://wwws.nightwatchcybersecurity.com/2016/12/05/        - CVE-2016-5341/) on all devices.
 
 
     **Chromium**
@@ -665,36 +716,36 @@
 
     - Media framework
 
-        - CVE-2017-0837 A-64340921 [2] High
-        - CVE-2017-0873 A-63316255 High
-        - CVE-2017-0874 A-63315932 High
-        - CVE-2017-0879 A-65025028 High
-        - CVE-2017-13148 A-65717533 High
-        - CVE-2017-13149 A-65719872 High
-        - CVE-2017-13150 A-38328132 High
-        - CVE-2017-13151 A-63874456 Critical
-        - CVE-2017-13152 A-62872384 Moderate
-        - CVE-2017-13154 A-63666573 High
+        -         - CVE-2017-0837 A-64340921 [2] High
+        -         - CVE-2017-0873 A-63316255 High
+        -         - CVE-2017-0874 A-63315932 High
+        -         - CVE-2017-0879 A-65025028 High
+        -         - CVE-2017-13148 A-65717533 High
+        -         - CVE-2017-13149 A-65719872 High
+        -         - CVE-2017-13150 A-38328132 High
+        -         - CVE-2017-13151 A-63874456 Critical
+        -         - CVE-2017-13152 A-62872384 Moderate
+        -         - CVE-2017-13154 A-63666573 High
 
     - System
 
-        - CVE-2017-13156 A-64211847 High
-        - CVE-2017-13157 A-32990341 High
-        - CVE-2017-13158 A-32879915 High
-        - CVE-2017-13159 A-32879772 High 
+        -         - CVE-2017-13156 A-64211847 High
+        -         - CVE-2017-13157 A-32990341 High
+        -         - CVE-2017-13158 A-32879915 High
+        -         - CVE-2017-13159 A-32879772 High 
 
 
 
     **Implemented patches for 2017-12-01 security patch level on Android 4 (thanks to LineageOS Team)**
 
-    - CVE-2017-13157	A-32990341 High
-    - CVE-2017-13158	A-32879915 High
-    - CVE-2017-13159	A-32879772 High
-    - CVE-2017-0879	A-65025028 High
-    - CVE-2017-13152	A-62872384 Moderate
+    -         - CVE-2017-13157	A-32990341 High
+    -         - CVE-2017-13158	A-32879915 High
+    -         - CVE-2017-13159	A-32879772 High
+    -         - CVE-2017-0879	A-65025028 High
+    -         - CVE-2017-13152	A-62872384 Moderate
 
 
-    ( CVE-2017-13154	A-63666573 High - not added yet, breaks camera on some devices and needs further testing )
+    (         - CVE-2017-13154	A-63666573 High - not added yet, breaks camera on some devices and needs further testing )
 
 
 - date: 29.11.2017
@@ -745,32 +796,32 @@
 
     - Framework
 
-        - CVE-2017-0830 A-62623498 High
+        -         - CVE-2017-0830 A-62623498 High
 
 
     - Media Framework
 
-        - CVE-2017-0832 A-62887820 Critical
-        - CVE-2017-0833 A-62896384 Critical
-        - CVE-2017-0834 A-63125953 Critical
-        - CVE-2017-0835 A-63316832 Critical
-        - CVE-2017-0836 A-64893226 Critical
-        - CVE-2017-0839 A-64478003 High
-        - CVE-2017-0840 A-62948670 High
-        - CVE-2017-0848 A-64477217 Moderate
-        - CVE-2017-0849 A-62688399 Moderate
-        - CVE-2017-0851 A-35430570 Moderate
-        - CVE-2017-0853 A-63121644 High
-        - CVE-2017-0854 A-63873837 High
-        - CVE-2017-0857 A-65122447 High
-        - CVE-2017-0858 A-64836894 High
+        -         - CVE-2017-0832 A-62887820 Critical
+        -         - CVE-2017-0833 A-62896384 Critical
+        -         - CVE-2017-0834 A-63125953 Critical
+        -         - CVE-2017-0835 A-63316832 Critical
+        -         - CVE-2017-0836 A-64893226 Critical
+        -         - CVE-2017-0839 A-64478003 High
+        -         - CVE-2017-0840 A-62948670 High
+        -         - CVE-2017-0848 A-64477217 Moderate
+        -         - CVE-2017-0849 A-62688399 Moderate
+        -         - CVE-2017-0851 A-35430570 Moderate
+        -         - CVE-2017-0853 A-63121644 High
+        -         - CVE-2017-0854 A-63873837 High
+        -         - CVE-2017-0857 A-65122447 High
+        -         - CVE-2017-0858 A-64836894 High
 
 
     - System
 
-        - CVE-2017-0841 A-37723026 Critical
-        - CVE-2017-0842 A-37502513 High
-        - CVE-2017-0860 A-31097064 Moderate
+        -         - CVE-2017-0841 A-37723026 Critical
+        -         - CVE-2017-0842 A-37502513 High
+        -         - CVE-2017-0860 A-31097064 Moderate
 
 
 - date: 05.11.2017
@@ -898,14 +949,14 @@
 
     Updates for Galaxy Tab 2 & Galaxy Nexus fixes the following CVEs:
 
-    - CVE-2017-0706
-    - CVE-2017-1000251
+    -         - CVE-2017-0706
+    -         - CVE-2017-1000251
 
     Updates for OnePlus One fixes the following CVEs:
 
-    - CVE-2017-8278
-    - CVE-2017-1000251
-    - CVE-2017-11600
+    -         - CVE-2017-8278
+    -         - CVE-2017-1000251
+    -         - CVE-2017-11600
     - NOTE: [First build with CM Camera HAL](https://www.androidfilehost.com/?fid=673368273298986678), [2nd build with OSS Camera HAL + Sultans Snap Camera App](https://www.androidfilehost.com/?fid=673368273298986705)
 
 
@@ -951,57 +1002,57 @@
 
     - Framework
 
-        - CVE-2017-0752 A-62196835 [2] High
+        -         - CVE-2017-0752 A-62196835 [2] High
 
 
     - Libraries
 
-        - CVE-2017-6983 A-63852675 High
-        - CVE-2017-0755 A-32178311 High
+        -         - CVE-2017-6983 A-63852675 High
+        -         - CVE-2017-0755 A-32178311 High
 
 
     - Media Framework
 
-        - CVE-2017-0756 A-34621073 Critical
-        - CVE-2017-0757 A-36006815 Critical
-        - CVE-2017-0758 A-36492741 Critical
-        - CVE-2017-0759 A-36715268 Critical
-        - CVE-2017-0760 A-37237396 Critical
-        - CVE-2017-0761 A-38448381 Critical
-        - CVE-2017-0762 A-62214264 Critical
-        - CVE-2017-0763 A-62534693 Critical
-        - CVE-2017-0764 A-62872015 Critical
-        - CVE-2017-0765 A-62872863 Critical
-        - CVE-2017-0767 A-37536407 [2] High
-        - CVE-2017-0768 A-62019992 High
-        - CVE-2017-0770 A-38234812 High
-        - CVE-2017-0772 A-38115076 High
-        - CVE-2017-0773 A-37615911 High
-        - CVE-2017-0774 A-62673844 [2] High
-        - CVE-2017-0775 A-62673179 High
-        - CVE-2017-0776 A-38496660 Moderate
-        - CVE-2017-0777 A-38342499 Moderate
-        - CVE-2017-0778 A-62133227 Moderate
-        - CVE-2017-0779 A-38340117 [2] Moderate
+        -         - CVE-2017-0756 A-34621073 Critical
+        -         - CVE-2017-0757 A-36006815 Critical
+        -         - CVE-2017-0758 A-36492741 Critical
+        -         - CVE-2017-0759 A-36715268 Critical
+        -         - CVE-2017-0760 A-37237396 Critical
+        -         - CVE-2017-0761 A-38448381 Critical
+        -         - CVE-2017-0762 A-62214264 Critical
+        -         - CVE-2017-0763 A-62534693 Critical
+        -         - CVE-2017-0764 A-62872015 Critical
+        -         - CVE-2017-0765 A-62872863 Critical
+        -         - CVE-2017-0767 A-37536407 [2] High
+        -         - CVE-2017-0768 A-62019992 High
+        -         - CVE-2017-0770 A-38234812 High
+        -         - CVE-2017-0772 A-38115076 High
+        -         - CVE-2017-0773 A-37615911 High
+        -         - CVE-2017-0774 A-62673844 [2] High
+        -         - CVE-2017-0775 A-62673179 High
+        -         - CVE-2017-0776 A-38496660 Moderate
+        -         - CVE-2017-0777 A-38342499 Moderate
+        -         - CVE-2017-0778 A-62133227 Moderate
+        -         - CVE-2017-0779 A-38340117 [2] Moderate
 
 
     - Runtime
 
-        - CVE-2017-0780 A-37742976 High
+        -         - CVE-2017-0780 A-37742976 High
 
 
     - System
 
-        - CVE-2017-0781 A-63146105 [2] Critical
-        - CVE-2017-0782 A-63146237 [2] [3] Critical
-        - CVE-2017-0783 A-63145701 High
-        - CVE-2017-0784 A-37287958 Moderate
-        - CVE-2017-0785 A-63146698 Moderate
+        -         - CVE-2017-0781 A-63146105 [2] Critical
+        -         - CVE-2017-0782 A-63146237 [2] [3] Critical
+        -         - CVE-2017-0783 A-63145701 High
+        -         - CVE-2017-0784 A-37287958 Moderate
+        -         - CVE-2017-0785 A-63146698 Moderate
 
 
     - Qualcomm Components
 
-        - CVE-2017-8278 A-62379474 High
+        -         - CVE-2017-8278 A-62379474 High
 
 
 - date: 13.09.2017
@@ -1284,7 +1335,7 @@
   content: |
     **UPDATE 01 May 2017**
 
-    Reuploaded all Slim6 & SlimKat builds to fix [CVE-2016-10244](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10244).
+    Reuploaded all Slim6 & SlimKat builds to fix [        - CVE-2016-10244](https://cve.mitre.org/cgi-bin/cvename.cgi?name=        - CVE-2016-10244).
 
     **Slim6**
        
