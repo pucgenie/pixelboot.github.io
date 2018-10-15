@@ -1,3 +1,17 @@
+- date: 15.10.2018
+  content: |
+    **Information about Android 4 & 6**
+
+    PLEASE NOTE: Patches for Android 4.4.4 and 6.0.1 are not provided by ASB (Android Security Bulletin) anymore.
+
+    This means: security wise Android 4.4.4 and 6.0.1 are formally dead.
+
+    Nevertheless there are a few enthusiasts, still backporting security patches from recent Android versions.
+    You should know, such backports are no formal ASB security patches.
+
+    Therefore the security patch level of upcoming 4.4.4 & 6.0.1 ROMs is named as "Unofficial Security Backport". 
+
+
 - date: 22.09.2018
   content: |
     **Chromium**
