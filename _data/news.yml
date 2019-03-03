@@ -1,3 +1,23 @@
+- date: 03.03.2019
+  content: |
+    **IMPORTANT INFORMATION (Galaxy Tab2 & Galaxy Nexus)**
+
+    ROMs starting this month contain a lot of OMAP4 related changes. Old kernel, including my older AnyKernel won't boot on those ROMs.
+
+    (ROMs will be up next days)
+
+    All supported ROMs have been updated to January or February 2019 ASB.
+
+    I'll provide new device specific kernel (Galaxy Tab2) for people who have problem booting the common kernel which comes with the ROM
+    (don't worry if you never had issues in the past, only happened to some people with replaced Displays).
+
+
+    **TWRP**
+
+    I've compiled new TWRP 3.2.3-0 for the Galaxy Tab2 (all device specific Tab2 variants too) and Galaxy Nexus variants.
+    Official changes until [a833939](https://github.com/omnirom/android_bootable_recovery/commits/a83393910991aa93a3f1e7a7c84e64c612ce8d95) from OmniRoms TWRP source (android-8.0 branch).
+
+
 - date: 04.12.2018
   content: |
     **Information**
