@@ -1,3 +1,14 @@
+- date: 02.04.2019
+  content: |
+    **Updated ROMs**
+
+    On last months ROMs there was an issue accessing the status-/notificationbar and quick settings which could be resolved changing the wallpaper. This bug should be fixed on this months ROMs.
+
+    Broken OmniROM 7 March-builds have been removed (sorry for that, found the cause afer 2 days).
+
+    Device specific Anykernel for ROMs since March are still on my to-do-list.
+
+
 - date: 03.03.2019
   content: |
     **IMPORTANT INFORMATION (Galaxy Tab2 & Galaxy Nexus)**
