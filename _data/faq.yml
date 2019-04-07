@@ -72,23 +72,10 @@
 
 - title: How to enable root access?
   content: |
-    Custom Roms like CyanogenMod and SlimRoms are pre-rooted by default, you only need to enable it.
+    For security reasons i've removed root from all my ROMs. If you need root access:
 
-    - Settings -> About Tablet / About Phone
-    - 7 x tab on the Build number (you'll get a notification that you are a developer now / enabled developer options)
-    - Settings -> Developer options -> Root access
-    - set root access to "Apps and ADB"
-
-    <div class="alert alert-primary">
-      <div class="alert-icon">
-        <i class="material-icons">info</i>
-      </div>
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true"><i class="material-icons">clear</i></span>
-      </button>
-      <b>Note:</b>
-      LineageOS, OmniRom and AOSP aren't pre-rooted, you need to use <a href="http://forum.xda-developers.com/showthread.php?t=1538053">SuperSu</a> or the <a href="http://forum.xda-developers.com/android/software-hacking/wip-selinux-capable-superuser-t3216394">OpenSource SuperUser</a> to get rooted.
-    </div>
+    - Android 6 and newer: use magisk which can be found <a href="https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445">here</a>.
+    - Android 4.4.4: SuperSU 2.82 seems to work fine <a href="https://download.chainfire.eu/1220/SuperSU/SR5-SuperSU-v2.82-SR5-20171001224502.zip">download here</a>.
 
 
 - title: How do i get proper logs?
