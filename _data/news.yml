@@ -9,6 +9,25 @@
     Extra: Removed TWRP App as it is not needed on unofficial TWRP builds.
 
 
+    **Anykernel Galaxy Tab 2**
+
+    Since this community can't be silent about OC for Tab2 i've picked OC changes from [@ketut.kumajaya](https://forum.xda-developers.com/member.php?u=4021423) to our new common kernel.
+
+    Applied OC Patches have been very well tested in the past on our old kernel.
+
+    - Needed patch files are attached if you like to compile your own kernel.
+    - I've kept authorship on all commits, also i've kept Authorship and notes inside Voltage Control code.
+    - Seperate available: applied undervolting on default frequencies
+    - Limitations: Limit maximum CPU frequency @ 1.35GHz , GPU @ 384 Mhz
+    - It's compatible with my ROMs compiled since March 2019
+      (Should work on my Slim6 + 7, Omni 6 + 7 and LineageOS 13 + 14.1 compiled after 01.03.2019. Special KitKat Kernel available which should work on my SlimKat, Omni 4 and LineageOS 11 compiled after 01.03.2019).
+
+        - **don't use it on older ROMs**
+        - **don't use on ROMs i haven't compiled**
+
+    - More Information and Download links [can be found here](https://forum.xda-developers.com/showpost.php?p=79307277&postcount=205).
+
+
 - date: 09.04.2019
   content: |
     **TWRP 3.3.0-0**
