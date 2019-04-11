@@ -1,9 +1,22 @@
+- date: 11.04.2019
+  content: |
+    **TWRP 3.3.0-1**
+
+    I've compiled new TWRP 3.3.0-1 for the Galaxy Tab2 (all device specific Tab2 variants too) and Galaxy Nexus variants. This is a hotfix release to fix an issue with Nougat Updater.
+
+    Official changes until [1da568f](https://github.com/omnirom/android_bootable_recovery/commits/1da568fab4e96725d63c648295368d1bb62aad4b) from OmniRoms TWRP source (android-9.0 branch).
+
+    Extra: Removed TWRP App as it is not needed on unofficial TWRP builds.
+
+
 - date: 09.04.2019
   content: |
     **TWRP 3.3.0-0**
 
     I've compiled new TWRP 3.3.0-0 for the Galaxy Tab2 (all device specific Tab2 variants too) and Galaxy Nexus variants.
+
     Official changes until [1ecb6df](https://github.com/omnirom/android_bootable_recovery/commits/1ecb6df370e802c11c8a10a250e8c2a265bb55a0) from OmniRoms TWRP source (android-9.0 branch).
+
     Extra: Removed TWRP App as it is not needed on unofficial TWRP builds.
 
 
