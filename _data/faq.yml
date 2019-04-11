@@ -146,7 +146,7 @@
 
     - One kernel source for all Android Versions (4.4 and newer, only different defconfig for 4.4 Roms)
 
-    We now use the new kernel on all of our roms (Android 5.1 an newer, but we also switched to it on some of the official 4.4 Roms like CM 11.0).
+    We now use the new kernel on all of our roms (Android 5.1 and newer, but we also switched to it on some of the official 4.4 Roms like CM 11.0).
     [Kernel Source can be found here](https://github.com/Unlegacy-Android/android_kernel_samsung_espresso/commits/stable) , [History from cleanup and update here.](https://github.com/OMAP4-AOSP/android_kernel_samsung_espresso/commits/history)
 
 
