@@ -148,7 +148,7 @@
     - Ein Kernel Quellcode für alle Android Versions (4.4 und neuer, 4.4 Roms nutzen jedoch eine eigene defconfig)
 
     Wir nutzen den "neuen" auf allen unserern Roms (Android 5.1 und neuer, aber auch auf manchen alten offiziellen 4.4 Roms wie z.B. CM 11.0).
-    [Den Kernel Quellcode findet ihr hier](https://github.com/Unlegacy-Android/android_kernel_samsung_espresso/commits/stable) , [Historie vom "entmüllen" hier.](https://github.com/OMAP4-AOSP/android_kernel_samsung_espresso/commits/history)
+    [Den Kernel Quellcode findet ihr hier](https://github.com/Unlegacy-Android/android_kernel_ti_omap4/commits/3.0/common) , [Historie vom "entmüllen" hier.](https://github.com/OMAP4-AOSP/android_kernel_samsung_espresso/commits/history)
 
 
 - title: Wie kann ich das Einschalt Logo/Bild auf meinem Galaxy Tab2 ändern?
