@@ -74,9 +74,9 @@
   content: |
     For security reasons i've removed root from all my ROMs. If you need root access:
 
-    - Android 6 and newer: use magisk which can be found <a href="https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445">here</a>.
-    - Android 4.4.4: SuperSU 2.82 seems to work fine <a href="https://download.chainfire.eu/1220/SuperSU/SR5-SuperSU-v2.82-SR5-20171001224502.zip">download here</a>.
-      SuperSU Pro is available for free now. Read more <a href="https://www.supersupro.co">here</a>. Or <a href="https://www.supersupro.co/supersu-pro.apk">direct Download here</a>.
+    - Android 6 and newer: use magisk which can be found [here](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445).
+    - Android 4.4.4: SuperSU 2.82 seems to work fine [download here](https://download.chainfire.eu/1220/SuperSU/SR5-SuperSU-v2.82-SR5-20171001224502.zip).
+      SuperSU Pro is available for free now. Read more [here](https://www.supersupro.co). Or [direct Download here](https://www.supersupro.co/supersu-pro.apk).
 
 
 - title: How do i get proper logs?
