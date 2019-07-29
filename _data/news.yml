@@ -1,3 +1,29 @@
+- date: 29.07.2019
+  content: |
+    **Android 6.0 ROMs**
+
+    All Android 6 Roms will be updated within the next days.
+    Security Patch Level not updated this time because there's not everything patched mentioned in Android Security Bulletin report.
+
+    - The partial Android 6 Update adresses the following CVEs:
+
+        - [April ASB](https://source.android.com/security/bulletin/2019-04-01.html):
+
+        -         - CVE-2019-2027
+        -         - CVE-2019-2029
+        -         - CVE-2019-2031
+        -         - CVE-2019-2034
+        -         - CVE-2019-2035
+        -         - CVE-2019-2038
+        -         - CVE-2019-2039
+
+        - [May ASB](https://source.android.com/security/bulletin/2019-05-01.html):
+
+        -         - CVE-2019-2043
+        -         - CVE-2019-2044
+        -         - CVE-2019-2053
+
+
 - date: 30.06.2019
   content: |
     **Private**
