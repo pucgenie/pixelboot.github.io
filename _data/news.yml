@@ -1,3 +1,13 @@
+- date: 13.04.2020
+  content: |
+    **Photobooth v2.3.1**
+
+    Hey together!
+
+    Photobooth was updated to Version 2.3.1 (bugfix release because of missing translations if Photobooth is installed in a subfolder). Changelog and Release can be found [here](https://github.com/andi34/photobooth/releases).
+
+    I hope everyone enjoys the new release!
+
 - date: 11.04.2020
   content: |
     **Photobooth v2.3.0**
