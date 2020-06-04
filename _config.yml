@@ -1,7 +1,7 @@
-name: OpenSource Development by Android-Andi @ XDA
-description: OpenSource Development by Android-Andi
-repository: andi34/andi34.github.io
-url: http://andi34.github.io
+name: OpenSource Development by PixelBoot
+description: OpenSource Development by PixelBoot
+repository: PixelBoot/pixelboot.github.io
+url: http://pixelboot.github.io
 baseurl: ""
 
 defaults:
