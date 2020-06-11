@@ -1,3 +1,43 @@
+- date: 11.06.2020
+  content: |
+    **June Update**
+    
+    Monthly Update (June 2020), is now avaialable for Nexus 6P and Google Pixel.
+    
+    - **Nexus 6P**:
+    
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_angler_exui.html">ExtendedUI</a>
+            - <a href="https://pixelboot.github.io/roms_angler_los.html">LineageOS</a>
+            - <a href="https://pixelboot.github.io/roms_angler_pd.html">PixelDust</a>
+            - <a href="https://pixelboot.github.io/roms_angler_posp.html">POSP</a>
+            
+        - Changelog:
+        
+            - ROM Updates:
+            
+                - June Security Patch
+                
+            - Device Updates:
+            
+                - Fixed build time issues
+                - SELinux fixes
+                - Lockscreen fixes
+                - Device stability improvements
+            
+    - **Google Pixel**:
+        
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_marlin-pe.html">PixelExperience</a>
+            
+        - Changelog:
+        
+            - ROM Updates:
+            
+                - June Security Patch
+
 - date: 03.06.2020
   content: |
     **Launch of site**
