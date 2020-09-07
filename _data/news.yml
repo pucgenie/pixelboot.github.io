@@ -1,3 +1,41 @@
+- date: 31.08.2020
+  content: |
+    **August Update**
+    
+    Monthly Update (August 2020), is now avaialable for Nexus 6P and Google Pixel.
+    Next month will be excited for sure. Get ready for Android 11's release!
+    
+    - **Nexus 6P**:
+    
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_angler_los.html">LineageOS</a>
+            - <a href="https://pixelboot.github.io/roms_angler_pd.html">PixelDust</a>
+            
+        - Changelog:
+        
+            - ROM Updates:
+            
+                - August Security Patch
+                
+            - Device Updates:
+            
+                - Device stability improvements
+                
+                - Live Display fixes
+            
+    - **Google Pixel**:
+        
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_marlin-pe.html">PixelExperience</a>
+            
+        - Changelog:
+        
+            - ROM Updates:
+            
+                - July Security Patch
+
 - date: 28.07.2020
   content: |
     **July Update**
