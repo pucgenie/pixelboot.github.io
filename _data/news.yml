@@ -1,3 +1,21 @@
+- date: 19.09.2020
+  content: |
+    **Android 11 arrives on Nexus 6P (angler)**
+    
+    <img src="./assets/img/sep2020-1.jpg"/>             <img src="./assets/img/sep2020-2.jpg"/>             <img src="./assets/img/sep2020-3.jpg"/>
+    
+    Dear angler users,
+    
+    I am delighted to announce that the latest version of Android has finally been baked for the Nexus 6P (angler).
+    
+    It wasn't an easy job, but finally, we have a bootable (but experimental) build of StatiXOS v4.0.
+    
+    If you are enthusiastic about this new (not daily driven release), get your hands on the build below.
+    
+    <a href="https://pixelboot.github.io/roms_angler_stx.html">StatiXOS</a>
+    
+    Enjoy!.
+
 - date: 31.08.2020
   content: |
     **August Update**
