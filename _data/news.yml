@@ -1,3 +1,47 @@
+- date: 25.10.2020
+  content: |
+    **October Update**
+    
+    Monthly Update (August 2020), is now avaialable for Nexus 6P and Google Pixel.
+    
+    - **Nexus 6P**:
+    
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_angler_stx.html">StatiXOS</a>
+            
+        - Changelog:
+        
+            - ROM Updates:
+            
+                - October Security Patch
+                
+            - Device Updates:
+            
+                - Improved manifest for overall performance.
+                
+                - New shim to cover errors and improve stability.
+                
+                - ADB Debugging revival for legacy devices such as angler.
+            
+    - **Google Pixel**:
+        
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_marlin-pe.html">PixelExperience</a>
+            
+        - Changelog:
+        
+            - ROM Updates:
+            
+                - October Security Patch
+                
+            - Device Updates:
+            
+                - Adjust status bar padding to display.
+                
+                - Google Camera PX update.
+
 - date: 19.09.2020
   content: |
     **Android 11 arrives on Nexus 6P (angler)**
