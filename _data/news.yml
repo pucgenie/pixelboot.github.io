@@ -1,8 +1,42 @@
+- date: 30.11.2020
+  content: |
+    **November Update**
+    
+    Monthly Update (November 2020), is now avaialable for Nexus 6P and Google Pixel.
+    
+    - **Nexus 6P**:
+    
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_angler_pe.html">PixelExperience</a>
+            
+        - Changelog:
+        
+            - ROM Updates:
+            
+                - Become official again.
+            
+    - **Google Pixel**:
+        
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_marlin-pe.html">PixelExperience</a>
+            
+        - Changelog:
+        
+            - ROM Updates:
+            
+                - November Security Patch
+                
+            - Device Updates:
+            
+                - Adjust status bar padding to display.
+                
 - date: 25.10.2020
   content: |
     **October Update**
     
-    Monthly Update (August 2020), is now avaialable for Nexus 6P and Google Pixel.
+    Monthly Update (October 2020), is now avaialable for Nexus 6P and Google Pixel.
     
     - **Nexus 6P**:
     
