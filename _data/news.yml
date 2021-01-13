@@ -1,3 +1,48 @@
+- date: 29.12.2020
+  content: |
+    **December Update**
+    
+    Monthly Update (December 2020), is now avaialable for Nexus 6P and Google Pixel.
+    Alongside these two devices has been added Pixel 2.
+    There is a lot of bringup going on in the background to insure a smooth transition to Android 11 for all supported devices.
+    Make sure to stay tuned.
+    
+    - **Nexus 6P**:
+    
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_angler_pe.html">PixelExperience</a>
+            
+        - Changelog:
+        
+            - ROM Updates:
+            
+                - December Security Patch.
+                
+            - Device Updates:    
+                
+                - Fixed Dark Boot.
+                
+                - Stability Improvements
+                
+    - **Google Pixel 2**:
+        
+        - Added:
+        
+            - <a href="https://pixelboot.github.io/roms_taimen-pe.html">PixelExperience</a>
+            
+    - **Google Pixel**:
+        
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_marlin-pe.html">PixelExperience</a>
+            
+        - Changelog:
+        
+            - ROM Updates:
+            
+                - December Security Patch
+                
 - date: 30.11.2020
   content: |
     **November Update**
