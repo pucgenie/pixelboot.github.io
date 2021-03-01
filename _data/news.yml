@@ -1,3 +1,27 @@
+- date: 31.01.2021
+  content: |
+    **January Update**
+    
+    Monthly Update (January 2021), is now avaialable for and Google Pixel and Google Pixel 2.
+    
+    Unfortunately, as for PixelExperience for Nexus 6P, official support has been dropped, as it was too early to produce an Android 11 build for the public.
+    
+    There is a lot of bringup going on in the background to ensure a smooth transition to Android 11 for all supported devices.
+    
+    Make sure to stay tuned.
+                
+    - **Google Pixel 2**:
+        
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_taimen_pe.html">PixelExperience</a>
+            
+        - Changelog:
+        
+            - ROM Updates:
+            
+                - Initial PixelExperience 11 build.
+
 - date: 26.01.2021
   content: |
     **PixelBoot.live**
