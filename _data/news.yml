@@ -1,3 +1,40 @@
+- date: 28.02.2021
+  content: |
+    **February Update**
+    
+    Monthly Update (February 2021), is now avaialable for and Google Pixel and Google Pixel 2.
+    
+    Google Pixel Android 11 builds are in the works, we have plans as to release with repartitioning later in March, so stay tuned.
+    
+    There is a lot of bringup going on in the background to ensure a smooth transition to Android 11 for all supported devices.
+    
+    Make sure to stay tuned.
+                
+    - **Google Pixel 2**:
+        
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_taimen_pe.html">PixelExperience</a>
+            
+        - Changelog:
+            - ROM updates:
+            
+                - February Security Patch
+        
+            - Device Updates:
+            
+                - Fixed double entry Active Edge menu.
+                
+                - Enabled blank after doze, to lengthen standby time.
+                
+                - Enabled maxxaudio.
+                
+                - Enabled Now Playing service.
+                
+                - Disabled userdebug diagnostics.
+                
+                - Synced pinner service configs.
+                
 - date: 31.01.2021
   content: |
     **January Update**
