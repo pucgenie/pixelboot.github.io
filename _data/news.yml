@@ -1,3 +1,49 @@
+- date: 31.03.2021
+  content: |
+    **March Update**
+    
+    Monthly Update (March 2021), is now avaialable for and Google Pixel and Google Pixel 2.
+    
+    Google Pixel Android 11 builds are out! Make sure to follow the instructions in order to repartition your device carefully.
+                
+    - **Google Pixel 2**:
+        
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_taimen_pe.html">PixelExperience</a>
+            
+        - Changelog:
+        
+            - ROM updates:
+            
+                - March Security Patch
+        
+            - Device Updates:
+            
+                - Fixed Battery LED indicator
+                
+                - Enabled IORap app launch prefetching
+                
+                - Configured SimpleDeviceConfig overlay
+                
+    - **Google Pixel**:
+    
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_marlin_pe.html">PixelExperience</a>
+            
+        - Changelog:
+            
+            - ROM updates:
+            
+                - March Security Patch
+        
+            - Device Updates:
+            
+                - Initial PE 11 build for marlin
+                
+                - Included Pixel APNs for better connectivity
+
 - date: 28.02.2021
   content: |
     **February Update**
