@@ -1,3 +1,50 @@
+- date: 30.04.2021
+  content: |
+    **April Update**
+    
+    Monthly Update (April 2021), is now avaialable for and Google Pixel and Google Pixel 2.
+    
+    Monthly PixelExperience updates are out, consisting of a new device tree, kernel and vendors for Google Pixel 2 & 2XL.
+                
+    - **Google Pixel 2**:
+        
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_taimen_pe.html">PixelExperience</a>
+            
+        - Changelog:
+        
+            - ROM updates:
+            
+                - April Security Patch
+                
+                - Updated translations
+        
+            - Device Updates:
+            
+                - Implemented unicornblood-r as pre-included kernel
+                
+                - Rebased wahoo device tree to a newer base
+                
+                - Removed depreciated and unused vendor blobs
+                
+    - **Google Pixel**:
+    
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_marlin_pe.html">PixelExperience</a>
+            
+        - Changelog:
+            
+            - ROM updates:
+            
+                - April Security Patch
+                
+                - Updated translations
+        
+            - Device Updates:
+            
+                - Performance and stability improvements
 - date: 31.03.2021
   content: |
     **March Update**
