@@ -1,3 +1,45 @@
+- date: 31.05.2021
+  content: |
+    **May Update**
+    
+    Monthly Update (May 2021), is now avaialable for and Google Pixel and Google Pixel 2.
+    
+    A new ROM has been added to the list regarding Google Pixel 2, alongisde several fixes and patches for PixelExperience.
+                
+    - **Google Pixel 2**:
+        
+        - Updates:
+        
+            - - <a href="https://pixelboot.github.io/roms_taimen_dot.html">dotOS</a>
+            - <a href="https://pixelboot.github.io/roms_taimen_pe.html">PixelExperience</a>
+            
+        - Changelog:
+        
+            - ROM updates:
+            
+                - May Security Patch
+                
+                - Under the hood improvements
+        
+            - Device Updates:
+            
+                - Reverted Skia rendering, due to app incompatabilities
+                
+                - Initial official dotOS builds
+                
+    - **Google Pixel**:
+    
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_marlin_pe.html">PixelExperience</a>
+            
+        - Changelog:
+            
+            - ROM updates:
+            
+                - May Security Patch
+                
+                - Under the hood improvements
 - date: 30.04.2021
   content: |
     **April Update**
