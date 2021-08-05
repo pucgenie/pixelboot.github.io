@@ -1,3 +1,51 @@
+- date: 31.07.2021
+  content: |
+    **July Update**
+    
+    Monthly Update (July 2021), is now avaialable for and Google Pixel and Google Pixel 2.
+    
+    Monthly dotOS & PixelExperience updates are out.
+                
+    - **Google Pixel 2**:
+        
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_taimen_dot.html">dotOS</a>
+            - <a href="https://pixelboot.github.io/roms_taimen_pe.html">PixelExperience</a>
+            
+        - Changelog:
+        
+            - ROM updates:
+            
+                - July Security Patch
+                
+                - Updated translations
+                
+                - Improved FaceUnlock
+                
+                - Update unicorn-blood kernel
+                
+                - Minor bug fixes
+                
+    - **Google Pixel**:
+    
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_marlin_pe.html">PixelExperience</a>
+            
+        - Changelog:
+            
+            - ROM updates:
+            
+                - July Security Patch
+                
+                - Updated translations
+                
+                - Updated gapps
+                
+                - Improved FaceUnlock
+                
+                - Minor bug fixes
 - date: 30.06.2021
   content: |
     **June Update**
