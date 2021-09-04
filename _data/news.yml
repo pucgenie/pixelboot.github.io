@@ -1,3 +1,39 @@
+- date: 31.08.2021
+  content: |
+    **August Update**
+    
+    Monthly Update (August 2021), is now avaialable for and Google Pixel and Google Pixel 2.
+    
+    Monthly dotOS & PixelExperience updates are out.
+                
+    - **Google Pixel 2**:
+        
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_taimen_dot.html">dotOS</a>
+            - <a href="https://pixelboot.github.io/roms_taimen_pe.html">PixelExperience</a>
+            
+        - Changelog:
+            
+            - August Security Patch
+            
+            - Updated translations
+                
+            - Minor bug fixes
+                
+    - **Google Pixel**:
+    
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_marlin_pe.html">PixelExperience</a>
+            
+        - Changelog:
+            
+            - August Security Patch
+            
+            - Updated translations
+                
+            - Minor bug fixes
 - date: 31.07.2021
   content: |
     **July Update**
