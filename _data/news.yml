@@ -1,3 +1,43 @@
+- date: 31.10.2021
+  content: |
+    **October Update**
+    
+    Happy Halloween!
+    
+    Monthly Update (October 2021), is now avaialable for and Google Pixel and Google Pixel 2.
+    
+    Monthly dotOS & PixelExperience updates are out, alongside many fixes for both Pixel and Pixel 2.
+    
+    The beggining of Android 12 custom ROM development is in the works.
+                
+    - **Google Pixel 2**:
+        
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_taimen_dot.html">dotOS</a>
+            - <a href="https://pixelboot.github.io/roms_taimen_pe.html">PixelExperience</a>
+            
+        - Changelog:
+            
+            - October Security Patch
+            
+            - Updated translations
+            
+            - Other fixes
+                
+    - **Google Pixel**:
+    
+        - Updates:
+        
+            - <a href="https://pixelboot.github.io/roms_marlin_pe.html">PixelExperience</a>
+            
+        - Changelog:
+            
+            - October Security Patch
+            
+            - Updated translations
+            
+            - Other fixes
 - date: 30.09.2021
   content: |
     **September Update**
