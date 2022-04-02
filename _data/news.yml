@@ -1,3 +1,31 @@
+- date: 02.04.2022
+  content: |
+    **April Update**
+
+    Dear all,
+
+    Apologies for not providing a summarized update for the last couple of months, but I assure you that lots has been going on :)
+
+    **Google Pixel 1/1XL**
+    With regards to the Google Pixel 1, to be completely honest with all of you who are enthusiasts, it has become very unlikely for any Android 12 support going forward from me.
+    I have concluded this after countless hours of testing builds on builds for such devices...
+    However, I shall keep contributing via fixes and sorts on recent unofficial PixelExperience builds found on my SourceForge and some minor bug fixes on official Lineage OS 18.1, on random occasions.
+
+    **Google Pixel 2/2XL**
+    On the other hand, loads of work for the Google Pixel 2/2XL has resulted in many positive results.
+    As the situation was broken down, and the situation was eased thanks to the kind generous donations of both Pixel 2 XLs and Pixel 2s from around the globe, means that official PixelExperience 12 and even 12.1 stable has been familar amongst many of you interested.
+    I am also delighted to express that for you smaller Pixel 2 users (walleye), PixelExperience 12.1 official support is now available via a new implementation for repartition, similar to what you can find on the Pixel 2 XL.
+    So far, I have been made aware of some minor bugs, which I've been able to fix quite easily and quickly, however if you ever encounter any more, kindly contact me.
+    Apart from PixelExperience support, I have also been able to bringup PixelOS for the Pixel 2XL which consists of Google Play System Updates and some other goodies!
+
+    **Google Pixel 4/4XL**
+    A strong start to the support of the 4th generation Pixel meant that users begging for a good ROM for tinkering similar to the stock Google experience, with a few extra goodies, have found themselves at home.
+    Bugs have been cleared throughout the weeks and many positive constructive feedback was included by many of you using the ROM.
+
+    **Google Pixel 4a**
+    Similarly to what I stated with regards to the Pixel 4 series, applies to the 4a device too!
+    A battery issue was spotted initially, however that has been quickly cleared up by me and the PixelExperience team to provide a long lasting ROM experience amongst PixelExperience 12 users.
+    We are hoping that this support has benefited you users in this category! :D
 - date: 23.01.2022
   content: |
     **January 23rd Update**
