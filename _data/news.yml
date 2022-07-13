@@ -1,3 +1,93 @@
+- date: 30.06.2022
+  content: |
+    **June Update**
+    
+    Another month, another update...
+    This time, the June update brings about the introduction of the Google Pixel 3 and the Pixel 3 XL with PixelExperience.
+    I shall co-maintain this ROM for these devices alongside ReallySnow and Lynnrin.
+    
+    Monthly Update (June 2022) is now available for the following devices:
+    
+    - **Google Pixel 2/2 XL (walleye & taimen)**
+    
+    - **Google Pixel 3/3 XL (blueline & crosshatch)**
+    
+    - **Google Pixel 4/4 XL (flame & coral)**
+    
+    - **Google Pixel 4a (sunfish)**
+    
+    The following changes have been merged for the following ROMs:
+    
+    - **PixelExperience**
+    
+        - Changelog:
+        
+            - Merged June security patch
+            
+            - Fixes to Adaptive Connectivity
+            
+            - Fixes to Pixel Launcher
+            
+            - Styling fixes on Documents UI
+            
+            - Fixes to ringtome selection for devices with e-SIM
+            
+            - Fixes to location indicator displaying when no apps are running
+            
+            - Fixes to app fonts on Pixel Launcher
+            
+            - Fixes to network traffic behaviour when toggling clock position to center (Plus version)
+            
+            - Fixes to other minor issues
+            
+    The following changes have been merged for the following devices:
+    
+    - **Google Pixel 2/2 XL (walleye & taimen)**:
+    
+        - ROMs:
+        
+            - <a href="https://pixelboot.github.io/roms_taimen_pe.html">PixelExperience</a>
+            
+        - Changelog:
+            
+            - Flattened APEXs for device performance
+            
+    - **Google Pixel 3/3 XL (blueline & crosshatch)**:
+    
+        - ROMs:
+        
+            - <a href="https://pixelboot.github.io/roms_crosshatch_pe.html">PixelExperience</a>
+            
+        - Changelog:
+        
+            - Update kernel to 4.9.317
+            
+            - Move CarrierConfig overlay to RRO
+    
+    - **Google Pixel 4/4 XL (flame & coral)**:
+    
+        - ROMs:
+        
+            - <a href="https://pixelboot.github.io/roms_coral_pe.html">PixelExperience</a>
+            
+        - Changelog:
+        
+            - Updated vendor blobs to SQ3A.220605
+            
+            - Fixed HbmSVManager issues and battery drain
+            
+    - **Google Pixel 4a (sunfish)**:
+    
+        - ROMs:
+        
+            - <a href="https://pixelboot.github.io/roms_sunfish_pe.html">PixelExperience</a>
+            
+        - Changelog:
+        
+            - Updated vendor blobs to SQ3A.220605
+            
+            - Fixed HbmSVManager issues and battery drain
+    
 - date: 02.04.2022
   content: |
     **April Update**
