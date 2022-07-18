@@ -186,6 +186,7 @@
     **Google Pixel 4a**
     Similarly to what I stated with regards to the Pixel 4 series, applies to the 4a device too!
     A battery issue was spotted initially, however that has been quickly cleared up by me and the PixelExperience team to provide a long lasting ROM experience amongst PixelExperience 12 users.
+
     We are hoping that this support has benefited you users in this category! :D
 - date: 23.01.2022
   content: |
@@ -202,7 +203,7 @@
 
     **Google Pixel 2/2XL**
     Due to the limitations of the Google Pixel's 2 system partition, I am currently in search for alternative methods to satisfy the preloaded Google apps shipped with PixelExperience.
-    The new rules for official PixelExperience forbid the use of excessive use of remove_packages to remove preloaded packages to satisfy the ROM's system partitions.
+    The new rules for official PixelExperience forbid the use of remove_packages to remove preloaded packages to satisfy the ROM's system partitions.
     I have been playing around recently with repartitioning, but this process will take long as I have already lost my original Pixel 2 due to too much tampering with repartitioning.
     Luckily enoguh thanks to a fellow supporter and friend, DarkPlayer, I am able to proceed carefully thanks to his kind donation of his own personal Pixel 2 XL.
     These slow measures will take place purely for safety of my and your devices, so your patience is highly appreciated.
